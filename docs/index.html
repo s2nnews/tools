@@ -8,9 +8,24 @@
 </head>
 <body>
     <nav>
-        <ul>
+        <ul class="nav-menu">
             <li><a href="index.html">Home</a></li>
-            <li><a href="subpages/plots.html">More Plots</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Plots ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Sine Wave</a>
+                    <a href="#">Stock Charts</a>
+                    <a href="#">Statistics</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Analysis ▾</a>
+                <div class="dropdown-content">
+                    <a href="#">Daily Reports</a>
+                    <a href="#">Weekly Summary</a>
+                    <a href="#">Monthly Trends</a>
+                </div>
+            </li>
         </ul>
     </nav>
     
@@ -18,7 +33,7 @@
         <h1>Data Visualization Gallery</h1>
         <div class="image-gallery">
             <figure>
-                <img src="images/test_plot.png" alt="Test Plot">
+                <img src="images/test_plot.png" alt="Test Plot" style="max-width: 800px; margin: 0 auto;">
                 <figcaption>Simple Sine Wave Test Plot</figcaption>
             </figure>
         </div>

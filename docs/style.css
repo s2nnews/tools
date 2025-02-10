@@ -10,7 +10,7 @@ body {
 .nav-menu {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 30px 0;
     background: #ffffff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     display: flex;
@@ -55,62 +55,92 @@ body {
     background-color: #f1f1f1;
 }
 
-.dropbtn {
+/* Filter Buttons */
+.filter-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filter-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    background: #f8f9fa;
     cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
 }
 
-/* Image Gallery Styles */
-.image-gallery {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
+.filter-button:hover {
+    background: #e9ecef;
 }
 
-figure {
-    margin: 0;
-    padding: 15px;
+.filter-button.active {
+    background: #007bff;
+    color: white;
+}
+
+/* Gallery Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-item {
     background: white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
-img {
-    max-width: 100%;
+.gallery-item.hide {
+    display: none;
+}
+
+.gallery-content {
+    padding: 20px;
+}
+
+.gallery-content h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.gallery-img {
+    width: 100%;
     height: auto;
     display: block;
-    border-radius: 4px;
 }
 
-figcaption {
-    text-align: center;
-    padding: 10px 0;
-    color: #666;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-    margin-top: 2rem;
-}
-
-.widget-container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.widget-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+/* Chart Containers */
+.chart-container {
+    height: 400px;
+    width: 100%;
 }
 
 .tradingview-widget-container {
-    display: flex;
-    justify-content: center;
+    height: 400px;
     width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .filter-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .filter-button {
+        margin: 0;
+    }
 }

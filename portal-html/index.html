@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>JavaScript - CSS Responsive Dropdown Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container pt-4">
+    <div class="menu-open"><span class="open"></span></div>
+    <div class="ozmenu mt-4">
+      <div class="menu-close"><span class="close"></span></div>
+      <ul class="ozmenu-nav">
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Performance</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Overview</a></li>
+              <li class="item"><a href="#">Best To Worst Return</a></li>
+              <li class="item"><a href="#">Return Journey</a></li>
+              <li class="item"><a href="#">Volatility</a></li>
+              <li class="item"><a href="#">Correlation</a></li>
+              <li class="item"><a href="#">Detailed Stats</a></li>
+              <li class="item"><a href="#">Seasonality</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Chart Gallery</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">1yr Chart</a></li>
+              <li class="item"><a href="#">5yr Chart</a></li>
+              <li class="item"><a href="#">All History Chart</a></li>
+              <li class="item"><a href="#">Relative Performance</a></li>
+              <li class="item"><a href="#">Trending</a></li>
+              <li class="item"><a href="#">Overbought / Oversold</a></li>
+              <li class="item"><a href="#">Sentiment</a></li>
+              <li class="item"><a href="#">Random Charts</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Interest Rates</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Current Rates</a></li>
+              <li class="item"><a href="#">Yield Steepess</a></li>
+              <li class="item"><a href="#">Yield Curves Global</a></li>
+              <li class="item"><a href="#">10yr Global Yields</a></li>
+              <li class="item"><a href="#">10yr Global Yield Spreads</a></li>
+              <li class="item"><a href="#">Corporate Spreads</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Economy</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Overview</a></li>
+              <li class="item"><a href="#">Inflation US</a></li>
+              <li class="item"><a href="#">Employment</a></li>
+              <li class="item"><a href="#">GDP</a></li>
+              <li class="item"><a href="#">Debt</a></li>
+              <li class="item"><a href="#">Housing</a></li>
+              <li class="item"><a href="#">Consumption</a></li>
+              <li class="item"><a href="#">Surveys</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Screeners</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Day % up or down</a></li>
+              <li class="item"><a href="#">Day Z Score up or down</a></li>
+              <li class="item"><a href="#">Week Z Score up or down</a></li>
+              <li class="item"><a href="#">Month Z Score up or down</a></li>
+              <li class="item"><a href="#">Day Streak up or down</a></li>
+              <li class="item"><a href="#">Week Streak up or down</a></li>
+              <li class="item"><a href="#">Year Streak up or down</a></li>
+              <li class="item"><a href="#">52 week High or Low</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Backtests</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item dropdownitem">
+                <a href="#" class="nav-dropdown">Gold Cross</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="item"><a href="#">Major Assest Classes</a></li>
+                    <li class="item"><a href="#">FX Majors</a></li>
+                    <li class="item"><a href="#">Commodities</a></li>
+                    <li class="item"><a href="#">Stock Indexes</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="item dropdownitem">
+                <a href="#" class="nav-dropdown">Bollinger Band</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="item"><a href="#">Major Assest Classes</a></li>
+                    <li class="item"><a href="#">FX Majors</a></li>
+                    <li class="item"><a href="#">Commodities</a></li>
+                    <li class="item"><a href="#">Stock Indexes</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="ozmenu.js"></script>
+  <div class="container">
+    <nav class="secondary-navbar">
+      <button class=" withoutredbg">Performance</button>
+      <button class="category">Chart Gallery</button>
+      <button class="category">Interest Rates</button>
+      <button class="category">Economy</button>
+      <button class="category">Screeners</button>
+      <button class="category">Backtests</button>
+    </nav>
+    <div class="filters">
+      <button class="withoutredbg">Overview</button>
+      <button class="filter">Best to Worst Return</button>
+      <button class="filter">Journey Through Time</button>
+      <button class="filter">Volatility</button>
+      <button class="filter">Correlation</button>
+      <button class="filter">Detailed Stats</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery">
+            <img src="./img/image 21.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery">
+
+          <a href="./img/hover-1.png" title="1">
+            <img src="./img/hover-1.png" alt="Image 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery2">
+            <img src="./img/image2.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery2">
+          <a href="./img/hover-2.png" title="2">
+            <img src="./img/hover-2.png" alt="Image 2">
+          </a>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery3">
+            <img src="./img/image3.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery3">
+          </a>
+          <a href="./img/hover-3.png" title="3">
+            <img src="./img/hover-3.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery4">
+            <img src="./img/second-hover-1.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery4">
+          <a href="./img/hover-2.png" title="4">
+            <img src="./img/hover-2.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery5">
+            <img src="./img/image2.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery5">
+          <a href="./img/hover-3.png" title="5">
+            <img src="./img/hover-3.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery6">
+            <img src="./img/image3.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery6">
+          <a href="./img/hover-1.png" title="6">
+            <img src="./img/hover-1.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery7">
+            <img src="./img/image 21.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery7">
+          <a href="./img/hover-2.png" title="7">
+            <img src="./img/hover-2.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery8">
+            <img src="./img/image2.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery8">
+          <a href="./img/hover-3.png" title="8">
+            <img src="./img/hover-3.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery9">
+            <img src="./img/image3.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery9">
+          <a href="./img/hover-1.png" title="9">
+            <img src="./img/hover-1.png" alt="Image 1">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery10">
+            <img src="./img/image 21.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery10">
+          <a href="./img/hover-2.png" title="10">
+            <img src="./img/hover-2.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery11">
+            <img src="./img/image2.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery11">
+          <a href="./img/hover-3.png" title="11">
+            <img src="./img/hover-3.png" alt="Image 2">
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-4 rs-col">
+        <div class="image-gallery">
+          <a href="#" class="open-gallery12">
+            <img src="./img/image3.png" alt="">
+          </a>
+          <div class="title">
+            <p>Stock Market Secular Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery_container">
+        <div class="popup-gallery12">
+          <a href="./img/hover-1.png" title="12">
+            <img src="./img/hover-1.png" alt="Image 1">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidebar-image left-image"></div>
+  <div class="sidebar-image right-image"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="./js/custom.js"></script>
+</body>
+
+</html>

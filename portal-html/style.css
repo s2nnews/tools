@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
+    overflow-x: hidden;
 }
 body.hide-scrolling {
     overflow-y: hidden;
@@ -79,7 +80,7 @@ body.hide-scrolling {
         z-index: 9;
     }
     .ozmenu ul li.dropdownitem .dropdown li.dropdownitem:hover .dropdown {
-        padding-left: 16px;
+        padding-left: 6px;
         margin: 0;
         padding-top: 0px !important;
         min-width: 130px;
@@ -87,7 +88,7 @@ body.hide-scrolling {
         top: 0 !important;
         left: 100% !important;
         right: auto !important;
-        z-index: inherit; 
+        z-index: inherit;
     }
     
     .ozmenu ul li.dropdownitem .dropdown .dropdown .dropdown {
@@ -470,7 +471,7 @@ body.hide-scrolling {
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 20px;
+    border-radius: 0;
     font-size: 16px;
     cursor: pointer;
     white-space: nowrap;
@@ -571,4 +572,7 @@ body.hide-scrolling {
 }
 nav.secondary-navbar{
     margin-top: 2%;
+}
+.open-gallery12 img{
+    width: 64%;
 }

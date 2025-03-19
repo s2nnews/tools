@@ -149,18 +149,17 @@
       <div class="col-lg-4 rs-col">
         <div class="image-gallery">
           <a href="#" class="open-gallery">
-            <img src="./img/image 21.png" alt="">
+            <img src="../assets/images/performance/overview/main_watchlist.png" alt="Main Watchlist">
           </a>
           <div class="title">
-            <p>Stock Market Secular Cycles</p>
+            <p>Main Watchlist</p>
           </div>
         </div>
       </div>
       <div class="gallery_container">
         <div class="popup-gallery">
-
-          <a href="./img/hover-1.png" title="1">
-            <img src="./img/hover-1.png" alt="Image 1">
+          <a href="../assets/images/performance/overview/main_watchlist.png" title="Main Watchlist">
+            <img src="../assets/images/performance/overview/main_watchlist.png" alt="Main Watchlist">
           </a>
         </div>
       </div>
@@ -355,12 +354,62 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="overview-section">
+      <!-- Main Watchlist Image -->
+      <div class="full-width-image">
+        <img src="../assets/images/performance/overview/main_watchlist.png" alt="Main Watchlist">
+        <div class="title">
+          <p>Main Watchlist</p>
+        </div>
+      </div>
+
+      <!-- Second Image -->
+      <div class="full-width-image">
+        <img src="../assets/images/performance/overview/main_stock_exchanges.png" alt="Main Stock Exchanges">
+        <div class="title">
+          <p>Main Stock Exchanges</p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="sidebar-image left-image"></div>
   <div class="sidebar-image right-image"></div>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="./js/custom.js"></script>
+  <style>
+    /* Ensure the container spans the full width */
+    .overview-section {
+      width: 100%;
+      padding: 0 0 0 0; 
+      margin-top: -150px; /* Move the section closer to the top */
+    }
+
+    /* Style for full-width images */
+    .full-width-image img {
+      width: calc(100% + 20%); /* Increase width by 10% on each side */
+      max-width: none; /* Remove max-width restriction */
+      height: auto;
+      display: block;
+      margin-left: -10%; /* Keep the left margin consistent */
+    }
+
+    /* Optional: Center the title below the image */
+    .full-width-image .title {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    /* Hide all other images when in Performance > Overview */
+    .gallery_container,
+    .image-gallery {
+      display: none;
+    }
+  </style>
 </body>
 
 </html>

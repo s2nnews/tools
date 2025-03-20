@@ -1,121 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S2N Market Dashboards</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        .container {
-            max-width: 1800px;
-            margin: 0 auto;
-            padding: 0;
-        }
-        .tabs {
-            display: flex;
-            border-bottom: 1px solid #ddd;
-            background-color: #fff;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        .tab {
-            padding: 12px 24px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: bold;
-            color: #555;
-            background-color: #f9f9f9;
-            border: none;
-            outline: none;
-            margin-right: 2px;
-            border-radius: 5px 5px 0 0;
-            transition: all 0.3s ease;
-        }
-        .tab.active {
-            background-color: #007bff;
-            color: white;
-        }
-        .tab:hover:not(.active) {
-            background-color: #e9e9e9;
-        }
-        .tab-content {
-            display: none;
-            width: 100%;
-            height: calc(100vh - 50px); /* Adjust based on tab height */
-        }
-        .tab-content.active {
-            display: block;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-            overflow: hidden;
-        }
-        .footer {
-            text-align: center;
-            padding: 10px;
-            font-size: 12px;
-            color: #999;
-            background-color: #f9f9f9;
-            border-top: 1px solid #ddd;
-        }
-        /* Responsive design for smaller screens */
-        @media (max-width: 600px) {
-            .tab {
-                padding: 10px 15px;
-                font-size: 14px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>JavaScript - CSS Responsive Dropdown Menu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
+
 <body>
-    <div class="container">
-        <div class="tabs">
-            <button class="tab active" onclick="openTab('daily-returns')">Daily Returns</button>
-            <button class="tab" onclick="openTab('price-journey')">Price Journey</button>
-        </div>
-        
-        <div id="daily-returns" class="tab-content active">
-            <iframe src="https://18-224-90-231.nip.io/dash/" title="Daily Returns Dashboard" allowfullscreen></iframe>
-        </div>
-        
-        <div id="price-journey" class="tab-content">
-            <iframe src="https://18-224-90-231.nip.io/price/" title="Price Journey Dashboard" allowfullscreen></iframe>
-        </div>
+  <div class="container pt-4">
+    <div class="menu-open"><span class="open"></span></div>
+    <div class="ozmenu mt-4">
+      <div class="menu-close"><span class="close"></span></div>
+      <ul class="ozmenu-nav">
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown" onclick="loadSection('overview.html')">Overview</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown" onclick="loadSection('best-to-worst.html')">Best To Worst Return</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown" onclick="loadSection('chart-gallery.html')">Chart Gallery</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Return Journey</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Volatility</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Correlation</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Detailed Stats</a>
+        </li>
+        <li class="item dropdownitem">
+          <a href="#" class="nav-dropdown">Seasonality</a>
+        </li>
+      </ul>
     </div>
-    
-    <script>
-        function openTab(tabName) {
-            // Hide all tab content
-            var tabContents = document.getElementsByClassName("tab-content");
-            for (var i = 0; i < tabContents.length; i++) {
-                tabContents[i].classList.remove("active");
-            }
-            
-            // Remove active class from all tabs
-            var tabs = document.getElementsByClassName("tab");
-            for (var i = 0; i < tabs.length; i++) {
-                tabs[i].classList.remove("active");
-            }
-            
-            // Show the selected tab content and mark the button as active
-            document.getElementById(tabName).classList.add("active");
-            
-            // Find and activate the correct tab button
-            var buttons = document.getElementsByClassName("tab");
-            for (var i = 0; i < buttons.length; i++) {
-                if (buttons[i].textContent.toLowerCase().includes(tabName.replace('-', ' '))) {
-                    buttons[i].classList.add("active");
-                }
-            }
-        }
-    </script>
+  </div>
+
+  <!-- Placeholder for dynamically loaded content -->
+  <div id="content"></div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true // Enable gallery mode to scroll through images
+        },
+        titleSrc: 'title' // Use the title attribute for captions
+      });
+    });
+
+    // Function to dynamically load sections
+    function loadSection(section) {
+      fetch(section)
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('content').innerHTML = html;
+
+          // Reinitialize lightbox for dynamically loaded content
+          $('.lightbox').magnificPopup({
+            type: 'image',
+            gallery: {
+              enabled: true
+            },
+            titleSrc: 'title'
+          });
+        })
+        .catch(error => console.error('Error loading section:', error));
+    }
+  </script>
 </body>
+
 </html>

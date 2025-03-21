@@ -1,20 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
   <title>JavaScript - CSS Responsive Dropdown Menu</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-  <link rel="stylesheet" href="./css/bootstrap.min.css">
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+  <link rel="stylesheet" href="./css/bootstrap.min.css"/>
 
+  <style>
+    /* Override Bootstrap container constraints for our layout */
+    .container {
+      max-width: 100% !important;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    
+    #content {
+      margin-top: -15px;
+      padding: 0;
+      margin-left: 14%;
+      width: 70%; /* Drastically reduced width to prevent overflow */
+      overflow: hidden; /* Prevent content from overflowing */
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    /* Make images responsive */
+    #content img {
+      max-width: 100%;
+      height: auto;
+      display: block; /* Prevent inline image spacing issues */
+      box-sizing: border-box; /* Include padding in width calculation */
+    }
+    
+    /* Force all content elements to respect container width */
+    #content * {
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    .active-button {
+      background-color: white;
+      color: black !important;
+      border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    }
+
+    /* Top navigation menu buttons - RED background */
+    .secondary-navbar .category, 
+    .secondary-navbar .withoutredbg {
+      background-color: #d9302c; /* Red background for top menu */
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      margin-right: 2px;
+      border-radius: 0;
+    }
+
+    /* Second row - GREY buttons */
+    .filters .filter, 
+    .filters .withoutredbg {
+      background-color: grey;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      margin-right: 2px;
+      border-radius: 0;
+    }
+
+    /* Hover effect for buttons */
+    .filter:hover, .withoutredbg:hover, .category:hover {
+      background-color: #555; /* Darker grey on hover for submenus */
+      opacity: 0.9; /* Slight transparency on hover */
+    }
+
+    /* Top menu hover effect */
+    .secondary-navbar .category:hover,
+    .secondary-navbar .withoutredbg:hover {
+      background-color: #b82722; /* Darker red on hover for main menu */
+    }
+
+    /* Active button styles */
+    .active-button {
+      background-color: white !important; /* White background for active button */
+      color: black !important; /* Black text for active button */
+      border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+      border-radius: 0; /* Ensure sharp corners for active button */
+    }
+
+    /* Default styles for larger screens */
+    .filters, .secondary-navbar {
+      display: flex;
+      flex-wrap: nowrap; /* Allow wrapping on smaller screens */
+    }
+
+    .filters button, .secondary-navbar button {
+      padding: 10px 15px;
+      font-size: 1rem; /* Default font size */
+      flex: 0 1 auto; /* Allow buttons to shrink but not grow */
+    }
+
+    /* Media query for smaller screens (laptops, tablets) */
+    @media (max-width: 1200px) {
+      #content {
+        margin-left: 10%; /* Reduce left margin for smaller screens */
+        width: 65%; /* Drastically reduced width to prevent overflow on laptops */
+      }
+
+      .filters button, .secondary-navbar button {
+        padding: 8px 12px; /* Reduce padding for smaller buttons */
+        font-size: 0.9rem; /* Slightly smaller font size */
+      }
+    }
+
+    /* Add specific breakpoint for medium laptops where overflow was occurring */
+    @media (max-width: 992px) {
+      #content {
+        margin-left: 8%;
+        width: 60%; /* Much narrower content for medium-sized screens */
+      }
+    }
+
+    /* Media query for very small screens (mobile devices) */
+    @media (max-width: 768px) {
+      #content {
+        margin-left: 5%; /* Further reduce left margin */
+        width: 90%; /* Nearly full width on mobile but with some safety margin */
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap; /* Allow buttons to wrap to the next line */
+        gap: 5px; /* Add spacing between buttons */
+      }
+
+      .secondary-navbar {
+        display: flex;
+        flex-wrap: wrap; /* Allow navbar buttons to wrap */
+        gap: 5px; /* Add spacing between buttons */
+      }
+
+      .filters button, .secondary-navbar button {
+        padding: 6px 10px; /* Smaller padding for mobile */
+        font-size: 0.8rem; /* Smaller font size for mobile */
+        flex: 1 0 auto; /* Make buttons take available space */
+        margin-bottom: 5px; /* Add spacing between rows */
+      }
+    }
+  </style>
+</head>
 <body>
   <div class="container pt-4">
     <div class="menu-open"><span class="open"></span></div>
@@ -22,69 +164,183 @@
       <div class="menu-close"><span class="close"></span></div>
       <ul class="ozmenu-nav">
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown" onclick="loadSection('overview.html')">Overview</a>
+          <a class="nav-dropdown" href="#">Performance</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#" onclick="loadSection('overview.html')">Overview</a></li>
+              <li class="item"><a href="#" onclick="loadSection('best-to-worst-section.html')">Best To Worst Return</a></li>
+              <li class="item"><a href="#">Return Journey</a></li>
+              <li class="item"><a href="#">Volatility</a></li>
+              <li class="item"><a href="#">Correlation</a></li>
+              <li class="item"><a href="#">Detailed Stats</a></li>
+              <li class="item"><a href="#">Seasonality</a></li>
+            </ul>
+          </div>
         </li>
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown" onclick="loadSection('best-to-worst.html')">Best To Worst Return</a>
+          <a class="nav-dropdown" href="#">Chart Gallery</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">1yr Chart</a></li>
+              <li class="item"><a href="#">5yr Chart</a></li>
+              <li class="item"><a href="#">All History Chart</a></li>
+              <li class="item"><a href="#">Relative Performance</a></li>
+              <li class="item"><a href="#">Trending</a></li>
+              <li class="item"><a href="#">Overbought / Oversold</a></li>
+              <li class="item"><a href="#">Sentiment</a></li>
+              <li class="item"><a href="#">Random Charts</a></li>
+            </ul>
+          </div>
         </li>
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown" onclick="loadSection('chart-gallery.html')">Chart Gallery</a>
+          <a class="nav-dropdown" href="#">Interest Rates</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Current Rates</a></li>
+              <li class="item"><a href="#">Yield Steepess</a></li>
+              <li class="item"><a href="#">Yield Curves Global</a></li>
+              <li class="item"><a href="#">10yr Global Yields</a></li>
+              <li class="item"><a href="#">10yr Global Yield Spreads</a></li>
+              <li class="item"><a href="#">Corporate Spreads</a></li>
+            </ul>
+          </div>
         </li>
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown">Return Journey</a>
+          <a class="nav-dropdown" href="#">Economy</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Overview</a></li>
+              <li class="item"><a href="#">Inflation US</a></li>
+              <li class="item"><a href="#">Employment</a></li>
+              <li class="item"><a href="#">GDP</a></li>
+              <li class="item"><a href="#">Debt</a></li>
+              <li class="item"><a href="#">Housing</a></li>
+              <li class="item"><a href="#">Consumption</a></li>
+              <li class="item"><a href="#">Surveys</a></li>
+            </ul>
+          </div>
         </li>
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown">Volatility</a>
+          <a class="nav-dropdown" href="#">Screeners</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item"><a href="#">Day % up or down</a></li>
+              <li class="item"><a href="#">Day Z Score up or down</a></li>
+              <li class="item"><a href="#">Week Z Score up or down</a></li>
+              <li class="item"><a href="#">Month Z Score up or down</a></li>
+              <li class="item"><a href="#">Day Streak up or down</a></li>
+              <li class="item"><a href="#">Week Streak up or down</a></li>
+              <li class="item"><a href="#">Year Streak up or down</a></li>
+              <li class="item"><a href="#">52 week High or Low</a></li>
+            </ul>
+          </div>
         </li>
         <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown">Correlation</a>
-        </li>
-        <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown">Detailed Stats</a>
-        </li>
-        <li class="item dropdownitem">
-          <a href="#" class="nav-dropdown">Seasonality</a>
+          <a class="nav-dropdown" href="#">Backtests</a>
+          <div class="dropdown">
+            <ul>
+              <li class="item dropdownitem">
+                <a class="nav-dropdown" href="#">Gold Cross</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="item"><a href="#">Major Asset Classes</a></li>
+                    <li class="item"><a href="#">FX Majors</a></li>
+                    <li class="item"><a href="#">Commodities</a></li>
+                    <li class="item"><a href="#">Stock Indexes</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="item dropdownitem">
+                <a class="nav-dropdown" href="#">Bollinger Band</a>
+                <div class="dropdown">
+                  <ul>
+                    <li class="item"><a href="#">Major Asset Classes</a></li>
+                    <li class="item"><a href="#">FX Majors</a></li>
+                    <li class="item"><a href="#">Commodities</a></li>
+                    <li class="item"><a href="#">Stock Indexes</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
     </div>
   </div>
 
-  <!-- Placeholder for dynamically loaded content -->
-  <div id="content"></div>
+  <script src="ozmenu.js"></script>
+
+  <div class="container">
+    <nav class="secondary-navbar">
+      <button class="withoutredbg" onclick="loadSection('overview.html', this)">Performance</button>
+      <button class="category" onclick="loadSection('chart-gallery.html', this)">Chart Gallery</button>
+      <button class="category" onclick="loadSection('interest-rates.html', this)">Interest Rates</button>
+      <button class="category" onclick="loadSection('economy.html', this)">Economy</button>
+      <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
+      <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
+    </nav>
+    <div class="filters">
+      <button class="withoutredbg" onclick="loadSection('overview.html', this)">Overview</button>
+      <button class="filter" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst Return</button>
+      <button class="filter" onclick="loadSection('journey-through-time.html', this)">Journey Through Time</button>
+      <button class="filter" onclick="loadSection('volatility.html', this)">Volatility</button>
+      <button class="filter" onclick="loadSection('correlation.html', this)">Correlation</button>
+      <button class="filter" onclick="loadSection('detailed-stats.html', this)">Detailed Stats</button>
+    </div>
+  </div>
+
+  <div class="container-fluid pt-4" id="content">
+    <!-- Content will be loaded here by JavaScript -->
+  </div>
+
+  <div class="sidebar-image left-image"></div>
+  <div class="sidebar-image right-image"></div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="./js/custom.js"></script>
   <script>
-    $(document).ready(function () {
+    function loadSection(file, button) {
+      // Fetch and load the content
+      fetch(file)
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById("content").innerHTML = html;
+          initLightbox(); // Reinitialize gallery after content is replaced
+        })
+        .catch(err => console.error('Error loading section:', err));
+
+      // Update the active button state for the submenu
+      const submenuButtons = document.querySelectorAll(".filters button"); // Select all submenu buttons
+      submenuButtons.forEach(btn => btn.classList.remove("active-button")); // Remove active class from all submenu buttons
+      button.classList.add("active-button"); // Add active class to the clicked submenu button
+
+      // Update the active button state for the main menu (Performance button)
+      const mainMenuButtons = document.querySelectorAll(".secondary-navbar button"); // Select all main menu buttons
+      mainMenuButtons.forEach(btn => btn.classList.remove("active-button")); // Remove active class from all main menu buttons
+
+      // Add active class to the Performance button if a submenu is clicked
+      if (file.includes('overview') || file.includes('best-to-worst') || file.includes('journey-through-time') || file.includes('volatility') || file.includes('correlation') || file.includes('detailed-stats')) {
+        const performanceButton = document.querySelector(".secondary-navbar button:nth-child(1)"); // Select the Performance button
+        performanceButton.classList.add("active-button");
+      }
+    }
+
+    function initLightbox() {
       $('.lightbox').magnificPopup({
         type: 'image',
         gallery: {
-          enabled: true // Enable gallery mode to scroll through images
+          enabled: true
         },
-        titleSrc: 'title' // Use the title attribute for captions
+        titleSrc: 'title'
       });
-    });
-
-    // Function to dynamically load sections
-    function loadSection(section) {
-      fetch(section)
-        .then(response => response.text())
-        .then(html => {
-          document.getElementById('content').innerHTML = html;
-
-          // Reinitialize lightbox for dynamically loaded content
-          $('.lightbox').magnificPopup({
-            type: 'image',
-            gallery: {
-              enabled: true
-            },
-            titleSrc: 'title'
-          });
-        })
-        .catch(error => console.error('Error loading section:', error));
     }
+
+    window.onload = function () {
+      const defaultButton = document.querySelector(".filters button:nth-child(1)"); // Select the Overview button
+      loadSection('overview.html', defaultButton); // Load Overview by default and set it as active
+    };
   </script>
 </body>
-
 </html>

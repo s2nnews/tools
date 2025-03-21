@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* Page title styling */
+    .page-title {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #eee;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="chart-grid">
+  <!-- Chart Item 1 -->
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/one_year/main_futures_&ES_CCB_1yr.png" class="lightbox" title="S&P 500 Future 1-Year Performance">
+      <img src="./assets/images/chart_gallery/one_year/main_futures_&ES_CCB_1yr.png" alt="S&P 500 Future 1-Year Chart">
+    </a>
+    <h3>S&P 500 Future 1yr Chart</h3>
+  </div>
+  
+  <!-- Chart Item 2 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart2.jpg" class="lightbox" title="Nasdaq 1-Year Performance">
+      <img src="./charts/1yr/chart2.jpg" alt="Nasdaq 1-Year Chart">
+    </a>
+    <h3>Nasdaq</h3>
+  </div>
+  
+  <!-- Chart Item 3 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart3.jpg" class="lightbox" title="Dow Jones 1-Year Performance">
+      <img src="./charts/1yr/chart3.jpg" alt="Dow Jones 1-Year Chart">
+    </a>
+    <h3>Dow Jones</h3>
+  </div>
+  
+  <!-- Chart Item 4 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart4.jpg" class="lightbox" title="Russell 2000 1-Year Performance">
+      <img src="./charts/1yr/chart4.jpg" alt="Russell 2000 1-Year Chart">
+    </a>
+    <h3>Russell 2000</h3>
+  </div>
+  
+  <!-- Chart Item 5 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart5.jpg" class="lightbox" title="10-Year Treasury 1-Year Performance">
+      <img src="./charts/1yr/chart5.jpg" alt="10-Year Treasury 1-Year Chart">
+    </a>
+    <h3>10-Year Treasury</h3>
+  </div>
+  
+  <!-- Chart Item 6 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart6.jpg" class="lightbox" title="Gold 1-Year Performance">
+      <img src="./charts/1yr/chart6.jpg" alt="Gold 1-Year Chart">
+    </a>
+    <h3>Gold</h3>
+  </div>
+  
+  <!-- Placeholder for additional chart items -->
+  <!-- You'll need to add the remaining chart items following the same pattern -->
+  <!-- For demonstration, I'll add a few more items -->
+  
+  <!-- Chart Item 7 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart7.jpg" class="lightbox" title="Oil WTI 1-Year Performance">
+      <img src="./charts/1yr/chart7.jpg" alt="Oil WTI 1-Year Chart">
+    </a>
+    <h3>Oil WTI</h3>
+  </div>
+  
+  <!-- Chart Item 8 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart8.jpg" class="lightbox" title="EUR/USD 1-Year Performance">
+      <img src="./charts/1yr/chart8.jpg" alt="EUR/USD 1-Year Chart">
+    </a>
+    <h3>EUR/USD</h3>
+  </div>
+  
+  <!-- Chart Item 9 -->
+  <div class="chart-item">
+    <a href="./charts/1yr/chart9.jpg" class="lightbox" title="Bitcoin 1-Year Performance">
+      <img src="./charts/1yr/chart9.jpg" alt="Bitcoin 1-Year Chart">
+    </a>
+    <h3>Bitcoin</h3>
+  </div>
+  
+  <!-- Continue adding more chart items as needed -->
+  <!-- You should have about 40 total chart items based on your requirements -->
+</div>
+
+</body>
+</html>

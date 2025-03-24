@@ -25,21 +25,21 @@
     }
     
     #content {
-      margin-top: 0; /* Remove unnecessary top margin */
-      margin-left: auto; /* Center the content horizontally */
-      margin-right: auto; /* Center the content horizontally */
-      width: 100%; /* Allow the content to take up the full width */
-      max-width: 1200px; /* Match the width of images in Overview */
-      padding: 0; /* Remove padding to avoid narrowing the iframe */
-      box-sizing: border-box; /* Include padding and border in width calculation */
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: 1200px; 
+      padding: 0; 
+      box-sizing: border-box;
     }
     
     /* Make images responsive */
     #content img {
       max-width: 100%;
       height: auto;
-      display: block; /* Prevent inline image spacing issues */
-      box-sizing: border-box; /* Include padding in width calculation */
+      display: block;
+      box-sizing: border-box;
     }
     
     /* Force all content elements to respect container width */
@@ -102,7 +102,6 @@
       flex: 0 1 auto; 
     }
     
-    /* Media query for smaller screens (laptops, tablets) */
     @media (max-width: 1200px) {
       #content {
         margin-left: 10%; 
@@ -114,7 +113,6 @@
       }
     }
 
-    /* Add specific breakpoint for medium laptops */
     @media (max-width: 992px) {
       #content {
         margin-left: 8%;
@@ -122,7 +120,6 @@
       }
     }
 
-    /* Media query for very small screens (mobile devices) */
     @media (max-width: 768px) {
       #content {
         margin-left: 5%; 
@@ -146,7 +143,6 @@
       }
     }
     
-    /* Extra large screens */
     @media (min-width: 1400px) {
       #content {
         margin-left: 14%;
@@ -154,7 +150,6 @@
       }
     }
     
-    /* Even larger screens */
     @media (min-width: 1800px) {
       #content {
         max-width: none !important; 
@@ -189,6 +184,41 @@
       color: black;
       border: 1px solid #ccc;
     }
+
+    /* ------------------------------------------ */
+    /* NEW: Allow tall images to scroll in popup  */
+    .mfp-figure {
+      max-height: 100vh;        /* never exceed viewport height */
+      overflow-y: auto;         /* enable vertical scroll if tall */
+    }
+    /* ------------------------------------------ */
+
+    /* Force Magnific Popup images to keep original height, 
+       so if they're bigger than screen, we scroll instead of shrinking. */
+    .mfp-img {
+      max-height: none !important;
+      max-width: none !important;
+      width: auto !important;
+      height: auto !important;
+      display: block;      /* ensure no inline or floating */
+      margin: 0 auto;      /* optional: center the image horizontally */
+    }
+
+    /* The container for the image + caption */
+    .mfp-figure {
+      max-height: 100vh !important;
+      overflow-y: auto !important; /* enable vertical scrolling */
+      overflow-x: hidden;          /* usually hide horizontal scroll */
+      margin: 0; 
+    }
+
+    /* (Optional) if you see any extra spacing or margin issues,
+       you can also reset figure > figcaption. */
+    .mfp-figure figure {
+      margin: 0;
+      padding: 0;
+    }
+
   </style>
 </head>
 <body>
@@ -203,7 +233,6 @@
           <a class="nav-dropdown" href="#">Real-Time</a>
           <div class="dropdown">
             <ul>
-              <!-- IMPORTANT: pass 'this' to loadSection so we can highlight properly -->
               <li class="item">
                 <a href="#" onclick="loadSection('daily-returns-realtime.html', this)">Daily Returns</a>
               </li>
@@ -329,10 +358,8 @@
   <!-- SECONDARY NAVBAR + SUBMENUS -->
   <div class="container">
     <nav class="secondary-navbar">
-      <!-- Pass 'this' so we can highlight Real-Time automatically -->
       <button class="withoutredbg" onclick="loadSection('daily-returns-realtime.html', this)">Real-Time</button>
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
-      <!-- The Chart Gallery button calls '1yr-chart.html' by default -->
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
       <button class="category" onclick="loadSection('interest-rates.html', this)">Interest Rates</button>
       <button class="category" onclick="loadSection('economy.html', this)">Economy</button>
@@ -388,6 +415,9 @@
         .then(response => response.text())
         .then(html => {
           document.getElementById("content").innerHTML = html;
+
+          // IMPORTANT: Initialize lightbox after content is loaded
+          initializeLightbox();
         })
         .catch(err => console.error('Error loading section:', err));
 
@@ -472,11 +502,133 @@
       allSubmenus.forEach(menu => menu.style.display = 'none');
     }
 
-    window.onload = function () {
-      // Load Performance Overview by default (without automatically opening Chart Gallery)
+    // New function to initialize lightbox for images
+    function initializeLightbox() {
+      // First, ensure all images in the content have lightbox capability
+      prepareImagesForLightbox();
+
+      // Initialize Magnific Popup for all images in the loaded content
+      $('#content a.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1], // Preload previous and next images
+        },
+        image: {
+          verticalFit: false, // Disable auto-scaling to fit the viewport
+        },
+        callbacks: {
+          open: function () {
+            // Optional: Add any callbacks you need when lightbox opens
+          }
+        }
+      });
+
+      // Also handle any existing gallery containers
+      $('#content .image-gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1],
+        },
+        image: {
+          verticalFit: false
+        }
+      });
+    }
+
+    // New function to prepare images for lightbox
+    function prepareImagesForLightbox() {
+      // Find all images that aren't already in a lightbox
+      const images = document.querySelectorAll('#content img:not(.mfp-img):not([data-lightbox-prepared])');
+
+      images.forEach(img => {
+        // Skip images inside a link that already has the lightbox class
+        if (img.parentElement.tagName === 'A' &&
+          (img.parentElement.classList.contains('lightbox') ||
+            img.parentElement.closest('.image-gallery'))) {
+          return;
+        }
+
+        // If image is not already inside a link, wrap it in one
+        if (img.parentElement.tagName !== 'A') {
+          const imgSrc = img.getAttribute('src');
+          const wrapper = document.createElement('a');
+          wrapper.href = imgSrc;
+          wrapper.classList.add('lightbox');
+          img.parentNode.insertBefore(wrapper, img);
+          wrapper.appendChild(img);
+        }
+        // If image is inside a link but not set up for lightbox, add the class
+        else if (img.parentElement.tagName === 'A') {
+          img.parentElement.classList.add('lightbox');
+        }
+
+        // Mark this image as prepared
+        img.setAttribute('data-lightbox-prepared', 'true');
+      });
+    }
+
+    // Initialize on document ready
+    $(document).ready(function () {
+      // Initial setup for any static content
+      initializeLightbox();
+
+      // Load Performance Overview by default
       const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
       loadSection('overview.html', defaultPerformanceButton);
-    };
+    });
+
+    /* ---------------------------------------------
+     * NEW: Example Lightbox/Gallery for any images 
+     * within a container that has "image-gallery" 
+     * or "lightbox" class
+     * --------------------------------------------- */
+    $(document).ready(function () {
+      // Example 1: .image-gallery container, open all child links
+      $('.image-gallery').magnificPopup({
+        delegate: 'a',  // child <a> elements
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1],
+        },
+        image: {
+          verticalFit: false // let tall images scroll
+        }
+      });
+
+      // Example 2: any anchor with .lightbox class
+      $('.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1],
+        },
+        image: {
+          verticalFit: false // let tall images scroll
+        }
+      });
+    });
+
+    $(document).ready(function () {
+      $('.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1], // Preload previous and next images
+        },
+        image: {
+          verticalFit: false, // Disable auto-scaling to fit the viewport
+        },
+      });
+    });
   </script>
 </body>
 </html>

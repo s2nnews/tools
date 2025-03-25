@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>5 Year Charts</title>
+  <title>5-Year Chart Gallery</title>
   <style>
     .chart-grid {
       display: grid;
@@ -11,7 +10,6 @@
       gap: 20px;
       margin-top: 20px;
     }
-    
     .chart-item {
       text-align: center;
       border: 1px solid #eee;
@@ -20,12 +18,10 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
     }
-    
     .chart-item:hover {
       transform: translateY(-5px);
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
-    
     .chart-item img {
       max-width: 100%;
       height: auto;
@@ -33,66 +29,434 @@
       margin: 0 auto;
       cursor: pointer;
     }
-    
     .chart-item h3 {
       margin: 10px 0;
       font-size: 16px;
       color: #333;
     }
-    
-    /* Responsive adjustments */
+    h2 {
+      text-align: center;
+    }
     @media (max-width: 992px) {
       .chart-grid {
         grid-template-columns: repeat(2, 1fr);
       }
     }
-    
     @media (max-width: 576px) {
       .chart-grid {
         grid-template-columns: 1fr;
       }
     }
-    
-    /* Page title styling */
-    .page-title {
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid #eee;
-      color: #333;
-    }
   </style>
 </head>
 <body>
 
-<h1 class="page-title">5 Year Charts</h1>
+<h2>main_watchlist</h2>
+<div class='chart-grid'>
 
-<div class="chart-grid">
-  <!-- Chart Item 1 -->
   <div class="chart-item">
-    <a href="./charts/5yr/chart1.jpg" class="lightbox" title="S&P 500 5-Year Performance">
-      <img src="./charts/5yr/chart1.jpg" alt="S&P 500 5-Year Chart">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_$SPX_5yr.png" class="lightbox" title="S&P 500 Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_$SPX_5yr.png" alt="S&P 500 Index 5yr Chart">
     </a>
-    <h3>S&P 500</h3>
+    <h3>S&P 500 Index 5yr Chart</h3>
   </div>
-  
-  <!-- Chart Item 2 -->
+
+
   <div class="chart-item">
-    <a href="./charts/5yr/chart2.jpg" class="lightbox" title="Nasdaq 5-Year Performance">
-      <img src="./charts/5yr/chart2.jpg" alt="Nasdaq 5-Year Chart">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_%25TNX_5yr.png" class="lightbox" title="10-Year Treasury Yield 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_%25TNX_5yr.png" alt="10-Year Treasury Yield 5yr Chart">
     </a>
-    <h3>Nasdaq</h3>
+    <h3>10-Year Treasury Yield 5yr Chart</h3>
   </div>
-  
-  <!-- Chart Item 3 -->
+
+
   <div class="chart-item">
-    <a href="./charts/5yr/chart3.jpg" class="lightbox" title="Dow Jones 5-Year Performance">
-      <img src="./charts/5yr/chart3.jpg" alt="Dow Jones 5-Year Chart">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_$USDX_5yr.png" class="lightbox" title="US Dollar Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_$USDX_5yr.png" alt="US Dollar Index 5yr Chart">
     </a>
-    <h3>Dow Jones</h3>
+    <h3>US Dollar Index 5yr Chart</h3>
   </div>
-  
-  <!-- Continue adding items following the same pattern as the 1yr chart file -->
-  <!-- You'll need to add about 40 chart items total -->
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_&GC_CCB_5yr.png" class="lightbox" title="Gold 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_&GC_CCB_5yr.png" alt="Gold 5yr Chart">
+    </a>
+    <h3>Gold 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_BTCUSD_5yr.png" class="lightbox" title="Bitcoin 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_BTCUSD_5yr.png" alt="Bitcoin 5yr Chart">
+    </a>
+    <h3>Bitcoin 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_watchlist_&CL_CCB_5yr.png" class="lightbox" title="Crude Oil 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_watchlist_&CL_CCB_5yr.png" alt="Crude Oil 5yr Chart">
+    </a>
+    <h3>Crude Oil 5yr Chart</h3>
+  </div>
+
+</div>
+
+<h2>main_stock_exchanges</h2>
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$SPX_5yr.png" class="lightbox" title="S&P 500 Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$SPX_5yr.png" alt="S&P 500 Index 5yr Chart">
+    </a>
+    <h3>S&P 500 Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$DJI_5yr.png" class="lightbox" title="Dow Jones Industrial Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$DJI_5yr.png" alt="Dow Jones Industrial Index 5yr Chart">
+    </a>
+    <h3>Dow Jones Industrial Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$NDX_5yr.png" class="lightbox" title="Nasdaq 100 Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$NDX_5yr.png" alt="Nasdaq 100 Index 5yr Chart">
+    </a>
+    <h3>Nasdaq 100 Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$VIX_5yr.png" class="lightbox" title="VIX Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$VIX_5yr.png" alt="VIX Index 5yr Chart">
+    </a>
+    <h3>VIX Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$FT100_5yr.png" class="lightbox" title="FTSE 100 Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$FT100_5yr.png" alt="FTSE 100 Index 5yr Chart">
+    </a>
+    <h3>FTSE 100 Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$DAX_5yr.png" class="lightbox" title="DAX Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$DAX_5yr.png" alt="DAX Index 5yr Chart">
+    </a>
+    <h3>DAX Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$N225_5yr.png" class="lightbox" title="Nikkei 225 Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$N225_5yr.png" alt="Nikkei 225 Index 5yr Chart">
+    </a>
+    <h3>Nikkei 225 Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$HS_5yr.png" class="lightbox" title="Hang Seng Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$HS_5yr.png" alt="Hang Seng Index 5yr Chart">
+    </a>
+    <h3>Hang Seng Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$SSEC_5yr.png" class="lightbox" title="Shanghai Composite Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$SSEC_5yr.png" alt="Shanghai Composite Index 5yr Chart">
+    </a>
+    <h3>Shanghai Composite Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$STI_5yr.png" class="lightbox" title="Straits Times Index 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$STI_5yr.png" alt="Straits Times Index 5yr Chart">
+    </a>
+    <h3>Straits Times Index 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_stock_exchanges_$XAO.au_5yr.png" class="lightbox" title="All Ordinaries (Australia) 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_stock_exchanges_$XAO.au_5yr.png" alt="All Ordinaries (Australia) 5yr Chart">
+    </a>
+    <h3>All Ordinaries (Australia) 5yr Chart</h3>
+  </div>
+
+</div>
+
+<h2>main_futures</h2>
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&ES_CCB_5yr.png" class="lightbox" title="S&P 500 E-mini 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&ES_CCB_5yr.png" alt="S&P 500 E-mini 5yr Chart">
+    </a>
+    <h3>S&P 500 E-mini 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&ZN_CCB_5yr.png" class="lightbox" title="10-Year T-Note 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&ZN_CCB_5yr.png" alt="10-Year T-Note 5yr Chart">
+    </a>
+    <h3>10-Year T-Note 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&GC_CCB_5yr.png" class="lightbox" title="Gold 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&GC_CCB_5yr.png" alt="Gold 5yr Chart">
+    </a>
+    <h3>Gold 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&SI_CCB_5yr.png" class="lightbox" title="Silver 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&SI_CCB_5yr.png" alt="Silver 5yr Chart">
+    </a>
+    <h3>Silver 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&PL_CCB_5yr.png" class="lightbox" title="Platinum 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&PL_CCB_5yr.png" alt="Platinum 5yr Chart">
+    </a>
+    <h3>Platinum 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&CL_CCB_5yr.png" class="lightbox" title="Crude Oil 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&CL_CCB_5yr.png" alt="Crude Oil 5yr Chart">
+    </a>
+    <h3>Crude Oil 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&HG_CCB_5yr.png" class="lightbox" title="Copper 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&HG_CCB_5yr.png" alt="Copper 5yr Chart">
+    </a>
+    <h3>Copper 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&NG_CCB_5yr.png" class="lightbox" title="Natural Gas 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&NG_CCB_5yr.png" alt="Natural Gas 5yr Chart">
+    </a>
+    <h3>Natural Gas 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&ZC_CCB_5yr.png" class="lightbox" title="Corn 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&ZC_CCB_5yr.png" alt="Corn 5yr Chart">
+    </a>
+    <h3>Corn 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&KE_CCB_5yr.png" class="lightbox" title="Wheat (KC Hard Red) 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&KE_CCB_5yr.png" alt="Wheat (KC Hard Red) 5yr Chart">
+    </a>
+    <h3>Wheat (KC Hard Red) 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&CC_CCB_5yr.png" class="lightbox" title="Cocoa 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&CC_CCB_5yr.png" alt="Cocoa 5yr Chart">
+    </a>
+    <h3>Cocoa 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_futures_&KC_CCB_5yr.png" class="lightbox" title="Coffee 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_futures_&KC_CCB_5yr.png" alt="Coffee 5yr Chart">
+    </a>
+    <h3>Coffee 5yr Chart</h3>
+  </div>
+
+</div>
+
+<h2>main_fx</h2>
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_EURUSD_5yr.png" class="lightbox" title="Euro / US Dollar 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_EURUSD_5yr.png" alt="Euro / US Dollar 5yr Chart">
+    </a>
+    <h3>Euro / US Dollar 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_JPYUSD_5yr.png" class="lightbox" title="Japanese Yen / US Dollar 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_JPYUSD_5yr.png" alt="Japanese Yen / US Dollar 5yr Chart">
+    </a>
+    <h3>Japanese Yen / US Dollar 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_GBPUSD_5yr.png" class="lightbox" title="British Pound / US Dollar 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_GBPUSD_5yr.png" alt="British Pound / US Dollar 5yr Chart">
+    </a>
+    <h3>British Pound / US Dollar 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_AUDUSD_5yr.png" class="lightbox" title="Australian Dollar / US Dollar 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_AUDUSD_5yr.png" alt="Australian Dollar / US Dollar 5yr Chart">
+    </a>
+    <h3>Australian Dollar / US Dollar 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_CNYUSD_5yr.png" class="lightbox" title="Chinese Yuan / US Dollar 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_CNYUSD_5yr.png" alt="Chinese Yuan / US Dollar 5yr Chart">
+    </a>
+    <h3>Chinese Yuan / US Dollar 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_EURJPY_5yr.png" class="lightbox" title="Euro / Yen 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_EURJPY_5yr.png" alt="Euro / Yen 5yr Chart">
+    </a>
+    <h3>Euro / Yen 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_fx_EURGBP_5yr.png" class="lightbox" title="Euro / Pound 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_fx_EURGBP_5yr.png" alt="Euro / Pound 5yr Chart">
+    </a>
+    <h3>Euro / Pound 5yr Chart</h3>
+  </div>
+
+</div>
+
+<h2>main_us_treasury_yield</h2>
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25IRX_5yr.png" class="lightbox" title="3-Month T-Bill Yield 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25IRX_5yr.png" alt="3-Month T-Bill Yield 5yr Chart">
+    </a>
+    <h3>3-Month T-Bill Yield 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25FVX_5yr.png" class="lightbox" title="5-Year Treasury Yield 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25FVX_5yr.png" alt="5-Year Treasury Yield 5yr Chart">
+    </a>
+    <h3>5-Year Treasury Yield 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25TNX_5yr.png" class="lightbox" title="10-Year Treasury Yield 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25TNX_5yr.png" alt="10-Year Treasury Yield 5yr Chart">
+    </a>
+    <h3>10-Year Treasury Yield 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25TYX_5yr.png" class="lightbox" title="30-Year Treasury Yield 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_us_treasury_yield_%25TYX_5yr.png" alt="30-Year Treasury Yield 5yr Chart">
+    </a>
+    <h3>30-Year Treasury Yield 5yr Chart</h3>
+  </div>
+
+</div>
+
+<h2>main_Mike_Stocks</h2>
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_AAPL_5yr.png" class="lightbox" title="Apple 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_AAPL_5yr.png" alt="Apple 5yr Chart">
+    </a>
+    <h3>Apple 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_MSFT_5yr.png" class="lightbox" title="Microsoft 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_MSFT_5yr.png" alt="Microsoft 5yr Chart">
+    </a>
+    <h3>Microsoft 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_GOOG_5yr.png" class="lightbox" title="Google 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_GOOG_5yr.png" alt="Google 5yr Chart">
+    </a>
+    <h3>Google 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_AMZN_5yr.png" class="lightbox" title="Amazon 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_AMZN_5yr.png" alt="Amazon 5yr Chart">
+    </a>
+    <h3>Amazon 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_TSLA_5yr.png" class="lightbox" title="Tesla 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_TSLA_5yr.png" alt="Tesla 5yr Chart">
+    </a>
+    <h3>Tesla 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_NVDA_5yr.png" class="lightbox" title="NVIDIA 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_NVDA_5yr.png" alt="NVIDIA 5yr Chart">
+    </a>
+    <h3>NVIDIA 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_META_5yr.png" class="lightbox" title="Meta 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_META_5yr.png" alt="Meta 5yr Chart">
+    </a>
+    <h3>Meta 5yr Chart</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/five_year/main_Mike_Stocks_MSTR_5yr.png" class="lightbox" title="MicroStrategy 5yr Performance">
+      <img src="./assets/images/chart_gallery/five_year/main_Mike_Stocks_MSTR_5yr.png" alt="MicroStrategy 5yr Chart">
+    </a>
+    <h3>MicroStrategy 5yr Chart</h3>
+  </div>
+
 </div>
 
 </body>

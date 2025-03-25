@@ -1,0 +1,49 @@
+group_name,symbol,chart_title,alt_text,filename
+main_watchlist,$SPX,S&P 500 Index 1yr Performance,S&P 500 Index 1yr Chart,main_watchlist_$SPX_1yr.png
+main_watchlist,%TNX,10-Year Treasury Yield 1yr Performance,10-Year Treasury Yield 1yr Chart,main_watchlist_%TNX_1yr.png
+main_watchlist,$USDX,US Dollar Index 1yr Performance,US Dollar Index 1yr Chart,main_watchlist_$USDX_1yr.png
+main_watchlist,&GC_CCB,Gold 1yr Performance,Gold 1yr Chart,main_watchlist_&GC_CCB_1yr.png
+main_watchlist,BTCUSD,Bitcoin 1yr Performance,Bitcoin 1yr Chart,main_watchlist_BTCUSD_1yr.png
+main_watchlist,&CL_CCB,Crude Oil 1yr Performance,Crude Oil 1yr Chart,main_watchlist_&CL_CCB_1yr.png
+main_stock_exchanges,$SPX,S&P 500 Index 1yr Performance,S&P 500 Index 1yr Chart,main_stock_exchanges_$SPX_1yr.png
+main_stock_exchanges,$DJI,Dow Jones Industrial Index 1yr Performance,Dow Jones Industrial Index 1yr Chart,main_stock_exchanges_$DJI_1yr.png
+main_stock_exchanges,$NDX,Nasdaq 100 Index 1yr Performance,Nasdaq 100 Index 1yr Chart,main_stock_exchanges_$NDX_1yr.png
+main_stock_exchanges,$VIX,VIX Index 1yr Performance,VIX Index 1yr Chart,main_stock_exchanges_$VIX_1yr.png
+main_stock_exchanges,$FT100,FTSE 100 Index 1yr Performance,FTSE 100 Index 1yr Chart,main_stock_exchanges_$FT100_1yr.png
+main_stock_exchanges,$DAX,DAX Index 1yr Performance,DAX Index 1yr Chart,main_stock_exchanges_$DAX_1yr.png
+main_stock_exchanges,$N225,Nikkei 225 Index 1yr Performance,Nikkei 225 Index 1yr Chart,main_stock_exchanges_$N225_1yr.png
+main_stock_exchanges,$HS,Hang Seng Index 1yr Performance,Hang Seng Index 1yr Chart,main_stock_exchanges_$HS_1yr.png
+main_stock_exchanges,$SSEC,Shanghai Composite Index 1yr Performance,Shanghai Composite Index 1yr Chart,main_stock_exchanges_$SSEC_1yr.png
+main_stock_exchanges,$STI,Straits Times Index 1yr Performance,Straits Times Index 1yr Chart,main_stock_exchanges_$STI_1yr.png
+main_stock_exchanges,$XAO.au,All Ordinaries (Australia) 1yr Performance,All Ordinaries (Australia) 1yr Chart,main_stock_exchanges_$XAO.au_1yr.png
+main_futures,&ES_CCB,S&P 500 E-mini 1yr Performance,S&P 500 E-mini 1yr Chart,main_futures_&ES_CCB_1yr.png
+main_futures,&ZN_CCB,10-Year T-Note 1yr Performance,10-Year T-Note 1yr Chart,main_futures_&ZN_CCB_1yr.png
+main_futures,&GC_CCB,Gold 1yr Performance,Gold 1yr Chart,main_futures_&GC_CCB_1yr.png
+main_futures,&SI_CCB,Silver 1yr Performance,Silver 1yr Chart,main_futures_&SI_CCB_1yr.png
+main_futures,&PL_CCB,Platinum 1yr Performance,Platinum 1yr Chart,main_futures_&PL_CCB_1yr.png
+main_futures,&CL_CCB,Crude Oil 1yr Performance,Crude Oil 1yr Chart,main_futures_&CL_CCB_1yr.png
+main_futures,&HG_CCB,Copper 1yr Performance,Copper 1yr Chart,main_futures_&HG_CCB_1yr.png
+main_futures,&NG_CCB,Natural Gas 1yr Performance,Natural Gas 1yr Chart,main_futures_&NG_CCB_1yr.png
+main_futures,&ZC_CCB,Corn 1yr Performance,Corn 1yr Chart,main_futures_&ZC_CCB_1yr.png
+main_futures,&KE_CCB,Wheat (KC Hard Red) 1yr Performance,Wheat (KC Hard Red) 1yr Chart,main_futures_&KE_CCB_1yr.png
+main_futures,&CC_CCB,Cocoa 1yr Performance,Cocoa 1yr Chart,main_futures_&CC_CCB_1yr.png
+main_futures,&KC_CCB,Coffee 1yr Performance,Coffee 1yr Chart,main_futures_&KC_CCB_1yr.png
+main_fx,EURUSD,Euro / US Dollar 1yr Performance,Euro / US Dollar 1yr Chart,main_fx_EURUSD_1yr.png
+main_fx,JPYUSD,Japanese Yen / US Dollar 1yr Performance,Japanese Yen / US Dollar 1yr Chart,main_fx_JPYUSD_1yr.png
+main_fx,GBPUSD,British Pound / US Dollar 1yr Performance,British Pound / US Dollar 1yr Chart,main_fx_GBPUSD_1yr.png
+main_fx,AUDUSD,Australian Dollar / US Dollar 1yr Performance,Australian Dollar / US Dollar 1yr Chart,main_fx_AUDUSD_1yr.png
+main_fx,CNYUSD,Chinese Yuan / US Dollar 1yr Performance,Chinese Yuan / US Dollar 1yr Chart,main_fx_CNYUSD_1yr.png
+main_fx,EURJPY,Euro / Yen 1yr Performance,Euro / Yen 1yr Chart,main_fx_EURJPY_1yr.png
+main_fx,EURGBP,Euro / Pound 1yr Performance,Euro / Pound 1yr Chart,main_fx_EURGBP_1yr.png
+main_us_treasury_yield,%IRX,3-Month T-Bill Yield 1yr Performance,3-Month T-Bill Yield 1yr Chart,main_us_treasury_yield_%IRX_1yr.png
+main_us_treasury_yield,%FVX,5-Year Treasury Yield 1yr Performance,5-Year Treasury Yield 1yr Chart,main_us_treasury_yield_%FVX_1yr.png
+main_us_treasury_yield,%TNX,10-Year Treasury Yield 1yr Performance,10-Year Treasury Yield 1yr Chart,main_us_treasury_yield_%TNX_1yr.png
+main_us_treasury_yield,%TYX,30-Year Treasury Yield 1yr Performance,30-Year Treasury Yield 1yr Chart,main_us_treasury_yield_%TYX_1yr.png
+main_Mike_Stocks,AAPL,Apple 1yr Performance,Apple 1yr Chart,main_Mike_Stocks_AAPL_1yr.png
+main_Mike_Stocks,MSFT,Microsoft 1yr Performance,Microsoft 1yr Chart,main_Mike_Stocks_MSFT_1yr.png
+main_Mike_Stocks,GOOG,Google 1yr Performance,Google 1yr Chart,main_Mike_Stocks_GOOG_1yr.png
+main_Mike_Stocks,AMZN,Amazon 1yr Performance,Amazon 1yr Chart,main_Mike_Stocks_AMZN_1yr.png
+main_Mike_Stocks,TSLA,Tesla 1yr Performance,Tesla 1yr Chart,main_Mike_Stocks_TSLA_1yr.png
+main_Mike_Stocks,NVDA,NVIDIA 1yr Performance,NVIDIA 1yr Chart,main_Mike_Stocks_NVDA_1yr.png
+main_Mike_Stocks,META,Meta 1yr Performance,Meta 1yr Chart,main_Mike_Stocks_META_1yr.png
+main_Mike_Stocks,MSTR,MicroStrategy 1yr Performance,MicroStrategy 1yr Chart,main_Mike_Stocks_MSTR_1yr.png

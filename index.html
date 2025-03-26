@@ -410,8 +410,11 @@
   <script src="./js/custom.js"></script>
   <script>
     function loadSection(file, button) {
+      // Append a timestamp to the file URL to bypass cache
+      const cacheBypassUrl = `${file}?t=${new Date().getTime()}`;
+
       // Load the HTML into #content
-      fetch(file)
+      fetch(cacheBypassUrl)
         .then(response => response.text())
         .then(html => {
           document.getElementById("content").innerHTML = html;
@@ -435,52 +438,18 @@
 
       // 3) Decide which top-level menu to highlight & which submenu to show
       if (file.includes('realtime')) {
-        // Real-Time top button
         const realTimeButton = document.querySelector(".secondary-navbar button:nth-child(1)");
         realTimeButton.classList.add("active-button");
-
-        // Show the Real-Time submenu
         showSubMenu('real-time-filters');
-
-        // Highlight the correct sub-button (Daily Returns or Price Journey)
-        const rtButtons = document.querySelectorAll("#real-time-filters button");
-        rtButtons.forEach(btn => btn.classList.remove("active-button"));
-        if (file.includes('daily-returns-realtime')) {
-          rtButtons[0].classList.add("active-button"); 
-        } else if (file.includes('price-journey-realtime')) {
-          rtButtons[1].classList.add("active-button");
-        }
-
       } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || file.includes('volatility')) {
-        // Performance top button
         const performanceButton = document.querySelector(".secondary-navbar button:nth-child(2)");
         performanceButton.classList.add("active-button");
-
-        // Show the Performance submenu
         showSubMenu('performance-filters');
-
       } else if (file.includes('chart')) {
-        // Chart Gallery top button
         const chartGalleryButton = document.querySelector(".secondary-navbar button:nth-child(3)");
         chartGalleryButton.classList.add("active-button");
-
-        // Show the Chart Gallery submenu
         showSubMenu('chart-gallery-filters');
-
-        // Highlight whichever chart button matches
-        const cgButtons = document.querySelectorAll("#chart-gallery-filters button");
-        cgButtons.forEach(btn => btn.classList.remove("active-button"));
-        if (file.includes('1yr-chart')) {
-          cgButtons[0].classList.add("active-button");
-        } else if (file.includes('5yr-chart')) {
-          cgButtons[1].classList.add("active-button");
-        } else if (file.includes('all-history-chart')) {
-          cgButtons[2].classList.add("active-button");
-        } 
-        // ...add more if needed
-
       } else {
-        // If not Real-Time, not Performance, not chart, hide submenus
         hideAllSubMenus();
       }
     }

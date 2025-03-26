@@ -250,7 +250,7 @@
               <li class="item"><a href="#" onclick="loadSection('overview.html', this)">Overview</a></li>
               <li class="item"><a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best To Worst Return</a></li>
               <li class="item"><a href="#" onclick="loadSection('price-journey.html', this)">Journey Through Time</a></li>
-              <li class="item"><a href="#">Volatility</a></li>
+              <li class="item"><a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a></li>
               <li class="item"><a href="#">Correlation</a></li>
               <li class="item"><a href="#">Detailed Stats</a></li>
               <li class="item"><a href="#">Seasonality</a></li>
@@ -378,7 +378,7 @@
       <button class="withoutredbg" onclick="loadSection('overview.html', this)">Overview</button>
       <button class="filter" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst Return</button>
       <button class="filter" onclick="loadSection('price-journey.html', this)">Journey Through Time</button>
-      <button class="filter" onclick="loadSection('volatility.html', this)">Volatility</button>
+      <button class="filter" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</button>
       <button class="filter" onclick="loadSection('correlation.html', this)">Correlation</button>
       <button class="filter" onclick="loadSection('detailed-stats.html', this)">Detailed Stats</button>
     </div>
@@ -441,7 +441,7 @@
         const realTimeButton = document.querySelector(".secondary-navbar button:nth-child(1)");
         realTimeButton.classList.add("active-button");
         showSubMenu('real-time-filters');
-      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || file.includes('volatility')) {
+      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || file.includes('volatility-performance')) {
         const performanceButton = document.querySelector(".secondary-navbar button:nth-child(2)");
         performanceButton.classList.add("active-button");
         showSubMenu('performance-filters');

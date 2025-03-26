@@ -1,29 +1,87 @@
-<div class="volatility-performance">
-    <!-- Main Watchlist Image -->
-    <div class="full-width-image">
-      <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_1.png" class="lightbox" title="Main Asset Volatility">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rolling Volatility</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_1.png" class="lightbox" title="Main Asset Volatility">
         <img src="./assets/images/performance/volatility/Rolling_Volatility_Group_1.png" alt="Main Asset Volatility">
-      </a>
-      <div class="title">
-        <p>Main Asset Rolling Volatility</p>
-      </div>
-    </div>
-    <!-- Next Image -->
-    <div class="full-width-image">
-        <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_2.png" class="lightbox" title="Crypto Volatility">
-          <img src="./assets/images/performance/volatility/Rolling_Volatility_Group_2.png" alt="Crypto Volatility">
-        </a>
-        <div class="title">
-          <p>Crypto Rolling Volatility</p>
-        </div>
-      </div>
-    <!-- Next Image -->
-    <div class="full-width-image">
-        <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_3.png" class="lightbox" title="FX Volatility">
-          <img src="./assets/images/performance/volatility/Rolling_Volatility_Group_3.png" alt="FX Volatility">
-        </a>
-        <div class="title">
-          <p>FX Rolling Volatility</p>
-        </div>
-      </div>
+    </a>
+    <h3>Main Asset Volatility</h3>
   </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_2.png" class="lightbox" title="Crypto Volatility">
+        <img src="./assets/images/performance/volatility/Rolling_Volatility_Group_2.png" alt="Crypto Volatility">
+    </a>
+    <h3>Crypto Volatility</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/volatility/Rolling_Volatility_Group_3.png" class="lightbox" title="FX Volatility">
+        <img src="./assets/images/performance/volatility/Rolling_Volatility_Group_3.png" alt="FX Volatility">
+    </a>
+    <h3>FX Volatility</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/volatility/VIX_MOVE_10yr.png" class="lightbox" title="VIX & MOVE">
+        <img src="./assets/images/performance/volatility/VIX_MOVE_10yr.png" alt="VIX & MOVE">
+    </a>
+    <h3>VIX & MOVE</h3>
+  </div>
+</div>
+</body>
+</html>

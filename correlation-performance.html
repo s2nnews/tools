@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Correlations</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_$SPX_on_10yrs_history.png" class="lightbox" title="SP500 Correlations">
+        <img src="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_$SPX_on_10yrs_history.png" alt="SP500 Correlations">
+    </a>
+    <h3>S&P500 Correlations</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_$USDX_on_10yrs_history.png" class="lightbox" title="US Dollar Correlations">
+        <img src="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_$USDX_on_10yrs_history.png" alt="US Dollar Correlations">
+    </a>
+    <h3>US Dollar Correlations</h3>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_&GC_CCB_on_10yrs_history.png" class="lightbox" title="Gold Correlations">
+        <img src="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_&GC_CCB_on_10yrs_history.png" alt="Gold Correlations">
+    </a>
+    <h3>Gold Correlations</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_TLT_on_10yrs_history.png" class="lightbox" title="Long Bond Correlations">
+        <img src="./assets/images/performance/correlations/1yr_Rolling_Correlation_with_TLT_on_10yrs_history.png" alt="Long Bond Correlations">
+    </a>
+    <h3>Long Bond Correlations</h3>
+  
+</div>
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/Correlation_Matrix2000.png" class="lightbox" title="Correlation Matrix 2000">
+        <img src="./assets/images/performance/correlations/Correlation_Matrix2000.png" alt="Correlation Matrix 2000">
+    </a>
+    <h3>Correlation Matrix year 2000</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/correlations/Correlation_Matrix2013.png" class="lightbox" title="Correlation Matrix 2013">
+        <img src="./assets/images/performance/correlations/Correlation_Matrix2013.png" alt="Correlation Matrix 2013">
+    </a>
+    <h3>Correlation Matrix year 2013</h3>
+  </div>
+</div>
+</body>
+</html>

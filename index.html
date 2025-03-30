@@ -252,7 +252,7 @@
               <li class="item"><a href="#" onclick="loadSection('price-journey.html', this)">Journey Through Time</a></li>
               <li class="item"><a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a></li>
               <li class="item"><a href="#" onclick="loadSection('correlation-performance.html', this)">Correlations</a></li>
-              <li class="item"><a href="#">Detailed Stats</a></li>
+              <li class="item"><a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a></li>
               <li class="item"><a href="#">Seasonality</a></li>
             </ul>
           </div>
@@ -380,7 +380,7 @@
       <button class="filter" onclick="loadSection('price-journey.html', this)">Journey Through Time</button>
       <button class="filter" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</button>
       <button class="filter" onclick="loadSection('correlation-performance.html', this)">Correlations</button>
-      <button class="filter" onclick="loadSection('detailed-stats.html', this)">Detailed Stats</button>
+      <button class="filter" onclick="loadSection('performance-stats.html', this)">Detailed Stats</button>
     </div>
 
     <!-- CHART GALLERY SUBMENU -->
@@ -441,7 +441,8 @@
         const realTimeButton = document.querySelector(".secondary-navbar button:nth-child(1)");
         realTimeButton.classList.add("active-button");
         showSubMenu('real-time-filters');
-      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || file.includes('volatility-performance')|| file.includes('correlation-performance')) {
+      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey')
+       || file.includes('volatility-performance')|| file.includes('correlation-performance') || file.includes('performance-stats')) {
         const performanceButton = document.querySelector(".secondary-navbar button:nth-child(2)");
         performanceButton.classList.add("active-button");
         showSubMenu('performance-filters');

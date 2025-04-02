@@ -253,7 +253,6 @@
               <li class="item"><a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a></li>
               <li class="item"><a href="#" onclick="loadSection('correlation-performance.html', this)">Correlations</a></li>
               <li class="item"><a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a></li>
-              <li class="item"><a href="#">Seasonality</a></li>
             </ul>
           </div>
         </li>
@@ -278,12 +277,12 @@
           <a class="nav-dropdown" href="#">Interest Rates</a>
           <div class="dropdown">
             <ul>
+              <li class="item"><a href="#" onclick="loadSection('yield-curves.html', this)">Global Yield Curves</a></li>
               <li class="item"><a href="#">Current Rates</a></li>
-              <li class="item"><a href="#">Yield Steepess</a></li>
-              <li class="item"><a href="#">Yield Curves Global</a></li>
-              <li class="item"><a href="#">10yr Global Yields</a></li>
+              <li class="item"><a href="#">Yield Steepness</a></li>
+              <li class="item"><a href="#">10yr Global Bond Yields</a></li>
               <li class="item"><a href="#">10yr Global Yield Spreads</a></li>
-              <li class="item"><a href="#">Corporate Spreads</a></li>
+              <li class="item"><a href="#">Corporate Bond Yields</a></li>
             </ul>
           </div>
         </li>
@@ -394,6 +393,16 @@
       <button class="filter" onclick="loadSection('sentiment.html', this)">Sentiment</button>
       <button class="filter" onclick="loadSection('random-charts.html', this)">Random Charts</button>
     </div>
+
+    <!-- INTEREST RATE SUBMENU -->
+    <div class="filters" id="interest-rates-filters" style="display: none;">
+      <button class="withoutredbg" onclick="loadSection('yield-curves.html', this)">Global Yield Curves</button>
+      <button class="filter" onclick="loadSection('current-rates.html', this)">Current Rates</button>
+      <button class="filter" onclick="loadSection('yield-steepness.html', this)">Yield Steepness</button>
+      <button class="filter" onclick="loadSection('10yr-yields.html', this)">10yr Global Bond Yields</button>
+      <button class="filter" onclick="loadSection('10yr-global-spreads.html', this)">10yr Global Yield Spreads</button>
+      <button class="filter" onclick="loadSection('corporate-yields.html', this)">Corporate Bond Yields</button>
+    </div>
   </div>
 
   <!-- MAIN CONTENT AREA -->
@@ -441,8 +450,7 @@
         const realTimeButton = document.querySelector(".secondary-navbar button:nth-child(1)");
         realTimeButton.classList.add("active-button");
         showSubMenu('real-time-filters');
-      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey')
-       || file.includes('volatility-performance')|| file.includes('correlation-performance') || file.includes('performance-stats')) {
+      } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || file.includes('volatility-performance') || file.includes('correlation-performance') || file.includes('performance-stats')) {
         const performanceButton = document.querySelector(".secondary-navbar button:nth-child(2)");
         performanceButton.classList.add("active-button");
         showSubMenu('performance-filters');
@@ -450,8 +458,32 @@
         const chartGalleryButton = document.querySelector(".secondary-navbar button:nth-child(3)");
         chartGalleryButton.classList.add("active-button");
         showSubMenu('chart-gallery-filters');
+      } else if (file.includes('interest-rates') || file.includes('yield-curves') || file.includes('current-rates') || file.includes('yield-steepness') || file.includes('10yr-yields') || file.includes('10yr-global-spreads') || file.includes('corporate-yields')) {
+        const interestRatesButton = document.querySelector(".secondary-navbar button:nth-child(4)");
+        interestRatesButton.classList.add("active-button");
+        showSubMenu('interest-rates-filters');
+
+        // Clear active state from all buttons in the Interest Rates submenu
+        const submenuButtons = document.querySelectorAll("#interest-rates-filters button");
+        submenuButtons.forEach(btn => btn.classList.remove("active-button"));
+
+        // Highlight the clicked button
+        button.classList.add("active-button");
       } else {
         hideAllSubMenus();
+      }
+
+      // 4) Hide all other submenus
+      const allSubmenus = document.querySelectorAll('.filters');
+      allSubmenus.forEach(menu => {
+        if (menu !== parentSubmenu) {
+          menu.style.display = 'none';
+        }
+      });
+
+      // 5) Show the selected submenu
+      if (parentSubmenu) {
+        parentSubmenu.style.display = 'flex'; 
       }
     }
 
@@ -597,6 +629,27 @@
         image: {
           verticalFit: false, // Disable auto-scaling to fit the viewport
         },
+      });
+    });
+
+    // Additional event handler for the Interest Rates button
+    $(document).ready(function() {
+      // Add direct click handler for the Interest Rates button
+      $(".secondary-navbar button:nth-child(4)").click(function() {
+        // Clear active state from all main menu buttons
+        $(".secondary-navbar button").removeClass("active-button");
+        // Add active state to this button
+        $(this).addClass("active-button");
+        // Show the interest rates submenu
+        showSubMenu('interest-rates-filters');
+        
+        // Set the Global Yield Curves button as active by default
+        const defaultInterestRatesButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
+        $(".filters button").removeClass("active-button");
+        defaultInterestRatesButton.classList.add("active-button");
+
+        // Load the default interest rates page
+        loadSection('yield-curves.html', defaultInterestRatesButton);
       });
     });
   </script>

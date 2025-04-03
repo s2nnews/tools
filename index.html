@@ -219,6 +219,22 @@
       padding: 0;
     }
 
+    /* Style for the S2N Home button */
+    .top-nav-button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin-right: 10px; /* Add spacing between this button and the next item */
+    }
+
+    .top-nav-button:hover {
+      background-color: #333; /* Darker grey on hover */
+      color: white;
+    }
   </style>
 </head>
 <body>
@@ -228,7 +244,13 @@
     <div class="ozmenu mt-4">
       <div class="menu-close"><span class="close"></span></div>
       <ul class="ozmenu-nav">
-        <!-- Real-Time DROPDOWN -->
+        <!-- S2N Home Button -->
+        <li class="item">
+          <button class="top-nav-button" onclick="window.location.href='https://signal2noise.news';">
+            Newsletter
+          </button>
+        </li>
+        <!-- Real-Time Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Real-Time</a>
           <div class="dropdown">
@@ -242,108 +264,119 @@
             </ul>
           </div>
         </li>
-        <!-- Performance DROPDOWN -->
+        <!-- Performance Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Performance</a>
           <div class="dropdown">
             <ul>
-              <li class="item"><a href="#" onclick="loadSection('overview.html', this)">Overview</a></li>
-              <li class="item"><a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best To Worst Return</a></li>
-              <li class="item"><a href="#" onclick="loadSection('price-journey.html', this)">Journey Through Time</a></li>
-              <li class="item"><a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a></li>
-              <li class="item"><a href="#" onclick="loadSection('correlation-performance.html', this)">Correlations</a></li>
-              <li class="item"><a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a></li>
+              <li class="item">
+                <a href="#" onclick="loadSection('overview.html', this)">Overview</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst Return</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('price-journey.html', this)">Journey Through Time</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('correlation-performance.html', this)">Correlations</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a>
+              </li>
             </ul>
           </div>
         </li>
-        <!-- Chart Gallery DROPDOWN -->
+        <!-- Chart Gallery Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Chart Gallery</a>
           <div class="dropdown">
             <ul>
-              <li class="item"><a href="#" onclick="loadSection('1yr-chart.html', this)">1yr Chart</a></li>
-              <li class="item"><a href="#" onclick="loadSection('5yr-chart.html', this)">5yr Chart</a></li>
-              <li class="item"><a href="#" onclick="loadSection('all-history-chart.html', this)">All History Chart</a></li>
-              <li class="item"><a href="#">Relative Performance</a></li>
-              <li class="item"><a href="#">Trending</a></li>
-              <li class="item"><a href="#">Overbought / Oversold</a></li>
-              <li class="item"><a href="#">Sentiment</a></li>
-              <li class="item"><a href="#">Random Charts</a></li>
+              <li class="item">
+                <a href="#" onclick="loadSection('1yr-chart.html', this)">1yr Chart</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('5yr-chart.html', this)">5yr Chart</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('all-history-chart.html', this)">All History Chart</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('relative-performance.html', this)">Relative Performance</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('trending.html', this)">Trending</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('overbought-oversold.html', this)">Overbought / Oversold</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('sentiment.html', this)">Sentiment</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('random-charts.html', this)">Random Charts</a>
+              </li>
             </ul>
           </div>
         </li>
-        <!-- Interest Rates DROPDOWN -->
+        <!-- Interest Rates Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Interest Rates</a>
           <div class="dropdown">
             <ul>
-              <li class="item"><a href="#" onclick="loadSection('yield-curves.html', this)">Global Yield Curves</a></li>
-              <li class="item"><a href="#">Current Rates</a></li>
-              <li class="item"><a href="#">Yield Steepness</a></li>
-              <li class="item"><a href="#">10yr Global Bond Yields</a></li>
-              <li class="item"><a href="#">10yr Global Yield Spreads</a></li>
-              <li class="item"><a href="#">Corporate Bond Yields</a></li>
+              <li class="item">
+                <a href="#" onclick="loadSection('yield-curves.html', this)">Global Yield Curves</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('current-rates.html', this)">Current Rates</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('yield-steepness.html', this)">Yield Steepness</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('10yr-yields.html', this)">10yr Global Bond Yields</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('10yr-global-spreads.html', this)">10yr Global Yield Spreads</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('corporate-yields.html', this)">Corporate Bond Yields</a>
+              </li>
             </ul>
           </div>
         </li>
-        <!-- Economy DROPDOWN -->
+        <!-- Economy Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Economy</a>
           <div class="dropdown">
             <ul>
-              <li class="item"><a href="#">Overview</a></li>
-              <li class="item"><a href="#">Inflation US</a></li>
-              <li class="item"><a href="#">Employment</a></li>
-              <li class="item"><a href="#">GDP</a></li>
-              <li class="item"><a href="#">Debt</a></li>
-              <li class="item"><a href="#">Housing</a></li>
-              <li class="item"><a href="#">Consumption</a></li>
-              <li class="item"><a href="#">Surveys</a></li>
+              <li class="item">
+                <a href="#" onclick="loadSection('economy.html', this)">Economy Overview</a>
+              </li>
             </ul>
           </div>
         </li>
-        <!-- Screeners DROPDOWN -->
+        <!-- Screeners Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Screeners</a>
           <div class="dropdown">
             <ul>
-              <li class="item"><a href="#">Day % up or down</a></li>
-              <li class="item"><a href="#">Day Z Score up or down</a></li>
-              <li class="item"><a href="#">Week Z Score up or down</a></li>
-              <li class="item"><a href="#">Month Z Score up or down</a></li>
-              <li class="item"><a href="#">Day Streak up or down</a></li>
-              <li class="item"><a href="#">Week Streak up or down</a></li>
-              <li class="item"><a href="#">Year Streak up or down</a></li>
-              <li class="item"><a href="#">52 week High or Low</a></li>
+              <li class="item">
+                <a href="#" onclick="loadSection('screeners.html', this)">Screeners Overview</a>
+              </li>
             </ul>
           </div>
         </li>
-        <!-- Backtests DROPDOWN -->
+        <!-- Backtests Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Backtests</a>
           <div class="dropdown">
             <ul>
-              <li class="item dropdownitem">
-                <a class="nav-dropdown" href="#">Gold Cross</a>
-                <div class="dropdown">
-                  <ul>
-                    <li class="item"><a href="#">Major Asset Classes</a></li>
-                    <li class="item"><a href="#">FX Majors</a></li>
-                    <li class="item"><a href="#">Commodities</a></li>
-                    <li class="item"><a href="#">Stock Indexes</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="item dropdownitem">
-                <a class="nav-dropdown" href="#">Bollinger Band</a>
-                <div class="dropdown">
-                  <ul>
-                    <li class="item"><a href="#">Major Asset Classes</a></li>
-                    <li class="item"><a href="#">FX Majors</a></li>
-                    <li class="item"><a href="#">Commodities</a></li>
-                    <li class="item"><a href="#">Stock Indexes</a></li>
-                  </ul>
-                </div>
+              <li class="item">
+                <a href="#" onclick="loadSection('backtests.html', this)">Backtests Overview</a>
               </li>
             </ul>
           </div>
@@ -357,6 +390,14 @@
   <!-- SECONDARY NAVBAR + SUBMENUS -->
   <div class="container">
     <nav class="secondary-navbar">
+      <!-- Dropdown for Homepage -->
+      <div class="dropdown">
+        <button class="category dropdown-toggle" onclick="window.location.href='https://signal2noise.news';">
+          Home
+        </button>
+      </div>
+
+      <!-- Existing Real-Time Button -->
       <button class="withoutredbg" onclick="loadSection('daily-returns-realtime.html', this)">Real-Time</button>
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
@@ -463,19 +504,19 @@
 
     // Set the corresponding main menu button to active
     if (mainMenuSection === 'real-time') {
-      document.querySelector(".secondary-navbar button:nth-child(1)").classList.add("active-button");
-    } else if (mainMenuSection === 'performance') {
       document.querySelector(".secondary-navbar button:nth-child(2)").classList.add("active-button");
-    } else if (mainMenuSection === 'chart-gallery') {
+    } else if (mainMenuSection === 'performance') {
       document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("active-button");
-    } else if (mainMenuSection === 'interest-rates') {
+    } else if (mainMenuSection === 'chart-gallery') {
       document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("active-button");
-    } else if (mainMenuSection === 'economy') {
+    } else if (mainMenuSection === 'interest-rates') {
       document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("active-button");
-    } else if (mainMenuSection === 'screeners') {
+    } else if (mainMenuSection === 'economy') {
       document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("active-button");
-    } else if (mainMenuSection === 'backtests') {
+    } else if (mainMenuSection === 'screeners') {
       document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("active-button");
+    } else if (mainMenuSection === 'backtests') {
+      document.querySelector(".secondary-navbar button:nth-child(8)").classList.add("active-button");
     }
 
     // Hide all submenus
@@ -598,7 +639,7 @@
   // Set up direct click handlers for all main menu buttons
   $(document).ready(function() {
     // Real-Time button
-    $(".secondary-navbar button:nth-child(1)").click(function() {
+    $(".secondary-navbar button:nth-child(2)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       showSubMenu('real-time-filters');
@@ -609,7 +650,7 @@
     });
 
     // Performance button
-    $(".secondary-navbar button:nth-child(2)").click(function() {
+    $(".secondary-navbar button:nth-child(3)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       showSubMenu('performance-filters');
@@ -620,7 +661,7 @@
     });
 
     // Chart Gallery button
-    $(".secondary-navbar button:nth-child(3)").click(function() {
+    $(".secondary-navbar button:nth-child(4)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       showSubMenu('chart-gallery-filters');
@@ -631,7 +672,7 @@
     });
 
     // Interest Rates button
-    $(".secondary-navbar button:nth-child(4)").click(function() {
+    $(".secondary-navbar button:nth-child(5)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       showSubMenu('interest-rates-filters');
@@ -642,7 +683,7 @@
     });
 
     // Economy button
-    $(".secondary-navbar button:nth-child(5)").click(function() {
+    $(".secondary-navbar button:nth-child(6)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       hideAllSubMenus();
@@ -650,7 +691,7 @@
     });
 
     // Screeners button
-    $(".secondary-navbar button:nth-child(6)").click(function() {
+    $(".secondary-navbar button:nth-child(7)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       hideAllSubMenus();
@@ -658,7 +699,7 @@
     });
 
     // Backtests button
-    $(".secondary-navbar button:nth-child(7)").click(function() {
+    $(".secondary-navbar button:nth-child(8)").click(function() {
       $(".secondary-navbar button").removeClass("active-button");
       $(this).addClass("active-button");
       hideAllSubMenus();

@@ -18,6 +18,10 @@
    .container{
     max-width: 1000px !important;
    }
+
+   .sidebar-image {
+    position: relative; /* Required for absolute positioning of the link */
+  }
    .image-gallery {
     text-align: center;
     background: #F8F8F8;

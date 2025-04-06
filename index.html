@@ -399,8 +399,7 @@
   <!-- SECONDARY NAVBAR + SUBMENUS -->
   <div class="container">
     <nav class="secondary-navbar">
-      
-      <!-- Existing Real-Time Button -->
+     <!-- Existing Real-Time Button -->
       <button class="withoutredbg" onclick="loadSection('daily-returns-realtime.html', this)">Real-Time</button>
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
@@ -466,96 +465,98 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="./js/custom.js"></script>
 <script>
-  function loadSection(file, button) {
-    // Append a timestamp to the file URL to bypass cache
-    const cacheBypassUrl = `${file}?t=${new Date().getTime()}`;
+  // Replace the mainMenuSection selector part of the loadSection function with this code
+function loadSection(file, button) {
+  // Append a timestamp to the file URL to bypass cache
+  const cacheBypassUrl = `${file}?t=${new Date().getTime()}`;
 
-    // Load the HTML into #content
-    fetch(cacheBypassUrl)
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById("content").innerHTML = html;
+  // Load the HTML into #content
+  fetch(cacheBypassUrl)
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById("content").innerHTML = html;
 
-        // IMPORTANT: Initialize lightbox after content is loaded
-        initializeLightbox();
-      })
-      .catch(err => console.error('Error loading section:', err));
+      // IMPORTANT: Initialize lightbox after content is loaded
+      initializeLightbox();
+    })
+    .catch(err => console.error('Error loading section:', err));
 
-    // Identify which main menu section this button belongs to
-    let mainMenuSection = '';
-    if (file.includes('realtime')) {
-      mainMenuSection = 'real-time';
-    } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
-               file.includes('volatility-performance') || file.includes('correlation-performance') || 
-               file.includes('performance-stats')) {
-      mainMenuSection = 'performance';
-    } else if (file.includes('chart') || file.includes('relative-performance') || file.includes('trending') || 
-               file.includes('overbought-oversold') || file.includes('sentiment') || file.includes('random-charts')) {
-      mainMenuSection = 'chart-gallery';
-    } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
-               file.includes('current-rates') || file.includes('yield-steepness') || 
-               file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
-               file.includes('corporate-yields')) {
-      mainMenuSection = 'interest-rates';
-    } else if (file.includes('economy')) {
-      mainMenuSection = 'economy';
-    } else if (file.includes('screeners')) {
-      mainMenuSection = 'screeners';
-    } else if (file.includes('backtests')) {
-      mainMenuSection = 'backtests';
-    }
+  // Identify which main menu section this button belongs to
+  let mainMenuSection = '';
+  if (file.includes('realtime')) {
+    mainMenuSection = 'real-time';
+  } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
+             file.includes('volatility-performance') || file.includes('correlation-performance') || 
+             file.includes('performance-stats')) {
+    mainMenuSection = 'performance';
+  } else if (file.includes('chart') || file.includes('relative-performance') || file.includes('trending') || 
+             file.includes('overbought-oversold') || file.includes('sentiment') || file.includes('random-charts')) {
+    mainMenuSection = 'chart-gallery';
+  } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
+             file.includes('current-rates') || file.includes('yield-steepness') || 
+             file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
+             file.includes('corporate-yields')) {
+    mainMenuSection = 'interest-rates';
+  } else if (file.includes('economy')) {
+    mainMenuSection = 'economy';
+  } else if (file.includes('screeners')) {
+    mainMenuSection = 'screeners';
+  } else if (file.includes('backtests')) {
+    mainMenuSection = 'backtests';
+  }
 
-    // Clear all active buttons from main menu
-    const mainMenuButtons = document.querySelectorAll(".secondary-navbar button");
-    mainMenuButtons.forEach(btn => btn.classList.remove("active-button"));
+  // Clear all active buttons from main menu
+  const mainMenuButtons = document.querySelectorAll(".secondary-navbar button");
+  mainMenuButtons.forEach(btn => btn.classList.remove("active-button"));
 
-    // Set the corresponding main menu button to active
-    if (mainMenuSection === 'real-time') {
-      document.querySelector(".secondary-navbar button:nth-child(2)").classList.add("active-button");
-    } else if (mainMenuSection === 'performance') {
-      document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("active-button");
-    } else if (mainMenuSection === 'chart-gallery') {
-      document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("active-button");
-    } else if (mainMenuSection === 'interest-rates') {
-      document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("active-button");
-    } else if (mainMenuSection === 'economy') {
-      document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("active-button");
-    } else if (mainMenuSection === 'screeners') {
-      document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("active-button");
-    } else if (mainMenuSection === 'backtests') {
-      document.querySelector(".secondary-navbar button:nth-child(8)").classList.add("active-button");
-    }
+  // Set the corresponding main menu button to active - updated button positions
+  if (mainMenuSection === 'real-time') {
+    document.querySelector(".secondary-navbar button:nth-child(1)").classList.add("active-button");
+  } else if (mainMenuSection === 'performance') {
+    document.querySelector(".secondary-navbar button:nth-child(2)").classList.add("active-button");
+  } else if (mainMenuSection === 'chart-gallery') {
+    document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("active-button");
+  } else if (mainMenuSection === 'interest-rates') {
+    document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("active-button");
+  } else if (mainMenuSection === 'economy') {
+    document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("active-button");
+  } else if (mainMenuSection === 'screeners') {
+    document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("active-button");
+  } else if (mainMenuSection === 'backtests') {
+    document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("active-button");
+  }
 
-    // Hide all submenus
-    hideAllSubMenus();
+  // Rest of function remains the same
+  // Hide all submenus
+  hideAllSubMenus();
 
-    // Show the appropriate submenu based on main menu section
-    if (mainMenuSection === 'real-time') {
-      showSubMenu('real-time-filters');
-    } else if (mainMenuSection === 'performance') {
-      showSubMenu('performance-filters');
-    } else if (mainMenuSection === 'chart-gallery') {
-      showSubMenu('chart-gallery-filters');
-    } else if (mainMenuSection === 'interest-rates') {
-      showSubMenu('interest-rates-filters');
-    }
+  // Show the appropriate submenu based on main menu section
+  if (mainMenuSection === 'real-time') {
+    showSubMenu('real-time-filters');
+  } else if (mainMenuSection === 'performance') {
+    showSubMenu('performance-filters');
+  } else if (mainMenuSection === 'chart-gallery') {
+    showSubMenu('chart-gallery-filters');
+  } else if (mainMenuSection === 'interest-rates') {
+    showSubMenu('interest-rates-filters');
+  }
 
-    // Clear active state from all buttons in the current submenu
-    if (mainMenuSection) {
-      const submenuId = `${mainMenuSection}-filters`;
-      const submenu = document.getElementById(submenuId);
-      if (submenu) {
-        const submenuButtons = submenu.querySelectorAll("button");
-        submenuButtons.forEach(btn => btn.classList.remove("active-button"));
-      }
-    }
-
-    // Set active class on the clicked button if it's in a submenu
-    const parentSubmenu = button.closest('.filters');
-    if (parentSubmenu) {
-      button.classList.add("active-button");
+  // Clear active state from all buttons in the current submenu
+  if (mainMenuSection) {
+    const submenuId = `${mainMenuSection}-filters`;
+    const submenu = document.getElementById(submenuId);
+    if (submenu) {
+      const submenuButtons = submenu.querySelectorAll("button");
+      submenuButtons.forEach(btn => btn.classList.remove("active-button"));
     }
   }
+
+  // Set active class on the clicked button if it's in a submenu
+  const parentSubmenu = button.closest('.filters');
+  if (parentSubmenu) {
+    button.classList.add("active-button");
+  }
+}
 
   function showSubMenu(submenuId) {
     // Hide all submenus first
@@ -645,82 +646,82 @@
 
   // Set up direct click handlers for all main menu buttons
   $(document).ready(function() {
-    // Real-Time button
-    $(".secondary-navbar button:nth-child(2)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      showSubMenu('real-time-filters');
-      const defaultButton = document.querySelector("#real-time-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
-      loadSection('daily-returns-realtime.html', defaultButton);
-    });
-
-    // Performance button
-    $(".secondary-navbar button:nth-child(3)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      showSubMenu('performance-filters');
-      const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
-      loadSection('overview.html', defaultButton);
-    });
-
-    // Chart Gallery button
-    $(".secondary-navbar button:nth-child(4)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      showSubMenu('chart-gallery-filters');
-      const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
-      loadSection('1yr-chart.html', defaultButton);
-    });
-
-    // Interest Rates button
-    $(".secondary-navbar button:nth-child(5)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      showSubMenu('interest-rates-filters');
-      const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
-      loadSection('yield-curves.html', defaultButton);
-    });
-
-    // Economy button
-    $(".secondary-navbar button:nth-child(6)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      hideAllSubMenus();
-      loadSection('economy.html', this);
-    });
-
-    // Screeners button
-    $(".secondary-navbar button:nth-child(7)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      hideAllSubMenus();
-      loadSection('screeners.html', this);
-    });
-
-    // Backtests button
-    $(".secondary-navbar button:nth-child(8)").click(function() {
-      $(".secondary-navbar button").removeClass("active-button");
-      $(this).addClass("active-button");
-      hideAllSubMenus();
-      loadSection('backtests.html', this);
-    });
-
-    // Initialize on document ready
-    // Setup for any static content
-    initializeLightbox();
-
-    // Load Performance Overview by default
-    const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
-    loadSection('overview.html', defaultPerformanceButton);
+  // Real-Time button (now 1st visible button)
+  $(".secondary-navbar button:nth-child(1)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    showSubMenu('real-time-filters');
+    const defaultButton = document.querySelector("#real-time-filters button:nth-child(1)");
+    $(".filters button").removeClass("active-button");
+    defaultButton.classList.add("active-button");
+    loadSection('daily-returns-realtime.html', defaultButton);
   });
+
+  // Performance button (now 2nd visible button)
+  $(".secondary-navbar button:nth-child(2)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    showSubMenu('performance-filters');
+    const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
+    $(".filters button").removeClass("active-button");
+    defaultButton.classList.add("active-button");
+    loadSection('overview.html', defaultButton);
+  });
+
+  // Chart Gallery button (now 3rd visible button)
+  $(".secondary-navbar button:nth-child(3)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    showSubMenu('chart-gallery-filters');
+    const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
+    $(".filters button").removeClass("active-button");
+    defaultButton.classList.add("active-button");
+    loadSection('1yr-chart.html', defaultButton);
+  });
+
+  // Interest Rates button (now 4th visible button)
+  $(".secondary-navbar button:nth-child(4)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    showSubMenu('interest-rates-filters');
+    const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
+    $(".filters button").removeClass("active-button");
+    defaultButton.classList.add("active-button");
+    loadSection('yield-curves.html', defaultButton);
+  });
+
+  // Economy button (now 5th visible button)
+  $(".secondary-navbar button:nth-child(5)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    hideAllSubMenus();
+    loadSection('economy.html', this);
+  });
+
+  // Screeners button (now 6th visible button)
+  $(".secondary-navbar button:nth-child(6)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    hideAllSubMenus();
+    loadSection('screeners.html', this);
+  });
+
+  // Backtests button (now 7th visible button)
+  $(".secondary-navbar button:nth-child(7)").click(function() {
+    $(".secondary-navbar button").removeClass("active-button");
+    $(this).addClass("active-button");
+    hideAllSubMenus();
+    loadSection('backtests.html', this);
+  });
+
+  // Initialize on document ready
+  // Setup for any static content
+  initializeLightbox();
+
+  // Load Performance Overview by default
+  const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
+  loadSection('overview.html', defaultPerformanceButton);
+});
 
   /* ---------------------------------------------
    * Lightbox/Gallery for any images 

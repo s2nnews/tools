@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drawdowns</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/SandP_500_Index_drawdown.png" class="lightbox" title="S&P 500 Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/SandP_500_Index_drawdown.png" alt="S&P 500 Index Drawdown">
+    </a>
+    <h3>S&P 500 Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Gold_drawdown.png" class="lightbox" title="Gold Drawdown">
+        <img src="./assets/images/performance/drawdowns/Gold_drawdown.png" alt="Gold Drawdown">
+    </a>
+    <h3>Gold Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/US_Dollar_Index_drawdown.png" class="lightbox" title="US Dollar Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/US_Dollar_Index_drawdown.png" alt="US Dollar Index Drawdown">
+    </a>
+    <h3>US Dollar Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Bitcoin_drawdown.png" class="lightbox" title="Bitcoin Drawdown">
+        <img src="./assets/images/performance/drawdowns/Bitcoin_drawdown.png" alt="Bitcoin Drawdown">
+    </a>
+    <h3>Bitcoin Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Ethereum_drawdown.png" class="lightbox" title="Ethereum Drawdown">
+        <img src="./assets/images/performance/drawdowns/Ethereum_drawdown.png" alt="Ethereum Drawdown">
+    </a>
+    <h3>Ethereum Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Dow_Jones_Global_Index_drawdown.png" class="lightbox" title="Dow Jones Global Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/Dow_Jones_Global_Index_drawdown.png" alt="Dow Jones Global Index Drawdown">
+    </a>
+    <h3>Dow Jones Global Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/All_Ordinaries_Index_drawdown.png" class="lightbox" title="All Ordinaries Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/All_Ordinaries_Index_drawdown.png" alt="All Ordinaries Index Drawdown">
+    </a>
+    <h3>All Ordinaries Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/US_Corporate_Bond_Index_drawdown.png" class="lightbox" title="US Corporate Bond Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/US_Corporate_Bond_Index_drawdown.png" alt="US Corporate Bond Index Drawdown">
+    </a>
+    <h3>US Corporate Bond Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Nikkei_225_Index_drawdown.png" class="lightbox" title="Nikkei 225 Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/Nikkei_225_Index_drawdown.png" alt="Nikkei 225 Index Drawdown">
+    </a>
+    <h3>Nikkei 225 Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Hang_Seng_Index_drawdown.png" class="lightbox" title="Hang Seng Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/Hang_Seng_Index_drawdown.png" alt="Hang Seng Index Drawdown">
+    </a>
+    <h3>Hang Seng Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/NASDAQ_Composite_Index_drawdown.png" class="lightbox" title="NASDAQ Composite Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/NASDAQ_Composite_Index_drawdown.png" alt="NASDAQ Composite Index Drawdown">
+    </a>
+    <h3>NASDAQ Composite Index Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/Brent_Crude_Oil_drawdown.png" class="lightbox" title="Brent Crude Oil Drawdown">
+        <img src="./assets/images/performance/drawdowns/Brent_Crude_Oil_drawdown.png" alt="Brent Crude Oil Drawdown">
+    </a>
+    <h3>Brent Crude Oil Drawdown</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/performance/drawdowns/SandP_US_Aggregate_Bond_Total_Return_Index_drawdown.png" class="lightbox" title="S&P US Aggregate Bond Total Return Index Drawdown">
+        <img src="./assets/images/performance/drawdowns/SandP_US_Aggregate_Bond_Total_Return_Index_drawdown.png" alt="S&P US Aggregate Bond Total Return Index Drawdown">
+    </a>
+    <h3>S&P US Aggregate Bond Total Return Index Drawdown</h3>
+  </div>
+
+</div>
+</body>
+</html>

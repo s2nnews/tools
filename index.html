@@ -296,6 +296,9 @@
               <li class="item">
                 <a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a>
               </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('drawdown.html', this)">Drawdown</a>
+              </li>
             </ul>
           </div>
         </li>
@@ -423,6 +426,7 @@
       <button class="filter" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</button>
       <button class="filter" onclick="loadSection('correlation-performance.html', this)">Correlations</button>
       <button class="filter" onclick="loadSection('performance-stats.html', this)">Detailed Stats</button>
+      <button class="filter" onclick="loadSection('drawdowns.html', this)">Drawdowns</button>
     </div>
 
     <!-- CHART GALLERY SUBMENU -->
@@ -487,7 +491,7 @@ function loadSection(file, button) {
     mainMenuSection = 'real-time';
   } else if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
              file.includes('volatility-performance') || file.includes('correlation-performance') || 
-             file.includes('performance-stats')) {
+             file.includes('performance-stats') || file.includes('drawdowns')) {
     mainMenuSection = 'performance';
   } else if (file.includes('chart') || file.includes('relative-performance') || file.includes('trending') || 
              file.includes('overbought-oversold') || file.includes('sentiment') || file.includes('random-charts')) {

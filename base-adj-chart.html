@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Base-Adjusted Charts</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/base_adjusted/gold_price_inflation_adjusted.png" class="lightbox" title="Gold Price Inflation Adjusted">
+        <img src="./assets/images/chart_gallery/base_adjusted/gold_price_inflation_adjusted.png" alt="Gold Price Inflation Adjusted">
+    </a>
+    <h3>Gold Price Inflation Adjusted</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/base_adjusted/SPX_in_gold.png" class="lightbox" title="S&P 500 in Gold Terms">
+        <img src="./assets/images/chart_gallery/base_adjusted/SPX_in_gold.png" alt="S&P 500 in Gold Terms">
+    </a>
+    <h3>S&P 500 in Gold Terms</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/base_adjusted/NDX_in_gold.png" class="lightbox" title="Nasdaq in Gold Terms">
+        <img src="./assets/images/chart_gallery/base_adjusted/NDX_in_gold.png" alt="Nasdaq in Gold Terms">
+    </a>
+    <h3>Nasdaq in Gold Terms</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/base_adjusted/spx_cumulative_returns.png" class="lightbox" title="S&P 500 Cumulative Returns">
+        <img src="./assets/images/chart_gallery/base_adjusted/spx_cumulative_returns.png" alt="S&P 500 Cumulative Returns">
+    </a>
+    <h3>S&P 500 Cumulative Returns</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/base_adjusted/jgb_futures_usd_adj.png" class="lightbox" title="JGB Futures Unemployment Ratio">
+        <img src="./assets/images/chart_gallery/base_adjusted/jgb_futures_usd_adj.png" alt="JGB Futures Unemployment Ratio">
+    </a>
+    <h3>JGB Futures in Yen & USD</h3>
+  </div>
+
+</div>
+</body>
+</html>

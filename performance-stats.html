@@ -119,22 +119,28 @@
     <!-- Tabs -->
     <div class="tabs" id="symbol-tabs">
       <button class="tab-button active" onclick="showTab('SPX')">S&P 500 Index</button>
+      <button class="tab-button" onclick="showTab('SPXTR')">S&P 500 Total Return</button>
       <button class="tab-button" onclick="showTab('XAUUSD')">Gold</button>
       <button class="tab-button" onclick="showTab('USDX')">US Dollar Index</button>
       <button class="tab-button" onclick="showTab('BTCUSD')">Bitcoin</button>
       <button class="tab-button" onclick="showTab('W1DOW')">Dow Jones Global Index</button>
+      <button class="tab-button" onclick="showTab('AORD')">All Ordinaries Index</button>
       <button class="tab-button" onclick="showTab('SPBDUSBT')">US Corporate Bond Index</button>
       <button class="tab-button" onclick="showTab('N225')">Nikkei 225 Index</button>
       <button class="tab-button" onclick="showTab('HS')">Hang Seng Index</button>
       <button class="tab-button" onclick="showTab('COMP')">NASDAQ Composite Index</button>
       <button class="tab-button" onclick="showTab('BRN-CCB')">Brent Crude Oil</button>
-      <button class="tab-button" onclick="showTab('ZN-CCB')">10-Year Treasury Note</button>
+      <button class="tab-button" onclick="showTab('SPUSAGGT')">S&P US Aggregate Bond Total Return</button>
     </div>
 
     <!-- Tab content containers -->
     <div id="tab-SPX" class="tab-content active">
       <iframe src="assets/images/performance/detailed_stats/SPX_report.html" 
               title="S&P 500 Index Report"></iframe>
+    </div>
+    <div id="tab-SPXTR" class="tab-content active">
+      <iframe src="assets/images/performance/detailed_stats/SPXTR_report.html" 
+              title="S&P 500 Total Return Report"></iframe>
     </div>
     <div id="tab-XAUUSD" class="tab-content">
       <iframe src="assets/images/performance/detailed_stats/XAUUSD_report.html" 
@@ -151,6 +157,14 @@
     <div id="tab-W1DOW" class="tab-content">
       <iframe src="assets/images/performance/detailed_stats/W1DOW_report.html" 
               title="Dow Jones Global Index Report"></iframe>
+    </div>
+    <div id="tab-XAO.au" class="tab-content active">
+      <iframe src="assets/images/performance/detailed_stats/XAO.au_report.html" 
+              title="All Ordinaries Index Report"></iframe>
+    </div>
+    <div id="tab-SPUSAGGT" class="tab-content active">
+      <iframe src="assets/images/performance/detailed_stats/SPUSAGGT_report.html" 
+              title="S&P US AGG Bond Total Return Report"></iframe>
     </div>
     <div id="tab-SPBDUSBT" class="tab-content">
       <iframe src="assets/images/performance/detailed_stats/SPBDUSBT_report.html" 
@@ -172,10 +186,7 @@
       <iframe src="assets/images/performance/detailed_stats/BRN-CCB_report.html" 
               title="Brent Crude Oil Report"></iframe>
     </div>
-    <div id="tab-ZN-CCB" class="tab-content">
-      <iframe src="assets/images/performance/detailed_stats/ZN-CCB_report.html" 
-              title="10-Year Treasury Note Report"></iframe>
-    </div>
+    
 
     <!-- Tab switching script -->
     <script>

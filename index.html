@@ -593,29 +593,22 @@ function loadSection(file, button) {
       gallery: {
         enabled: true,
         navigateByImgClick: true,
-        preload: [0, 1], // Preload previous and next images
+        preload: [0, 1]
       },
       image: {
-        verticalFit: false, // Disable auto-scaling to fit the viewport
+        verticalFit: false,
+        titleSrc: 'title'
       },
       callbacks: {
-        open: function () {
-          // Optional: Add any callbacks you need when lightbox opens
+        open: function() {
+          // Force the image to maintain its aspect ratio
+          $('.mfp-img').css({
+            'max-width': '100%',
+            'max-height': '100vh',
+            'width': 'auto',
+            'height': 'auto'
+          });
         }
-      }
-    });
-
-    // Also handle any existing gallery containers
-    $('#content .image-gallery').magnificPopup({
-      delegate: 'a',
-      type: 'image',
-      gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0, 1],
-      },
-      image: {
-        verticalFit: false
       }
     });
   }

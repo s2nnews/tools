@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Drawdowns</title>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  
   <style>
     .chart-grid {
       display: grid;
@@ -47,104 +54,150 @@
         grid-template-columns: 1fr;
       }
     }
+    
+    /* Additional styles for Magnific Popup to make it fit better */
+    .mfp-img {
+      max-height: 85vh !important;
+    }
+    
+    .mfp-figure {
+      padding: 0 !important;
+    }
+    
+    .mfp-title {
+      padding-right: 36px;
+      color: #f3f3f3;
+      text-align: center;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
 
+<h2>Asset Drawdowns</h2>
 
-<div class='chart-grid'>
+<!-- Note the "popup-gallery" class that matches your custom.js -->
+<div class="chart-grid popup-gallery">
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/SandP_500_Index_drawdown.png" class="lightbox" title="S&P 500 Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/SandP_500_Index_drawdown.png" title="S&P 500 Index Drawdown">
         <img src="./assets/images/performance/drawdowns/SandP_500_Index_drawdown.png" alt="S&P 500 Index Drawdown">
     </a>
     <h3>S&P 500 Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Gold_drawdown.png" class="lightbox" title="Gold Drawdown">
+    <a href="./assets/images/performance/drawdowns/Gold_drawdown.png" title="Gold Drawdown">
         <img src="./assets/images/performance/drawdowns/Gold_drawdown.png" alt="Gold Drawdown">
     </a>
     <h3>Gold Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/US_Dollar_Index_drawdown.png" class="lightbox" title="US Dollar Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/US_Dollar_Index_drawdown.png" title="US Dollar Index Drawdown">
         <img src="./assets/images/performance/drawdowns/US_Dollar_Index_drawdown.png" alt="US Dollar Index Drawdown">
     </a>
     <h3>US Dollar Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Bitcoin_drawdown.png" class="lightbox" title="Bitcoin Drawdown">
+    <a href="./assets/images/performance/drawdowns/Bitcoin_drawdown.png" title="Bitcoin Drawdown">
         <img src="./assets/images/performance/drawdowns/Bitcoin_drawdown.png" alt="Bitcoin Drawdown">
     </a>
     <h3>Bitcoin Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Ethereum_drawdown.png" class="lightbox" title="Ethereum Drawdown">
+    <a href="./assets/images/performance/drawdowns/Ethereum_drawdown.png" title="Ethereum Drawdown">
         <img src="./assets/images/performance/drawdowns/Ethereum_drawdown.png" alt="Ethereum Drawdown">
     </a>
     <h3>Ethereum Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Dow_Jones_Global_Index_drawdown.png" class="lightbox" title="Dow Jones Global Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/Dow_Jones_Global_Index_drawdown.png" title="Dow Jones Global Index Drawdown">
         <img src="./assets/images/performance/drawdowns/Dow_Jones_Global_Index_drawdown.png" alt="Dow Jones Global Index Drawdown">
     </a>
     <h3>Dow Jones Global Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/All_Ordinaries_Index_drawdown.png" class="lightbox" title="All Ordinaries Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/All_Ordinaries_Index_drawdown.png" title="All Ordinaries Index Drawdown">
         <img src="./assets/images/performance/drawdowns/All_Ordinaries_Index_drawdown.png" alt="All Ordinaries Index Drawdown">
     </a>
     <h3>All Ordinaries Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/US_Corporate_Bond_Index_drawdown.png" class="lightbox" title="US Corporate Bond Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/US_Corporate_Bond_Index_drawdown.png" title="US Corporate Bond Index Drawdown">
         <img src="./assets/images/performance/drawdowns/US_Corporate_Bond_Index_drawdown.png" alt="US Corporate Bond Index Drawdown">
     </a>
     <h3>US Corporate Bond Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Nikkei_225_Index_drawdown.png" class="lightbox" title="Nikkei 225 Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/Nikkei_225_Index_drawdown.png" title="Nikkei 225 Index Drawdown">
         <img src="./assets/images/performance/drawdowns/Nikkei_225_Index_drawdown.png" alt="Nikkei 225 Index Drawdown">
     </a>
     <h3>Nikkei 225 Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Hang_Seng_Index_drawdown.png" class="lightbox" title="Hang Seng Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/Hang_Seng_Index_drawdown.png" title="Hang Seng Index Drawdown">
         <img src="./assets/images/performance/drawdowns/Hang_Seng_Index_drawdown.png" alt="Hang Seng Index Drawdown">
     </a>
     <h3>Hang Seng Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/NASDAQ_Composite_Index_drawdown.png" class="lightbox" title="NASDAQ Composite Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/NASDAQ_Composite_Index_drawdown.png" title="NASDAQ Composite Index Drawdown">
         <img src="./assets/images/performance/drawdowns/NASDAQ_Composite_Index_drawdown.png" alt="NASDAQ Composite Index Drawdown">
     </a>
     <h3>NASDAQ Composite Index Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/Brent_Crude_Oil_drawdown.png" class="lightbox" title="Brent Crude Oil Drawdown">
+    <a href="./assets/images/performance/drawdowns/Brent_Crude_Oil_drawdown.png" title="Brent Crude Oil Drawdown">
         <img src="./assets/images/performance/drawdowns/Brent_Crude_Oil_drawdown.png" alt="Brent Crude Oil Drawdown">
     </a>
     <h3>Brent Crude Oil Drawdown</h3>
   </div>
 
   <div class="chart-item">
-    <a href="./assets/images/performance/drawdowns/SandP_US_Aggregate_Bond_Total_Return_Index_drawdown.png" class="lightbox" title="S&P US Aggregate Bond Total Return Index Drawdown">
+    <a href="./assets/images/performance/drawdowns/SandP_US_Aggregate_Bond_Total_Return_Index_drawdown.png" title="S&P US Aggregate Bond Total Return Index Drawdown">
         <img src="./assets/images/performance/drawdowns/SandP_US_Aggregate_Bond_Total_Return_Index_drawdown.png" alt="S&P US Aggregate Bond Total Return Index Drawdown">
     </a>
     <h3>S&P US Aggregate Bond Total Return Index Drawdown</h3>
   </div>
 
 </div>
+
+<!-- Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Initialize Magnific Popup -->
+<script>
+jQuery(document).ready(function($) {
+  $(".popup-gallery").magnificPopup({
+    delegate: "a",
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    mainClass: "mfp-img-mobile",
+    closeBtnInside: false,
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1],
+      tPrev: "Previous",
+      tNext: "Next"
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: (item) => item.el.attr("title") || ""
+    }
+  });
+});
+</script>
+
 </body>
 </html>

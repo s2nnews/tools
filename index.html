@@ -282,10 +282,10 @@
                 <a href="#" onclick="loadSection('overview.html', this)">Overview</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst Return</a>
+                <a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('price-journey.html', this)">Journey Through Time</a>
+                <a href="#" onclick="loadSection('price-journey.html', this)">Price Journey</a>
               </li>
               <li class="item">
                 <a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a>
@@ -363,13 +363,31 @@
             </ul>
           </div>
         </li>
-        <!-- Economy Dropdown -->
+        <!-- Economics Dropdown -->
         <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Economy</a>
+          <a class="nav-dropdown" href="#">Economics</a>
           <div class="dropdown">
             <ul>
               <li class="item">
-                <a href="#" onclick="loadSection('economy.html', this)">Economy Overview</a>
+                <a href="#" onclick="loadSection('economic-summary.html', this)">Economic Summary</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('gdp.html', this)">GDP</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('inflation.html', this)">Inflation</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('unemployment.html', this)">Unemployment</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('economic-news.html', this)">Economic News</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('economic-debt.html', this)">Debt</a>
+              </li>
+              <li class="item">
+                <a href="#" onclick="loadSection('economic-indexes.html', this)">Economic Indexes</a>
               </li>
             </ul>
           </div>
@@ -410,7 +428,7 @@
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
       <button class="category" onclick="loadSection('interest-rates.html', this)">Interest Rates</button>
-      <button class="category" onclick="loadSection('economy.html', this)">Economy</button>
+      <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
       <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
       <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
     </nav>
@@ -424,8 +442,8 @@
     <!-- PERFORMANCE SUBMENU -->
     <div class="filters" id="performance-filters">
       <button class="withoutredbg" onclick="loadSection('overview.html', this)">Overview</button>
-      <button class="filter" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst Return</button>
-      <button class="filter" onclick="loadSection('price-journey.html', this)">Journey Through Time</button>
+      <button class="filter" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst</button>
+      <button class="filter" onclick="loadSection('price-journey.html', this)">Price Journey</button>
       <button class="filter" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</button>
       <button class="filter" onclick="loadSection('correlation-performance.html', this)">Correlations</button>
       <button class="filter" onclick="loadSection('performance-stats.html', this)">Detailed Stats</button>
@@ -453,6 +471,17 @@
       <button class="filter" onclick="loadSection('10yr-yields.html', this)">10yr Global Bond Yields</button>
       <button class="filter" onclick="loadSection('10yr-global-spreads.html', this)">10yr Global Yield Spreads</button>
       <button class="filter" onclick="loadSection('corporate-yields.html', this)">Corporate Bond Yields</button>
+    </div>
+
+    <!-- ECONOMICS SUBMENU -->
+    <div class="filters" id="economics-filters" style="display: none;">
+      <button class="withoutredbg" onclick="loadSection('economic-summary.html', this)">Economic Summary</button>
+      <button class="filter" onclick="loadSection('gdp.html', this)">GDP</button>
+      <button class="filter" onclick="loadSection('inflation.html', this)">Inflation</button>
+      <button class="filter" onclick="loadSection('unemployment.html', this)">Unemployment</button>
+      <button class="filter" onclick="loadSection('economic-news.html', this)">Economic News</button>
+      <button class="filter" onclick="loadSection('economic-debt.html', this)">Debt</button>
+      <button class="filter" onclick="loadSection('economic-indexes.html', this)">Economic Indexes</button>
     </div>
   </div>
 
@@ -497,16 +526,17 @@ function loadSection(file, button) {
              file.includes('volatility-performance') || file.includes('correlation-performance') || 
              file.includes('performance-stats') || file.includes('drawdowns')) {
     mainMenuSection = 'performance';
-  } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative-performance') || file.includes('trending') || 
-             file.includes('overbought-oversold') || file.includes('sentiment') || file.includes('random-charts')) {
+  } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative-performance') || 
+             file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
+             file.includes('random-charts')) {
     mainMenuSection = 'chart-gallery';
   } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
              file.includes('current-rates') || file.includes('yield-steepness') || 
              file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
              file.includes('corporate-yields')) {
     mainMenuSection = 'interest-rates';
-  } else if (file.includes('economy')) {
-    mainMenuSection = 'economy';
+  } else if (file.includes('economic-')) {
+    mainMenuSection = 'economics';
   } else if (file.includes('screeners')) {
     mainMenuSection = 'screeners';
   } else if (file.includes('backtests')) {
@@ -526,7 +556,7 @@ function loadSection(file, button) {
     document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("active-button");
   } else if (mainMenuSection === 'interest-rates') {
     document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("active-button");
-  } else if (mainMenuSection === 'economy') {
+  } else if (mainMenuSection === 'economics') {
     document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("active-button");
   } else if (mainMenuSection === 'screeners') {
     document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("active-button");
@@ -534,7 +564,6 @@ function loadSection(file, button) {
     document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("active-button");
   }
 
-  // Rest of function remains the same
   // Hide all submenus
   hideAllSubMenus();
 
@@ -547,6 +576,8 @@ function loadSection(file, button) {
     showSubMenu('chart-gallery-filters');
   } else if (mainMenuSection === 'interest-rates') {
     showSubMenu('interest-rates-filters');
+  } else if (mainMenuSection === 'economics') {
+    showSubMenu('economics-filters');
   }
 
   // Clear active state from all buttons in the current submenu
@@ -691,12 +722,15 @@ function loadSection(file, button) {
     loadSection('yield-curves.html', defaultButton);
   });
 
-  // Economy button (now 5th visible button)
+  // Economics button (now 5th visible button)
   $(".secondary-navbar button:nth-child(5)").click(function() {
     $(".secondary-navbar button").removeClass("active-button");
     $(this).addClass("active-button");
-    hideAllSubMenus();
-    loadSection('economy.html', this);
+    showSubMenu('economics-filters');
+    const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
+    $(".filters button").removeClass("active-button");
+    defaultButton.classList.add("active-button");
+    loadSection('economic-summary.html', defaultButton);
   });
 
   // Screeners button (now 6th visible button)

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inflation</title>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* Additional styles for Magnific Popup to make it fit better */
+    .mfp-img {
+      max-height: 85vh !important;
+    }
+    
+    .mfp-figure {
+      padding: 0 !important;
+    }
+    
+    .mfp-title {
+      padding-right: 36px;
+      color: #f3f3f3;
+      text-align: center;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+
+<!-- Note the "popup-gallery" class that matches your custom.js -->
+<div class="chart-grid popup-gallery">
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/headline_core.png" title="Headline vs Core Inflation">
+        <img src="./assets/images/economics/inflation/headline_core.png" alt="Headline vs Core Inflation">
+    </a>
+    <h3>Headline vs Core Inflation</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/us_inflation_yoy.png" title="US Inflation YoY">
+        <img src="./assets/images/economics/inflation/us_inflation_yoy.png" alt="US Inflation YoY">
+    </a>
+    <h3>US Inflation YoY</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/us_inflation_mom.png" title="US Inflation MoM">
+        <img src="./assets/images/economics/inflation/us_inflation_mom.png" alt="US Inflation MoM">
+    </a>
+    <h3>US Inflation MoM</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/inflation_mom_2yrs.png" title="US Inflation MoM 2Yr">
+        <img src="./assets/images/economics/inflation/inflation_mom_2yrs.png" alt="US Inflation MoM 2Yr">
+    </a>
+    <h3>US Inflation MoM 2Yr</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/core_inflation_yoy.png" title="Core Inflation YoY">
+        <img src="./assets/images/economics/inflation/core_inflation_yoy.png" alt="Core Inflation YoY">
+    </a>
+    <h3>Core Inflation YoY</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/inflation_retail_food_yoy.png" title="Inflation Retail Food YoY">
+        <img src="./assets/images/economics/inflation/inflation_retail_food_yoy.png" alt="Inflation Retail Food YoY">
+    </a>
+    <h3>Inflation Retail Food YoY</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/services_inflation_yoy.png" title="Services Inflation YoY">
+        <img src="./assets/images/economics/inflation/services_inflation_yoy.png" alt="Services Inflation YoY">
+    </a>
+    <h3>Services Inflation YoY</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/inflation_expectations.png" title="Inflation Expectations">
+        <img src="./assets/images/economics/inflation/inflation_expectations.png" alt="Inflation Expectations">
+    </a>
+    <h3>Inflation Expectations</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/inflation_ppi_yoy.png" title="Inflation PPI YoY">
+        <img src="./assets/images/economics/inflation/inflation_ppi_yoy.png" alt="Inflation PPI YoY">
+    </a>
+    <h3>Inflation PPI YoY</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/economics/inflation/inflation_ppi_core_yoy.png" title="Inflation PPI Core YoY">
+        <img src="./assets/images/economics/inflation/inflation_ppi_core_yoy.png" alt="Inflation PPI Core YoY">
+    </a>
+    <h3>Inflation PPI Core YoY</h3>
+  </div>
+
+</div>
+
+<!-- Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Initialize Magnific Popup -->
+<script>
+jQuery(document).ready(function($) {
+  $(".popup-gallery").magnificPopup({
+    delegate: "a",
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    mainClass: "mfp-img-mobile",
+    closeBtnInside: false,
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1],
+      tPrev: "Previous",
+      tNext: "Next"
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: (item) => item.el.attr("title") || ""
+    }
+  });
+});
+</script>
+
+</body>
+</html>

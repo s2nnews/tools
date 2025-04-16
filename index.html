@@ -535,7 +535,8 @@ function loadSection(file, button) {
              file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
              file.includes('corporate-yields')) {
     mainMenuSection = 'interest-rates';
-  } else if (file.includes('economic-')) {
+  } else if (file.includes('economic-') || file.includes('inflation') || file.includes('gdp') || 
+             file.includes('unemployment') || file.includes('debt') || file.includes('indexes')) {
     mainMenuSection = 'economics';
   } else if (file.includes('screeners')) {
     mainMenuSection = 'screeners';

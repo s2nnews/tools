@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unemployment</title>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* Additional styles for Magnific Popup to make it fit better */
+    .mfp-img {
+      max-height: 85vh !important;
+    }
+    
+    .mfp-figure {
+      padding: 0 !important;
+    }
+    
+    .mfp-title {
+      padding-right: 36px;
+      color: #f3f3f3;
+      text-align: center;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Note the "popup-gallery" class that matches your custom.js -->
+<div class="chart-grid popup-gallery">
+
+    <div class="chart-item">
+    <a href="./assets/images/economics/unemployment/non_farm_payrolls_monthly.png" title="NFP Monthly">
+        <img src="./assets/images/economics/unemployment/non_farm_payrolls_monthly.png" alt="NFP Monthly">
+    </a>
+    <h3>Non-Farm Payroll Monthly</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/unemployment/non_farm_payrolls_yoy.png" title="NFP YoY">
+            <img src="./assets/images/economics/unemployment/non_farm_payrolls_yoy.png" alt="NFP YoY">
+        </a>
+        <h3>Non-Farm Payroll YoY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/unemployment/initial_jobless.png" title="Initial Jobless">
+            <img src="./assets/images/economics/unemployment/initial_jobless.png" alt="Initial Jobless">
+        </a>
+        <h3>Initial Jobless Claims</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/unemployment/jolts.png" title="Jolts">
+            <img src="./assets/images/economics/unemployment/jolts.png" alt="Jolts">
+        </a>
+        <h3>Jolts</h3>
+    </div>
+    
+</div>
+
+   
+<!-- Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Initialize Magnific Popup -->
+<script>
+jQuery(document).ready(function($) {
+  $(".popup-gallery").magnificPopup({
+    delegate: "a",
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    mainClass: "mfp-img-mobile",
+    closeBtnInside: false,
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1],
+      tPrev: "Previous",
+      tNext: "Next"
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: (item) => item.el.attr("title") || ""
+    }
+  });
+});
+</script>
+
+</body>
+</html>

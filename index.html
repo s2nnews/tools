@@ -378,10 +378,13 @@
                 <a href="#" onclick="loadSection('inflation.html', this)">Inflation</a>
               </li>
               <li class="item">
+                <a href="#" onclick="loadSection('retail.html', this)">Retail</a>
+              </li>
+              <li class="item">
                 <a href="#" onclick="loadSection('unemployment.html', this)">Unemployment</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('economic-news.html', this)">Economic News</a>
+                <a href="#" onclick="loadSection('news.html', this)">News</a>
               </li>
               <li class="item">
                 <a href="#" onclick="loadSection('economic-debt.html', this)">Debt</a>
@@ -478,8 +481,9 @@
       <button class="withoutredbg" onclick="loadSection('economic-summary.html', this)">Economic Summary</button>
       <button class="filter" onclick="loadSection('gdp.html', this)">GDP</button>
       <button class="filter" onclick="loadSection('inflation.html', this)">Inflation</button>
+      <button class="filter" onclick="loadSection('retail.html', this)">Retail</button>
       <button class="filter" onclick="loadSection('unemployment.html', this)">Unemployment</button>
-      <button class="filter" onclick="loadSection('economic-news.html', this)">Economic News</button>
+      <button class="filter" onclick="loadSection('news.html', this)">News</button>
       <button class="filter" onclick="loadSection('economic-debt.html', this)">Debt</button>
       <button class="filter" onclick="loadSection('economic-indexes.html', this)">Economic Indexes</button>
     </div>
@@ -536,7 +540,8 @@ function loadSection(file, button) {
              file.includes('corporate-yields')) {
     mainMenuSection = 'interest-rates';
   } else if (file.includes('economic-') || file.includes('inflation') || file.includes('gdp') || 
-             file.includes('unemployment') || file.includes('debt') || file.includes('indexes')) {
+             file.includes('unemployment') || file.includes('debt') || file.includes('indexes') ||
+             file.includes('retail') || file.includes('news')) {
     mainMenuSection = 'economics';
   } else if (file.includes('screeners')) {
     mainMenuSection = 'screeners';
@@ -548,7 +553,7 @@ function loadSection(file, button) {
   const mainMenuButtons = document.querySelectorAll(".secondary-navbar button");
   mainMenuButtons.forEach(btn => btn.classList.remove("active-button"));
 
-  // Set the corresponding main menu button to active - updated button positions
+  // Set the corresponding main menu button to active
   if (mainMenuSection === 'real-time') {
     document.querySelector(".secondary-navbar button:nth-child(1)").classList.add("active-button");
   } else if (mainMenuSection === 'performance') {
@@ -559,13 +564,14 @@ function loadSection(file, button) {
     document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("active-button");
   } else if (mainMenuSection === 'economics') {
     document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("active-button");
+    showSubMenu('economics-filters');
   } else if (mainMenuSection === 'screeners') {
     document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("active-button");
   } else if (mainMenuSection === 'backtests') {
     document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("active-button");
   }
 
-  // Hide all submenus
+  // Hide all submenus first
   hideAllSubMenus();
 
   // Show the appropriate submenu based on main menu section

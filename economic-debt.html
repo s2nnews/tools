@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Debt</title>
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    
+    /* Additional styles for Magnific Popup to make it fit better */
+    .mfp-img {
+      max-height: 85vh !important;
+    }
+    
+    .mfp-figure {
+      padding: 0 !important;
+    }
+    
+    .mfp-title {
+      padding-right: 36px;
+      color: #f3f3f3;
+      text-align: center;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Note the "popup-gallery" class that matches your custom.js -->
+<div class="chart-grid popup-gallery">
+
+    <div class="chart-item">
+    <a href="./assets/images/economics/debt/federal_debt.png" title="Federal Debt">
+        <img src="./assets/images/economics/debt/federal_debt.png" alt="Federal Debt">
+    </a>
+    <h3>Federal Debt</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/federal_debt_gdp.png" title="Debt to GDP">
+            <img src="./assets/images/economics/debt/federal_debt_gdp.png" alt="Debt to GDP">
+    </a>
+    <h3>Federal Debt to GDP</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/debt_interest_receipts.png" title="Debt/Interest/Income">
+            <img src="./assets/images/economics/debt/debt_interest_receipts.png" alt="Debt/Interest/Incom">
+    </a>
+    <h3>Debt,Interest,Income</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/interest_payments.png" title="Debt Interest">
+            <img src="./assets/images/economics/debt/interest_payments.png" alt="Debt Interest">
+    </a>
+    <h3>Interest on Debt</h3>
+    </div>
+    
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/interest_to_tax_ratio.png" title="Interest : Tax">
+            <img src="./assets/images/economics/debt/interest_to_tax_ratio.png" alt="Interest : Tax">
+    </a>
+    <h3>Interest to Tax</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/deficit.png" title="Budget Deficit">
+            <img src="./assets/images/economics/debt/deficit.png" alt="Budget Deficit">
+    </a>
+    <h3>Budget Deficit</h3>
+    </div>
+    
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/deficit_annual.png" title="Annual Deficit">
+            <img src="./assets/images/economics/debt/deficit_annual.png" alt="Annual Deficit">
+    </a>
+    <h3>Annual Deficit</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/deficit_ytd.png" title="YTD Deficit">
+            <img src="./assets/images/economics/debt/deficit_ytd.png" alt="YTD Deficit">
+    </a>
+    <h3>YTD Deficit</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/deficit_adjusted.png" title="Deficit Adjusted">
+            <img src="./assets/images/economics/debt/deficit_adjusted.png" alt="Deficit Adjusted">
+    </a>
+    <h3>Deficit Adjusted</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/deficit_as_percent_of_gdp.png" title="Deficit to GDP">
+            <img src="./assets/images/economics/debt/deficit_as_percent_of_gdp.png" alt="Deficit to GDP">
+    </a>
+    <h3>Deficit to GDP</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/credit_card.png" title="Credit Card">
+            <img src="./assets/images/economics/debt/credit_card.png" alt="Credit Card">
+    </a>
+    <h3>Credit Card & Revolver Debt</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/economics/debt/credit_card_yoy.png" title="Credit Card YoY">
+            <img src="./assets/images/economics/debt/credit_card_yoy.png" alt="Credit Card YoY">
+    </a>
+    <h3>Credit Card YoY(%)</h3>
+    </div>
+    
+</div>
+
+   
+<!-- Magnific Popup JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<!-- Initialize Magnific Popup -->
+<script>
+jQuery(document).ready(function($) {
+  $(".popup-gallery").magnificPopup({
+    delegate: "a",
+    type: "image",
+    tLoading: "Loading image #%curr%...",
+    mainClass: "mfp-img-mobile",
+    closeBtnInside: false,
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1],
+      tPrev: "Previous",
+      tNext: "Next"
+    },
+    image: {
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: (item) => item.el.attr("title") || ""
+    }
+  });
+});
+</script>
+
+</body>
+</html>

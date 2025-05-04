@@ -496,8 +496,8 @@
       $(this).addClass("withoutredbg");
       showSubMenu('performance-filters');
       const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
+      $(".filters button").removeClass("withoutredbg");
+      defaultButton.classList.add("withoutredbg");
       loadSection('overview.html', defaultButton);
     });
 
@@ -507,8 +507,8 @@
       $(this).addClass("withoutredbg");
       showSubMenu('chart-gallery-filters');
       const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
+      $(".filters button").removeClass("withoutredbg");
+      defaultButton.classList.add("withoutredbg");
       loadSection('1yr-chart.html', defaultButton);
     });
 
@@ -518,8 +518,8 @@
       $(this).addClass("withoutredbg");
       showSubMenu('interest-rates-filters');
       const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
+      $(".filters button").removeClass("withoutredbg");
+      defaultButton.classList.add("withoutredbg");
       loadSection('yield-curves.html', defaultButton);
     });
 
@@ -529,6 +529,8 @@
       $(this).addClass("withoutredbg");
       showSubMenu('economics-filters');
       const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
+      $(".filters button").removeClass("withoutredbg");
+      defaultButton.classList.add("withoutredbg");
       $(".filters button").removeClass("active-button");
       defaultButton.classList.add("active-button");
       loadSection('economic-summary.html', defaultButton);

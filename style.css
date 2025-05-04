@@ -424,38 +424,77 @@ body.hide-scrolling {
     margin-top: 2px;
     padding: 10px;
 }
-.category, .filter {
-    background-color: #888888;
+
+/* Top navigation menu buttons - RED background by default */
+.secondary-navbar .category {
+    background-color: #d9302c; 
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 20px;
-    font-size: 16px;
     cursor: pointer;
+    margin-right: 2px;
+    border-radius: 0;
     white-space: nowrap;
 }
-.filter {
-    background-color: #888888;
+
+/* Active main menu item - WHITE background */
+.secondary-navbar .withoutredbg {
+    background-color: white !important; 
+    color: black !important;           
+    border: 1px solid #ccc !important; 
+}
+
+/* Second row - GREY buttons by default */
+.filters .filter {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 2px;
+    border-radius: 0;
     font-size: 14px;
     padding: 8px 12px;
+    white-space: nowrap;
 }
+
+/* Active submenu item - WHITE background */
+.filters .withoutredbg,
+.filters .active-button {
+    background-color: white !important; 
+    color: black !important;           
+    border: 1px solid #ccc !important; 
+}
+
+/* Hover effect for buttons */
+.filter:hover, .category:hover {
+    background-color: #555; 
+    opacity: 0.9; 
+}
+
+/* Top menu hover effect - darker red */
+.secondary-navbar .category:hover {
+    background-color: #b82722; 
+}
+
+/* Active menu items keep white background on hover */
+.secondary-navbar .withoutredbg:hover,
+.filters .withoutredbg:hover,
+.filters .active-button:hover {
+    background-color: #f8f8f8 !important; 
+    color: black !important;
+}
+
 @media (max-width: 600px) {
     .category, .filter {
         font-size: 14px;
         padding: 8px 10px;
     }
-}
-.withoutredbg {
-    background-color: white !important;
-    color: black !important;
-    border: 1px solid #ccc !important;
+    .secondary-navbar, .filters{
+        display: grid;
+    }
 }
 
-.secondary-navbar .category:hover,
-.secondary-navbar .withoutredbg:hover {
-    background-color: #f0f0f0 !important;
-    color: black !important;
-}
 .sidebar-image {
     position: fixed;
     top: 30px;
@@ -479,32 +518,30 @@ body.hide-scrolling {
         background-size: contain;
         top: 22%;
     }
-    .secondary-navbar, .filters{
-        display: grid;
-    }
 }
 .container{
     max-width: 1000px !important;
     
-   }
-   .image-gallery {
+}
+.image-gallery {
     text-align: center;
     background: #F8F8F8;
     padding: 45px 0;
     border-radius: 6px;
 }
    
-   .image-gallery p{
+.image-gallery p{
     font-size: 14px;
     text-align: center;
     margin-bottom: 0;
     margin-top: 10px;
     
-   }
-  .gallery_container {
+}
+.gallery_container {
     max-width: 1200px;
     margin: 20px auto;
-    display: none; }
+    display: none; 
+}
 
 .popup-gallery {
     display: grid;
@@ -551,47 +588,54 @@ nav.secondary-navbar{
 .open-gallery12 img{
     width: 64%;
 }
-/* Top navigation menu buttons - RED background */
-.secondary-navbar .category {
-    background-color: #d9302c; 
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-right: 2px;
-    border-radius: 0;
+
+/* Override the inline CSS from index.html */
+/* This ensures the menu displays correctly */
+
+/* Main navigation menu styles */
+.secondary-navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: 5px 0;
 }
 
-/* Active button - WHITE background */
-.secondary-navbar .category.withoutredbg {
+/* By default, all menu items are RED except for active one */
+.secondary-navbar .category:not(.withoutredbg) {
+    background-color: #d9302c;
+    color: white;
+    border: none;
+}
+
+/* Active menu item (Performance by default) shows as WHITE */
+.secondary-navbar .withoutredbg {
     background-color: white !important;
     color: black !important;
     border: 1px solid #ccc !important;
 }
 
-/* Hover effect for buttons */
-.secondary-navbar .category:hover {
-    background-color: #b82722; 
-}
-
-.secondary-navbar .category.withoutredbg:hover {
-    background-color: #f0f0f0 !important;
-    color: black !important;
-}
-
-/* Second row - GREY buttons */
-.filters .filter {
+/* All submenu filters are GREY by default */
+.filters .filter:not(.active-button):not(.withoutredbg) {
     background-color: grey;
     color: white;
     border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    margin-right: 2px;
-    border-radius: 0;
 }
 
+/* Active submenu item shows as WHITE */
+.filters .active-button,
 .filters .withoutredbg {
-    background-color: white;
-    color: black;
-    border: 1px solid #ccc;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+}
+
+/* Make sure all submenus are hidden initially */
+.filters {
+    display: none;
+}
+
+/* Except for the performance filters which should show by default */
+#performance-filters {
+    display: flex;
 }

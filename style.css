@@ -597,8 +597,10 @@ nav.secondary-navbar{
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-    justify-content: flex-start;
+    justify-content: center; /* Change from flex-start to center */
     padding: 5px 0;
+    width: 100%; /* Ensure it takes full width */
+    text-align: center; /* Center text */
 }
 
 /* By default, all menu items are RED except for active one */
@@ -638,4 +640,13 @@ nav.secondary-navbar{
 /* Except for the performance filters which should show by default */
 #performance-filters {
     display: flex;
+    justify-content: center; /* Center the submenu items */
+    width: 100%; /* Full width */
+}
+
+/* Ensure all submenus are centered when shown */
+.filters {
+    justify-content: center !important;
+    width: 100%;
+    text-align: center;
 }

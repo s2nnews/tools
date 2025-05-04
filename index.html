@@ -417,7 +417,7 @@
     <nav class="secondary-navbar">
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
-      <button class="category" onclick="loadSection('interest-rates.html', this)">Interest Rates</button>
+      <button class="category" onclick="loadSection('yield-curves.html', this)">Interest Rates</button>
       <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
       <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
       <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
@@ -667,19 +667,8 @@ function loadSection(file, button) {
 
   // Set up direct click handlers for all main menu buttons
   $(document).ready(function() {
-  // Real-Time button (now 1st visible button)
+  // Performance button (1st button)
   $(".secondary-navbar button:nth-child(1)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    showSubMenu('real-time-filters');
-    const defaultButton = document.querySelector("#real-time-filters button:nth-child(1)");
-    $(".filters button").removeClass("active-button");
-    defaultButton.classList.add("active-button");
-    loadSection('daily-returns-realtime.html', defaultButton);
-  });
-
-  // Performance button (now 2nd visible button)
-  $(".secondary-navbar button:nth-child(2)").click(function() {
     $(".secondary-navbar button").removeClass("active-button");
     $(this).addClass("active-button");
     showSubMenu('performance-filters');
@@ -689,8 +678,8 @@ function loadSection(file, button) {
     loadSection('overview.html', defaultButton);
   });
 
-  // Chart Gallery button (now 3rd visible button)
-  $(".secondary-navbar button:nth-child(3)").click(function() {
+  // Chart Gallery button (2nd button)
+  $(".secondary-navbar button:nth-child(2)").click(function() {
     $(".secondary-navbar button").removeClass("active-button");
     $(this).addClass("active-button");
     showSubMenu('chart-gallery-filters');

@@ -24,7 +24,7 @@ body.hide-scrolling {
     width: auto;
 }
 .ozmenu ul.ozmenu-nav>li:hover{
-    border-bottom: 2px solid #F00;
+    border-bottom: none;
 }
 .ozmenu ul.ozmenu-nav>li a:hover{
     color: rgb(0, 0, 0) !important;
@@ -425,7 +425,7 @@ body.hide-scrolling {
     padding: 10px;
 }
 .category, .filter {
-    background-color: #BE1E2C;
+    background-color: #888888;
     color: white;
     border: none;
     padding: 10px 15px;

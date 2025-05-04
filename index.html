@@ -259,20 +259,6 @@
             Newsletter
           </button>
         </li>
-        <!-- Real-Time Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Real-Time</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('daily-returns-realtime.html', this)">Daily Returns</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('price-journey-realtime.html', this)">Price Journey</a>
-              </li>
-            </ul>
-          </div>
-        </li>
         <!-- Performance Dropdown -->
         <li class="item dropdownitem">
           <a class="nav-dropdown" href="#">Performance</a>
@@ -429,8 +415,6 @@
   <!-- SECONDARY NAVBAR + SUBMENUS -->
   <div class="container">
     <nav class="secondary-navbar">
-     <!-- Existing Real-Time Button -->
-      <button class="withoutredbg" onclick="loadSection('daily-returns-realtime.html', this)">Real-Time</button>
       <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
       <button class="category" onclick="loadSection('interest-rates.html', this)">Interest Rates</button>
@@ -438,12 +422,6 @@
       <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
       <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
     </nav>
-
-    <!-- REAL-TIME SUBMENU -->
-    <div class="filters" id="real-time-filters" style="display: none;">
-      <button class="withoutredbg" onclick="loadSection('daily-returns-realtime.html', this)">Daily Returns</button>
-      <button class="filter" onclick="loadSection('price-journey-realtime.html', this)">Price Journey</button>
-    </div>
 
     <!-- PERFORMANCE SUBMENU -->
     <div class="filters" id="performance-filters">

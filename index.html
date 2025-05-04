@@ -415,7 +415,7 @@
   <!-- SECONDARY NAVBAR + SUBMENUS -->
   <div class="container">
     <nav class="secondary-navbar">
-      <button class="category" onclick="loadSection('overview.html', this)">Performance</button>
+      <button class="category withoutredbg" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
       <button class="category" onclick="loadSection('yield-curves.html', this)">Interest Rates</button>
       <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
@@ -667,74 +667,73 @@ function loadSection(file, button) {
 
   // Set up direct click handlers for all main menu buttons
   $(document).ready(function() {
-  // Performance button (1st button)
-  $(".secondary-navbar button:nth-child(1)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
+    // Performance button (1st button)
+    $(".secondary-navbar button:nth-child(1)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      showSubMenu('performance-filters');
+      const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
+      $(".filters button").removeClass("active-button");
+      defaultButton.classList.add("active-button");
+      loadSection('overview.html', defaultButton);
+    });
+
+    // Chart Gallery button (2nd button)
+    $(".secondary-navbar button:nth-child(2)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      showSubMenu('chart-gallery-filters');
+      const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
+      $(".filters button").removeClass("active-button");
+      defaultButton.classList.add("active-button");
+      loadSection('1yr-chart.html', defaultButton);
+    });
+
+    // Interest Rates button (3rd button)
+    $(".secondary-navbar button:nth-child(3)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      showSubMenu('interest-rates-filters');
+      const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
+      $(".filters button").removeClass("active-button");
+      defaultButton.classList.add("active-button");
+      loadSection('yield-curves.html', defaultButton);
+    });
+
+    // Economics button (4th button)
+    $(".secondary-navbar button:nth-child(4)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      showSubMenu('economics-filters');
+      const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
+      $(".filters button").removeClass("active-button");
+      defaultButton.classList.add("active-button");
+      loadSection('economic-summary.html', defaultButton);
+    });
+
+    // Screeners button (5th button)
+    $(".secondary-navbar button:nth-child(5)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      hideAllSubMenus();
+      loadSection('screeners.html', this);
+    });
+
+    // Backtests button (6th button)
+    $(".secondary-navbar button:nth-child(6)").click(function() {
+      $(".secondary-navbar button").removeClass("withoutredbg");
+      $(this).addClass("withoutredbg");
+      hideAllSubMenus();
+      loadSection('backtests.html', this);
+    });
+
+    // Initialize on document ready
+    // Set Performance as active by default
+    $(".secondary-navbar button:nth-child(1)").addClass("withoutredbg");
     showSubMenu('performance-filters');
-    const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
-    $(".filters button").removeClass("active-button");
-    defaultButton.classList.add("active-button");
-    loadSection('overview.html', defaultButton);
+    const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
+    loadSection('overview.html', defaultPerformanceButton);
   });
-
-  // Chart Gallery button (2nd button)
-  $(".secondary-navbar button:nth-child(2)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    showSubMenu('chart-gallery-filters');
-    const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
-    $(".filters button").removeClass("active-button");
-    defaultButton.classList.add("active-button");
-    loadSection('1yr-chart.html', defaultButton);
-  });
-
-  // Interest Rates button (now 4th visible button)
-  $(".secondary-navbar button:nth-child(4)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    showSubMenu('interest-rates-filters');
-    const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
-    $(".filters button").removeClass("active-button");
-    defaultButton.classList.add("active-button");
-    loadSection('yield-curves.html', defaultButton);
-  });
-
-  // Economics button (now 5th visible button)
-  $(".secondary-navbar button:nth-child(5)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    showSubMenu('economics-filters');
-    const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
-    $(".filters button").removeClass("active-button");
-    defaultButton.classList.add("active-button");
-    loadSection('economic-summary.html', defaultButton);
-  });
-
-  // Screeners button (now 6th visible button)
-  $(".secondary-navbar button:nth-child(6)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    hideAllSubMenus();
-    loadSection('screeners.html', this);
-  });
-
-  // Backtests button (now 7th visible button)
-  $(".secondary-navbar button:nth-child(7)").click(function() {
-    $(".secondary-navbar button").removeClass("active-button");
-    $(this).addClass("active-button");
-    hideAllSubMenus();
-    loadSection('backtests.html', this);
-  });
-
-  // Initialize on document ready
-  // Setup for any static content
-  initializeLightbox();
-
-  // Load Performance Overview by default
-  const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
-  loadSection('overview.html', defaultPerformanceButton);
-});
 
   /* ---------------------------------------------
    * Lightbox/Gallery for any images 

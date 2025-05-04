@@ -416,73 +416,70 @@ body.hide-scrolling {
     margin-top: 10px;
 }
 /* second navbar */
-.secondary-navbar, .filters {
+.secondary-navbar {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     margin-top: 2px;
     padding: 10px;
+    width: 100%;
 }
 
-/* Top navigation menu buttons - RED background by default */
 .secondary-navbar .category {
-    background-color: #d9302c; 
+    background-color: #d9302c;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    margin-right: 2px;
+    margin: 0 5px;
     border-radius: 0;
     white-space: nowrap;
 }
 
-/* Active main menu item - WHITE background */
-.secondary-navbar .withoutredbg {
-    background-color: white !important; 
-    color: black !important;           
-    border: 1px solid #ccc !important; 
+/* Active button - WHITE background */
+.secondary-navbar .category.withoutredbg {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
 }
 
-/* Second row - GREY buttons by default */
+/* Hover effect for buttons */
+.secondary-navbar .category:hover {
+    background-color: #b82722;
+}
+
+.secondary-navbar .category.withoutredbg:hover {
+    background-color: #f0f0f0 !important;
+    color: black !important;
+}
+
+/* Second row - GREY buttons */
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    padding: 10px;
+    width: 100%;
+}
+
 .filters .filter {
     background-color: grey;
     color: white;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
-    margin-right: 2px;
+    margin: 0 5px;
     border-radius: 0;
-    font-size: 14px;
-    padding: 8px 12px;
     white-space: nowrap;
 }
 
-/* Active submenu item - WHITE background */
-.filters .withoutredbg,
-.filters .active-button {
-    background-color: white !important; 
-    color: black !important;           
-    border: 1px solid #ccc !important; 
-}
-
-/* Hover effect for buttons */
-.filter:hover, .category:hover {
-    background-color: #555; 
-    opacity: 0.9; 
-}
-
-/* Top menu hover effect - darker red */
-.secondary-navbar .category:hover {
-    background-color: #b82722; 
-}
-
-/* Active menu items keep white background on hover */
-.secondary-navbar .withoutredbg:hover,
-.filters .withoutredbg:hover,
-.filters .active-button:hover {
-    background-color: #f8f8f8 !important; 
-    color: black !important;
+.filters .withoutredbg {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
 }
 
 @media (max-width: 600px) {
@@ -650,3 +647,4 @@ nav.secondary-navbar{
     width: 100%;
     text-align: center;
 }
+

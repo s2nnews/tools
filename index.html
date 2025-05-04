@@ -531,8 +531,6 @@
       const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
       $(".filters button").removeClass("withoutredbg");
       defaultButton.classList.add("withoutredbg");
-      $(".filters button").removeClass("active-button");
-      defaultButton.classList.add("active-button");
       loadSection('economic-summary.html', defaultButton);
     });
 
@@ -557,6 +555,7 @@
     $(".secondary-navbar button:nth-child(1)").addClass("withoutredbg");
     showSubMenu('performance-filters');
     const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
+    defaultPerformanceButton.classList.add("withoutredbg");
     loadSection('overview.html', defaultPerformanceButton);
   });
 
@@ -638,14 +637,14 @@
       const submenu = document.getElementById(submenuId);
       if (submenu) {
         const submenuButtons = submenu.querySelectorAll("button");
-        submenuButtons.forEach(btn => btn.classList.remove("active-button"));
+        submenuButtons.forEach(btn => btn.classList.remove("withoutredbg"));
       }
     }
 
     // Set active class on the clicked button if it's in a submenu
     const parentSubmenu = button.closest('.filters');
     if (parentSubmenu) {
-      button.classList.add("active-button");
+      button.classList.add("withoutredbg");
     }
   }
 

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seasonality</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+<div class='chart-grid'>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$SPX_seasonality_combined.png" class="lightbox" title="S&P500 Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$SPX_seasonality_combined.png" alt="S&P500 Day of Year">
+    </a>
+    <h3>S&P500 Month of Year</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$DJI_seasonality_combined.png" class="lightbox" title="Dow Industrial Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$DJI_seasonality_combined.png" alt="Dow Industrial Day of Year">
+    </a>
+    <h3>Dow Industrial Month of Year</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$COMP_seasonality_combined.png" class="lightbox" title="Nasdaq Composite Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$COMP_seasonality_combined.png" alt="Nasdaq Composite Day of Year">
+    </a>
+    <h3>Nasdaq Composite Month of Year</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$RUT_seasonality_combined.png" class="lightbox" title="Russell2000 Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$RUT_seasonality_combined.png" alt="Russell2000 Day of Year">
+    </a>
+    <h3>Russell2000 Month of Year</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$FT100_seasonality_combined.png" class="lightbox" title="FTSE100 Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$FT100_seasonality_combined.png" alt="FTSE100 Day of Year">
+    </a>
+    <h3>FTSE100 Month of Year</h3>
+  </div>
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/seasonality/Day of Year/$XAX_seasonality_combined.png" class="lightbox" title="NYSE Day of Year">
+      <img src="./assets/images/chart_gallery/seasonality/Day of Year/$XAX_seasonality_combined.png" alt="NYSE Day of Year">
+    </a>
+    <h3>NYSE Month of Year</h3>
+  </div>
+  
+
+</body>
+</html>

@@ -318,10 +318,10 @@
                 <a href="#" onclick="loadSection('sentiment.html', this)">Sentiment</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('random-charts.html', this)">Random Charts</a>
+                <a href="#" onclick="loadSection('seasonality_dayofyear_chart.html', this)">Seasonality</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('seasonality.html', this)">Seasonality</a>
+                <a href="#" onclick="loadSection('random-charts.html', this)">Random Charts</a>
               </li>
             </ul>
           </div>
@@ -444,8 +444,8 @@
       <button class="filter" onclick="loadSection('trending.html', this)">Trending</button>
       <button class="filter" onclick="loadSection('overbought-oversold.html', this)">Overbought / Oversold</button>
       <button class="filter" onclick="loadSection('sentiment.html', this)">Sentiment</button>
+      <button class="filter" onclick="loadSection('seasonality_dayofyear_chart.html', this)">Seasonality</button>
       <button class="filter" onclick="loadSection('random-charts.html', this)">Random Charts</button>
-      <button class="filter" onclick="loadSection('seasonality.html', this)">Seasonality</button>
     </div>
 
     <!-- INTEREST RATE SUBMENU -->
@@ -581,7 +581,7 @@
       mainMenuSection = 'performance';
     } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative-performance') || 
                file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
-               file.includes('random-charts')) {
+               file.includes('seasonality') || file.includes('random-charts')) {
       mainMenuSection = 'chart-gallery';
     } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
                file.includes('current-rates') || file.includes('yield-steepness') || 

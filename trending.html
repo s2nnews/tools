@@ -4,40 +4,11 @@
   <meta charset="UTF-8">
   <title>Trending</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #f5f5f5;
-    }
-    h1 {
-      color: #333;
-      text-align: center;
-      margin-bottom: 30px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 15px;
-    }
-    h2 {
-      margin-top: 40px;
-      padding: 10px;
-      border-radius: 5px;
-    }
-    .above-ma h2 {
-      background-color: #d4edda;
-      color: #155724;
-      border-left: 5px solid #28a745;
-    }
-    .below-ma h2 {
-      background-color: #f8d7da;
-      color: #721c24;
-      border-left: 5px solid #dc3545;
-    }
     .chart-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
       margin-top: 20px;
-      width: 100%;
     }
     .chart-item {
       text-align: center;
@@ -46,15 +17,13 @@
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
-      background-color: white;
-      width: 100%;
     }
     .chart-item:hover {
       transform: translateY(-5px);
       box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     }
     .chart-item img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
       display: block;
       margin: 0 auto;
@@ -65,14 +34,8 @@
       font-size: 16px;
       color: #333;
     }
-    .trend-status {
-      font-weight: bold;
-    }
-    .above-200-ma {
-      color: #28a745;
-    }
-    .below-200-ma {
-      color: #dc3545;
+    h2 {
+      text-align: center;
     }
     @media (max-width: 992px) {
       .chart-grid {
@@ -83,17 +46,6 @@
       .chart-grid {
         grid-template-columns: 1fr;
       }
-    }
-    .section-info {
-      margin-bottom: 15px;
-      font-style: italic;
-      color: #666;
-    }
-    .last-updated {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 14px;
-      color: #666;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">

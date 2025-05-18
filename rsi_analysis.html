@@ -4,6 +4,20 @@
   <meta charset="UTF-8">
   <title>Overbought/Oversold Analysis - 14-Day RSI</title>
   <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 15px;
+    }
     .chart-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -17,6 +31,7 @@
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
+      background-color: white;
     }
     .chart-item:hover {
       transform: translateY(-5px);
@@ -54,6 +69,21 @@
       font-style: italic;
       color: #666;
     }
+    .rsi-status {
+      font-weight: bold;
+    }
+    .overbought {
+      color: #dc3545;
+    }
+    .oversold {
+      color: #28a745;
+    }
+    .last-updated {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+    }
     @media (max-width: 992px) {
       .chart-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -65,17 +95,6 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-  <script>
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true,
-      'maxWidth': 1200,
-      'maxHeight': 800
-    });
-  </script>
 </head>
 <body>
 <h1>Overbought/Oversold Analysis - 14-Day RSI</h1>
@@ -85,112 +104,112 @@
 <p class="section-info">Assets with RSI above 70 may be overextended and potentially due for a correction.</p>
 <div class="chart-grid">
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$SPX.png" class="lightbox" title="S&P 500 Index with 14-day RSI: 85.97">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$SPX.png" title="S&P 500 Index with 14-day RSI: 85.97">
       <img src="./assets/images/chart_gallery/rsi/rsi_$SPX.png" alt="S&P 500 Index RSI Chart">
     </a>
     <h3>S&P 500 Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 85.97</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_BTCUSD.png" class="lightbox" title="Bitcoin with 14-day RSI: 75.03">
+    <a href="./assets/images/chart_gallery/rsi/rsi_BTCUSD.png" title="Bitcoin with 14-day RSI: 75.03">
       <img src="./assets/images/chart_gallery/rsi/rsi_BTCUSD.png" alt="Bitcoin RSI Chart">
     </a>
     <h3>Bitcoin (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 75.03</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$DJI.png" class="lightbox" title="Dow Jones Industrial Index with 14-day RSI: 77.83">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$DJI.png" title="Dow Jones Industrial Index with 14-day RSI: 77.83">
       <img src="./assets/images/chart_gallery/rsi/rsi_$DJI.png" alt="Dow Jones Industrial Index RSI Chart">
     </a>
     <h3>Dow Jones Industrial Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 77.83</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$NDX.png" class="lightbox" title="Nasdaq 100 Index with 14-day RSI: 88.07">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$NDX.png" title="Nasdaq 100 Index with 14-day RSI: 88.07">
       <img src="./assets/images/chart_gallery/rsi/rsi_$NDX.png" alt="Nasdaq 100 Index RSI Chart">
     </a>
     <h3>Nasdaq 100 Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 88.07</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$FT100.png" class="lightbox" title="FTSE 100 Index with 14-day RSI: 80.54">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$FT100.png" title="FTSE 100 Index with 14-day RSI: 80.54">
       <img src="./assets/images/chart_gallery/rsi/rsi_$FT100.png" alt="FTSE 100 Index RSI Chart">
     </a>
     <h3>FTSE 100 Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 80.54</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$DAX.png" class="lightbox" title="DAX Index with 14-day RSI: 84.58">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$DAX.png" title="DAX Index with 14-day RSI: 84.58">
       <img src="./assets/images/chart_gallery/rsi/rsi_$DAX.png" alt="DAX Index RSI Chart">
     </a>
     <h3>DAX Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 84.58</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$N225.png" class="lightbox" title="Nikkei 225 Index with 14-day RSI: 87.51">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$N225.png" title="Nikkei 225 Index with 14-day RSI: 87.51">
       <img src="./assets/images/chart_gallery/rsi/rsi_$N225.png" alt="Nikkei 225 Index RSI Chart">
     </a>
     <h3>Nikkei 225 Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 87.51</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$HS.png" class="lightbox" title="Hang Seng Index with 14-day RSI: 74.52">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$HS.png" title="Hang Seng Index with 14-day RSI: 74.52">
       <img src="./assets/images/chart_gallery/rsi/rsi_$HS.png" alt="Hang Seng Index RSI Chart">
     </a>
     <h3>Hang Seng Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 74.52</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$XAO.au.png" class="lightbox" title="All Ordinaries (Australia) with 14-day RSI: 84.19">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$XAO.au.png" title="All Ordinaries (Australia) with 14-day RSI: 84.19">
       <img src="./assets/images/chart_gallery/rsi/rsi_$XAO.au.png" alt="All Ordinaries (Australia) RSI Chart">
     </a>
     <h3>All Ordinaries (Australia) (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 84.19</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_&ES_CCB.png" class="lightbox" title="S&P 500 E-mini with 14-day RSI: 85.09">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&ES_CCB.png" title="S&P 500 E-mini with 14-day RSI: 85.09">
       <img src="./assets/images/chart_gallery/rsi/rsi_&ES_CCB.png" alt="S&P 500 E-mini RSI Chart">
     </a>
     <h3>S&P 500 E-mini (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 85.09</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_&CC_CCB.png" class="lightbox" title="Cocoa with 14-day RSI: 77.24">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&CC_CCB.png" title="Cocoa with 14-day RSI: 77.24">
       <img src="./assets/images/chart_gallery/rsi/rsi_&CC_CCB.png" alt="Cocoa RSI Chart">
     </a>
     <h3>Cocoa (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 77.24</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_CNYUSD.png" class="lightbox" title="Chinese Yuan / US Dollar with 14-day RSI: 79.18">
+    <a href="./assets/images/chart_gallery/rsi/rsi_CNYUSD.png" title="Chinese Yuan / US Dollar with 14-day RSI: 79.18">
       <img src="./assets/images/chart_gallery/rsi/rsi_CNYUSD.png" alt="Chinese Yuan / US Dollar RSI Chart">
     </a>
     <h3>Chinese Yuan / US Dollar (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 79.18</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_MSFT.png" class="lightbox" title="Microsoft with 14-day RSI: 95.69">
+    <a href="./assets/images/chart_gallery/rsi/rsi_MSFT.png" title="Microsoft with 14-day RSI: 95.69">
       <img src="./assets/images/chart_gallery/rsi/rsi_MSFT.png" alt="Microsoft RSI Chart">
     </a>
     <h3>Microsoft (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 95.69</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_TSLA.png" class="lightbox" title="Tesla with 14-day RSI: 76.58">
+    <a href="./assets/images/chart_gallery/rsi/rsi_TSLA.png" title="Tesla with 14-day RSI: 76.58">
       <img src="./assets/images/chart_gallery/rsi/rsi_TSLA.png" alt="Tesla RSI Chart">
     </a>
     <h3>Tesla (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 76.58</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_NVDA.png" class="lightbox" title="NVIDIA with 14-day RSI: 92.67">
+    <a href="./assets/images/chart_gallery/rsi/rsi_NVDA.png" title="NVIDIA with 14-day RSI: 92.67">
       <img src="./assets/images/chart_gallery/rsi/rsi_NVDA.png" alt="NVIDIA RSI Chart">
     </a>
     <h3>NVIDIA (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
     <p>RSI: 92.67</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_META.png" class="lightbox" title="Meta with 14-day RSI: 75.96">
+    <a href="./assets/images/chart_gallery/rsi/rsi_META.png" title="Meta with 14-day RSI: 75.96">
       <img src="./assets/images/chart_gallery/rsi/rsi_META.png" alt="Meta RSI Chart">
     </a>
     <h3>Meta (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
@@ -204,28 +223,28 @@
 <p class="section-info">Assets with RSI below 30 may be undervalued and potentially due for a rebound.</p>
 <div class="chart-grid">
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_$VIX.png" class="lightbox" title="VIX Index with 14-day RSI: 21.61">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$VIX.png" title="VIX Index with 14-day RSI: 21.61">
       <img src="./assets/images/chart_gallery/rsi/rsi_$VIX.png" alt="VIX Index RSI Chart">
     </a>
     <h3>VIX Index (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
     <p>RSI: 21.61</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_&ZC_CCB.png" class="lightbox" title="Corn with 14-day RSI: 20.70">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&ZC_CCB.png" title="Corn with 14-day RSI: 20.70">
       <img src="./assets/images/chart_gallery/rsi/rsi_&ZC_CCB.png" alt="Corn RSI Chart">
     </a>
     <h3>Corn (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
     <p>RSI: 20.70</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_&KC_CCB.png" class="lightbox" title="Coffee with 14-day RSI: 25.66">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&KC_CCB.png" title="Coffee with 14-day RSI: 25.66">
       <img src="./assets/images/chart_gallery/rsi/rsi_&KC_CCB.png" alt="Coffee RSI Chart">
     </a>
     <h3>Coffee (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
     <p>RSI: 25.66</p>
   </div>
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/rsi/rsi_EURGBP.png" class="lightbox" title="Euro / Pound with 14-day RSI: 23.49">
+    <a href="./assets/images/chart_gallery/rsi/rsi_EURGBP.png" title="Euro / Pound with 14-day RSI: 23.49">
       <img src="./assets/images/chart_gallery/rsi/rsi_EURGBP.png" alt="Euro / Pound RSI Chart">
     </a>
     <h3>Euro / Pound (<span class="rsi-status oversold">OVERSOLD</span>)</h3>

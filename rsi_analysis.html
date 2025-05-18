@@ -429,5 +429,38 @@
 </div>
 </div>
 <p class="last-updated">Last updated: 2025-05-18 17:44</p>
+
+<script>
+  // Function to load a section
+  function loadSection(section, button) {
+    // Remove active class from all buttons
+    document.querySelectorAll('.filter, .category').forEach(btn => {
+      btn.classList.remove('active-button');
+    });
+    
+    // Add active class to clicked button
+    button.classList.add('active-button');
+    
+    // Show/hide submenus based on the section
+    const allFilters = document.querySelectorAll('.filters');
+    allFilters.forEach(filter => {
+      filter.style.display = 'none';
+    });
+    
+    if (section.includes('chart')) {
+      document.getElementById('chart-gallery-filters').style.display = 'flex';
+    }
+  }
+
+  // Show chart gallery submenu by default since we're on a chart page
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('chart-gallery-filters').style.display = 'flex';
+    // Set the active button
+    const activeButton = document.querySelector('button[onclick*="rsi_analysis.html"]');
+    if (activeButton) {
+      activeButton.classList.add('active-button');
+    }
+  });
+</script>
 </body>
 </html>

@@ -4,18 +4,35 @@
   <meta charset="UTF-8">
   <title>Overbought/Oversold Analysis - 14-Day RSI</title>
   <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #f5f5f5;
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
     }
-    h1 {
-      color: #333;
+    .chart-item {
       text-align: center;
-      margin-bottom: 30px;
-      border-bottom: 2px solid #ddd;
-      padding-bottom: 15px;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
     }
     h2 {
       margin-top: 40px;
@@ -32,49 +49,10 @@
       color: #155724;
       border-left: 5px solid #28a745;
     }
-    .chart-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .chart-item {
-      text-align: center;
-      border: 1px solid #eee;
-      padding: 10px;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.3s ease;
-      background-color: white;
-    }
-    .chart-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    .chart-item img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-      cursor: pointer;
-    }
-    .chart-item h3 {
-      margin: 10px 0 5px;
-      font-size: 16px;
-      color: #333;
-    }
-    .chart-item p {
-      margin: 5px 0 10px;
-      font-size: 14px;
-    }
-    .rsi-status {
-      font-weight: bold;
-    }
-    .overbought {
-      color: #dc3545;
-    }
-    .oversold {
-      color: #28a745;
+    .section-info {
+      margin-bottom: 15px;
+      font-style: italic;
+      color: #666;
     }
     @media (max-width: 992px) {
       .chart-grid {
@@ -86,10 +64,20 @@
         grid-template-columns: 1fr;
       }
     }
-    .section-info {
-      margin-bottom: 15px;
-      font-style: italic;
-      color: #666;
+    .rsi-explanation {
+      background-color: #e9ecef;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+    .rsi-status {
+      font-weight: bold;
+    }
+    .overbought {
+      color: #dc3545;
+    }
+    .oversold {
+      color: #28a745;
     }
     .last-updated {
       text-align: center;
@@ -97,133 +85,12 @@
       font-size: 14px;
       color: #666;
     }
-    .rsi-explanation {
-      background-color: #e9ecef;
-      padding: 15px;
-      border-radius: 5px;
-      margin-bottom: 30px;
-    }
-
-    /* Navigation styles */
-    .container {
-      max-width: 100% !important;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
-    }
-
-    /* Top navigation menu buttons - RED background */
-    .secondary-navbar .category, 
-    .secondary-navbar .withoutredbg {
-      background-color: #d9302c; 
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      margin-right: 2px;
-      border-radius: 0;
-    }
-
-    /* Second row - GREY buttons */
-    .filters .filter, 
-    .filters .withoutredbg {
-      background-color: grey;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      margin-right: 2px;
-      border-radius: 0;
-    }
-
-    /* Hover effect for buttons */
-    .filter:hover, .withoutredbg:hover, .category:hover {
-      background-color: #555; 
-      opacity: 0.9; 
-    }
-
-    /* Top menu hover effect */
-    .secondary-navbar .category:hover,
-    .secondary-navbar .withoutredbg:hover {
-      background-color: #b82722; 
-    }
-
-    /* Default styles for submenus and main menu */
-    .filters, .secondary-navbar {
-      display: flex;
-      flex-wrap: nowrap; 
-    }
-
-    .filters button, .secondary-navbar button {
-      padding: 10px 15px;
-      font-size: 1rem; 
-      flex: 0 1 auto; 
-    }
-
-    .filters {
-      display: none; /* Hide all submenus by default */
-      flex-wrap: wrap; 
-      gap: 10px; 
-      margin-top: 10px; 
-    }
-
-    .filters .active-button {
-      background-color: white;
-      color: black;
-      border: 1px solid #ccc;
-    }
-
-    @media (max-width: 768px) {
-      .filters {
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 5px; 
-      }
-      .secondary-navbar {
-        display: flex;
-        flex-wrap: wrap; 
-        gap: 5px; 
-      }
-      .filters button, .secondary-navbar button {
-        padding: 6px 10px; 
-        font-size: 0.8rem; 
-        flex: 1 0 auto; 
-        margin-bottom: 5px; 
-      }
-    }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 </head>
 <body>
-  <!-- SECONDARY NAVBAR + SUBMENUS -->
-  <div class="container">
-    <nav class="secondary-navbar">
-      <button class="category withoutredbg" onclick="loadSection('overview.html', this)">Performance</button>
-      <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
-      <button class="category" onclick="loadSection('yield-curves.html', this)">Interest Rates</button>
-      <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
-      <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
-      <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
-    </nav>
-
-    <!-- CHART GALLERY SUBMENU -->
-    <div class="filters" id="chart-gallery-filters" style="display: none;">
-      <button class="withoutredbg" onclick="loadSection('1yr-chart.html', this)">1yr Chart</button>
-      <button class="filter" onclick="loadSection('5yr-chart.html', this)">5yr Chart</button>
-      <button class="filter" onclick="loadSection('all-history-chart.html', this)">All History Chart</button>
-      <button class="filter" onclick="loadSection('trending.html', this)">Trending</button>
-      <button class="filter" onclick="loadSection('rsi_analysis.html', this)">Overbought / Oversold</button>
-      <button class="filter" onclick="loadSection('base-adj-chart.html', this)">Base Adj Chart</button>
-      <button class="filter" onclick="loadSection('relative-performance.html', this)">Relative Performance</button>
-      <button class="filter" onclick="loadSection('sentiment.html', this)">Sentiment</button>
-      <button class="filter" onclick="loadSection('seasonality_dayofyear_chart.html', this)">Seasonality</button>
-      <button class="filter" onclick="loadSection('random-charts.html', this)">Random Charts</button>
-    </div>
-  </div>
-
 <h1>Overbought/Oversold Analysis - 14-Day RSI</h1>
 
 <div class="rsi-explanation">

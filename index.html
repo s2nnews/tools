@@ -200,18 +200,6 @@
       max-height: 100vh;        /* never exceed viewport height */
       overflow-y: auto;         /* enable vertical scroll if tall */
     }
-    /* ------------------------------------------ */
-
-    /* Force Magnific Popup images to keep original height, 
-       so if they're bigger than screen, we scroll instead of shrinking. */
-    .mfp-img {
-      max-height: none !important;
-      max-width: none !important;
-      width: auto !important;
-      height: auto !important;
-      display: block;      /* ensure no inline or floating */
-      margin: 0 auto;      /* optional: center the image horizontally */
-    }
 
     /* The container for the image + caption */
     .mfp-figure {
@@ -678,19 +666,10 @@
         preload: [0, 1]
       },
       image: {
-        verticalFit: false,
+        verticalFit: true,
+        maxWidth: '50vw',  // Even more restrictive width
+        maxHeight: '50vh', // Even more restrictive height
         titleSrc: 'title'
-      },
-      callbacks: {
-        open: function() {
-          // Force the image to maintain its aspect ratio
-          $('.mfp-img').css({
-            'max-width': '100%',
-            'max-height': '100vh',
-            'width': 'auto',
-            'height': 'auto'
-          });
-        }
       }
     });
   }
@@ -743,9 +722,9 @@
         preload: [0,1],
       },
       image: {
-        verticalFit: false,
-        maxWidth: '80vw',  // Limit width to 80% of viewport
-        maxHeight: '80vh'  // Limit height to 80% of viewport
+        verticalFit: true,
+        maxWidth: '50vw',  // Even more restrictive width
+        maxHeight: '50vh'  // Even more restrictive height
       }
     });
 
@@ -758,9 +737,9 @@
         preload: [0,1],
       },
       image: {
-        verticalFit: false,
-        maxWidth: '80vw',  // Limit width to 80% of viewport
-        maxHeight: '80vh'  // Limit height to 80% of viewport
+        verticalFit: true,
+        maxWidth: '50vw',  // Even more restrictive width
+        maxHeight: '50vh'  // Even more restrictive height
       }
     });
   });

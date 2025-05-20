@@ -1,0 +1,17 @@
+pair_name,symbol1,symbol2,chart_title,alt_text,filename
+spx_vs_spxew,$SPX,$SPXEW,Relative Performance of S&P 500 Market Cap vs Equal Index,Relative Performance of S&P 500 Market Cap vs Equal Index,relative_spx_spxew_ratio.png
+vix_vs_move,$VIX,$MOVE,Relative Performance of VIX vs MOVE (bond) Volatility Index,Relative Performance of VIX vs MOVE (bond) Volatility Index,relative_vix_move_ratio.png
+gold_vs_silver,XAUUSD,XAGUSD,Relative Performance of Gold vs Silver,Relative Performance of Gold vs Silver,relative_gold_silver_ratio.png
+2yrbond_vs_junk,%2YTCM,%COBAA,Relative Performance of 2-Yr Treasury vs BAA Corp Bonds,Relative Performance of 2-Yr Treasury vs BAA Corp Bonds,relative_2yr_baa_ratio.png
+us_vs_china,$SPX,$SSEC,Relative Performance of US vs China,Relative Performance of US vs China,relative_us_china_ratio.png
+us_vs_hongkong,$SPX,$HS,Relative Performance of US vs China (Hang Seng),Relative Performance of US vs China (Hang Seng),relative_us_hk_ratio.png
+us_vs_hk,$SPX,$HS,Relative Performance of US vs China (Hang Seng),Relative Performance of US vs China (Hang Seng),relative_us_hk_ratio.png
+us_vs_int,$SPX,$W2DOW,Relative Performance of US vs Rest of World,Relative Performance of US vs Rest of World,relative_us_int_ratio.png
+spx_vs_russ,$SPX,$RUT,Relative Performance of S&P 500 vs Russell 2000,Relative Performance of S&P 500 vs Russell 2000,relative_spx_rut_ratio.png
+spx_vs_nasd,$SPX,$COMP,Relative Performance of S&P 500 vs Nasdaq Composite,Relative Performance of S&P 500 vs Nasdaq Composite,relative_spx_nas_ratio.png
+value_vs_growth,$SPIV,$SGX,Relative Performance of Value vs Growth,Relative Performance of Value vs Growth,relative_value_growth_ratio.png
+copper_vs_spx,&HG,&ES,Relative Performance of Copper vs S&P 500 Futures,Relative Performance of Copper vs S&P 500 Futures,relative_copper__ratio.png
+copper_vs_gold,&HG,&GC,Relative Performance of Copper vs Gold Futures,Relative Performance of Copper vs Gold Futures,relative_copper_gold_ratio.png
+Nasdaq_vs_Bitcoin,$NDX,BTCUSD,Relative Performance of Nasdaq 100 vs Bitcoin,Relative Performance of Nasdaq 100 vs Bitcoin,relative_ndx_btc_ratio.png
+MicroStrategy_vs_Bitcoin,MSTR,BTCUSD,Relative Performance of MicroStrategy vs Bitcoin,Relative Performance of MicroStrategy vs Bitcoin,relative_mstr_btc_ratio.png
+spx_vs_health,SPY,XLV,Relative Performance of S&P 500 vs Health Care Index,Relative Performance of S&P 500 vs Health Care Index,relative_spy_health_ratio.png

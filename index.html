@@ -300,7 +300,7 @@
                 <a href="#" onclick="loadSection('base-adj-chart.html', this)">Base Adj Chart</a>
               </li>
               <li class="item">
-                <a href="#" onclick="loadSection('relative-performance.html', this)">Relative Performance</a>
+                <a href="#" onclick="loadSection('relative.html', this)">Relative Performance</a>
               </li>
               <li class="item">
                 <a href="#" onclick="loadSection('sentiment.html', this)">Sentiment</a>
@@ -429,8 +429,8 @@
       <button class="filter" onclick="loadSection('all-history-chart.html', this)">All History Chart</button>
       <button class="filter" onclick="loadSection('trending.html', this)">Trending</button>
       <button class="filter" onclick="loadSection('overbought-oversold.html', this)">Overbought / Oversold</button>
+      <button class="filter" onclick="loadSection('relative.html', this)">Relative Performance</button>
       <button class="filter" onclick="loadSection('base-adj-chart.html', this)">Base Adj Chart</button>
-      <button class="filter" onclick="loadSection('relative-performance.html', this)">Relative Performance</button>
       <button class="filter" onclick="loadSection('sentiment.html', this)">Sentiment</button>
       <button class="filter" onclick="loadSection('seasonality_dayofyear_chart.html', this)">Seasonality</button>
       <button class="filter" onclick="loadSection('random-charts.html', this)">Random Charts</button>
@@ -567,7 +567,7 @@
         file.includes('volatility-performance') || file.includes('correlation-performance') || 
         file.includes('performance-stats') || file.includes('drawdowns')) {
       mainMenuSection = 'performance';
-    } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative-performance') || 
+    } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative') || 
                file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
                file.includes('seasonality') || file.includes('random-charts')) {
       mainMenuSection = 'chart-gallery';

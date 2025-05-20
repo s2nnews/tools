@@ -2,8 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Trending</title>
+  <title>Trending Analysis - 200-Day MA</title>
   <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 15px;
+    }
+    h2 {
+      margin-top: 40px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .above-ma h2 {
+      background-color: #d4edda;
+      color: #155724;
+      border-left: 5px solid #28a745;
+    }
+    .below-ma h2 {
+      background-color: #f8d7da;
+      color: #721c24;
+      border-left: 5px solid #dc3545;
+    }
     .chart-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -17,6 +45,7 @@
       border-radius: 5px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       transition: transform 0.3s ease;
+      background-color: white;
     }
     .chart-item:hover {
       transform: translateY(-5px);
@@ -34,25 +63,14 @@
       font-size: 16px;
       color: #333;
     }
-    h2 {
-      margin-top: 40px;
-      padding: 10px;
-      border-radius: 5px;
+    .trend-status {
+      font-weight: bold;
     }
-    .above-ma h2 {
-      background-color: #d4edda;
-      color: #155724;
-      border-left: 5px solid #28a745;
+    .above-200-ma {
+      color: #28a745;
     }
-    .below-ma h2 {
-      background-color: #f8d7da;
-      color: #721c24;
-      border-left: 5px solid #dc3545;
-    }
-    .section-info {
-      margin-bottom: 15px;
-      font-style: italic;
-      color: #666;
+    .below-200-ma {
+      color: #dc3545;
     }
     @media (max-width: 992px) {
       .chart-grid {
@@ -64,13 +82,24 @@
         grid-template-columns: 1fr;
       }
     }
+    .section-info {
+      margin-bottom: 15px;
+      font-style: italic;
+      color: #666;
+    }
+    .last-updated {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
 <body>
 <h1>Trending Analysis - 200-Day MA</h1>
 
 <div class="above-ma">
-<h2>ABOVE 200-DAY MA (31 symbols)</h2>
+<h2>ABOVE 200-DAY MA (32 symbols)</h2>
 <p class="section-info">Symbols trading above their 200-day moving average, typically considered in an uptrend.</p>
 <div class="chart-grid">
 
@@ -81,12 +110,14 @@
     <h3>S&P 500 Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_%25TNX.png" class="lightbox" title="10-Year Treasury Yield with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_%25TNX.png" alt="10-Year Treasury Yield Trending Chart">
     </a>
     <h3>10-Year Treasury Yield (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&GC_CCB.png" class="lightbox" title="Gold with 200-day MA">
@@ -95,12 +126,14 @@
     <h3>Gold (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_BTCUSD.png" class="lightbox" title="Bitcoin with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_BTCUSD.png" alt="Bitcoin Trending Chart">
     </a>
     <h3>Bitcoin (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$DJI.png" class="lightbox" title="Dow Jones Industrial Index with 200-day MA">
@@ -109,12 +142,14 @@
     <h3>Dow Jones Industrial Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$NDX.png" class="lightbox" title="Nasdaq 100 Index with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_$NDX.png" alt="Nasdaq 100 Index Trending Chart">
     </a>
     <h3>Nasdaq 100 Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$FT100.png" class="lightbox" title="FTSE 100 Index with 200-day MA">
@@ -123,6 +158,7 @@
     <h3>FTSE 100 Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$DAX.png" class="lightbox" title="DAX Index with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_$DAX.png" alt="DAX Index Trending Chart">
@@ -130,12 +166,6 @@
     <h3>DAX Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_$N225.png" class="lightbox" title="Nikkei 225 Index with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_$N225.png" alt="Nikkei 225 Index Trending Chart">
-    </a>
-    <h3>Nikkei 225 Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
-  </div>
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$HS.png" class="lightbox" title="Hang Seng Index with 200-day MA">
@@ -144,12 +174,14 @@
     <h3>Hang Seng Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$SSEC.png" class="lightbox" title="Shanghai Composite Index with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_$SSEC.png" alt="Shanghai Composite Index Trending Chart">
     </a>
     <h3>Shanghai Composite Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$STI.png" class="lightbox" title="Straits Times Index with 200-day MA">
@@ -158,12 +190,22 @@
     <h3>Straits Times Index (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$XAO.au.png" class="lightbox" title="All Ordinaries (Australia) with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_$XAO.au.png" alt="All Ordinaries (Australia) Trending Chart">
     </a>
     <h3>All Ordinaries (Australia) (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/trending/trending_&ES_CCB.png" class="lightbox" title="S&P 500 E-mini with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_&ES_CCB.png" alt="S&P 500 E-mini Trending Chart">
+    </a>
+    <h3>S&P 500 E-mini (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
+  </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&SI_CCB.png" class="lightbox" title="Silver with 200-day MA">
@@ -172,6 +214,15 @@
     <h3>Silver (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/trending/trending_&PL_CCB.png" class="lightbox" title="Platinum with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_&PL_CCB.png" alt="Platinum Trending Chart">
+    </a>
+    <h3>Platinum (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
+  </div>
+
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&HG_CCB.png" class="lightbox" title="Copper with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_&HG_CCB.png" alt="Copper Trending Chart">
@@ -179,12 +230,6 @@
     <h3>Copper (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_&NG_CCB.png" class="lightbox" title="Natural Gas with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_&NG_CCB.png" alt="Natural Gas Trending Chart">
-    </a>
-    <h3>Natural Gas (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
-  </div>
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&CC_CCB.png" class="lightbox" title="Cocoa with 200-day MA">
@@ -193,12 +238,14 @@
     <h3>Cocoa (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&KC_CCB.png" class="lightbox" title="Coffee with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_&KC_CCB.png" alt="Coffee Trending Chart">
     </a>
     <h3>Coffee (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_EURUSD.png" class="lightbox" title="Euro / US Dollar with 200-day MA">
@@ -207,12 +254,14 @@
     <h3>Euro / US Dollar (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_JPYUSD.png" class="lightbox" title="Japanese Yen / US Dollar with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_JPYUSD.png" alt="Japanese Yen / US Dollar Trending Chart">
     </a>
     <h3>Japanese Yen / US Dollar (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_GBPUSD.png" class="lightbox" title="British Pound / US Dollar with 200-day MA">
@@ -221,12 +270,14 @@
     <h3>British Pound / US Dollar (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_CNYUSD.png" class="lightbox" title="Chinese Yuan / US Dollar with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_CNYUSD.png" alt="Chinese Yuan / US Dollar Trending Chart">
+    <a href="./assets/images/chart_gallery/trending/trending_AUDUSD.png" class="lightbox" title="Australian Dollar / US Dollar with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_AUDUSD.png" alt="Australian Dollar / US Dollar Trending Chart">
     </a>
-    <h3>Chinese Yuan / US Dollar (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
+    <h3>Australian Dollar / US Dollar (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_EURJPY.png" class="lightbox" title="Euro / Yen with 200-day MA">
@@ -235,12 +286,14 @@
     <h3>Euro / Yen (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_EURGBP.png" class="lightbox" title="Euro / Pound with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_EURGBP.png" alt="Euro / Pound Trending Chart">
     </a>
     <h3>Euro / Pound (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_%25FVX.png" class="lightbox" title="5-Year Treasury Yield with 200-day MA">
@@ -249,12 +302,14 @@
     <h3>5-Year Treasury Yield (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_%25TYX.png" class="lightbox" title="30-Year Treasury Yield with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_%25TYX.png" alt="30-Year Treasury Yield Trending Chart">
     </a>
     <h3>30-Year Treasury Yield (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_MSFT.png" class="lightbox" title="Microsoft with 200-day MA">
@@ -263,12 +318,14 @@
     <h3>Microsoft (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_AMZN.png" class="lightbox" title="Amazon with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_AMZN.png" alt="Amazon Trending Chart">
     </a>
     <h3>Amazon (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_TSLA.png" class="lightbox" title="Tesla with 200-day MA">
@@ -277,12 +334,22 @@
     <h3>Tesla (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
 
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/trending/trending_NVDA.png" class="lightbox" title="NVIDIA with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_NVDA.png" alt="NVIDIA Trending Chart">
+    </a>
+    <h3>NVIDIA (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
+  </div>
+
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_META.png" class="lightbox" title="Meta with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_META.png" alt="Meta Trending Chart">
     </a>
     <h3>Meta (<span class="trend-status above-200-ma">ABOVE 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_MSTR.png" class="lightbox" title="MicroStrategy with 200-day MA">
@@ -293,9 +360,8 @@
 
 </div>
 </div>
-
 <div class="below-ma">
-<h2>BELOW 200-DAY MA (13 symbols)</h2>
+<h2>BELOW 200-DAY MA (12 symbols)</h2>
 <p class="section-info">Symbols trading below their 200-day moving average, typically considered in a downtrend.</p>
 <div class="chart-grid">
 
@@ -306,12 +372,14 @@
     <h3>US Dollar Index (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&CL_CCB.png" class="lightbox" title="Crude Oil with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_&CL_CCB.png" alt="Crude Oil Trending Chart">
     </a>
     <h3>Crude Oil (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_$VIX.png" class="lightbox" title="VIX Index with 200-day MA">
@@ -320,12 +388,14 @@
     <h3>VIX Index (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_&ES_CCB.png" class="lightbox" title="S&P 500 E-mini with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_&ES_CCB.png" alt="S&P 500 E-mini Trending Chart">
+    <a href="./assets/images/chart_gallery/trending/trending_$N225.png" class="lightbox" title="Nikkei 225 Index with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_$N225.png" alt="Nikkei 225 Index Trending Chart">
     </a>
-    <h3>S&P 500 E-mini (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
+    <h3>Nikkei 225 Index (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&ZN_CCB.png" class="lightbox" title="10-Year T-Note with 200-day MA">
@@ -334,12 +404,14 @@
     <h3>10-Year T-Note (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_&PL_CCB.png" class="lightbox" title="Platinum with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_&PL_CCB.png" alt="Platinum Trending Chart">
+    <a href="./assets/images/chart_gallery/trending/trending_&NG_CCB.png" class="lightbox" title="Natural Gas with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_&NG_CCB.png" alt="Natural Gas Trending Chart">
     </a>
-    <h3>Platinum (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
+    <h3>Natural Gas (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&ZC_CCB.png" class="lightbox" title="Corn with 200-day MA">
@@ -348,6 +420,7 @@
     <h3>Corn (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_&KE_CCB.png" class="lightbox" title="Wheat (KC Hard Red) with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_&KE_CCB.png" alt="Wheat (KC Hard Red) Trending Chart">
@@ -355,12 +428,14 @@
     <h3>Wheat (KC Hard Red) (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_AUDUSD.png" class="lightbox" title="Australian Dollar / US Dollar with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_AUDUSD.png" alt="Australian Dollar / US Dollar Trending Chart">
+    <a href="./assets/images/chart_gallery/trending/trending_CNYUSD.png" class="lightbox" title="Chinese Yuan / US Dollar with 200-day MA">
+      <img src="./assets/images/chart_gallery/trending/trending_CNYUSD.png" alt="Chinese Yuan / US Dollar Trending Chart">
     </a>
-    <h3>Australian Dollar / US Dollar (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
+    <h3>Chinese Yuan / US Dollar (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_%25IRX.png" class="lightbox" title="3-Month T-Bill Yield with 200-day MA">
@@ -369,12 +444,14 @@
     <h3>3-Month T-Bill Yield (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
+
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_AAPL.png" class="lightbox" title="Apple with 200-day MA">
       <img src="./assets/images/chart_gallery/trending/trending_AAPL.png" alt="Apple Trending Chart">
     </a>
     <h3>Apple (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
+
 
   <div class="chart-item">
     <a href="./assets/images/chart_gallery/trending/trending_GOOG.png" class="lightbox" title="Google with 200-day MA">
@@ -383,16 +460,8 @@
     <h3>Google (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
   </div>
 
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/trending/trending_NVDA.png" class="lightbox" title="NVIDIA with 200-day MA">
-      <img src="./assets/images/chart_gallery/trending/trending_NVDA.png" alt="NVIDIA Trending Chart">
-    </a>
-    <h3>NVIDIA (<span class="trend-status below-200-ma">BELOW 200 MA</span>)</h3>
-  </div>
-
 </div>
 </div>
-
-<p class="last-updated">Last updated: 2025-05-13 22:24</p>
+<p class="last-updated">Last updated: 2025-05-20 18:40</p>
 </body>
 </html>

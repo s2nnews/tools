@@ -1,21 +1,24 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 85.97,S&P 500 Index RSI Chart,rsi_$SPX.png,85.97
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 75.03,Bitcoin RSI Chart,rsi_BTCUSD.png,75.03
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 77.83,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,77.83
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 88.07,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,88.07
-OVERSOLD,$VIX,VIX Index with 14-day RSI: 21.61,VIX Index RSI Chart,rsi_$VIX.png,21.61
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 80.54,FTSE 100 Index RSI Chart,rsi_$FT100.png,80.54
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 84.58,DAX Index RSI Chart,rsi_$DAX.png,84.58
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 87.51,Nikkei 225 Index RSI Chart,rsi_$N225.png,87.51
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 74.52,Hang Seng Index RSI Chart,rsi_$HS.png,74.52
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 84.19,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,84.19
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 85.09,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,85.09
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 20.70,Corn RSI Chart,rsi_&ZC_CCB.png,20.70
-OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 77.24,Cocoa RSI Chart,rsi_&CC_CCB.png,77.24
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 25.66,Coffee RSI Chart,rsi_&KC_CCB.png,25.66
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 79.18,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,79.18
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 23.49,Euro / Pound RSI Chart,rsi_EURGBP.png,23.49
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 95.69,Microsoft RSI Chart,rsi_MSFT.png,95.69
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 76.58,Tesla RSI Chart,rsi_TSLA.png,76.58
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 92.67,NVIDIA RSI Chart,rsi_NVDA.png,92.67
-OVERBOUGHT,META,Meta with 14-day RSI: 75.96,Meta RSI Chart,rsi_META.png,75.96
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 85.31,S&P 500 Index RSI Chart,rsi_$SPX.png,85.31
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 74.67,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,74.67
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 76.66,Bitcoin RSI Chart,rsi_BTCUSD.png,76.66
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 76.97,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,76.97
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 87.61,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,87.61
+OVERSOLD,$VIX,VIX Index with 14-day RSI: 28.23,VIX Index RSI Chart,rsi_$VIX.png,28.23
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 81.09,FTSE 100 Index RSI Chart,rsi_$FT100.png,81.09
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 85.49,DAX Index RSI Chart,rsi_$DAX.png,85.49
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 77.67,Nikkei 225 Index RSI Chart,rsi_$N225.png,77.67
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 73.57,Hang Seng Index RSI Chart,rsi_$HS.png,73.57
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 70.29,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,70.29
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 72.50,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,72.50
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 84.48,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,84.48
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 26.88,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,26.88
+OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 78.81,Cocoa RSI Chart,rsi_&CC_CCB.png,78.81
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 71.66,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,71.66
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 25.61,Euro / Pound RSI Chart,rsi_EURGBP.png,25.61
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 71.79,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,71.79
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 76.64,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,76.64
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 95.79,Microsoft RSI Chart,rsi_MSFT.png,95.79
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 70.47,Tesla RSI Chart,rsi_TSLA.png,70.47
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 92.64,NVIDIA RSI Chart,rsi_NVDA.png,92.64
+OVERBOUGHT,META,Meta with 14-day RSI: 75.31,Meta RSI Chart,rsi_META.png,75.31

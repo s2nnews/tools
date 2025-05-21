@@ -26,21 +26,26 @@
   <style>
     /* Override Bootstrap container constraints for our layout */
     .container {
-      max-width: 100% !important;
-      padding-right: 15px;
-      padding-left: 15px;
-      margin-right: auto;
-      margin-left: auto;
+      width: 100% !important;
+      padding-right: 0;
+      padding-left: 0;
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    /* Menu container specific styles */
+    .container.menu-container {
+      max-width: 1200px;
+      margin: 0 auto;
     }
     
     #content {
-      margin-top: 0;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0;
+      padding: 0 250px 0 250px !important;  /* Equal padding on both sides */
       width: 100%;
-      max-width: 1200px; 
-      padding: 0; 
       box-sizing: border-box;
+      position: relative;
+      z-index: 2;
     }
     
     /* Make images responsive */
@@ -51,10 +56,16 @@
       box-sizing: border-box;
     }
     
-    /* Force all content elements to respect container width */
+    /* Force all content elements to respect container width and padding */
     #content * {
       max-width: 100%;
       box-sizing: border-box;
+    }
+
+    /* Override any page-specific padding */
+    #content > * {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
     }
 
     .active-button {
@@ -113,8 +124,8 @@
     
     @media (max-width: 1200px) {
       #content {
-        margin-left: 10%; 
-        width: 65%; 
+        width: 100%;
+        margin-left: 0;
       }
       .filters button, .secondary-navbar button {
         padding: 8px 12px; 
@@ -124,15 +135,15 @@
 
     @media (max-width: 992px) {
       #content {
-        margin-left: 8%;
-        width: 60%; 
+        width: 100%;
+        margin-left: 0;
       }
     }
 
     @media (max-width: 768px) {
       #content {
-        margin-left: 5%; 
-        width: 90%; 
+        width: 100%;
+        margin-left: 0;
       }
       .filters {
         display: flex;
@@ -154,16 +165,15 @@
     
     @media (min-width: 1400px) {
       #content {
-        margin-left: 14%;
-        width: 76%;
+        width: 100%;
+        margin-left: 0;
       }
     }
     
     @media (min-width: 1800px) {
       #content {
-        max-width: none !important; 
-        margin-left: 14%;
-        width: 75%; 
+        width: 100%;
+        margin-left: 0;
       }
     }
     
@@ -253,11 +263,47 @@
       display: table;
       clear: both;
     }
+
+    /* Sidebar images styling */
+    .sidebar-image {
+      position: fixed;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 150px;
+      z-index: 1;
+    }
+
+    .left-image {
+      left: 0;
+    }
+
+    .right-image {
+      right: 0;
+    }
+
+    .sidebar-image img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Remove any Bootstrap container constraints */
+    .container-fluid {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    /* Ensure no extra margins on body */
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
   </style>
 </head>
 <body>
   <!-- TOP MENU -->
-  <div class="container pt-4">
+  <div class="container menu-container pt-4">
     <div class="menu-open"><span class="open"></span></div>
     <div class="ozmenu mt-4">
       <div class="menu-close"><span class="close"></span></div>
@@ -275,7 +321,7 @@
   <script src="ozmenu.js"></script>
 
   <!-- SECONDARY NAVBAR + SUBMENUS -->
-  <div class="container">
+  <div class="container menu-container">
     <nav class="secondary-navbar">
       <button class="category withoutredbg" onclick="loadSection('overview.html', this)">Performance</button>
       <button class="category" onclick="loadSection('1yr-chart.html', this)">Chart Gallery</button>
@@ -348,15 +394,20 @@
   </div>
 
   <!-- MAIN CONTENT AREA -->
-  <div class="container-fluid pt-4" id="content">
+  <div id="content">
     <!-- Content will be dynamically loaded here -->
   </div>
 
+  <!-- Sidebar Images -->
   <div class="sidebar-image left-image">
-    <a href="https://tradenation.com/signal2noise/?cxd=36699_413097" style="display:block; position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></a>
+    <a href="https://tradenation.com/signal2noise/?cxd=36699_413097" target="_blank">
+      <img src="./img/left-image.png" alt="Left Sidebar">
+    </a>
   </div>
   <div class="sidebar-image right-image">
-    <a href="https://tradenation.com/signal2noise/?cxd=36699_413097" style="display:block; position:absolute; top:0; left:0; width:100%; height:100%; z-index:10;"></a>
+    <a href="https://tradenation.com/signal2noise/?cxd=36699_413097" target="_blank">
+      <img src="./img/left-image.png" alt="Right Sidebar">
+    </a>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

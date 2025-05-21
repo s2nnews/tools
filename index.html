@@ -216,6 +216,18 @@
       padding: 0;
     }
 
+    /* Style for the top menu container */
+    .ozmenu {
+      text-align: left;
+      padding-left: 0;
+    }
+
+    .ozmenu-nav {
+      text-align: left;
+      padding-left: 0;
+      margin-left: 0;
+    }
+    
     /* Style for the S2N Home button */
     .top-nav-button {
       background-color: black;
@@ -225,12 +237,21 @@
       cursor: pointer;
       font-size: 1rem;
       border-radius: 5px;
-      margin-right: 10px; /* Add spacing between this button and the next item */
+      margin-right: 10px;
+      margin-left: 0;
+      display: inline-block;
     }
 
     .top-nav-button:hover {
-      background-color: #333; /* Darker grey on hover */
+      background-color: #333;
       color: white;
+    }
+
+    /* Clear the float after the button */
+    .ozmenu-nav::after {
+      content: "";
+      display: table;
+      clear: both;
     }
   </style>
 </head>
@@ -247,170 +268,6 @@
             Newsletter
           </button>
         </li>
-        <!-- Performance Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Performance</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('overview.html', this)">Overview</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('price-journey.html', this)">Price Journey</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('correlation-performance.html', this)">Correlations</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('performance-stats.html', this)">Detailed Stats</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('drawdown.html', this)">Drawdown</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Chart Gallery Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Chart Gallery</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('1yr-chart.html', this)">1yr Chart</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('5yr-chart.html', this)">5yr Chart</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('all-history-chart.html', this)">All History Chart</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('trending.html', this)">Trending</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('overbought-oversold.html', this)">Overbought / Oversold</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('base-adj-chart.html', this)">Base Adj Chart</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('relative.html', this)">Relative Performance</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('sentiment.html', this)">Sentiment</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('seasonality_dayofyear_chart.html', this)">Seasonality</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('random-charts.html', this)">Random Charts</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Interest Rates Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Interest Rates</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('yield-curves.html', this)">Global Yield Curves</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('current-rates.html', this)">Current Rates</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('yield-steepness.html', this)">Yield Steepness</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('10yr-yields.html', this)">10yr Global Bond Yields</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('10yr-global-spreads.html', this)">10yr Global Yield Spreads</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('corporate-yields.html', this)">Corporate Bond Yields</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Add Central Bank dropdown after Interest Rates -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Central Bank</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('overnight-rates.html', this)">Overnight Rates</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('repos.html', this)">Repo's</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('money-supply.html', this)">Money Supply</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Economics Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Economics</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('economic-summary.html', this)">Economic Summary</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('gdp.html', this)">GDP</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('inflation.html', this)">Inflation</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('retail.html', this)">Retail</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('unemployment.html', this)">Unemployment</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('news.html', this)">News</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('economic-debt.html', this)">Debt</a>
-              </li>
-              <li class="item">
-                <a href="#" onclick="loadSection('economic-indexes.html', this)">Economic Indexes</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Screeners Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Screeners</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('screeners.html', this)">Screeners Overview</a>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <!-- Backtests Dropdown -->
-        <li class="item dropdownitem">
-          <a class="nav-dropdown" href="#">Backtests</a>
-          <div class="dropdown">
-            <ul>
-              <li class="item">
-                <a href="#" onclick="loadSection('backtests.html', this)">Backtests Overview</a>
-              </li>
-            </ul>
-          </div>
-        </li>
       </ul>
     </div>
   </div>
@@ -425,7 +282,7 @@
       <button class="category" onclick="loadSection('yield-curves.html', this)">Interest Rates</button>
       <button class="category" onclick="loadSection('overnight-rates.html', this)">Central Bank</button>
       <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
-      <button class="category" onclick="loadSection('screeners.html', this)">Screeners</button>
+      <button class="category" onclick="loadSection('screener_z_daily.html', this)">Screeners</button>
       <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
     </nav>
 
@@ -482,6 +339,12 @@
       <button class="filter" onclick="loadSection('economic-debt.html', this)">Debt</button>
       <button class="filter" onclick="loadSection('economic-indexes.html', this)">Economic Indexes</button>
     </div>
+
+    <!-- SCREENERS SUBMENU -->
+    <div class="filters" id="screeners-filters" style="display: none;">
+      <button class="withoutredbg" onclick="loadSection('screener_z_daily.html', this)">Daily Z-Score</button>
+      <button class="filter" onclick="loadSection('screener_return_daily.html', this)">Daily Return</button>
+    </div>
   </div>
 
   <!-- MAIN CONTENT AREA -->
@@ -497,295 +360,300 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<script src="./js/custom.js"></script>
-<script>
-  // Set up direct click handlers for all main menu buttons
-  $(document).ready(function() {
-    // Performance button (1st button)
-    $(".secondary-navbar button:nth-child(1)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <script>
+    // Set up direct click handlers for all main menu buttons
+    $(document).ready(function() {
+      // Performance button (1st button)
+      $(".secondary-navbar button:nth-child(1)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('performance-filters');
+        const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('overview.html', defaultButton);
+      });
+
+      // Chart Gallery button (2nd button)
+      $(".secondary-navbar button:nth-child(2)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('chart-gallery-filters');
+        const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('1yr-chart.html', defaultButton);
+      });
+
+      // Interest Rates button (3rd button)
+      $(".secondary-navbar button:nth-child(3)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('interest-rates-filters');
+        const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('yield-curves.html', defaultButton);
+      });
+
+      // Central Bank button (4th button)
+      $(".secondary-navbar button:nth-child(4)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('central-bank-filters');
+        const defaultButton = document.querySelector("#central-bank-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('overnight-rates.html', defaultButton);
+      });
+
+      // Economics button (5th button)
+      $(".secondary-navbar button:nth-child(5)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('economics-filters');
+        const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('economic-summary.html', defaultButton);
+      });
+
+      // Screeners button (6th button)
+      $(".secondary-navbar button:nth-child(6)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('screeners-filters');
+        const defaultButton = document.querySelector("#screeners-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('screener_z_daily.html', defaultButton);
+      });
+
+      // Backtests button (7th button)
+      $(".secondary-navbar button:nth-child(7)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        hideAllSubMenus();
+        loadSection('backtests.html', this);
+      });
+
+      // Initialize on document ready
+      // Set Performance as active by default
+      $(".secondary-navbar button:nth-child(1)").addClass("withoutredbg");
       showSubMenu('performance-filters');
-      const defaultButton = document.querySelector("#performance-filters button:nth-child(1)");
-      $(".filters button").removeClass("withoutredbg");
-      defaultButton.classList.add("withoutredbg");
-      loadSection('overview.html', defaultButton);
+      const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
+      defaultPerformanceButton.classList.add("withoutredbg");
+      loadSection('overview.html', defaultPerformanceButton);
     });
 
-    // Chart Gallery button (2nd button)
-    $(".secondary-navbar button:nth-child(2)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
-      showSubMenu('chart-gallery-filters');
-      const defaultButton = document.querySelector("#chart-gallery-filters button:nth-child(1)");
-      $(".filters button").removeClass("withoutredbg");
-      defaultButton.classList.add("withoutredbg");
-      loadSection('1yr-chart.html', defaultButton);
-    });
+    // Update the loadSection function to handle button states correctly
+    function loadSection(file, button) {
+      // Append a timestamp to the file URL to bypass cache
+      const cacheBypassUrl = `${file}?t=${new Date().getTime()}`;
 
-    // Interest Rates button (3rd button)
-    $(".secondary-navbar button:nth-child(3)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
-      showSubMenu('interest-rates-filters');
-      const defaultButton = document.querySelector("#interest-rates-filters button:nth-child(1)");
-      $(".filters button").removeClass("withoutredbg");
-      defaultButton.classList.add("withoutredbg");
-      loadSection('yield-curves.html', defaultButton);
-    });
+      // Load the HTML into #content
+      fetch(cacheBypassUrl)
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById("content").innerHTML = html;
+          initializeLightbox();
+        })
+        .catch(err => console.error('Error loading section:', err));
 
-    // Central Bank button (4th button)
-    $(".secondary-navbar button:nth-child(4)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
-      showSubMenu('central-bank-filters');
-      const defaultButton = document.querySelector("#central-bank-filters button:nth-child(1)");
-      $(".filters button").removeClass("withoutredbg");
-      defaultButton.classList.add("withoutredbg");
-      loadSection('overnight-rates.html', defaultButton);
-    });
+      // Identify which main menu section this button belongs to
+      let mainMenuSection = '';
+      if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
+          file.includes('volatility-performance') || file.includes('correlation-performance') || 
+          file.includes('performance-stats') || file.includes('drawdowns')) {
+        mainMenuSection = 'performance';
+      } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative') || 
+                 file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
+                 file.includes('seasonality') || file.includes('random-charts')) {
+        mainMenuSection = 'chart-gallery';
+      } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
+                 file.includes('current-rates') || file.includes('yield-steepness') || 
+                 file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
+                 file.includes('corporate-yields')) {
+        mainMenuSection = 'interest-rates';
+      } else if (file.includes('economic-') || file.includes('inflation') || file.includes('gdp') || 
+                 file.includes('unemployment') || file.includes('economic-debt') || file.includes('indexes') ||
+                 file.includes('retail') || file.includes('news')) {
+        mainMenuSection = 'economics';
+      } else if (file.includes('screener_z_daily') || file.includes('screener_return_daily')) {
+        mainMenuSection = 'screeners';
+      } else if (file.includes('backtests')) {
+        mainMenuSection = 'backtests';
+      } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
+        mainMenuSection = 'central-bank';
+      }
 
-    // Economics button (5th button)
-    $(".secondary-navbar button:nth-child(5)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
-      showSubMenu('economics-filters');
-      const defaultButton = document.querySelector("#economics-filters button:nth-child(1)");
-      $(".filters button").removeClass("withoutredbg");
-      defaultButton.classList.add("withoutredbg");
-      loadSection('economic-summary.html', defaultButton);
-    });
+      // Clear all active buttons from main menu
+      const mainMenuButtons = document.querySelectorAll(".secondary-navbar button");
+      mainMenuButtons.forEach(btn => btn.classList.remove("withoutredbg"));
 
-    // Screeners button (6th button)
-    $(".secondary-navbar button:nth-child(6)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
+      // Set the corresponding main menu button to active
+      if (mainMenuSection === 'performance') {
+        document.querySelector(".secondary-navbar button:nth-child(1)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'chart-gallery') {
+        document.querySelector(".secondary-navbar button:nth-child(2)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'interest-rates') {
+        document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'central-bank') {
+        document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'economics') {
+        document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'screeners') {
+        document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'backtests') {
+        document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("withoutredbg");
+      }
+
+      // Hide all submenus first
       hideAllSubMenus();
-      loadSection('screeners.html', this);
-    });
 
-    // Backtests button (7th button)
-    $(".secondary-navbar button:nth-child(7)").click(function() {
-      $(".secondary-navbar button").removeClass("withoutredbg");
-      $(this).addClass("withoutredbg");
+      // Show the appropriate submenu based on main menu section
+      if (mainMenuSection === 'performance') {
+        showSubMenu('performance-filters');
+      } else if (mainMenuSection === 'chart-gallery') {
+        showSubMenu('chart-gallery-filters');
+      } else if (mainMenuSection === 'interest-rates') {
+        showSubMenu('interest-rates-filters');
+      } else if (mainMenuSection === 'central-bank') {
+        showSubMenu('central-bank-filters');
+      } else if (mainMenuSection === 'economics') {
+        showSubMenu('economics-filters');
+      } else if (mainMenuSection === 'screeners') {
+        showSubMenu('screeners-filters');
+      }
+
+      // Clear active state from all buttons in the current submenu
+      if (mainMenuSection) {
+        const submenuId = `${mainMenuSection}-filters`;
+        const submenu = document.getElementById(submenuId);
+        if (submenu) {
+          const submenuButtons = submenu.querySelectorAll("button");
+          submenuButtons.forEach(btn => btn.classList.remove("withoutredbg"));
+        }
+      }
+
+      // Set active class on the clicked button if it's in a submenu
+      const parentSubmenu = button.closest('.filters');
+      if (parentSubmenu) {
+        button.classList.add("withoutredbg");
+      }
+    }
+
+    function showSubMenu(submenuId) {
+      // Hide all submenus first
       hideAllSubMenus();
-      loadSection('backtests.html', this);
-    });
-
-    // Initialize on document ready
-    // Set Performance as active by default
-    $(".secondary-navbar button:nth-child(1)").addClass("withoutredbg");
-    showSubMenu('performance-filters');
-    const defaultPerformanceButton = document.querySelector("#performance-filters button:nth-child(1)");
-    defaultPerformanceButton.classList.add("withoutredbg");
-    loadSection('overview.html', defaultPerformanceButton);
-  });
-
-  // Update the loadSection function to handle button states correctly
-  function loadSection(file, button) {
-    // Append a timestamp to the file URL to bypass cache
-    const cacheBypassUrl = `${file}?t=${new Date().getTime()}`;
-
-    // Load the HTML into #content
-    fetch(cacheBypassUrl)
-      .then(response => response.text())
-      .then(html => {
-        document.getElementById("content").innerHTML = html;
-        initializeLightbox();
-      })
-      .catch(err => console.error('Error loading section:', err));
-
-    // Identify which main menu section this button belongs to
-    let mainMenuSection = '';
-    if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
-        file.includes('volatility-performance') || file.includes('correlation-performance') || 
-        file.includes('performance-stats') || file.includes('drawdowns')) {
-      mainMenuSection = 'performance';
-    } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative') || 
-               file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
-               file.includes('seasonality') || file.includes('random-charts')) {
-      mainMenuSection = 'chart-gallery';
-    } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
-               file.includes('current-rates') || file.includes('yield-steepness') || 
-               file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
-               file.includes('corporate-yields')) {
-      mainMenuSection = 'interest-rates';
-    } else if (file.includes('economic-') || file.includes('inflation') || file.includes('gdp') || 
-               file.includes('unemployment') || file.includes('economic-debt') || file.includes('indexes') ||
-               file.includes('retail') || file.includes('news')) {
-      mainMenuSection = 'economics';
-    } else if (file.includes('screeners')) {
-      mainMenuSection = 'screeners';
-    } else if (file.includes('backtests')) {
-      mainMenuSection = 'backtests';
-    } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
-      mainMenuSection = 'central-bank';
-    }
-
-    // Clear all active buttons from main menu
-    const mainMenuButtons = document.querySelectorAll(".secondary-navbar button");
-    mainMenuButtons.forEach(btn => btn.classList.remove("withoutredbg"));
-
-    // Set the corresponding main menu button to active
-    if (mainMenuSection === 'performance') {
-      document.querySelector(".secondary-navbar button:nth-child(1)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'chart-gallery') {
-      document.querySelector(".secondary-navbar button:nth-child(2)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'interest-rates') {
-      document.querySelector(".secondary-navbar button:nth-child(3)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'central-bank') {
-      document.querySelector(".secondary-navbar button:nth-child(4)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'economics') {
-      document.querySelector(".secondary-navbar button:nth-child(5)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'screeners') {
-      document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("withoutredbg");
-    } else if (mainMenuSection === 'backtests') {
-      document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("withoutredbg");
-    }
-
-    // Hide all submenus first
-    hideAllSubMenus();
-
-    // Show the appropriate submenu based on main menu section
-    if (mainMenuSection === 'performance') {
-      showSubMenu('performance-filters');
-    } else if (mainMenuSection === 'chart-gallery') {
-      showSubMenu('chart-gallery-filters');
-    } else if (mainMenuSection === 'interest-rates') {
-      showSubMenu('interest-rates-filters');
-    } else if (mainMenuSection === 'central-bank') {
-      showSubMenu('central-bank-filters');
-    } else if (mainMenuSection === 'economics') {
-      showSubMenu('economics-filters');
-    }
-
-    // Clear active state from all buttons in the current submenu
-    if (mainMenuSection) {
-      const submenuId = `${mainMenuSection}-filters`;
+      
+      // Show the requested submenu
       const submenu = document.getElementById(submenuId);
       if (submenu) {
-        const submenuButtons = submenu.querySelectorAll("button");
-        submenuButtons.forEach(btn => btn.classList.remove("withoutredbg"));
+        submenu.style.display = 'flex';
       }
     }
 
-    // Set active class on the clicked button if it's in a submenu
-    const parentSubmenu = button.closest('.filters');
-    if (parentSubmenu) {
-      button.classList.add("withoutredbg");
+    function hideAllSubMenus() {
+      const allSubmenus = document.querySelectorAll('.filters');
+      allSubmenus.forEach(menu => menu.style.display = 'none');
     }
-  }
 
-  function showSubMenu(submenuId) {
-    // Hide all submenus first
-    hideAllSubMenus();
+    // New function to initialize lightbox for images
+    function initializeLightbox() {
+      // First, ensure all images in the content have lightbox capability
+      prepareImagesForLightbox();
+
+      // Initialize Magnific Popup for all images in the loaded content
+      $('#content a.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1]
+        },
+        image: {
+          verticalFit: true,
+          maxWidth: '50vw',  // Even more restrictive width
+          maxHeight: '50vh', // Even more restrictive height
+          titleSrc: 'title'
+        }
+      });
+    }
+
+    // Function to prepare images for lightbox
+    function prepareImagesForLightbox() {
+      // Find all images that aren't already in a lightbox
+      const images = document.querySelectorAll('#content img:not(.mfp-img):not([data-lightbox-prepared])');
+
+      images.forEach(img => {
+        // Skip images inside a link that already has the lightbox class
+        if (img.parentElement.tagName === 'A' &&
+          (img.parentElement.classList.contains('lightbox') ||
+            img.parentElement.closest('.image-gallery'))) {
+          return;
+        }
+
+        // If image is not already inside a link, wrap it in one
+        if (img.parentElement.tagName !== 'A') {
+          const imgSrc = img.getAttribute('src');
+          const wrapper = document.createElement('a');
+          wrapper.href = imgSrc;
+          wrapper.classList.add('lightbox');
+          img.parentNode.insertBefore(wrapper, img);
+          wrapper.appendChild(img);
+        }
+        // If image is inside a link but not set up for lightbox, add the class
+        else if (img.parentElement.tagName === 'A') {
+          img.parentElement.classList.add('lightbox');
+        }
+
+        // Mark this image as prepared
+        img.setAttribute('data-lightbox-prepared', 'true');
+      });
+    }
+
+    /* ---------------------------------------------
+     * Lightbox/Gallery for any images 
+     * within a container that has "image-gallery" 
+     * or "lightbox" class
+     * --------------------------------------------- */
+    $(document).ready(function () {
+      // Example 1: .image-gallery container, open all child links
+      $('.image-gallery').magnificPopup({
+        delegate: 'a',  // child <a> elements
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1],
+        },
+        image: {
+          verticalFit: true,
+          maxWidth: '50vw',  // Even more restrictive width
+          maxHeight: '50vh'  // Even more restrictive height
+        }
+      });
+
+      // Example 2: any anchor with .lightbox class
+      $('.lightbox').magnificPopup({
+        type: 'image',
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0,1],
+        },
+        image: {
+          verticalFit: true,
+          maxWidth: '50vw',  // Even more restrictive width
+          maxHeight: '50vh'  // Even more restrictive height
+        }
+      });
+    });
     
-    // Show the requested submenu
-    const submenu = document.getElementById(submenuId);
-    if (submenu) {
-      submenu.style.display = 'flex';
-    }
-  }
-
-  function hideAllSubMenus() {
-    const allSubmenus = document.querySelectorAll('.filters');
-    allSubmenus.forEach(menu => menu.style.display = 'none');
-  }
-
-  // New function to initialize lightbox for images
-  function initializeLightbox() {
-    // First, ensure all images in the content have lightbox capability
-    prepareImagesForLightbox();
-
-    // Initialize Magnific Popup for all images in the loaded content
-    $('#content a.lightbox').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0, 1]
-      },
-      image: {
-        verticalFit: true,
-        maxWidth: '50vw',  // Even more restrictive width
-        maxHeight: '50vh', // Even more restrictive height
-        titleSrc: 'title'
-      }
-    });
-  }
-
-  // Function to prepare images for lightbox
-  function prepareImagesForLightbox() {
-    // Find all images that aren't already in a lightbox
-    const images = document.querySelectorAll('#content img:not(.mfp-img):not([data-lightbox-prepared])');
-
-    images.forEach(img => {
-      // Skip images inside a link that already has the lightbox class
-      if (img.parentElement.tagName === 'A' &&
-        (img.parentElement.classList.contains('lightbox') ||
-          img.parentElement.closest('.image-gallery'))) {
-        return;
-      }
-
-      // If image is not already inside a link, wrap it in one
-      if (img.parentElement.tagName !== 'A') {
-        const imgSrc = img.getAttribute('src');
-        const wrapper = document.createElement('a');
-        wrapper.href = imgSrc;
-        wrapper.classList.add('lightbox');
-        img.parentNode.insertBefore(wrapper, img);
-        wrapper.appendChild(img);
-      }
-      // If image is inside a link but not set up for lightbox, add the class
-      else if (img.parentElement.tagName === 'A') {
-        img.parentElement.classList.add('lightbox');
-      }
-
-      // Mark this image as prepared
-      img.setAttribute('data-lightbox-prepared', 'true');
-    });
-  }
-
-  /* ---------------------------------------------
-   * Lightbox/Gallery for any images 
-   * within a container that has "image-gallery" 
-   * or "lightbox" class
-   * --------------------------------------------- */
-  $(document).ready(function () {
-    // Example 1: .image-gallery container, open all child links
-    $('.image-gallery').magnificPopup({
-      delegate: 'a',  // child <a> elements
-      type: 'image',
-      gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0,1],
-      },
-      image: {
-        verticalFit: true,
-        maxWidth: '50vw',  // Even more restrictive width
-        maxHeight: '50vh'  // Even more restrictive height
-      }
-    });
-
-    // Example 2: any anchor with .lightbox class
-    $('.lightbox').magnificPopup({
-      type: 'image',
-      gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0,1],
-      },
-      image: {
-        verticalFit: true,
-        maxWidth: '50vw',  // Even more restrictive width
-        maxHeight: '50vh'  // Even more restrictive height
-      }
-    });
-  });
-  
-</script>
+  </script>
 </body>
 </html>

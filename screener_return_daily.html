@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Return Screener</title>
+    <style>
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .chart-item {
+            text-align: center;
+            border: 1px solid #eee;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .chart-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .chart-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .chart-item h3 {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+        .section-header {
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .top-header {
+            background-color: #4CAF50;
+        }
+        .bottom-header {
+            background-color: #f44336;
+        }
+        @media (max-width: 1200px) {
+            .chart-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="section-header top-header">Top 10 Returns</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&NG_CCB_top_return.png" class="lightbox" title="&NG_CCB Return">
+            <img src="./assets/images/screeners/&NG_CCB_top_return.png" alt="&NG_CCB Return">
+        </a>
+        <h3>&NG_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&PL_CCB_top_return.png" class="lightbox" title="&PL_CCB Return">
+            <img src="./assets/images/screeners/&PL_CCB_top_return.png" alt="&PL_CCB Return">
+        </a>
+        <h3>&PL_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/XAGAUD_top_return.png" class="lightbox" title="XAGAUD Return">
+            <img src="./assets/images/screeners/XAGAUD_top_return.png" alt="XAGAUD Return">
+        </a>
+        <h3>XAGAUD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&KE_CCB_top_return.png" class="lightbox" title="&KE_CCB Return">
+            <img src="./assets/images/screeners/&KE_CCB_top_return.png" alt="&KE_CCB Return">
+        </a>
+        <h3>&KE_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/XAUAUD_top_return.png" class="lightbox" title="XAUAUD Return">
+            <img src="./assets/images/screeners/XAUAUD_top_return.png" alt="XAUAUD Return">
+        </a>
+        <h3>XAUAUD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/GME_top_return.png" class="lightbox" title="GME Return">
+            <img src="./assets/images/screeners/GME_top_return.png" alt="GME Return">
+        </a>
+        <h3>GME</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/XAGGBP_top_return.png" class="lightbox" title="XAGGBP Return">
+            <img src="./assets/images/screeners/XAGGBP_top_return.png" alt="XAGGBP Return">
+        </a>
+        <h3>XAGGBP</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/XAGCAD_top_return.png" class="lightbox" title="XAGCAD Return">
+            <img src="./assets/images/screeners/XAGCAD_top_return.png" alt="XAGCAD Return">
+        </a>
+        <h3>XAGCAD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/XAGJPY_top_return.png" class="lightbox" title="XAGJPY Return">
+            <img src="./assets/images/screeners/XAGJPY_top_return.png" alt="XAGJPY Return">
+        </a>
+        <h3>XAGJPY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&SI_CCB_top_return.png" class="lightbox" title="&SI_CCB Return">
+            <img src="./assets/images/screeners/&SI_CCB_top_return.png" alt="&SI_CCB Return">
+        </a>
+        <h3>&SI_CCB</h3>
+    </div>
+
+</div>
+
+<div class="section-header bottom-header">Bottom 10 Returns</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&CC_CCB_bottom_return.png" class="lightbox" title="&CC_CCB Return">
+            <img src="./assets/images/screeners/&CC_CCB_bottom_return.png" alt="&CC_CCB Return">
+        </a>
+        <h3>&CC_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/AAPL_bottom_return.png" class="lightbox" title="AAPL Return">
+            <img src="./assets/images/screeners/AAPL_bottom_return.png" alt="AAPL Return">
+        </a>
+        <h3>AAPL</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/AMZN_bottom_return.png" class="lightbox" title="AMZN Return">
+            <img src="./assets/images/screeners/AMZN_bottom_return.png" alt="AMZN Return">
+        </a>
+        <h3>AMZN</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$NIF_bottom_return.png" class="lightbox" title="$NIF Return">
+            <img src="./assets/images/screeners/$NIF_bottom_return.png" alt="$NIF Return">
+        </a>
+        <h3>$NIF</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$SEN_bottom_return.png" class="lightbox" title="$SEN Return">
+            <img src="./assets/images/screeners/$SEN_bottom_return.png" alt="$SEN Return">
+        </a>
+        <h3>$SEN</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/AUDCHF_bottom_return.png" class="lightbox" title="AUDCHF Return">
+            <img src="./assets/images/screeners/AUDCHF_bottom_return.png" alt="AUDCHF Return">
+        </a>
+        <h3>AUDCHF</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/AUDZAR_bottom_return.png" class="lightbox" title="AUDZAR Return">
+            <img src="./assets/images/screeners/AUDZAR_bottom_return.png" alt="AUDZAR Return">
+        </a>
+        <h3>AUDZAR</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&KC_CCB_bottom_return.png" class="lightbox" title="&KC_CCB Return">
+            <img src="./assets/images/screeners/&KC_CCB_bottom_return.png" alt="&KC_CCB Return">
+        </a>
+        <h3>&KC_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/GOOG_bottom_return.png" class="lightbox" title="GOOG Return">
+            <img src="./assets/images/screeners/GOOG_bottom_return.png" alt="GOOG Return">
+        </a>
+        <h3>GOOG</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$RTS_bottom_return.png" class="lightbox" title="$RTS Return">
+            <img src="./assets/images/screeners/$RTS_bottom_return.png" alt="$RTS Return">
+        </a>
+        <h3>$RTS</h3>
+    </div>
+
+</div>
+
+</body>
+</html>

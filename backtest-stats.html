@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backtest Statistics Dashboard</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 100% !important;  /* Full width */
+      margin: 0 auto;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    /* Tab styling */
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #3498db;
+    }
+    .tab-button {
+      background: #f8f9fa;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 5px;
+      border-radius: 5px 5px 0 0;
+      transition: background-color 0.3s;
+    }
+    .tab-button:hover {
+      background-color: #e9ecef;
+    }
+    .tab-button.active {
+      background-color: #3498db;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Content area */
+    .tab-content {
+      display: none;
+      width: 100%;
+      height: calc(100vh - 160px);
+      border: none;
+      margin-top: 20px;
+    }
+    .tab-content.active {
+      display: block;
+    }
+
+    /* Loading indicator (if you need one) */
+    .loader {
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #3498db;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      margin: 100px auto;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Additional styles for wider content */
+    /* If you actually have an element with id="content", these rules will apply.
+       If not, you can remove these or rename them for your .container. */
+    #content {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: none;
+      padding: 0; 
+      box-sizing: border-box;
+    }
+
+    @media (min-width: 1400px) {
+      .container {
+        padding: 20px 40px;
+      }
+    }
+
+    @media (min-width: 1800px) {
+      .container {
+        padding: 20px 60px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Detailed Stats</h1>
+
+    <!-- Tabs -->
+    <div class="tabs" id="symbol-tabs">
+      <button class="tab-button active" onclick="showTab('60_40')">60/40 Portfolio</button>
+      <button class="tab-button" onclick="showTab('backtest2')">Backtest 2</button>
+      <button class="tab-button" onclick="showTab('backtest3')">Backtest 3</button>
+      <button class="tab-button" onclick="showTab('backtest4')">Backtest 4</button>
+      <button class="tab-button" onclick="showTab('backtest5')">Backtest 5</button>
+      <button class="tab-button" onclick="showTab('backtest6')">Backtest 6</button>
+      <button class="tab-button" onclick="showTab('backtest7')">Backtest 7</button>
+      <button class="tab-button" onclick="showTab('backtest8')">Backtest 8</button>
+      <button class="tab-button" onclick="showTab('backtest9')">Backtest 9</button>
+      <button class="tab-button" onclick="showTab('backtest10')">Backtest 10</button>
+      <button class="tab-button" onclick="showTab('backtest11')">Backtest 11</button>
+      <button class="tab-button" onclick="showTab('backtest12')">Backtest 12</button>
+    </div>
+
+    <!-- Tab content containers -->
+    <div id="tab-60_40" class="tab-content active">
+      <iframe src="assets/images/backtests/60_40_backtest.html" 
+              title="60/40 Portfolio Backtest Report"></iframe>
+    </div>
+    <div id="tab-backtest2" class="tab-content">
+      <iframe src="assets/images/backtests/backtest2.html" 
+              title="Backtest 2 Report"></iframe>
+    </div>
+    <div id="tab-backtest3" class="tab-content">
+      <iframe src="assets/images/backtests/backtest3.html" 
+              title="Backtest 3 Report"></iframe>
+    </div>
+    <div id="tab-backtest4" class="tab-content">
+      <iframe src="assets/images/backtests/backtest4.html" 
+              title="Backtest 4 Report"></iframe>
+    </div>
+    <div id="tab-backtest5" class="tab-content">
+      <iframe src="assets/images/backtests/backtest5.html" 
+              title="Backtest 5 Report"></iframe>
+    </div>
+    <div id="tab-backtest6" class="tab-content">
+      <iframe src="assets/images/backtests/backtest6.html" 
+              title="Backtest 6 Report"></iframe>
+    </div>
+    <div id="tab-backtest7" class="tab-content">
+      <iframe src="assets/images/backtests/backtest7.html" 
+              title="Backtest 7 Report"></iframe>
+    </div>
+    <div id="tab-backtest8" class="tab-content">
+      <iframe src="assets/images/backtests/backtest8.html" 
+              title="Backtest 8 Report"></iframe>
+    </div>
+    <div id="tab-backtest9" class="tab-content">
+      <iframe src="assets/images/backtests/backtest9.html" 
+              title="Backtest 9 Report"></iframe>
+    </div>
+    <div id="tab-backtest10" class="tab-content">
+      <iframe src="assets/images/backtests/backtest10.html" 
+              title="Backtest 10 Report"></iframe>
+    </div>
+    <div id="tab-backtest11" class="tab-content">
+      <iframe src="assets/images/backtests/backtest11.html" 
+              title="Backtest 11 Report"></iframe>
+    </div>
+    <div id="tab-backtest12" class="tab-content">
+      <iframe src="assets/images/backtests/backtest12.html" 
+              title="Backtest 12 Report"></iframe>
+    </div>
+    
+
+    <!-- Tab switching script -->
+    <script>
+      function showTab(tabId) {
+        console.log("Showing tab:", tabId);
+
+        // 1. Hide all .tab-content
+        const allContentTabs = document.querySelectorAll('.tab-content');
+        allContentTabs.forEach(tab => {
+          tab.classList.remove('active');
+        });
+
+        // 2. Show the chosen .tab-content
+        const selectedTab = document.getElementById('tab-' + tabId);
+        if (selectedTab) {
+          selectedTab.classList.add('active');
+        } else {
+          console.error("Tab content not found:", 'tab-' + tabId);
+        }
+
+        // 3. Deactivate all tab buttons
+        const allButtons = document.querySelectorAll('.tab-button');
+        allButtons.forEach(button => {
+          button.classList.remove('active');
+        });
+
+        // 4. Activate the clicked button
+        for (let button of allButtons) {
+          if (button.getAttribute('onclick') === `showTab('${tabId}')`) {
+            button.classList.add('active');
+            break;
+          }
+        }
+      }
+    </script>
+  </div>
+</body>
+</html>

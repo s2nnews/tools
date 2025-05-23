@@ -395,9 +395,15 @@
 
     <!-- SCREENERS SUBMENU -->
     <div class="filters" id="screeners-filters" style="display: none;">
-      <button class="withoutredbg" onclick="loadSection('screener_z_daily.html', this)">Daily Z-Score</button>
-      <button class="filter" onclick="loadSection('screener_return_daily.html', this)">Daily Return</button>
+      <button class="withoutredbg" onclick="loadSection('screener_z_daily.html', this)">Daily Z-Score Screeners</button>
+      <button class="filter" onclick="loadSection('screener_return_daily.html', this)">Daily Return Screeners</button>
     </div>
+    <!-- BACKTEST SUBMENU -->
+    <div class="filters" id="backtests-filters" style="display: none;">
+      <button class="withoutredbg" onclick="loadSection('backtest-stats.html', this)">Portfolio Allocations</button>
+      <button class="filter" onclick="loadSection('backtest-momnentum.html', this)">Momentum Backtests</button>
+    </div>
+
   </div>
 
   <!-- MAIN CONTENT AREA -->
@@ -494,8 +500,11 @@
       $(".secondary-navbar button:nth-child(7)").click(function() {
         $(".secondary-navbar button").removeClass("withoutredbg");
         $(this).addClass("withoutredbg");
-        hideAllSubMenus();
-        loadSection('backtests.html', this);
+        showSubMenu('backtests-filters');
+        const defaultButton = document.querySelector("#backtests-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('backtest-stats.html', defaultButton);
       });
 
       // Initialize on document ready
@@ -542,7 +551,7 @@
         mainMenuSection = 'economics';
       } else if (file.includes('screener_z_daily') || file.includes('screener_return_daily')) {
         mainMenuSection = 'screeners';
-      } else if (file.includes('backtests')) {
+      } else if (file.includes('backtest-stats') || file.includes('backtest-momnentum')) {
         mainMenuSection = 'backtests';
       } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
         mainMenuSection = 'central-bank';
@@ -585,6 +594,8 @@
         showSubMenu('economics-filters');
       } else if (mainMenuSection === 'screeners') {
         showSubMenu('screeners-filters');
+      } else if (mainMenuSection === 'backtests') {
+        showSubMenu('backtests-filters');
       }
 
       // Clear active state from all buttons in the current submenu

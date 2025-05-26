@@ -1,8 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 80.53,Bitcoin RSI Chart,rsi_BTCUSD.png,80.53
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 75.76,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,75.76
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 81.25,Bitcoin RSI Chart,rsi_BTCUSD.png,81.25
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 76.75,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,76.75
 OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 76.08,Platinum RSI Chart,rsi_&PL_CCB.png,76.08
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 76.36,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,76.36
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 23.74,Euro / Pound RSI Chart,rsi_EURGBP.png,23.74
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 24.77,Euro / Pound RSI Chart,rsi_EURGBP.png,24.77
 OVERBOUGHT,TSLA,Tesla with 14-day RSI: 75.42,Tesla RSI Chart,rsi_TSLA.png,75.42
 OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 78.08,NVIDIA RSI Chart,rsi_NVDA.png,78.08

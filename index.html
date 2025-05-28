@@ -27,7 +27,7 @@
     /* Override Bootstrap container constraints for our layout */
     .container {
       width: 100% !important;
-      max-width: 100% !important; /* Force full width */
+      max-width: 100% !important;
       padding-right: 0;
       padding-left: 0;
       margin-right: 0;
@@ -37,7 +37,7 @@
     /* Menu container specific styles */
     .container.menu-container {
       width: 100% !important;
-      max-width: 100% !important; /* Force full width */
+      max-width: 100% !important;
       margin: 0;
       padding: 0 !important;
       box-sizing: border-box;
@@ -86,16 +86,17 @@
       width: 100%;
       padding: 0 250px;
       box-sizing: border-box;
-      justify-content: center; /* Center the buttons */
+      justify-content: center;
+      margin: 0; /* Remove any margin */
     }
 
     .filters button, .secondary-navbar button {
-      padding: 6px 12px; /* Consistent padding */
+      padding: 6px 12px;
       font-size: 0.85rem;
-      flex: 0 0 auto; /* Don't stretch buttons */
+      flex: 0 0 auto;
       white-space: nowrap;
-      min-width: fit-content; /* Size to content */
-      margin-right: 0;
+      min-width: fit-content;
+      margin: 0; /* Remove any margin */
       background-color: grey;
       color: white;
       border: none;
@@ -251,12 +252,14 @@
     .ozmenu {
       text-align: left;
       padding-left: 0;
+      margin-bottom: 0; /* Remove bottom margin */
     }
 
     .ozmenu-nav {
       text-align: left;
       padding-left: 0;
       margin-left: 0;
+      margin-bottom: 0; /* Remove bottom margin */
     }
     
     /* Style for the S2N Home button */
@@ -270,6 +273,7 @@
       border-radius: 5px;
       margin-right: 10px;
       margin-left: 0;
+      margin-bottom: 0; /* Remove bottom margin */
       display: inline-block;
     }
 
@@ -360,7 +364,7 @@
     </nav>
 
     <!-- PERFORMANCE SUBMENU -->
-    <div class="filters" id="performance-filters">
+    <div class="filters" id="performance-filters" style="display: none;">
       <button class="withoutredbg" onclick="loadSection('overview.html', this)">Overview</button>
       <button class="filter" onclick="loadSection('best-to-worst-section.html', this)">Best to Worst</button>
       <button class="filter" onclick="loadSection('price-journey.html', this)">Price Journey</button>
@@ -419,12 +423,12 @@
       <button class="withoutredbg" onclick="loadSection('screener_z_daily.html', this)">Daily Z-Score Screeners</button>
       <button class="filter" onclick="loadSection('screener_return_daily.html', this)">Daily Return Screeners</button>
     </div>
+
     <!-- BACKTEST SUBMENU -->
     <div class="filters" id="backtests-filters" style="display: none;">
       <button class="withoutredbg" onclick="loadSection('backtest-stats.html', this)">Portfolio Allocations</button>
       <button class="filter" onclick="loadSection('backtest-momnentum.html', this)">Momentum Backtests</button>
     </div>
-
   </div>
 
   <!-- MAIN CONTENT AREA -->
@@ -566,6 +570,8 @@
                  file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
                  file.includes('corporate-yields')) {
         mainMenuSection = 'interest-rates';
+      } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
+        mainMenuSection = 'central-bank';
       } else if (file.includes('economic-') || file.includes('inflation') || file.includes('gdp') || 
                  file.includes('unemployment') || file.includes('economic-debt') || file.includes('indexes') ||
                  file.includes('retail') || file.includes('news')) {
@@ -574,8 +580,6 @@
         mainMenuSection = 'screeners';
       } else if (file.includes('backtest-stats') || file.includes('backtest-momnentum')) {
         mainMenuSection = 'backtests';
-      } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
-        mainMenuSection = 'central-bank';
       }
 
       // Clear all active buttons from main menu

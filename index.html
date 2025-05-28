@@ -87,28 +87,38 @@
       padding: 0 250px;
       box-sizing: border-box;
       justify-content: center;
-      margin: 0; /* Remove any margin */
-    }
-
-    .filters button, .secondary-navbar button {
-      padding: 6px 12px;
-      font-size: 0.85rem;
-      flex: 0 0 auto;
-      white-space: nowrap;
-      min-width: fit-content;
-      margin: 0; /* Remove any margin */
-      background-color: grey;
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 0;
+      margin: 0;
     }
 
     /* Top navigation menu buttons - RED background */
     .secondary-navbar .category, 
     .secondary-navbar .withoutredbg {
       background-color: #d9302c;
-      flex: 0 0 auto; /* Don't stretch main menu buttons either */
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      flex: 0 0 auto;
+      white-space: nowrap;
+      min-width: fit-content;
+      margin: 0;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 0;
+    }
+
+    /* Submenu buttons - GRAY background */
+    .filters button {
+      padding: 4px 12px; /* Reduced vertical padding */
+      font-size: 0.85rem;
+      flex: 0 0 auto;
+      white-space: nowrap;
+      min-width: fit-content;
+      margin: 0;
+      background-color: grey;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 0;
     }
 
     /* Hover effect for buttons */

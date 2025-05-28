@@ -1,7 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 81.25,Bitcoin RSI Chart,rsi_BTCUSD.png,81.25
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 77.42,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,77.42
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 76.08,Platinum RSI Chart,rsi_&PL_CCB.png,76.08
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 24.77,Euro / Pound RSI Chart,rsi_EURGBP.png,24.77
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 75.42,Tesla RSI Chart,rsi_TSLA.png,75.42
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 78.08,NVIDIA RSI Chart,rsi_NVDA.png,78.08
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 74.42,S&P 500 Index RSI Chart,rsi_$SPX.png,74.42
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 79.50,Bitcoin RSI Chart,rsi_BTCUSD.png,79.50
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 79.47,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,79.47
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 73.94,DAX Index RSI Chart,rsi_$DAX.png,73.94
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 78.23,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,78.23
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 73.64,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,73.64
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 23.77,Euro / Pound RSI Chart,rsi_EURGBP.png,23.77
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 77.61,Microsoft RSI Chart,rsi_MSFT.png,77.61
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 72.02,Amazon RSI Chart,rsi_AMZN.png,72.02
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 82.46,Tesla RSI Chart,rsi_TSLA.png,82.46
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 81.34,NVIDIA RSI Chart,rsi_NVDA.png,81.34
+OVERBOUGHT,META,Meta with 14-day RSI: 70.69,Meta RSI Chart,rsi_META.png,70.69

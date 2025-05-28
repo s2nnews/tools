@@ -27,6 +27,7 @@
     /* Override Bootstrap container constraints for our layout */
     .container {
       width: 100% !important;
+      max-width: 100% !important; /* Force full width */
       padding-right: 0;
       padding-left: 0;
       margin-right: 0;
@@ -35,9 +36,10 @@
 
     /* Menu container specific styles */
     .container.menu-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 -15px !important;
+      width: 100% !important;
+      max-width: 100% !important; /* Force full width */
+      margin: 0;
+      padding: 0 !important;
       box-sizing: border-box;
     }
     
@@ -79,17 +81,20 @@
     /* Default styles for submenus and main menu */
     .filters, .secondary-navbar {
       display: flex;
-      flex-wrap: nowrap; 
-      gap: 0;
+      flex-wrap: wrap;
+      gap: 1px;
       width: 100%;
+      padding: 0 250px;
+      box-sizing: border-box;
+      justify-content: center; /* Center the buttons */
     }
 
     .filters button, .secondary-navbar button {
-      padding: 6px 4px;
+      padding: 6px 12px; /* Consistent padding */
       font-size: 0.85rem;
-      flex: 0 1 auto;
+      flex: 0 0 auto; /* Don't stretch buttons */
       white-space: nowrap;
-      min-width: 0;
+      min-width: fit-content; /* Size to content */
       margin-right: 0;
       background-color: grey;
       color: white;
@@ -102,6 +107,7 @@
     .secondary-navbar .category, 
     .secondary-navbar .withoutredbg {
       background-color: #d9302c;
+      flex: 0 0 auto; /* Don't stretch main menu buttons either */
     }
 
     /* Hover effect for buttons */
@@ -123,14 +129,6 @@
       background-color: white !important;
       color: black !important;
       border: 1px solid #ccc !important;
-    }
-
-    /* Menu container specific styles */
-    .container.menu-container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 -15px !important;
-      box-sizing: border-box;
     }
 
     .filters {
@@ -321,6 +319,12 @@
       margin: 0;
       padding: 0;
       overflow-x: hidden;
+    }
+
+    /* CHART GALLERY SUBMENU */
+    #chart-gallery-filters {
+      display: none;
+      flex-wrap: wrap; /* Allow buttons to wrap to next row */
     }
   </style>
 </head>

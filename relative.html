@@ -19,9 +19,19 @@
     }
     .chart-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px;
       margin-top: 20px;
+    }
+    .chart-pair {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-bottom: 30px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
     .chart-item {
       text-align: center;
@@ -48,20 +58,21 @@
       font-size: 16px;
       color: #333;
     }
-    @media (max-width: 992px) {
-      .chart-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+    .chart-type-label {
+      text-align: center;
+      font-weight: bold;
+      color: #666;
+      margin-bottom: 10px;
     }
-    @media (max-width: 576px) {
+    @media (max-width: 1200px) {
       .chart-grid {
         grid-template-columns: 1fr;
       }
     }
-    .section-info {
-      margin-bottom: 15px;
-      font-style: italic;
-      color: #666;
+    @media (max-width: 768px) {
+      .chart-pair {
+        grid-template-columns: 1fr;
+      }
     }
     .last-updated {
       text-align: center;
@@ -75,135 +86,322 @@
 <h1>Relative Performance Analysis</h1>
 <div class="chart-grid">
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_spx_spxew_ratio.png" class="lightbox" title="Relative Performance of S&P 500 Market Cap vs Equal Index">
-      <img src="./assets/images/chart_gallery/relative/relative_spx_spxew_ratio.png" alt="Relative Performance of S&P 500 Market Cap vs Equal Index">
-    </a>
-    <h3>Relative Performance of S&P 500 Market Cap vs Equal Index</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_spx_spxew_ratio.png" class="lightbox" title="Relative Performance of S&P 500 Market Cap vs Equal Index">
+          <img src="./assets/images/chart_gallery/relative/relative_spx_spxew_ratio.png" alt="Relative Performance of S&P 500 Market Cap vs Equal Index">
+        </a>
+        <h3>Relative Performance of S&P 500 Market Cap vs Equal Index</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_spx_spxew_ratio.png" class="lightbox" title="Cumulative Returns: S&P 500 Market Cap vs Equal Index">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_spx_spxew_ratio.png" alt="Cumulative Returns: S&P 500 Market Cap vs Equal Index">
+        </a>
+        <h3>Cumulative Returns: S&P 500 Market Cap vs Equal Index</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_vix_move_ratio.png" class="lightbox" title="Relative Performance of VIX vs MOVE (bond) Volatility Index">
-      <img src="./assets/images/chart_gallery/relative/relative_vix_move_ratio.png" alt="Relative Performance of VIX vs MOVE (bond) Volatility Index">
-    </a>
-    <h3>Relative Performance of VIX vs MOVE (bond) Volatility Index</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_vix_move_ratio.png" class="lightbox" title="Relative Performance of VIX vs MOVE (bond) Volatility Index">
+          <img src="./assets/images/chart_gallery/relative/relative_vix_move_ratio.png" alt="Relative Performance of VIX vs MOVE (bond) Volatility Index">
+        </a>
+        <h3>Relative Performance of VIX vs MOVE (bond) Volatility Index</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_vix_move_ratio.png" class="lightbox" title="Cumulative Returns: VIX vs MOVE (bond) Volatility Index">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_vix_move_ratio.png" alt="Cumulative Returns: VIX vs MOVE (bond) Volatility Index">
+        </a>
+        <h3>Cumulative Returns: VIX vs MOVE (bond) Volatility Index</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_gold_silver_ratio.png" class="lightbox" title="Relative Performance of Gold vs Silver">
-      <img src="./assets/images/chart_gallery/relative/relative_gold_silver_ratio.png" alt="Relative Performance of Gold vs Silver">
-    </a>
-    <h3>Relative Performance of Gold vs Silver</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_gold_silver_ratio.png" class="lightbox" title="Relative Performance of Gold vs Silver">
+          <img src="./assets/images/chart_gallery/relative/relative_gold_silver_ratio.png" alt="Relative Performance of Gold vs Silver">
+        </a>
+        <h3>Relative Performance of Gold vs Silver</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_gold_silver_ratio.png" class="lightbox" title="Cumulative Returns: Gold vs Silver">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_gold_silver_ratio.png" alt="Cumulative Returns: Gold vs Silver">
+        </a>
+        <h3>Cumulative Returns: Gold vs Silver</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_2yr_baa_ratio.png" class="lightbox" title="Relative Performance of 2-Yr Treasury vs BAA Corp Bonds">
-      <img src="./assets/images/chart_gallery/relative/relative_2yr_baa_ratio.png" alt="Relative Performance of 2-Yr Treasury vs BAA Corp Bonds">
-    </a>
-    <h3>Relative Performance of 2-Yr Treasury vs BAA Corp Bonds</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_2yr_baa_ratio.png" class="lightbox" title="Relative Performance of 2-Yr Treasury vs BAA Corp Bonds">
+          <img src="./assets/images/chart_gallery/relative/relative_2yr_baa_ratio.png" alt="Relative Performance of 2-Yr Treasury vs BAA Corp Bonds">
+        </a>
+        <h3>Relative Performance of 2-Yr Treasury vs BAA Corp Bonds</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_2yr_baa_ratio.png" class="lightbox" title="Cumulative Returns: 2-Yr Treasury vs BAA Corp Bonds">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_2yr_baa_ratio.png" alt="Cumulative Returns: 2-Yr Treasury vs BAA Corp Bonds">
+        </a>
+        <h3>Cumulative Returns: 2-Yr Treasury vs BAA Corp Bonds</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_us_china_ratio.png" class="lightbox" title="Relative Performance of US vs China">
-      <img src="./assets/images/chart_gallery/relative/relative_us_china_ratio.png" alt="Relative Performance of US vs China">
-    </a>
-    <h3>Relative Performance of US vs China</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_us_china_ratio.png" class="lightbox" title="Relative Performance of US vs China">
+          <img src="./assets/images/chart_gallery/relative/relative_us_china_ratio.png" alt="Relative Performance of US vs China">
+        </a>
+        <h3>Relative Performance of US vs China</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_us_china_ratio.png" class="lightbox" title="Cumulative Returns: US vs China">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_us_china_ratio.png" alt="Cumulative Returns: US vs China">
+        </a>
+        <h3>Cumulative Returns: US vs China</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" class="lightbox" title="Relative Performance of US vs China (Hang Seng)">
-      <img src="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" alt="Relative Performance of US vs China (Hang Seng)">
-    </a>
-    <h3>Relative Performance of US vs China (Hang Seng)</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" class="lightbox" title="Relative Performance of US vs China (Hang Seng)">
+          <img src="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" alt="Relative Performance of US vs China (Hang Seng)">
+        </a>
+        <h3>Relative Performance of US vs China (Hang Seng)</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_us_hk_ratio.png" class="lightbox" title="Cumulative Returns: US vs China (Hang Seng)">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_us_hk_ratio.png" alt="Cumulative Returns: US vs China (Hang Seng)">
+        </a>
+        <h3>Cumulative Returns: US vs China (Hang Seng)</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" class="lightbox" title="Relative Performance of US vs China (Hang Seng)">
-      <img src="./assets/images/chart_gallery/relative/relative_us_hk_ratio.png" alt="Relative Performance of US vs China (Hang Seng)">
-    </a>
-    <h3>Relative Performance of US vs China (Hang Seng)</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_us_int_ratio.png" class="lightbox" title="Relative Performance of US vs Rest of World">
+          <img src="./assets/images/chart_gallery/relative/relative_us_int_ratio.png" alt="Relative Performance of US vs Rest of World">
+        </a>
+        <h3>Relative Performance of US vs Rest of World</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_us_int_ratio.png" class="lightbox" title="Cumulative Returns: US vs Rest of World">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_us_int_ratio.png" alt="Cumulative Returns: US vs Rest of World">
+        </a>
+        <h3>Cumulative Returns: US vs Rest of World</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_us_int_ratio.png" class="lightbox" title="Relative Performance of US vs Rest of World">
-      <img src="./assets/images/chart_gallery/relative/relative_us_int_ratio.png" alt="Relative Performance of US vs Rest of World">
-    </a>
-    <h3>Relative Performance of US vs Rest of World</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_spx_rut_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Russell 2000">
+          <img src="./assets/images/chart_gallery/relative/relative_spx_rut_ratio.png" alt="Relative Performance of S&P 500 vs Russell 2000">
+        </a>
+        <h3>Relative Performance of S&P 500 vs Russell 2000</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_spx_rut_ratio.png" class="lightbox" title="Cumulative Returns: S&P 500 vs Russell 2000">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_spx_rut_ratio.png" alt="Cumulative Returns: S&P 500 vs Russell 2000">
+        </a>
+        <h3>Cumulative Returns: S&P 500 vs Russell 2000</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_spx_rut_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Russell 2000">
-      <img src="./assets/images/chart_gallery/relative/relative_spx_rut_ratio.png" alt="Relative Performance of S&P 500 vs Russell 2000">
-    </a>
-    <h3>Relative Performance of S&P 500 vs Russell 2000</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_spx_nas_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Nasdaq Composite">
+          <img src="./assets/images/chart_gallery/relative/relative_spx_nas_ratio.png" alt="Relative Performance of S&P 500 vs Nasdaq Composite">
+        </a>
+        <h3>Relative Performance of S&P 500 vs Nasdaq Composite</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_spx_nas_ratio.png" class="lightbox" title="Cumulative Returns: S&P 500 vs Nasdaq Composite">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_spx_nas_ratio.png" alt="Cumulative Returns: S&P 500 vs Nasdaq Composite">
+        </a>
+        <h3>Cumulative Returns: S&P 500 vs Nasdaq Composite</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_spx_nas_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Nasdaq Composite">
-      <img src="./assets/images/chart_gallery/relative/relative_spx_nas_ratio.png" alt="Relative Performance of S&P 500 vs Nasdaq Composite">
-    </a>
-    <h3>Relative Performance of S&P 500 vs Nasdaq Composite</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_value_growth_ratio.png" class="lightbox" title="Relative Performance of Value vs Growth">
+          <img src="./assets/images/chart_gallery/relative/relative_value_growth_ratio.png" alt="Relative Performance of Value vs Growth">
+        </a>
+        <h3>Relative Performance of Value vs Growth</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_value_growth_ratio.png" class="lightbox" title="Cumulative Returns: Value vs Growth">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_value_growth_ratio.png" alt="Cumulative Returns: Value vs Growth">
+        </a>
+        <h3>Cumulative Returns: Value vs Growth</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_value_growth_ratio.png" class="lightbox" title="Relative Performance of Value vs Growth">
-      <img src="./assets/images/chart_gallery/relative/relative_value_growth_ratio.png" alt="Relative Performance of Value vs Growth">
-    </a>
-    <h3>Relative Performance of Value vs Growth</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_copper_spx_ratio.png" class="lightbox" title="Relative Performance of Copper vs S&P 500 Futures">
+          <img src="./assets/images/chart_gallery/relative/relative_copper_spx_ratio.png" alt="Relative Performance of Copper vs S&P 500 Futures">
+        </a>
+        <h3>Relative Performance of Copper vs S&P 500 Futures</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_copper_spx_ratio.png" class="lightbox" title="Cumulative Returns: Copper vs S&P 500 Futures">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_copper_spx_ratio.png" alt="Cumulative Returns: Copper vs S&P 500 Futures">
+        </a>
+        <h3>Cumulative Returns: Copper vs S&P 500 Futures</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_copper_spx_ratio.png" class="lightbox" title="Relative Performance of Copper vs S&P 500 Futures">
-      <img src="./assets/images/chart_gallery/relative/relative_copper_spx_ratio.png" alt="Relative Performance of Copper vs S&P 500 Futures">
-    </a>
-    <h3>Relative Performance of Copper vs S&P 500 Futures</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_copper_gold_ratio.png" class="lightbox" title="Relative Performance of Copper vs Gold Futures">
+          <img src="./assets/images/chart_gallery/relative/relative_copper_gold_ratio.png" alt="Relative Performance of Copper vs Gold Futures">
+        </a>
+        <h3>Relative Performance of Copper vs Gold Futures</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_copper_gold_ratio.png" class="lightbox" title="Cumulative Returns: Copper vs Gold Futures">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_copper_gold_ratio.png" alt="Cumulative Returns: Copper vs Gold Futures">
+        </a>
+        <h3>Cumulative Returns: Copper vs Gold Futures</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_copper_gold_ratio.png" class="lightbox" title="Relative Performance of Copper vs Gold Futures">
-      <img src="./assets/images/chart_gallery/relative/relative_copper_gold_ratio.png" alt="Relative Performance of Copper vs Gold Futures">
-    </a>
-    <h3>Relative Performance of Copper vs Gold Futures</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_ndx_btc_ratio.png" class="lightbox" title="Relative Performance of Nasdaq 100 vs Bitcoin">
+          <img src="./assets/images/chart_gallery/relative/relative_ndx_btc_ratio.png" alt="Relative Performance of Nasdaq 100 vs Bitcoin">
+        </a>
+        <h3>Relative Performance of Nasdaq 100 vs Bitcoin</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_ndx_btc_ratio.png" class="lightbox" title="Cumulative Returns: Nasdaq 100 vs Bitcoin">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_ndx_btc_ratio.png" alt="Cumulative Returns: Nasdaq 100 vs Bitcoin">
+        </a>
+        <h3>Cumulative Returns: Nasdaq 100 vs Bitcoin</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_ndx_btc_ratio.png" class="lightbox" title="Relative Performance of Nasdaq 100 vs Bitcoin">
-      <img src="./assets/images/chart_gallery/relative/relative_ndx_btc_ratio.png" alt="Relative Performance of Nasdaq 100 vs Bitcoin">
-    </a>
-    <h3>Relative Performance of Nasdaq 100 vs Bitcoin</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_mstr_btc_ratio.png" class="lightbox" title="Relative Performance of MicroStrategy vs Bitcoin">
+          <img src="./assets/images/chart_gallery/relative/relative_mstr_btc_ratio.png" alt="Relative Performance of MicroStrategy vs Bitcoin">
+        </a>
+        <h3>Relative Performance of MicroStrategy vs Bitcoin</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_mstr_btc_ratio.png" class="lightbox" title="Cumulative Returns: MicroStrategy vs Bitcoin">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_mstr_btc_ratio.png" alt="Cumulative Returns: MicroStrategy vs Bitcoin">
+        </a>
+        <h3>Cumulative Returns: MicroStrategy vs Bitcoin</h3>
+      </div>
+    </div>
   </div>
 
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_mstr_btc_ratio.png" class="lightbox" title="Relative Performance of MicroStrategy vs Bitcoin">
-      <img src="./assets/images/chart_gallery/relative/relative_mstr_btc_ratio.png" alt="Relative Performance of MicroStrategy vs Bitcoin">
-    </a>
-    <h3>Relative Performance of MicroStrategy vs Bitcoin</h3>
-  </div>
-
-
-  <div class="chart-item">
-    <a href="./assets/images/chart_gallery/relative/relative_spy_health_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Health Care Index">
-      <img src="./assets/images/chart_gallery/relative/relative_spy_health_ratio.png" alt="Relative Performance of S&P 500 vs Health Care Index">
-    </a>
-    <h3>Relative Performance of S&P 500 vs Health Care Index</h3>
+  <div class="chart-pair">
+    <div>
+      <div class="chart-type-label">Ratio Chart</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/relative/relative_spy_health_ratio.png" class="lightbox" title="Relative Performance of S&P 500 vs Health Care Index">
+          <img src="./assets/images/chart_gallery/relative/relative_spy_health_ratio.png" alt="Relative Performance of S&P 500 vs Health Care Index">
+        </a>
+        <h3>Relative Performance of S&P 500 vs Health Care Index</h3>
+      </div>
+    </div>
+    <div>
+      <div class="chart-type-label">Cumulative Returns</div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/cumulative/cumulative_spy_health_ratio.png" class="lightbox" title="Cumulative Returns: S&P 500 vs Health Care Index">
+          <img src="./assets/images/chart_gallery/cumulative/cumulative_spy_health_ratio.png" alt="Cumulative Returns: S&P 500 vs Health Care Index">
+        </a>
+        <h3>Cumulative Returns: S&P 500 vs Health Care Index</h3>
+      </div>
+    </div>
   </div>
 
 </div>
-<p class="last-updated">Last updated: 2025-05-28 15:26</p>
+<p class="last-updated">Last updated: 2024-03-19 15:26</p>
 </body>
 </html>

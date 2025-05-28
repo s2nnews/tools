@@ -37,11 +37,13 @@
     .container.menu-container {
       max-width: 1200px;
       margin: 0 auto;
+      padding: 0 -15px !important;
+      box-sizing: border-box;
     }
     
     #content {
       margin: 0;
-      padding: 0 250px 0 250px !important;  /* Equal padding on both sides */
+      padding: 0 250px 0 250px !important;  /* Keep content padding as is */
       width: 100%;
       box-sizing: border-box;
       position: relative;
@@ -74,62 +76,78 @@
       border: 1px solid #ccc !important; /* Keep or remove as desired */
     }
 
-    /* Top navigation menu buttons - RED background */
-    .secondary-navbar .category, 
-    .secondary-navbar .withoutredbg {
-      background-color: #d9302c; 
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      cursor: pointer;
-      margin-right: 2px;
-      border-radius: 0;
+    /* Default styles for submenus and main menu */
+    .filters, .secondary-navbar {
+      display: flex;
+      flex-wrap: nowrap; 
+      gap: 0;
+      width: 100%;
     }
 
-    /* Second row - GREY buttons */
-    .filters .filter, 
-    .filters .withoutredbg {
+    .filters button, .secondary-navbar button {
+      padding: 6px 4px;
+      font-size: 0.85rem;
+      flex: 0 1 auto;
+      white-space: nowrap;
+      min-width: 0;
+      margin-right: 0;
       background-color: grey;
       color: white;
       border: none;
-      padding: 10px 15px;
       cursor: pointer;
-      margin-right: 2px;
       border-radius: 0;
+    }
+
+    /* Top navigation menu buttons - RED background */
+    .secondary-navbar .category, 
+    .secondary-navbar .withoutredbg {
+      background-color: #d9302c;
     }
 
     /* Hover effect for buttons */
     .filter:hover, .withoutredbg:hover, .category:hover {
-      background-color: #555; 
-      opacity: 0.9; 
+      background-color: #555;
+      opacity: 0.9;
     }
 
     /* Top menu hover effect */
     .secondary-navbar .category:hover,
     .secondary-navbar .withoutredbg:hover {
-      background-color: #b82722; 
+      background-color: #b82722;
     }
 
-    /* Default styles for submenus and main menu */
-    .filters, .secondary-navbar {
-      display: flex;
-      flex-wrap: nowrap; 
+    /* Active state for buttons */
+    .filters .filter.withoutredbg,
+    .filters button.withoutredbg,
+    .secondary-navbar .category.withoutredbg {
+      background-color: white !important;
+      color: black !important;
+      border: 1px solid #ccc !important;
     }
 
-    .filters button, .secondary-navbar button {
-      padding: 10px 15px;
-      font-size: 1rem; 
-      flex: 0 1 auto; 
+    /* Menu container specific styles */
+    .container.menu-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 -15px !important;
+      box-sizing: border-box;
     }
-    
+
+    .filters {
+      display: none; /* Hide all submenus by default */
+      margin-top: 10px;
+    }
+
     @media (max-width: 1200px) {
+      .container.menu-container {
+        padding: 0 15px !important;
+      }
       #content {
-        width: 100%;
-        margin-left: 0;
+        padding: 0 15px !important;
       }
       .filters button, .secondary-navbar button {
-        padding: 8px 12px; 
-        font-size: 0.9rem; 
+        padding: 5px 7px;
+        font-size: 0.8rem;
       }
     }
 
@@ -141,9 +159,11 @@
     }
 
     @media (max-width: 768px) {
+      .container.menu-container {
+        padding: 0 15px !important;
+      }
       #content {
-        width: 100%;
-        margin-left: 0;
+        padding: 0 15px !important;
       }
       .filters {
         display: flex;
@@ -163,10 +183,6 @@
       }
       .sidebar-image {
         display: none;
-      }
-      
-      #content {
-        padding: 0 15px !important;  /* Reduced padding for mobile */
       }
     }
     
@@ -346,8 +362,9 @@
       <button class="filter" onclick="loadSection('price-journey.html', this)">Price Journey</button>
       <button class="filter" onclick="loadSection('volatility-performance.html', this)">Rolling Volatility</button>
       <button class="filter" onclick="loadSection('correlation-performance.html', this)">Correlations</button>
-      <button class="filter" onclick="loadSection('performance-stats.html', this)">Detailed Stats</button>
+      <button class="filter" onclick="loadSection('performance-stats-assets.html', this)">Asset Stats</button>
       <button class="filter" onclick="loadSection('drawdowns.html', this)">Drawdowns</button>
+      <button class="filter" onclick="loadSection('valuation.html', this)">Valuation</button>
     </div>
 
     <!-- CHART GALLERY SUBMENU -->
@@ -534,7 +551,7 @@
       let mainMenuSection = '';
       if (file.includes('overview') || file.includes('best-to-worst') || file.includes('price-journey') || 
           file.includes('volatility-performance') || file.includes('correlation-performance') || 
-          file.includes('performance-stats') || file.includes('drawdowns')) {
+          file.includes('performance-stats-assets') || file.includes('drawdowns') || file.includes('valuation')) {
         mainMenuSection = 'performance';
       } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative') || 
                  file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 

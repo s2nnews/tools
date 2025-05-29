@@ -78,8 +78,15 @@
       border: 1px solid #ccc !important; /* Keep or remove as desired */
     }
 
-    /* Default styles for submenus and main menu */
-    .filters, .secondary-navbar {
+    /* Reset all button margins and gaps */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Top navigation menu buttons - RED background */
+    .secondary-navbar {
       display: flex;
       flex-wrap: wrap;
       gap: 1px;
@@ -90,12 +97,11 @@
       margin: 0;
     }
 
-    /* Top navigation menu buttons - RED background */
     .secondary-navbar .category, 
     .secondary-navbar .withoutredbg {
       background-color: #d9302c;
-      padding: 6px 12px; /* Slightly bigger */
-      font-size: 0.85rem;
+      padding: 12px 16px;
+      font-size: 0.9rem;
       flex: 0 0 auto;
       white-space: nowrap;
       min-width: fit-content;
@@ -104,11 +110,33 @@
       border: none;
       cursor: pointer;
       border-radius: 0;
+      font-weight: 500;
     }
 
     /* Submenu buttons - GRAY background */
-    .filters button {
-      padding: 4px 12px; /* Slightly smaller */
+    .filters {
+      display: none; /* Hide all submenus by default */
+    }
+
+    .filters[style*="display: flex"] {
+      display: flex !important;
+      flex-wrap: wrap;
+      gap: 1px;
+      width: 100%;
+      padding: 0 250px;
+      box-sizing: border-box;
+      justify-content: center;
+      margin: 0;
+    }
+
+    #performance-filters button,
+    #chart-gallery-filters button,
+    #interest-rates-filters button,
+    #central-bank-filters button,
+    #economics-filters button,
+    #screeners-filters button,
+    #backtests-filters button {
+      padding: 10px 14px;
       font-size: 0.85rem;
       flex: 0 0 auto;
       white-space: nowrap;
@@ -119,18 +147,7 @@
       border: none;
       cursor: pointer;
       border-radius: 0;
-    }
-
-    /* Hover effect for buttons */
-    .filter:hover, .withoutredbg:hover, .category:hover {
-      background-color: #555;
-      opacity: 0.9;
-    }
-
-    /* Top menu hover effect */
-    .secondary-navbar .category:hover,
-    .secondary-navbar .withoutredbg:hover {
-      background-color: #b82722;
+      font-weight: 400;
     }
 
     /* Active state for buttons */
@@ -140,6 +157,16 @@
       background-color: white !important;
       color: black !important;
       border: 1px solid #ccc !important;
+    }
+
+    /* Hover effects */
+    .secondary-navbar .category:hover,
+    .secondary-navbar .withoutredbg:hover {
+      background-color: #b82722;
+    }
+
+    .filters button:hover {
+      background-color: #555;
     }
 
     .filters {

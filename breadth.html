@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Market Breadth Charts</title>
+  <style>
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .section {
+      margin: 30px 0;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="section">
+    <h2>Price and Moving Averages</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_price_ma.png" class="lightbox" title="S&P 500 Price and Moving Averages">
+          <img src="./assets/images/chart_gallery/breadth/spx_price_ma.png" alt="S&P 500 Price and Moving Averages">
+        </a>
+        <h3>S&P 500 Price and Moving Averages</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/ndx_price_ma.png" class="lightbox" title="Nasdaq Price and Moving Averages">
+          <img src="./assets/images/chart_gallery/breadth/ndx_price_ma.png" alt="Nasdaq Price and Moving Averages">
+        </a>
+        <h3>Nasdaq Price and Moving Averages</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/dji_price_ma.png" class="lightbox" title="Dow Jones Price and Moving Averages">
+          <img src="./assets/images/chart_gallery/breadth/dji_price_ma.png" alt="Dow Jones Price and Moving Averages">
+        </a>
+        <h3>Dow Jones Price and Moving Averages</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/rut_price_ma.png" class="lightbox" title="Russell 2000 Price and Moving Averages">
+          <img src="./assets/images/chart_gallery/breadth/rut_price_ma.png" alt="Russell 2000 Price and Moving Averages">
+        </a>
+        <h3>Russell 2000 Price and Moving Averages</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Momentum Indicators</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_momentum.png" class="lightbox" title="S&P 500 Momentum Indicators">
+          <img src="./assets/images/chart_gallery/breadth/spx_momentum.png" alt="S&P 500 Momentum Indicators">
+        </a>
+        <h3>S&P 500 Momentum Indicators</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/ndx_momentum.png" class="lightbox" title="Nasdaq Momentum Indicators">
+          <img src="./assets/images/chart_gallery/breadth/ndx_momentum.png" alt="Nasdaq Momentum Indicators">
+        </a>
+        <h3>Nasdaq Momentum Indicators</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/dji_momentum.png" class="lightbox" title="Dow Jones Momentum Indicators">
+          <img src="./assets/images/chart_gallery/breadth/dji_momentum.png" alt="Dow Jones Momentum Indicators">
+        </a>
+        <h3>Dow Jones Momentum Indicators</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/rut_momentum.png" class="lightbox" title="Russell 2000 Momentum Indicators">
+          <img src="./assets/images/chart_gallery/breadth/rut_momentum.png" alt="Russell 2000 Momentum Indicators">
+        </a>
+        <h3>Russell 2000 Momentum Indicators</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Moving Average Analysis</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_50_ma.png" class="lightbox" title="S&P 500 50-Day MA">
+          <img src="./assets/images/chart_gallery/breadth/spx_50_ma.png" alt="S&P 500 50-Day MA">
+        </a>
+        <h3>S&P 500 50-Day Moving Average</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_200_ma.png" class="lightbox" title="S&P 500 200-Day MA">
+          <img src="./assets/images/chart_gallery/breadth/spx_200_ma.png" alt="S&P 500 200-Day MA">
+        </a>
+        <h3>S&P 500 200-Day Moving Average</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/ndx_50_ma.png" class="lightbox" title="Nasdaq 50-Day MA">
+          <img src="./assets/images/chart_gallery/breadth/ndx_50_ma.png" alt="Nasdaq 50-Day MA">
+        </a>
+        <h3>Nasdaq 50-Day Moving Average</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/ndx_200_ma.png" class="lightbox" title="Nasdaq 200-Day MA">
+          <img src="./assets/images/chart_gallery/breadth/ndx_200_ma.png" alt="Nasdaq 200-Day MA">
+        </a>
+        <h3>Nasdaq 200-Day Moving Average</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Cumulative High-Low Analysis</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_cum_hi_low.png" class="lightbox" title="S&P 500 Cumulative High-Low">
+          <img src="./assets/images/chart_gallery/breadth/spx_cum_hi_low.png" alt="S&P 500 Cumulative High-Low">
+        </a>
+        <h3>S&P 500 Cumulative High-Low</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/comp_cum_hi_low.png" class="lightbox" title="Nasdaq Cumulative High-Low">
+          <img src="./assets/images/chart_gallery/breadth/comp_cum_hi_low.png" alt="Nasdaq Cumulative High-Low">
+        </a>
+        <h3>Nasdaq Cumulative High-Low</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Market Consensus</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/3_major_index_consensus.png" class="lightbox" title="Major Market Indices Consensus">
+          <img src="./assets/images/chart_gallery/breadth/3_major_index_consensus.png" alt="Major Market Indices Consensus">
+        </a>
+        <h3>Major Market Indices Consensus</h3>
+      </div>
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/dow_theory.png" class="lightbox" title="Dow Theory Analysis">
+          <img src="./assets/images/chart_gallery/breadth/dow_theory.png" alt="Dow Theory Analysis">
+        </a>
+        <h3>Dow Theory Analysis</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Advance-Decline Analysis</h2>
+    <div class="chart-grid">
+      <div class="chart-item">
+        <a href="./assets/images/chart_gallery/breadth/spx_cum_adv_dec.png" class="lightbox" title="S&P 500 with NYSE Cumulative Adv-Dec">
+          <img src="./assets/images/chart_gallery/breadth/spx_cum_adv_dec.png" alt="S&P 500 with NYSE Cumulative Adv-Dec">
+        </a>
+        <h3>S&P 500 with NYSE Cumulative Adv-Dec</h3>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

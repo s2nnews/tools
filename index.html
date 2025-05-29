@@ -442,6 +442,7 @@
       <button class="filter" onclick="loadSection('all-history-chart.html', this)">All History Chart</button>
       <button class="filter" onclick="loadSection('trending.html', this)">Trending</button>
       <button class="filter" onclick="loadSection('overbought-oversold.html', this)">Overbought / Oversold</button>
+      <button class="filter" onclick="loadSection('breadth.html', this)">Breadth</button>
       <button class="filter" onclick="loadSection('relative.html', this)">Relative Performance</button>
       <button class="filter" onclick="loadSection('base-adj-chart.html', this)">Base Adj Chart</button>
       <button class="filter" onclick="loadSection('sentiment.html', this)">Sentiment</button>
@@ -641,7 +642,7 @@
         mainMenuSection = 'performance';
       } else if (file.includes('chart') || file.includes('base-adj-chart') || file.includes('relative') || 
                  file.includes('trending') || file.includes('overbought-oversold') || file.includes('sentiment') || 
-                 file.includes('seasonality') || file.includes('random-charts')) {
+                 file.includes('seasonality') || file.includes('random-charts') || file.includes('breadth')) {
         mainMenuSection = 'chart-gallery';
       } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
                  file.includes('current-rates') || file.includes('yield-steepness') || 

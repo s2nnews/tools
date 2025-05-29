@@ -116,10 +116,6 @@
     /* Submenu buttons - GRAY background */
     .filters {
       display: none; /* Hide all submenus by default */
-    }
-
-    .filters[style*="display: flex"] {
-      display: flex !important;
       flex-wrap: wrap;
       gap: 1px;
       width: 100%;
@@ -127,6 +123,7 @@
       box-sizing: border-box;
       justify-content: center;
       margin: 0;
+      min-height: 42px; /* Add consistent height */
     }
 
     #performance-filters button,
@@ -135,7 +132,8 @@
     #central-bank-filters button,
     #economics-filters button,
     #screeners-filters button,
-    #backtests-filters button {
+    #backtests-filters button,
+    #live-models-filters button {
       padding: 10px 14px;
       font-size: 0.85rem;
       flex: 0 0 auto;
@@ -148,6 +146,9 @@
       cursor: pointer;
       border-radius: 0;
       font-weight: 400;
+      height: 42px; /* Add consistent height */
+      display: flex;
+      align-items: center;
     }
 
     /* Active state for buttons */
@@ -181,6 +182,9 @@
       #content {
         padding: 0 15px !important;
       }
+      .ozmenu-nav {
+        padding-left: 15px;
+      }
       .filters button, .secondary-navbar button {
         padding: 5px 7px;
         font-size: 0.8rem;
@@ -205,20 +209,36 @@
         display: flex;
         flex-wrap: wrap; 
         gap: 5px; 
+        padding: 0 15px;
       }
       .secondary-navbar {
         display: flex;
         flex-wrap: wrap; 
         gap: 5px; 
+        padding: 0 15px;
       }
       .filters button, .secondary-navbar button {
-        padding: 6px 10px; 
-        font-size: 0.8rem; 
-        flex: 1 0 auto; 
+        padding: 8px 12px; 
+        font-size: 0.85rem; 
+        flex: 1 1 auto; 
+        min-width: calc(50% - 5px); /* Allow 2 buttons per row with gap */
+        max-width: calc(50% - 5px); /* Ensure consistent width */
         margin-bottom: 5px; 
+        text-align: center;
+        white-space: normal; /* Allow text to wrap if needed */
+        height: auto; /* Allow height to adjust for wrapped text */
+        min-height: 42px; /* Maintain minimum height */
       }
       .sidebar-image {
         display: none;
+      }
+    }
+
+    /* Add a breakpoint for very small screens */
+    @media (max-width: 480px) {
+      .filters button, .secondary-navbar button {
+        min-width: 100%; /* Full width on very small screens */
+        max-width: 100%;
       }
     }
     
@@ -289,14 +309,18 @@
     .ozmenu {
       text-align: left;
       padding-left: 0;
-      margin-bottom: 0; /* Remove bottom margin */
+      margin-bottom: 0;
+      width: 100%;
+      box-sizing: border-box;
     }
 
     .ozmenu-nav {
       text-align: left;
-      padding-left: 0;
+      padding-left: 250px; /* Move padding here instead */
       margin-left: 0;
-      margin-bottom: 0; /* Remove bottom margin */
+      margin-bottom: 0;
+      display: flex;
+      justify-content: flex-start;
     }
     
     /* Style for the S2N Home button */
@@ -308,9 +332,7 @@
       cursor: pointer;
       font-size: 1rem;
       border-radius: 5px;
-      margin-right: 10px;
-      margin-left: 0;
-      margin-bottom: 0; /* Remove bottom margin */
+      margin: 0;
       display: inline-block;
     }
 
@@ -398,6 +420,7 @@
       <button class="category" onclick="loadSection('economic-summary.html', this)">Economics</button>
       <button class="category" onclick="loadSection('screener_z_daily.html', this)">Screeners</button>
       <button class="category" onclick="loadSection('backtests.html', this)">Backtests</button>
+      <button class="category" onclick="loadSection('live-models.html', this)">Live Models</button>
     </nav>
 
     <!-- PERFORMANCE SUBMENU -->
@@ -465,6 +488,13 @@
     <div class="filters" id="backtests-filters" style="display: none;">
       <button class="withoutredbg" onclick="loadSection('backtest-stats.html', this)">Portfolio Allocations</button>
       <button class="filter" onclick="loadSection('backtest-momnentum.html', this)">Momentum Backtests</button>
+    </div>
+
+    <!-- LIVE MODELS SUBMENU -->
+    <div class="filters" id="live-models-filters" style="display: none;">
+      <button class="withoutredbg" onclick="loadSection('live-models.html', this)">Overview</button>
+      <button class="filter" onclick="loadSection('live-models-performance.html', this)">Performance</button>
+      <button class="filter" onclick="loadSection('live-models-positions.html', this)">Current Positions</button>
     </div>
   </div>
 
@@ -569,6 +599,17 @@
         loadSection('backtest-stats.html', defaultButton);
       });
 
+      // Live Models button (8th button)
+      $(".secondary-navbar button:nth-child(8)").click(function() {
+        $(".secondary-navbar button").removeClass("withoutredbg");
+        $(this).addClass("withoutredbg");
+        showSubMenu('live-models-filters');
+        const defaultButton = document.querySelector("#live-models-filters button:nth-child(1)");
+        $(".filters button").removeClass("withoutredbg");
+        defaultButton.classList.add("withoutredbg");
+        loadSection('live-models.html', defaultButton);
+      });
+
       // Initialize on document ready
       // Set Performance as active by default
       $(".secondary-navbar button:nth-child(1)").addClass("withoutredbg");
@@ -617,6 +658,8 @@
         mainMenuSection = 'screeners';
       } else if (file.includes('backtest-stats') || file.includes('backtest-momnentum')) {
         mainMenuSection = 'backtests';
+      } else if (file.includes('live-models')) {
+        mainMenuSection = 'live-models';
       }
 
       // Clear all active buttons from main menu
@@ -638,6 +681,8 @@
         document.querySelector(".secondary-navbar button:nth-child(6)").classList.add("withoutredbg");
       } else if (mainMenuSection === 'backtests') {
         document.querySelector(".secondary-navbar button:nth-child(7)").classList.add("withoutredbg");
+      } else if (mainMenuSection === 'live-models') {
+        document.querySelector(".secondary-navbar button:nth-child(8)").classList.add("withoutredbg");
       }
 
       // Hide all submenus first
@@ -658,6 +703,8 @@
         showSubMenu('screeners-filters');
       } else if (mainMenuSection === 'backtests') {
         showSubMenu('backtests-filters');
+      } else if (mainMenuSection === 'live-models') {
+        showSubMenu('live-models-filters');
       }
 
       // Clear active state from all buttons in the current submenu

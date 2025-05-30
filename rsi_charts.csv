@@ -1,9 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 76.13,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,76.13
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 73.41,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,73.41
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 70.94,Platinum RSI Chart,rsi_&PL_CCB.png,70.94
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 26.77,Euro / Pound RSI Chart,rsi_EURGBP.png,26.77
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 72.71,Microsoft RSI Chart,rsi_MSFT.png,72.71
-OVERBOUGHT,GOOG,Google with 14-day RSI: 77.65,Google RSI Chart,rsi_GOOG.png,77.65
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 78.82,Tesla RSI Chart,rsi_TSLA.png,78.82
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.55,NVIDIA RSI Chart,rsi_NVDA.png,77.55
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.77,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.77
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 73.90,Straits Times Index RSI Chart,rsi_$STI.png,73.90
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 72.78,Platinum RSI Chart,rsi_&PL_CCB.png,72.78
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 28.11,Coffee RSI Chart,rsi_&KC_CCB.png,28.11
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 70.71,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,70.71
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.77,Microsoft RSI Chart,rsi_MSFT.png,70.77
+OVERBOUGHT,GOOG,Google with 14-day RSI: 74.81,Google RSI Chart,rsi_GOOG.png,74.81
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 77.70,Tesla RSI Chart,rsi_TSLA.png,77.70
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 80.07,NVIDIA RSI Chart,rsi_NVDA.png,80.07

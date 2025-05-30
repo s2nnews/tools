@@ -10,7 +10,7 @@ ABOVE 200-DAY MA,$NDX,Nasdaq 100 Index with 200-day MA,Nasdaq 100 Index Trending
 BELOW 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png
 ABOVE 200-DAY MA,$FT100,FTSE 100 Index with 200-day MA,FTSE 100 Index Trending Chart,trending_$FT100.png
 ABOVE 200-DAY MA,$DAX,DAX Index with 200-day MA,DAX Index Trending Chart,trending_$DAX.png
-BELOW 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trending Chart,trending_$N225.png
+ABOVE 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trending Chart,trending_$N225.png
 ABOVE 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Chart,trending_$HS.png
 ABOVE 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png
 ABOVE 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
@@ -20,7 +20,7 @@ BELOW 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending 
 ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png
 ABOVE 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
 ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
-ABOVE 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
+BELOW 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
 BELOW 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
 BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png
 ABOVE 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
@@ -33,7 +33,7 @@ ABOVE 200-DAY MA,CNYUSD,Chinese Yuan / US Dollar with 200-day MA,Chinese Yuan / 
 ABOVE 200-DAY MA,EURJPY,Euro / Yen with 200-day MA,Euro / Yen Trending Chart,trending_EURJPY.png
 ABOVE 200-DAY MA,EURGBP,Euro / Pound with 200-day MA,Euro / Pound Trending Chart,trending_EURGBP.png
 BELOW 200-DAY MA,%IRX,3-Month T-Bill Yield with 200-day MA,3-Month T-Bill Yield Trending Chart,trending_%IRX.png
-ABOVE 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
+BELOW 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
 ABOVE 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
 BELOW 200-DAY MA,AAPL,Apple with 200-day MA,Apple Trending Chart,trending_AAPL.png
 ABOVE 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png

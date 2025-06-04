@@ -1,13 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 26.95,US Dollar Index RSI Chart,rsi_$USDX.png,26.95
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.18,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.18
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.01,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.01
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 74.33,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,74.33
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 28.50,Natural Gas RSI Chart,rsi_&NG_CCB.png,28.50
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 26.03,Coffee RSI Chart,rsi_&KC_CCB.png,26.03
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 72.41,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,72.41
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.45,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.45
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 71.42,Microsoft RSI Chart,rsi_MSFT.png,71.42
-OVERBOUGHT,GOOG,Google with 14-day RSI: 77.62,Google RSI Chart,rsi_GOOG.png,77.62
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 73.32,NVIDIA RSI Chart,rsi_NVDA.png,73.32
-OVERBOUGHT,META,Meta with 14-day RSI: 72.56,Meta RSI Chart,rsi_META.png,72.56
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 73.74,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,73.74
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 70.17,Platinum RSI Chart,rsi_&PL_CCB.png,70.17
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 28.33,Coffee RSI Chart,rsi_&KC_CCB.png,28.33
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.33,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.33

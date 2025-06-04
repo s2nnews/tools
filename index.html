@@ -458,6 +458,7 @@
       <button class="filter" onclick="loadSection('10yr-yields.html', this)">10yr Global Bond Yields</button>
       <button class="filter" onclick="loadSection('10yr-global-spreads.html', this)">10yr Global Yield Spreads</button>
       <button class="filter" onclick="loadSection('corporate-yields.html', this)">Corporate Bond Yields</button>
+      <button class="filter" onclick="loadSection('auction_treasury.html', this)">Treasury Auction</button>
     </div>
 
     <!-- CENTRAL BANK SUBMENU -->
@@ -647,7 +648,7 @@
       } else if (file.includes('interest-rates') || file.includes('yield-curves') || 
                  file.includes('current-rates') || file.includes('yield-steepness') || 
                  file.includes('10yr-yields') || file.includes('10yr-global-spreads') || 
-                 file.includes('corporate-yields')) {
+                 file.includes('corporate-yields') || file.includes('auction_treasury')) {
         mainMenuSection = 'interest-rates';
       } else if (file.includes('overnight-rates') || file.includes('repos') || file.includes('money-supply')) {
         mainMenuSection = 'central-bank';

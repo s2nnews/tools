@@ -1,5 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 73.74,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,73.74
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 70.17,Platinum RSI Chart,rsi_&PL_CCB.png,70.17
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 28.33,Coffee RSI Chart,rsi_&KC_CCB.png,28.33
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.33,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.33
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.70,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.70
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 72.69,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,72.69
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 76.77,Platinum RSI Chart,rsi_&PL_CCB.png,76.77
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.48,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.48

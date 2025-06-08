@@ -484,6 +484,7 @@
     <div class="filters" id="screeners-filters" style="display: none;">
       <button class="withoutredbg" onclick="loadSection('screener_z_daily.html', this)">Daily Z-Score Screeners</button>
       <button class="filter" onclick="loadSection('screener_return_daily.html', this)">Daily Return Screeners</button>
+      <button class="filter" onclick="loadSection('screener_streak_daily.html', this)">Daily Streak Screeners</button>
     </div>
 
     <!-- BACKTEST SUBMENU -->
@@ -656,7 +657,7 @@
                  file.includes('unemployment') || file.includes('economic-debt') || file.includes('indexes') ||
                  file.includes('retail') || file.includes('news')) {
         mainMenuSection = 'economics';
-      } else if (file.includes('screener_z_daily') || file.includes('screener_return_daily')) {
+      } else if (file.includes('screener_z_daily') || file.includes('screener_return_daily') || file.includes('screener_streak_daily')) {
         mainMenuSection = 'screeners';
       } else if (file.includes('backtest-stats') || file.includes('backtest-momnentum')) {
         mainMenuSection = 'backtests';

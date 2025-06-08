@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Streak Screener</title>
+    <style>
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .chart-item {
+            text-align: center;
+            border: 1px solid #eee;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .chart-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .chart-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .chart-item h3 {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+        .section-header {
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .up-header {
+            background-color: #4CAF50;
+        }
+        .down-header {
+            background-color: #f44336;
+        }
+        @media (max-width: 1200px) {
+            .chart-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="section-header up-header">Up Streaks (5+ days)</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/EURPLN_up_streak.png" class="lightbox" title="EURPLN Up Streak">
+            <img src="./assets/images/screeners/EURPLN_up_streak.png" alt="EURPLN Up Streak">
+        </a>
+        <h3>EURPLN (7 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/MSFT_up_streak.png" class="lightbox" title="MSFT Up Streak">
+            <img src="./assets/images/screeners/MSFT_up_streak.png" alt="MSFT Up Streak">
+        </a>
+        <h3>MSFT (7 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$FT100_up_streak.png" class="lightbox" title="$FT100 Up Streak">
+            <img src="./assets/images/screeners/$FT100_up_streak.png" alt="$FT100 Up Streak">
+        </a>
+        <h3>$FT100 (6 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/USDZWL_up_streak.png" class="lightbox" title="USDZWL Up Streak">
+            <img src="./assets/images/screeners/USDZWL_up_streak.png" alt="USDZWL Up Streak">
+        </a>
+        <h3>USDZWL (5 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&PL_CCB_up_streak.png" class="lightbox" title="&PL_CCB Up Streak">
+            <img src="./assets/images/screeners/&PL_CCB_up_streak.png" alt="&PL_CCB Up Streak">
+        </a>
+        <h3>&PL_CCB (5 days)</h3>
+    </div>
+
+</div>
+
+<div class="section-header down-header">Down Streaks (5+ days)</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/PLNEUR_down_streak.png" class="lightbox" title="PLNEUR Down Streak">
+            <img src="./assets/images/screeners/PLNEUR_down_streak.png" alt="PLNEUR Down Streak">
+        </a>
+        <h3>PLNEUR (7 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/USDBRL_down_streak.png" class="lightbox" title="USDBRL Down Streak">
+            <img src="./assets/images/screeners/USDBRL_down_streak.png" alt="USDBRL Down Streak">
+        </a>
+        <h3>USDBRL (5 days)</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/ZWLUSD_down_streak.png" class="lightbox" title="ZWLUSD Down Streak">
+            <img src="./assets/images/screeners/ZWLUSD_down_streak.png" alt="ZWLUSD Down Streak">
+        </a>
+        <h3>ZWLUSD (5 days)</h3>
+    </div>
+
+</div>
+
+</body>
+</html>

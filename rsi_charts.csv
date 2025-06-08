@@ -1,8 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.26,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.26
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 81.82,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,81.82
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 74.27,Silver RSI Chart,rsi_&SI_CCB.png,74.27
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 79.96,Platinum RSI Chart,rsi_&PL_CCB.png,79.96
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 75.08,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,75.08
-OVERSOLD,TSLA,Tesla with 14-day RSI: 29.54,Tesla RSI Chart,rsi_TSLA.png,29.54
-OVERBOUGHT,META,Meta with 14-day RSI: 72.27,Meta RSI Chart,rsi_META.png,72.27
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.49,Straits Times Index RSI Chart,rsi_$STI.png,72.49
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 76.28,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,76.28
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 79.35,Silver RSI Chart,rsi_&SI_CCB.png,79.35
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 83.96,Platinum RSI Chart,rsi_&PL_CCB.png,83.96
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 73.14,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,73.14
+OVERBOUGHT,META,Meta with 14-day RSI: 78.40,Meta RSI Chart,rsi_META.png,78.40

@@ -1,7 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.49,Straits Times Index RSI Chart,rsi_$STI.png,72.49
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 71.55,Straits Times Index RSI Chart,rsi_$STI.png,71.55
 OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 76.28,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,76.28
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 79.35,Silver RSI Chart,rsi_&SI_CCB.png,79.35
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 83.96,Platinum RSI Chart,rsi_&PL_CCB.png,83.96
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 73.14,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,73.14
-OVERBOUGHT,META,Meta with 14-day RSI: 78.40,Meta RSI Chart,rsi_META.png,78.40
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 80.85,Silver RSI Chart,rsi_&SI_CCB.png,80.85
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 85.65,Platinum RSI Chart,rsi_&PL_CCB.png,85.65
+OVERBOUGHT,META,Meta with 14-day RSI: 75.64,Meta RSI Chart,rsi_META.png,75.64

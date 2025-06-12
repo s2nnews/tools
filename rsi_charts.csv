@@ -1,8 +1,12 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 70.12,Straits Times Index RSI Chart,rsi_$STI.png,70.12
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 77.49,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,77.49
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 76.93,Silver RSI Chart,rsi_&SI_CCB.png,76.93
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 82.05,Platinum RSI Chart,rsi_&PL_CCB.png,82.05
-OVERBOUGHT,GOOG,Google with 14-day RSI: 73.13,Google RSI Chart,rsi_GOOG.png,73.13
-OVERBOUGHT,AMZN,Amazon with 14-day RSI: 72.93,Amazon RSI Chart,rsi_AMZN.png,72.93
-OVERBOUGHT,META,Meta with 14-day RSI: 79.80,Meta RSI Chart,rsi_META.png,79.80
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.93,S&P 500 Index RSI Chart,rsi_$SPX.png,70.93
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 76.45,Crude Oil RSI Chart,rsi_&CL_CCB.png,76.45
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.82,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.82
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.27,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.27
+OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 83.77,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,83.77
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 70.60,Silver RSI Chart,rsi_&SI_CCB.png,70.60
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 83.28,Platinum RSI Chart,rsi_&PL_CCB.png,83.28
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 24.47,Corn RSI Chart,rsi_&ZC_CCB.png,24.47
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 74.36,Euro / Yen RSI Chart,rsi_EURJPY.png,74.36
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 75.23,Microsoft RSI Chart,rsi_MSFT.png,75.23
+OVERBOUGHT,META,Meta with 14-day RSI: 75.22,Meta RSI Chart,rsi_META.png,75.22

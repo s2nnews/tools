@@ -1,0 +1,10 @@
+50/50 Portfolio ($SPX/$SPXEW) Performance Report
+==================================================
+
+Total Return: 426.22%
+CAGR: 4.69%
+Sharpe Ratio: 0.44
+Max Drawdown: -58.82%
+Volatility: 312.40%
+
+Generated on: 2025-06-18 11:37:46

@@ -1,11 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 81.34,Crude Oil RSI Chart,rsi_&CL_CCB.png,81.34
-OVERBOUGHT,$XAO.au,All Ordinaries (Australia) with 14-day RSI: 73.29,All Ordinaries (Australia) RSI Chart,rsi_$XAO.au.png,73.29
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 78.94,Silver RSI Chart,rsi_&SI_CCB.png,78.94
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 73.97,Platinum RSI Chart,rsi_&PL_CCB.png,73.97
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 28.94,Corn RSI Chart,rsi_&ZC_CCB.png,28.94
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 78.59,Euro / Yen RSI Chart,rsi_EURJPY.png,78.59
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 78.67,Euro / Pound RSI Chart,rsi_EURGBP.png,78.67
-OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 73.20,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,73.20
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 75.21,Microsoft RSI Chart,rsi_MSFT.png,75.21
-OVERBOUGHT,META,Meta with 14-day RSI: 74.84,Meta RSI Chart,rsi_META.png,74.84
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 83.37,Crude Oil RSI Chart,rsi_&CL_CCB.png,83.37
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 83.42,Silver RSI Chart,rsi_&SI_CCB.png,83.42
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 75.53,Platinum RSI Chart,rsi_&PL_CCB.png,75.53
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 72.16,Euro / Yen RSI Chart,rsi_EURJPY.png,72.16
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 82.03,Euro / Pound RSI Chart,rsi_EURGBP.png,82.03
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 80.09,Microsoft RSI Chart,rsi_MSFT.png,80.09
+OVERBOUGHT,META,Meta with 14-day RSI: 71.66,Meta RSI Chart,rsi_META.png,71.66

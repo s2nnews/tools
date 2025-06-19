@@ -1,8 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 83.37,Crude Oil RSI Chart,rsi_&CL_CCB.png,83.37
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 83.42,Silver RSI Chart,rsi_&SI_CCB.png,83.42
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 75.53,Platinum RSI Chart,rsi_&PL_CCB.png,75.53
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 72.16,Euro / Yen RSI Chart,rsi_EURJPY.png,72.16
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 82.03,Euro / Pound RSI Chart,rsi_EURGBP.png,82.03
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 80.09,Microsoft RSI Chart,rsi_MSFT.png,80.09
-OVERBOUGHT,META,Meta with 14-day RSI: 71.66,Meta RSI Chart,rsi_META.png,71.66
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 87.61,Crude Oil RSI Chart,rsi_&CL_CCB.png,87.61
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.96,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.96
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 79.35,Silver RSI Chart,rsi_&SI_CCB.png,79.35
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 78.29,Platinum RSI Chart,rsi_&PL_CCB.png,78.29
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 78.60,Euro / Pound RSI Chart,rsi_EURGBP.png,78.60
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 80.59,Microsoft RSI Chart,rsi_MSFT.png,80.59
+OVERBOUGHT,META,Meta with 14-day RSI: 70.49,Meta RSI Chart,rsi_META.png,70.49

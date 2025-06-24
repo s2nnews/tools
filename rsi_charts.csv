@@ -1,7 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 88.52,Crude Oil RSI Chart,rsi_&CL_CCB.png,88.52
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 73.17,Silver RSI Chart,rsi_&SI_CCB.png,73.17
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 73.97,Platinum RSI Chart,rsi_&PL_CCB.png,73.97
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 81.44,Euro / Yen RSI Chart,rsi_EURJPY.png,81.44
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 74.69,Euro / Pound RSI Chart,rsi_EURGBP.png,74.69
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.41,Microsoft RSI Chart,rsi_MSFT.png,73.41
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 74.62,Platinum RSI Chart,rsi_&PL_CCB.png,74.62
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 82.30,Euro / Yen RSI Chart,rsi_EURJPY.png,82.30
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 83.94,Euro / Pound RSI Chart,rsi_EURGBP.png,83.94
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 27.98,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,27.98
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 77.69,Microsoft RSI Chart,rsi_MSFT.png,77.69

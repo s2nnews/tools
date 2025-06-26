@@ -1,1 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 75.65,Platinum RSI Chart,rsi_&PL_CCB.png,75.65
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 28.24,Corn RSI Chart,rsi_&ZC_CCB.png,28.24
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 79.95,Euro / Yen RSI Chart,rsi_EURJPY.png,79.95
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 70.83,Euro / Pound RSI Chart,rsi_EURGBP.png,70.83
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 79.73,Microsoft RSI Chart,rsi_MSFT.png,79.73
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 71.41,NVIDIA RSI Chart,rsi_NVDA.png,71.41

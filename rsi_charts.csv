@@ -1,12 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.09,S&P 500 Index RSI Chart,rsi_$SPX.png,70.09
-OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 28.27,US Dollar Index RSI Chart,rsi_$USDX.png,28.27
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 72.59,Nikkei 225 Index RSI Chart,rsi_$N225.png,72.59
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 76.82,Platinum RSI Chart,rsi_&PL_CCB.png,76.82
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 27.10,Corn RSI Chart,rsi_&ZC_CCB.png,27.10
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 20.61,Coffee RSI Chart,rsi_&KC_CCB.png,20.61
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 78.72,Euro / US Dollar RSI Chart,rsi_EURUSD.png,78.72
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 73.59,Euro / Yen RSI Chart,rsi_EURJPY.png,73.59
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 70.25,Euro / Pound RSI Chart,rsi_EURGBP.png,70.25
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 80.30,Microsoft RSI Chart,rsi_MSFT.png,80.30
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.11,NVIDIA RSI Chart,rsi_NVDA.png,77.11
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 26.60,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,26.60
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.99,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.99
+OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 76.75,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,76.75
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 20.56,Coffee RSI Chart,rsi_&KC_CCB.png,20.56
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 78.48,Euro / US Dollar RSI Chart,rsi_EURUSD.png,78.48
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 75.26,Euro / Yen RSI Chart,rsi_EURJPY.png,75.26
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.41,Euro / Pound RSI Chart,rsi_EURGBP.png,72.41
+OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 21.01,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,21.01
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 76.66,Microsoft RSI Chart,rsi_MSFT.png,76.66
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.91,NVIDIA RSI Chart,rsi_NVDA.png,77.91

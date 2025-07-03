@@ -1,10 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 28.68,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,28.68
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.00,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.00
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 71.54,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,71.54
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 28.34,Corn RSI Chart,rsi_&ZC_CCB.png,28.34
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 16.24,Coffee RSI Chart,rsi_&KC_CCB.png,16.24
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 79.23,Euro / US Dollar RSI Chart,rsi_EURUSD.png,79.23
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 71.43,Euro / Pound RSI Chart,rsi_EURGBP.png,71.43
-OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 28.08,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,28.08
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.89,Microsoft RSI Chart,rsi_MSFT.png,70.89
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 71.10,S&P 500 Index RSI Chart,rsi_$SPX.png,71.10
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 70.36,Straits Times Index RSI Chart,rsi_$STI.png,70.36
+OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 80.17,Copper RSI Chart,rsi_&HG_CCB.png,80.17
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 16.93,Coffee RSI Chart,rsi_&KC_CCB.png,16.93
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 73.63,Euro / US Dollar RSI Chart,rsi_EURUSD.png,73.63
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 75.00,Euro / Pound RSI Chart,rsi_EURGBP.png,75.00
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 74.19,Apple RSI Chart,rsi_AAPL.png,74.19
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 71.04,NVIDIA RSI Chart,rsi_NVDA.png,71.04

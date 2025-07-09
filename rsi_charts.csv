@@ -1,14 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 75.49,S&P 500 Index RSI Chart,rsi_$SPX.png,75.49
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 77.79,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,77.79
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 71.59,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,71.59
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 70.13,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,70.13
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 73.58,Straits Times Index RSI Chart,rsi_$STI.png,73.58
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 74.82,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,74.82
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 29.04,Corn RSI Chart,rsi_&ZC_CCB.png,29.04
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 13.44,Coffee RSI Chart,rsi_&KC_CCB.png,13.44
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 75.00,Euro / US Dollar RSI Chart,rsi_EURUSD.png,75.00
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 75.24,Euro / Yen RSI Chart,rsi_EURJPY.png,75.24
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 72.67,Apple RSI Chart,rsi_AAPL.png,72.67
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.44,Microsoft RSI Chart,rsi_MSFT.png,73.44
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 75.22,NVIDIA RSI Chart,rsi_NVDA.png,75.22
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 71.64,S&P 500 Index RSI Chart,rsi_$SPX.png,71.64
+OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 29.43,US Dollar Index RSI Chart,rsi_$USDX.png,29.43
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 72.57,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,72.57
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 73.03,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,73.03
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 78.77,Straits Times Index RSI Chart,rsi_$STI.png,78.77
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.90,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.90
+OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 80.30,Copper RSI Chart,rsi_&HG_CCB.png,80.30
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 20.89,Coffee RSI Chart,rsi_&KC_CCB.png,20.89
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 75.26,Euro / US Dollar RSI Chart,rsi_EURUSD.png,75.26
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 78.92,Euro / Yen RSI Chart,rsi_EURJPY.png,78.92
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 70.79,Apple RSI Chart,rsi_AAPL.png,70.79
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 74.46,NVIDIA RSI Chart,rsi_NVDA.png,74.46

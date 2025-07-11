@@ -1,17 +1,18 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 82.48,S&P 500 Index RSI Chart,rsi_$SPX.png,82.48
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 79.98,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,79.98
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 77.32,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,77.32
-OVERSOLD,$VIX,VIX Index with 14-day RSI: 22.94,VIX Index RSI Chart,rsi_$VIX.png,22.94
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 75.25,DAX Index RSI Chart,rsi_$DAX.png,75.25
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 80.65,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,80.65
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 90.09,Straits Times Index RSI Chart,rsi_$STI.png,90.09
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 81.82,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,81.82
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 70.99,Copper RSI Chart,rsi_&HG_CCB.png,70.99
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 25.82,Natural Gas RSI Chart,rsi_&NG_CCB.png,25.82
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 22.42,Coffee RSI Chart,rsi_&KC_CCB.png,22.42
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 73.68,Euro / US Dollar RSI Chart,rsi_EURUSD.png,73.68
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 74.32,Euro / Yen RSI Chart,rsi_EURJPY.png,74.32
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 79.56,Apple RSI Chart,rsi_AAPL.png,79.56
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 74.85,Microsoft RSI Chart,rsi_MSFT.png,74.85
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.92,NVIDIA RSI Chart,rsi_NVDA.png,77.92
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 83.49,S&P 500 Index RSI Chart,rsi_$SPX.png,83.49
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 75.94,Bitcoin RSI Chart,rsi_BTCUSD.png,75.94
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 81.87,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,81.87
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 76.02,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,76.02
+OVERSOLD,$VIX,VIX Index with 14-day RSI: 26.20,VIX Index RSI Chart,rsi_$VIX.png,26.20
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.57,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.57
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 70.08,DAX Index RSI Chart,rsi_$DAX.png,70.08
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.84,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.84
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 95.51,Straits Times Index RSI Chart,rsi_$STI.png,95.51
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 83.18,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,83.18
+OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 72.13,Copper RSI Chart,rsi_&HG_CCB.png,72.13
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 25.14,Natural Gas RSI Chart,rsi_&NG_CCB.png,25.14
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 25.28,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,25.28
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 28.96,Coffee RSI Chart,rsi_&KC_CCB.png,28.96
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 79.81,Apple RSI Chart,rsi_AAPL.png,79.81
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.79,Microsoft RSI Chart,rsi_MSFT.png,70.79
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.82,NVIDIA RSI Chart,rsi_NVDA.png,77.82

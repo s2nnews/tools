@@ -14,7 +14,6 @@ ABOVE 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trendin
 ABOVE 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Chart,trending_$HS.png
 ABOVE 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png
 ABOVE 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
-ABOVE 200-DAY MA,$XAO.au,All Ordinaries (Australia) with 200-day MA,All Ordinaries (Australia) Trending Chart,trending_$XAO.au.png
 ABOVE 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending Chart,trending_&ES_CCB.png
 ABOVE 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
 ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png

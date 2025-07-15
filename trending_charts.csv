@@ -38,7 +38,7 @@ BELOW 200-DAY MA,AAPL,Apple with 200-day MA,Apple Trending Chart,trending_AAPL.p
 ABOVE 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png
 ABOVE 200-DAY MA,GOOG,Google with 200-day MA,Google Trending Chart,trending_GOOG.png
 ABOVE 200-DAY MA,AMZN,Amazon with 200-day MA,Amazon Trending Chart,trending_AMZN.png
-BELOW 200-DAY MA,TSLA,Tesla with 200-day MA,Tesla Trending Chart,trending_TSLA.png
+ABOVE 200-DAY MA,TSLA,Tesla with 200-day MA,Tesla Trending Chart,trending_TSLA.png
 ABOVE 200-DAY MA,NVDA,NVIDIA with 200-day MA,NVIDIA Trending Chart,trending_NVDA.png
 ABOVE 200-DAY MA,META,Meta with 200-day MA,Meta Trending Chart,trending_META.png
 ABOVE 200-DAY MA,MSTR,MicroStrategy with 200-day MA,MicroStrategy Trending Chart,trending_MSTR.png

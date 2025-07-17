@@ -1,12 +1,12 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.81,S&P 500 Index RSI Chart,rsi_$SPX.png,70.81
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 71.33,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,71.33
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.38,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.38
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 96.25,Straits Times Index RSI Chart,rsi_$STI.png,96.25
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 70.58,Copper RSI Chart,rsi_&HG_CCB.png,70.58
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 22.05,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,22.05
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 74.52,Euro / Yen RSI Chart,rsi_EURJPY.png,74.52
-OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 72.32,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,72.32
-OVERBOUGHT,GOOG,Google with 14-day RSI: 76.61,Google RSI Chart,rsi_GOOG.png,76.61
-OVERBOUGHT,AMZN,Amazon with 14-day RSI: 70.69,Amazon RSI Chart,rsi_AMZN.png,70.69
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 81.60,NVIDIA RSI Chart,rsi_NVDA.png,81.60
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.33,S&P 500 Index RSI Chart,rsi_$SPX.png,72.33
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 71.15,US Dollar Index RSI Chart,rsi_$USDX.png,71.15
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 71.14,Bitcoin RSI Chart,rsi_BTCUSD.png,71.14
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.90,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.90
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 96.27,Straits Times Index RSI Chart,rsi_$STI.png,96.27
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.93,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.93
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 18.52,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,18.52
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 72.48,Euro / Yen RSI Chart,rsi_EURJPY.png,72.48
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.48,Euro / Pound RSI Chart,rsi_EURGBP.png,72.48
+OVERBOUGHT,GOOG,Google with 14-day RSI: 73.82,Google RSI Chart,rsi_GOOG.png,73.82
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 78.11,NVIDIA RSI Chart,rsi_NVDA.png,78.11

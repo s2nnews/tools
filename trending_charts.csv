@@ -15,7 +15,7 @@ ABOVE 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Ch
 ABOVE 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png
 ABOVE 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
 ABOVE 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending Chart,trending_&ES_CCB.png
-ABOVE 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
+BELOW 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
 ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png
 ABOVE 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
 ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png

@@ -1,12 +1,14 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.33,S&P 500 Index RSI Chart,rsi_$SPX.png,72.33
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 71.15,US Dollar Index RSI Chart,rsi_$USDX.png,71.15
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 71.14,Bitcoin RSI Chart,rsi_BTCUSD.png,71.14
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.90,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.90
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 71.19,S&P 500 Index RSI Chart,rsi_$SPX.png,71.19
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 71.99,US Dollar Index RSI Chart,rsi_$USDX.png,71.99
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 71.67,Bitcoin RSI Chart,rsi_BTCUSD.png,71.67
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.22,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.22
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 83.28,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,83.28
 OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 96.27,Straits Times Index RSI Chart,rsi_$STI.png,96.27
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.93,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.93
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 18.52,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,18.52
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 72.48,Euro / Yen RSI Chart,rsi_EURJPY.png,72.48
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.48,Euro / Pound RSI Chart,rsi_EURGBP.png,72.48
-OVERBOUGHT,GOOG,Google with 14-day RSI: 73.82,Google RSI Chart,rsi_GOOG.png,73.82
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 78.11,NVIDIA RSI Chart,rsi_NVDA.png,78.11
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.07,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.07
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 22.21,Cocoa RSI Chart,rsi_&CC_CCB.png,22.21
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.84,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.84
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 18.79,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,18.79
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 71.06,Euro / Yen RSI Chart,rsi_EURJPY.png,71.06
+OVERBOUGHT,GOOG,Google with 14-day RSI: 71.60,Google RSI Chart,rsi_GOOG.png,71.60
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 78.76,NVIDIA RSI Chart,rsi_NVDA.png,78.76

@@ -1,11 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 79.14,US Dollar Index RSI Chart,rsi_$USDX.png,79.14
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.21,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.21
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.97,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.97
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 97.49,Straits Times Index RSI Chart,rsi_$STI.png,97.49
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 70.58,Silver RSI Chart,rsi_&SI_CCB.png,70.58
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 24.21,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,24.21
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 15.07,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,15.07
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 73.02,Euro / Yen RSI Chart,rsi_EURJPY.png,73.02
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 70.07,Apple RSI Chart,rsi_AAPL.png,70.07
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 75.17,NVIDIA RSI Chart,rsi_NVDA.png,75.17
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.02,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.02
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 70.19,Hang Seng Index RSI Chart,rsi_$HS.png,70.19
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 84.34,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,84.34
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 97.40,Straits Times Index RSI Chart,rsi_$STI.png,97.40
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 77.45,Silver RSI Chart,rsi_&SI_CCB.png,77.45
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 26.34,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,26.34
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 70.82,Euro / Yen RSI Chart,rsi_EURJPY.png,70.82
+OVERBOUGHT,GOOG,Google with 14-day RSI: 76.98,Google RSI Chart,rsi_GOOG.png,76.98
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 72.38,NVIDIA RSI Chart,rsi_NVDA.png,72.38

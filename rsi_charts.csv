@@ -1,9 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 71.20,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,71.20
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 75.19,FTSE 100 Index RSI Chart,rsi_$FT100.png,75.19
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 70.02,Hang Seng Index RSI Chart,rsi_$HS.png,70.02
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 87.89,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,87.89
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 97.16,Straits Times Index RSI Chart,rsi_$STI.png,97.16
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 77.43,Silver RSI Chart,rsi_&SI_CCB.png,77.43
-OVERBOUGHT,GOOG,Google with 14-day RSI: 79.25,Google RSI Chart,rsi_GOOG.png,79.25
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 73.22,NVIDIA RSI Chart,rsi_NVDA.png,73.22
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 74.63,FTSE 100 Index RSI Chart,rsi_$FT100.png,74.63
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 74.63,Nikkei 225 Index RSI Chart,rsi_$N225.png,74.63
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 79.06,Hang Seng Index RSI Chart,rsi_$HS.png,79.06
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 87.45,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,87.45
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 97.34,Straits Times Index RSI Chart,rsi_$STI.png,97.34
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 75.34,Silver RSI Chart,rsi_&SI_CCB.png,75.34
+OVERBOUGHT,GOOG,Google with 14-day RSI: 74.76,Google RSI Chart,rsi_GOOG.png,74.76
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 73.03,NVIDIA RSI Chart,rsi_NVDA.png,73.03

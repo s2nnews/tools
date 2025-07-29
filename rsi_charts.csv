@@ -1,15 +1,12 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 80.54,S&P 500 Index RSI Chart,rsi_$SPX.png,80.54
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 78.78,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,78.78
-OVERSOLD,$VIX,VIX Index with 14-day RSI: 28.27,VIX Index RSI Chart,rsi_$VIX.png,28.27
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 77.92,FTSE 100 Index RSI Chart,rsi_$FT100.png,77.92
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.44,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.44
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 77.26,Hang Seng Index RSI Chart,rsi_$HS.png,77.26
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.53,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.53
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 95.26,Straits Times Index RSI Chart,rsi_$STI.png,95.26
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 77.49,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,77.49
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 75.92,Copper RSI Chart,rsi_&HG_CCB.png,75.92
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 73.06,Euro / Pound RSI Chart,rsi_EURGBP.png,73.06
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 72.13,Microsoft RSI Chart,rsi_MSFT.png,72.13
-OVERBOUGHT,GOOG,Google with 14-day RSI: 86.68,Google RSI Chart,rsi_GOOG.png,86.68
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 75.97,NVIDIA RSI Chart,rsi_NVDA.png,75.97
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 82.03,S&P 500 Index RSI Chart,rsi_$SPX.png,82.03
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 80.09,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,80.09
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.54,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.54
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 76.52,Hang Seng Index RSI Chart,rsi_$HS.png,76.52
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 80.41,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,80.41
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 87.59,Straits Times Index RSI Chart,rsi_$STI.png,87.59
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 77.99,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,77.99
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 71.91,Microsoft RSI Chart,rsi_MSFT.png,71.91
+OVERBOUGHT,GOOG,Google with 14-day RSI: 93.94,Google RSI Chart,rsi_GOOG.png,93.94
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 76.28,Amazon RSI Chart,rsi_AMZN.png,76.28
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.13,NVIDIA RSI Chart,rsi_NVDA.png,77.13

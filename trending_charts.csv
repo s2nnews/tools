@@ -1,6 +1,6 @@
 trend_group,symbol,chart_title,alt_text,filename
 ABOVE 200-DAY MA,$SPX,S&P 500 Index with 200-day MA,S&P 500 Index Trending Chart,trending_$SPX.png
-ABOVE 200-DAY MA,%TNX,10-Year Treasury Yield with 200-day MA,10-Year Treasury Yield Trending Chart,trending_%TNX.png
+BELOW 200-DAY MA,%TNX,10-Year Treasury Yield with 200-day MA,10-Year Treasury Yield Trending Chart,trending_%TNX.png
 BELOW 200-DAY MA,$USDX,US Dollar Index with 200-day MA,US Dollar Index Trending Chart,trending_$USDX.png
 ABOVE 200-DAY MA,&GC_CCB,Gold with 200-day MA,Gold Trending Chart,trending_&GC_CCB.png
 ABOVE 200-DAY MA,BTCUSD,Bitcoin with 200-day MA,Bitcoin Trending Chart,trending_BTCUSD.png

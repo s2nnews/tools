@@ -1,9 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.64,S&P 500 Index RSI Chart,rsi_$SPX.png,72.64
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 72.81,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,72.81
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.62,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.62
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 83.34,Hang Seng Index RSI Chart,rsi_$HS.png,83.34
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 83.81,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,83.81
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 83.14,Straits Times Index RSI Chart,rsi_$STI.png,83.14
-OVERBOUGHT,GOOG,Google with 14-day RSI: 94.08,Google RSI Chart,rsi_GOOG.png,94.08
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 71.60,NVIDIA RSI Chart,rsi_NVDA.png,71.60
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 76.51,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,76.51
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 71.60,Hang Seng Index RSI Chart,rsi_$HS.png,71.60
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.74,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.74
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 78.63,Straits Times Index RSI Chart,rsi_$STI.png,78.63
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 29.33,Euro / US Dollar RSI Chart,rsi_EURUSD.png,29.33
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 28.17,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,28.17
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.95,Microsoft RSI Chart,rsi_MSFT.png,70.95
+OVERBOUGHT,GOOG,Google with 14-day RSI: 94.07,Google RSI Chart,rsi_GOOG.png,94.07
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 73.87,NVIDIA RSI Chart,rsi_NVDA.png,73.87

@@ -1,10 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 76.51,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,76.51
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 71.60,Hang Seng Index RSI Chart,rsi_$HS.png,71.60
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.74,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.74
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 78.63,Straits Times Index RSI Chart,rsi_$STI.png,78.63
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 29.33,Euro / US Dollar RSI Chart,rsi_EURUSD.png,29.33
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 28.17,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,28.17
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.95,Microsoft RSI Chart,rsi_MSFT.png,70.95
-OVERBOUGHT,GOOG,Google with 14-day RSI: 94.07,Google RSI Chart,rsi_GOOG.png,94.07
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 73.87,NVIDIA RSI Chart,rsi_NVDA.png,73.87
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.79,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.79
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.98,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.98
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 28.69,Silver RSI Chart,rsi_&SI_CCB.png,28.69
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 26.73,Platinum RSI Chart,rsi_&PL_CCB.png,26.73
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 17.75,Copper RSI Chart,rsi_&HG_CCB.png,17.75
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 29.86,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,29.86
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 82.47,Microsoft RSI Chart,rsi_MSFT.png,82.47
+OVERBOUGHT,GOOG,Google with 14-day RSI: 74.86,Google RSI Chart,rsi_GOOG.png,74.86
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 70.02,NVIDIA RSI Chart,rsi_NVDA.png,70.02

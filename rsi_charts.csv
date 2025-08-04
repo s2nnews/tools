@@ -1,10 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.79,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.79
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.98,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.98
-OVERSOLD,&SI_CCB,Silver with 14-day RSI: 28.69,Silver RSI Chart,rsi_&SI_CCB.png,28.69
-OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 26.73,Platinum RSI Chart,rsi_&PL_CCB.png,26.73
-OVERSOLD,&HG_CCB,Copper with 14-day RSI: 17.75,Copper RSI Chart,rsi_&HG_CCB.png,17.75
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 29.86,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,29.86
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 82.47,Microsoft RSI Chart,rsi_MSFT.png,82.47
-OVERBOUGHT,GOOG,Google with 14-day RSI: 74.86,Google RSI Chart,rsi_GOOG.png,74.86
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 70.02,NVIDIA RSI Chart,rsi_NVDA.png,70.02
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 21.63,Copper RSI Chart,rsi_&HG_CCB.png,21.63
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 27.34,Natural Gas RSI Chart,rsi_&NG_CCB.png,27.34
+OVERSOLD,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 28.75,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,28.75
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 19.16,MicroStrategy RSI Chart,rsi_MSTR.png,19.16

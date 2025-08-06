@@ -1,11 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 26.27,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,26.27
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.47,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.47
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 72.64,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,72.64
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 27.63,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,27.63
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.16,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.16
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 72.81,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,72.81
 OVERSOLD,&HG_CCB,Copper with 14-day RSI: 20.62,Copper RSI Chart,rsi_&HG_CCB.png,20.62
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 19.89,Natural Gas RSI Chart,rsi_&NG_CCB.png,19.89
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 24.18,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,24.18
-OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 28.29,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,28.29
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 26.24,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,26.24
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.19,Microsoft RSI Chart,rsi_MSFT.png,73.19
-OVERBOUGHT,GOOG,Google with 14-day RSI: 70.98,Google RSI Chart,rsi_GOOG.png,70.98
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 23.34,Natural Gas RSI Chart,rsi_&NG_CCB.png,23.34
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 27.49,Corn RSI Chart,rsi_&ZC_CCB.png,27.49
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 24.83,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,24.83
+OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 24.95,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,24.95
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 23.35,MicroStrategy RSI Chart,rsi_MSTR.png,23.35

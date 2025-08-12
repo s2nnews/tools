@@ -1,5 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 22.78,Platinum RSI Chart,rsi_&PL_CCB.png,22.78
-OVERSOLD,&HG_CCB,Copper with 14-day RSI: 19.57,Copper RSI Chart,rsi_&HG_CCB.png,19.57
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 27.42,Corn RSI Chart,rsi_&ZC_CCB.png,27.42
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 20.78,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,20.78
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 24.99,Platinum RSI Chart,rsi_&PL_CCB.png,24.99
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 15.62,Copper RSI Chart,rsi_&HG_CCB.png,15.62
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 22.29,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,22.29
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 72.20,NVIDIA RSI Chart,rsi_NVDA.png,72.20

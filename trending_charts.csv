@@ -22,7 +22,7 @@ BELOW 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&
 BELOW 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
 BELOW 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
 BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png
-BELOW 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
+ABOVE 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
 BELOW 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png
 ABOVE 200-DAY MA,EURUSD,Euro / US Dollar with 200-day MA,Euro / US Dollar Trending Chart,trending_EURUSD.png
 ABOVE 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png

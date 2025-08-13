@@ -1,5 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 24.99,Platinum RSI Chart,rsi_&PL_CCB.png,24.99
-OVERSOLD,&HG_CCB,Copper with 14-day RSI: 15.62,Copper RSI Chart,rsi_&HG_CCB.png,15.62
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 22.29,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,22.29
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 72.20,NVIDIA RSI Chart,rsi_NVDA.png,72.20
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.50,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.50
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 15.05,Copper RSI Chart,rsi_&HG_CCB.png,15.05
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 26.32,Corn RSI Chart,rsi_&ZC_CCB.png,26.32
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 15.63,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,15.63
+OVERBOUGHT,GOOG,Google with 14-day RSI: 70.58,Google RSI Chart,rsi_GOOG.png,70.58

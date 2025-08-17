@@ -1,4 +1,3 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&HG_CCB,Copper with 14-day RSI: 14.95,Copper RSI Chart,rsi_&HG_CCB.png,14.95
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 27.73,Corn RSI Chart,rsi_&ZC_CCB.png,27.73
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 12.43,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,12.43
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 17.09,Copper RSI Chart,rsi_&HG_CCB.png,17.09
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 13.17,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,13.17

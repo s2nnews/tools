@@ -1,10 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 17.22,Crude Oil RSI Chart,rsi_&CL_CCB.png,17.22
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.71,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.71
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 70.84,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,70.84
-OVERSOLD,&HG_CCB,Copper with 14-day RSI: 16.30,Copper RSI Chart,rsi_&HG_CCB.png,16.30
-OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 79.16,Coffee RSI Chart,rsi_&KC_CCB.png,79.16
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.51,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.51
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 72.49,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,72.49
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 16.85,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,16.85
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 74.01,Apple RSI Chart,rsi_AAPL.png,74.01
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 73.31,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,73.31
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 76.47,FTSE 100 Index RSI Chart,rsi_$FT100.png,76.47
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 76.76,DAX Index RSI Chart,rsi_$DAX.png,76.76
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 91.28,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,91.28
+OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 90.38,Coffee RSI Chart,rsi_&KC_CCB.png,90.38
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 75.68,Apple RSI Chart,rsi_AAPL.png,75.68
+OVERBOUGHT,GOOG,Google with 14-day RSI: 72.09,Google RSI Chart,rsi_GOOG.png,72.09

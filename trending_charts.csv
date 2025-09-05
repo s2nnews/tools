@@ -4,7 +4,7 @@ BELOW 200-DAY MA,%TNX,10-Year Treasury Yield with 200-day MA,10-Year Treasury Yi
 BELOW 200-DAY MA,$USDX,US Dollar Index with 200-day MA,US Dollar Index Trending Chart,trending_$USDX.png
 ABOVE 200-DAY MA,&GC_CCB,Gold with 200-day MA,Gold Trending Chart,trending_&GC_CCB.png
 ABOVE 200-DAY MA,BTCUSD,Bitcoin with 200-day MA,Bitcoin Trending Chart,trending_BTCUSD.png
-ABOVE 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
+BELOW 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
 ABOVE 200-DAY MA,$DJI,Dow Jones Industrial Index with 200-day MA,Dow Jones Industrial Index Trending Chart,trending_$DJI.png
 ABOVE 200-DAY MA,$NDX,Nasdaq 100 Index with 200-day MA,Nasdaq 100 Index Trending Chart,trending_$NDX.png
 BELOW 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png

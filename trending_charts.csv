@@ -4,7 +4,7 @@ BELOW 200-DAY MA,%TNX,10-Year Treasury Yield with 200-day MA,10-Year Treasury Yi
 BELOW 200-DAY MA,$USDX,US Dollar Index with 200-day MA,US Dollar Index Trending Chart,trending_$USDX.png
 ABOVE 200-DAY MA,&GC_CCB,Gold with 200-day MA,Gold Trending Chart,trending_&GC_CCB.png
 ABOVE 200-DAY MA,BTCUSD,Bitcoin with 200-day MA,Bitcoin Trending Chart,trending_BTCUSD.png
-BELOW 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
+ABOVE 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
 ABOVE 200-DAY MA,$DJI,Dow Jones Industrial Index with 200-day MA,Dow Jones Industrial Index Trending Chart,trending_$DJI.png
 ABOVE 200-DAY MA,$NDX,Nasdaq 100 Index with 200-day MA,Nasdaq 100 Index Trending Chart,trending_$NDX.png
 BELOW 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png
@@ -25,7 +25,7 @@ BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red)
 BELOW 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
 ABOVE 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png
 ABOVE 200-DAY MA,EURUSD,Euro / US Dollar with 200-day MA,Euro / US Dollar Trending Chart,trending_EURUSD.png
-ABOVE 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png
+BELOW 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png
 ABOVE 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound / US Dollar Trending Chart,trending_GBPUSD.png
 ABOVE 200-DAY MA,AUDUSD,Australian Dollar / US Dollar with 200-day MA,Australian Dollar / US Dollar Trending Chart,trending_AUDUSD.png
 ABOVE 200-DAY MA,CNYUSD,Chinese Yuan / US Dollar with 200-day MA,Chinese Yuan / US Dollar Trending Chart,trending_CNYUSD.png

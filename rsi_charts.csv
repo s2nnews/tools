@@ -1,7 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 73.10,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,73.10
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 88.75,Nikkei 225 Index RSI Chart,rsi_$N225.png,88.75
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 74.72,Silver RSI Chart,rsi_&SI_CCB.png,74.72
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 74.05,Platinum RSI Chart,rsi_&PL_CCB.png,74.05
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 74.34,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,74.34
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 73.41,Tesla RSI Chart,rsi_TSLA.png,73.41
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.47,S&P 500 Index RSI Chart,rsi_$SPX.png,70.47
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 73.04,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,73.04
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 79.63,Nikkei 225 Index RSI Chart,rsi_$N225.png,79.63
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 26.97,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,26.97
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 78.31,Silver RSI Chart,rsi_&SI_CCB.png,78.31
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 78.13,Platinum RSI Chart,rsi_&PL_CCB.png,78.13
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 77.17,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,77.17
+OVERSOLD,AMZN,Amazon with 14-day RSI: 27.95,Amazon RSI Chart,rsi_AMZN.png,27.95
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 78.05,Tesla RSI Chart,rsi_TSLA.png,78.05

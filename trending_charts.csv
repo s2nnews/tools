@@ -18,7 +18,7 @@ ABOVE 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending 
 ABOVE 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
 ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png
 ABOVE 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
-BELOW 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
+ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
 BELOW 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
 BELOW 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
 BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png

@@ -1,12 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 71.10,S&P 500 Index RSI Chart,rsi_$SPX.png,71.10
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 74.09,Gold RSI Chart,rsi_&GC_CCB.png,74.09
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.46,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.46
-OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 29.34,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,29.34
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 80.32,Silver RSI Chart,rsi_&SI_CCB.png,80.32
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 75.43,Platinum RSI Chart,rsi_&PL_CCB.png,75.43
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 28.77,Cocoa RSI Chart,rsi_&CC_CCB.png,28.77
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 27.75,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,27.75
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 71.07,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,71.07
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 82.77,Apple RSI Chart,rsi_AAPL.png,82.77
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 78.43,Tesla RSI Chart,rsi_TSLA.png,78.43
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 71.16,Gold RSI Chart,rsi_&GC_CCB.png,71.16
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 73.99,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,73.99
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 70.48,Platinum RSI Chart,rsi_&PL_CCB.png,70.48
+OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 70.85,Copper RSI Chart,rsi_&HG_CCB.png,70.85
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 23.81,Cocoa RSI Chart,rsi_&CC_CCB.png,23.81
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 29.17,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,29.17
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 80.58,Apple RSI Chart,rsi_AAPL.png,80.58

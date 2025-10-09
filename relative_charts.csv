@@ -13,6 +13,5 @@ spx_vs_nasd,$SPX,$COMP,Relative Performance of S&P 500 vs Nasdaq Composite,Relat
 value_vs_growth,$SPIV,$SGX,Relative Performance of Value vs Growth,Relative Performance of Value vs Growth,relative_value_growth_ratio.png
 copper_vs_spx,&HG,&ES,Relative Performance of Copper vs S&P 500 Futures,Relative Performance of Copper vs S&P 500 Futures,relative_copper_spx_ratio.png
 copper_vs_gold,&HG,&GC,Relative Performance of Copper vs Gold Futures,Relative Performance of Copper vs Gold Futures,relative_copper_gold_ratio.png
-Nasdaq_vs_Bitcoin,$NDX,BTCUSD,Relative Performance of Nasdaq 100 vs Bitcoin,Relative Performance of Nasdaq 100 vs Bitcoin,relative_ndx_btc_ratio.png
 MicroStrategy_vs_Bitcoin,MSTR,BTCUSD,Relative Performance of MicroStrategy vs Bitcoin,Relative Performance of MicroStrategy vs Bitcoin,relative_mstr_btc_ratio.png
 spx_vs_health,SPY,XLV,Relative Performance of S&P 500 vs Health Care Index,Relative Performance of S&P 500 vs Health Care Index,relative_spy_health_ratio.png

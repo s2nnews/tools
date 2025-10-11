@@ -11,6 +11,7 @@ us_vs_int,$SPX,$W2DOW,Cumulative Returns: Relative Performance of US vs Rest of 
 spx_vs_russ,$SPX,$RUT,Cumulative Returns: Relative Performance of S&P 500 vs Russell 2000,Cumulative Returns: Relative Performance of S&P 500 vs Russell 2000,cumulative_spx_rut_ratio.png
 spx_vs_nasd,$SPX,$COMP,Cumulative Returns: Relative Performance of S&P 500 vs Nasdaq Composite,Cumulative Returns: Relative Performance of S&P 500 vs Nasdaq Composite,cumulative_spx_nas_ratio.png
 value_vs_growth,$SPIV,$SGX,Cumulative Returns: Relative Performance of Value vs Growth,Cumulative Returns: Relative Performance of Value vs Growth,cumulative_value_growth_ratio.png
+copper_vs_spx,&HG,&ES,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,cumulative_copper_spx_ratio.png
 copper_vs_gold,&HG,&GC,Cumulative Returns: Relative Performance of Copper vs Gold Futures,Cumulative Returns: Relative Performance of Copper vs Gold Futures,cumulative_copper_gold_ratio.png
 Nasdaq_vs_Bitcoin,$NDX,BTCUSD,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,cumulative_ndx_btc_ratio.png
 MicroStrategy_vs_Bitcoin,MSTR,BTCUSD,Cumulative Returns: Relative Performance of MicroStrategy vs Bitcoin,Cumulative Returns: Relative Performance of MicroStrategy vs Bitcoin,cumulative_mstr_btc_ratio.png

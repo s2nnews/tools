@@ -1,13 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 85.90,Gold RSI Chart,rsi_&GC_CCB.png,85.90
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 83.08,FTSE 100 Index RSI Chart,rsi_$FT100.png,83.08
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 79.38,DAX Index RSI Chart,rsi_$DAX.png,79.38
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.37,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.37
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 75.70,Straits Times Index RSI Chart,rsi_$STI.png,75.70
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 76.56,Silver RSI Chart,rsi_&SI_CCB.png,76.56
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 82.03,Platinum RSI Chart,rsi_&PL_CCB.png,82.03
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 79.98,Copper RSI Chart,rsi_&HG_CCB.png,79.98
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 15.69,Cocoa RSI Chart,rsi_&CC_CCB.png,15.69
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 28.82,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,28.82
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 78.28,Apple RSI Chart,rsi_AAPL.png,78.28
-OVERSOLD,META,Meta with 14-day RSI: 22.26,Meta RSI Chart,rsi_META.png,22.26
+OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 73.52,VIX Index RSI Chart,rsi_$VIX.png,73.52
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 72.16,Nikkei 225 Index RSI Chart,rsi_$N225.png,72.16
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.10,Straits Times Index RSI Chart,rsi_$STI.png,72.10
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 16.44,Cocoa RSI Chart,rsi_&CC_CCB.png,16.44
+OVERSOLD,GOOG,Google with 14-day RSI: 26.34,Google RSI Chart,rsi_GOOG.png,26.34
+OVERSOLD,META,Meta with 14-day RSI: 28.75,Meta RSI Chart,rsi_META.png,28.75

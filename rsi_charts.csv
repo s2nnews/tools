@@ -1,7 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 73.52,VIX Index RSI Chart,rsi_$VIX.png,73.52
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 72.16,Nikkei 225 Index RSI Chart,rsi_$N225.png,72.16
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.10,Straits Times Index RSI Chart,rsi_$STI.png,72.10
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 16.44,Cocoa RSI Chart,rsi_&CC_CCB.png,16.44
-OVERSOLD,GOOG,Google with 14-day RSI: 26.34,Google RSI Chart,rsi_GOOG.png,26.34
-OVERSOLD,META,Meta with 14-day RSI: 28.75,Meta RSI Chart,rsi_META.png,28.75
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 80.41,Gold RSI Chart,rsi_&GC_CCB.png,80.41
+OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 25.97,Crude Oil RSI Chart,rsi_&CL_CCB.png,25.97
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 70.96,Silver RSI Chart,rsi_&SI_CCB.png,70.96
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 15.58,Cocoa RSI Chart,rsi_&CC_CCB.png,15.58

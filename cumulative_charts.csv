@@ -14,5 +14,5 @@ value_vs_growth,$SPIV,$SGX,Cumulative Returns: Relative Performance of Value vs 
 copper_vs_spx,&HG,&ES,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,cumulative_copper_spx_ratio.png
 copper_vs_gold,&HG,&GC,Cumulative Returns: Relative Performance of Copper vs Gold Futures,Cumulative Returns: Relative Performance of Copper vs Gold Futures,cumulative_copper_gold_ratio.png
 Nasdaq_vs_Bitcoin,$NDX,BTCUSD,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,cumulative_ndx_btc_ratio.png
-MicroStrategy_vs_Bitcoin,MSTR,BTCUSD,Cumulative Returns: Relative Performance of MicroStrategy vs Bitcoin,Cumulative Returns: Relative Performance of MicroStrategy vs Bitcoin,cumulative_mstr_btc_ratio.png
+MicroStrategy_vs_Bitcoin,BTCUSD,MSTR,Cumulative Returns: Relative Performance of Bitcoin vs MicroStrategy,Cumulative Returns: Relative Performance of Bitcoin vs MicroStrategy,cumulative_mstr_btc_ratio.png
 spx_vs_health,SPY,XLV,Cumulative Returns: Relative Performance of S&P 500 vs Health Care Index,Cumulative Returns: Relative Performance of S&P 500 vs Health Care Index,cumulative_spy_health_ratio.png

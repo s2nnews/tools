@@ -1,10 +1,4 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 27.21,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,27.21
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 83.03,Gold RSI Chart,rsi_&GC_CCB.png,83.03
-OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 19.59,Crude Oil RSI Chart,rsi_&CL_CCB.png,19.59
-OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 77.74,VIX Index RSI Chart,rsi_$VIX.png,77.74
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 72.51,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,72.51
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 71.35,Silver RSI Chart,rsi_&SI_CCB.png,71.35
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 24.54,Cocoa RSI Chart,rsi_&CC_CCB.png,24.54
-OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 27.37,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,27.37
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 27.95,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,27.95
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 72.51,Gold RSI Chart,rsi_&GC_CCB.png,72.51
+OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 24.06,Crude Oil RSI Chart,rsi_&CL_CCB.png,24.06
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 19.48,Cocoa RSI Chart,rsi_&CC_CCB.png,19.48

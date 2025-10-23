@@ -1,8 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 29.72,Crude Oil RSI Chart,rsi_&CL_CCB.png,29.72
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.00,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.00
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 24.78,Cocoa RSI Chart,rsi_&CC_CCB.png,24.78
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.96,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.96
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 70.73,Euro / Yen RSI Chart,rsi_EURJPY.png,70.73
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.64,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.64
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 71.46,Euro / Yen RSI Chart,rsi_EURJPY.png,71.46
 OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 25.00,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,25.00
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 28.20,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,28.20
+OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 29.03,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,29.03
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 26.15,MicroStrategy RSI Chart,rsi_MSTR.png,26.15

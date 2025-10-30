@@ -1,4 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 11.18,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,11.18
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 26.92,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,26.92
-OVERBOUGHT,GOOG,Google with 14-day RSI: 71.33,Google RSI Chart,rsi_GOOG.png,71.33
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 75.98,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,75.98
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 70.73,Euro / Pound RSI Chart,rsi_EURGBP.png,70.73
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 12.27,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,12.27
+OVERBOUGHT,GOOG,Google with 14-day RSI: 79.03,Google RSI Chart,rsi_GOOG.png,79.03

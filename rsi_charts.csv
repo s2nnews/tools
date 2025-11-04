@@ -1,10 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 73.59,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,73.59
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.69,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.69
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.74,S&P 500 Index RSI Chart,rsi_$SPX.png,70.74
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.33,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.33
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.25,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.25
 OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.33,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.33
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 73.18,Corn RSI Chart,rsi_&ZC_CCB.png,73.18
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 73.34,Natural Gas RSI Chart,rsi_&NG_CCB.png,73.34
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 73.48,Corn RSI Chart,rsi_&ZC_CCB.png,73.48
 OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 78.36,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,78.36
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 20.52,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,20.52
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 80.53,Apple RSI Chart,rsi_AAPL.png,80.53
-OVERBOUGHT,GOOG,Google with 14-day RSI: 85.96,Google RSI Chart,rsi_GOOG.png,85.96
-OVERSOLD,META,Meta with 14-day RSI: 29.51,Meta RSI Chart,rsi_META.png,29.51
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.71,Apple RSI Chart,rsi_AAPL.png,77.71
+OVERBOUGHT,GOOG,Google with 14-day RSI: 86.16,Google RSI Chart,rsi_GOOG.png,86.16
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 77.92,Amazon RSI Chart,rsi_AMZN.png,77.92
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 81.79,NVIDIA RSI Chart,rsi_NVDA.png,81.79
+OVERSOLD,META,Meta with 14-day RSI: 28.88,Meta RSI Chart,rsi_META.png,28.88

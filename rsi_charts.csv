@@ -3,7 +3,8 @@ OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 73.94,US Dollar Index RSI Char
 OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 75.43,FTSE 100 Index RSI Chart,rsi_$FT100.png,75.43
 OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.71,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.71
 OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 75.17,Natural Gas RSI Chart,rsi_&NG_CCB.png,75.17
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 78.36,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,78.36
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 79.88,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,79.88
+OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 73.87,Cocoa RSI Chart,rsi_&CC_CCB.png,73.87
 OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 26.57,Euro / US Dollar RSI Chart,rsi_EURUSD.png,26.57
 OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 11.31,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,11.31
 OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 76.37,Euro / Pound RSI Chart,rsi_EURGBP.png,76.37

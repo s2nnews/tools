@@ -1,14 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 73.94,US Dollar Index RSI Chart,rsi_$USDX.png,73.94
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 75.43,FTSE 100 Index RSI Chart,rsi_$FT100.png,75.43
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.71,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.71
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 75.17,Natural Gas RSI Chart,rsi_&NG_CCB.png,75.17
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 79.88,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,79.88
-OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 73.87,Cocoa RSI Chart,rsi_&CC_CCB.png,73.87
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 26.57,Euro / US Dollar RSI Chart,rsi_EURUSD.png,26.57
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 11.31,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,11.31
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 76.37,Euro / Pound RSI Chart,rsi_EURGBP.png,76.37
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.37,Apple RSI Chart,rsi_AAPL.png,77.37
-OVERBOUGHT,GOOG,Google with 14-day RSI: 74.86,Google RSI Chart,rsi_GOOG.png,74.86
-OVERBOUGHT,AMZN,Amazon with 14-day RSI: 73.70,Amazon RSI Chart,rsi_AMZN.png,73.70
-OVERSOLD,META,Meta with 14-day RSI: 23.37,Meta RSI Chart,rsi_META.png,23.37
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 72.21,US Dollar Index RSI Chart,rsi_$USDX.png,72.21
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 82.80,FTSE 100 Index RSI Chart,rsi_$FT100.png,82.80
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 74.26,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,74.26
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.90,Straits Times Index RSI Chart,rsi_$STI.png,72.90
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 74.51,Natural Gas RSI Chart,rsi_&NG_CCB.png,74.51
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 25.09,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,25.09
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 74.14,Euro / Pound RSI Chart,rsi_EURGBP.png,74.14
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.69,Apple RSI Chart,rsi_AAPL.png,77.69
+OVERBOUGHT,GOOG,Google with 14-day RSI: 77.11,Google RSI Chart,rsi_GOOG.png,77.11
+OVERSOLD,META,Meta with 14-day RSI: 23.48,Meta RSI Chart,rsi_META.png,23.48

@@ -1,11 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 72.21,US Dollar Index RSI Chart,rsi_$USDX.png,72.21
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 82.80,FTSE 100 Index RSI Chart,rsi_$FT100.png,82.80
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 74.26,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,74.26
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 72.90,Straits Times Index RSI Chart,rsi_$STI.png,72.90
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 74.51,Natural Gas RSI Chart,rsi_&NG_CCB.png,74.51
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 25.09,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,25.09
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 74.14,Euro / Pound RSI Chart,rsi_EURGBP.png,74.14
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.69,Apple RSI Chart,rsi_AAPL.png,77.69
-OVERBOUGHT,GOOG,Google with 14-day RSI: 77.11,Google RSI Chart,rsi_GOOG.png,77.11
-OVERSOLD,META,Meta with 14-day RSI: 23.48,Meta RSI Chart,rsi_META.png,23.48
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 25.48,Gold RSI Chart,rsi_&GC_CCB.png,25.48
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.83,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.83
+OVERSOLD,$DAX,DAX Index with 14-day RSI: 29.69,DAX Index RSI Chart,rsi_$DAX.png,29.69
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 70.11,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,70.11
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 81.26,Straits Times Index RSI Chart,rsi_$STI.png,81.26
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 28.67,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,28.67
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.17,Euro / Pound RSI Chart,rsi_EURGBP.png,72.17
+OVERSOLD,META,Meta with 14-day RSI: 17.94,Meta RSI Chart,rsi_META.png,17.94

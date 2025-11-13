@@ -1,12 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 73.39,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,73.39
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 77.83,FTSE 100 Index RSI Chart,rsi_$FT100.png,77.83
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 79.14,Straits Times Index RSI Chart,rsi_$STI.png,79.14
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 70.39,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,70.39
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.80,Euro / Pound RSI Chart,rsi_EURGBP.png,72.80
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 72.15,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,72.15
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 72.44,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,72.44
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 83.99,Apple RSI Chart,rsi_AAPL.png,83.99
-OVERBOUGHT,GOOG,Google with 14-day RSI: 79.81,Google RSI Chart,rsi_GOOG.png,79.81
-OVERBOUGHT,AMZN,Amazon with 14-day RSI: 72.34,Amazon RSI Chart,rsi_AMZN.png,72.34
-OVERSOLD,META,Meta with 14-day RSI: 21.38,Meta RSI Chart,rsi_META.png,21.38
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.87,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.87
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 76.03,FTSE 100 Index RSI Chart,rsi_$FT100.png,76.03
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 79.49,Straits Times Index RSI Chart,rsi_$STI.png,79.49
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 70.83,Silver RSI Chart,rsi_&SI_CCB.png,70.83
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 73.57,Natural Gas RSI Chart,rsi_&NG_CCB.png,73.57
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.36,Euro / Pound RSI Chart,rsi_EURGBP.png,72.36
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.48,Apple RSI Chart,rsi_AAPL.png,77.48
+OVERBOUGHT,GOOG,Google with 14-day RSI: 74.46,Google RSI Chart,rsi_GOOG.png,74.46
+OVERSOLD,META,Meta with 14-day RSI: 19.25,Meta RSI Chart,rsi_META.png,19.25
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 28.00,MicroStrategy RSI Chart,rsi_MSTR.png,28.00

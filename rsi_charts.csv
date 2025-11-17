@@ -1,11 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.87,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.87
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 76.03,FTSE 100 Index RSI Chart,rsi_$FT100.png,76.03
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 79.49,Straits Times Index RSI Chart,rsi_$STI.png,79.49
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 70.83,Silver RSI Chart,rsi_&SI_CCB.png,70.83
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 73.57,Natural Gas RSI Chart,rsi_&NG_CCB.png,73.57
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.36,Euro / Pound RSI Chart,rsi_EURGBP.png,72.36
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 77.48,Apple RSI Chart,rsi_AAPL.png,77.48
-OVERBOUGHT,GOOG,Google with 14-day RSI: 74.46,Google RSI Chart,rsi_GOOG.png,74.46
-OVERSOLD,META,Meta with 14-day RSI: 19.25,Meta RSI Chart,rsi_META.png,19.25
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 28.00,MicroStrategy RSI Chart,rsi_MSTR.png,28.00
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 25.06,Bitcoin RSI Chart,rsi_BTCUSD.png,25.06
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 71.05,Natural Gas RSI Chart,rsi_&NG_CCB.png,71.05
+OVERSOLD,META,Meta with 14-day RSI: 12.35,Meta RSI Chart,rsi_META.png,12.35
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 18.30,MicroStrategy RSI Chart,rsi_MSTR.png,18.30

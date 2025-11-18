@@ -1,5 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 25.06,Bitcoin RSI Chart,rsi_BTCUSD.png,25.06
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 71.05,Natural Gas RSI Chart,rsi_&NG_CCB.png,71.05
-OVERSOLD,META,Meta with 14-day RSI: 12.35,Meta RSI Chart,rsi_META.png,12.35
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 18.30,MicroStrategy RSI Chart,rsi_MSTR.png,18.30
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 24.12,Bitcoin RSI Chart,rsi_BTCUSD.png,24.12
+OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 72.44,VIX Index RSI Chart,rsi_$VIX.png,72.44
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 27.59,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,27.59
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 71.33,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,71.33
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 27.55,Microsoft RSI Chart,rsi_MSFT.png,27.55
+OVERSOLD,META,Meta with 14-day RSI: 11.60,Meta RSI Chart,rsi_META.png,11.60
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 19.15,MicroStrategy RSI Chart,rsi_MSTR.png,19.15

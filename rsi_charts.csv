@@ -1,8 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 24.12,Bitcoin RSI Chart,rsi_BTCUSD.png,24.12
-OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 72.44,VIX Index RSI Chart,rsi_$VIX.png,72.44
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 27.59,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,27.59
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 71.33,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,71.33
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 27.55,Microsoft RSI Chart,rsi_MSFT.png,27.55
-OVERSOLD,META,Meta with 14-day RSI: 11.60,Meta RSI Chart,rsi_META.png,11.60
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 19.15,MicroStrategy RSI Chart,rsi_MSTR.png,19.15
+OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 28.76,S&P 500 Index RSI Chart,rsi_$SPX.png,28.76
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 26.19,Bitcoin RSI Chart,rsi_BTCUSD.png,26.19
+OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 27.51,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,27.51
+OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 75.75,VIX Index RSI Chart,rsi_$VIX.png,75.75
+OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 27.93,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,27.93
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.11,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.11
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 23.52,Microsoft RSI Chart,rsi_MSFT.png,23.52
+OVERSOLD,META,Meta with 14-day RSI: 11.24,Meta RSI Chart,rsi_META.png,11.24
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 26.63,MicroStrategy RSI Chart,rsi_MSTR.png,26.63

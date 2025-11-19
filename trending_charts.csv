@@ -9,7 +9,7 @@ ABOVE 200-DAY MA,$DJI,Dow Jones Industrial Index with 200-day MA,Dow Jones Indus
 ABOVE 200-DAY MA,$NDX,Nasdaq 100 Index with 200-day MA,Nasdaq 100 Index Trending Chart,trending_$NDX.png
 ABOVE 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png
 ABOVE 200-DAY MA,$FT100,FTSE 100 Index with 200-day MA,FTSE 100 Index Trending Chart,trending_$FT100.png
-ABOVE 200-DAY MA,$DAX,DAX Index with 200-day MA,DAX Index Trending Chart,trending_$DAX.png
+BELOW 200-DAY MA,$DAX,DAX Index with 200-day MA,DAX Index Trending Chart,trending_$DAX.png
 ABOVE 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trending Chart,trending_$N225.png
 ABOVE 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Chart,trending_$HS.png
 ABOVE 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png

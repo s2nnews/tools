@@ -1,13 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 28.01,S&P 500 Index RSI Chart,rsi_$SPX.png,28.01
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 21.73,Bitcoin RSI Chart,rsi_BTCUSD.png,21.73
-OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 26.33,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,26.33
-OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 74.48,VIX Index RSI Chart,rsi_$VIX.png,74.48
-OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 26.76,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,26.76
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 28.71,Cocoa RSI Chart,rsi_&CC_CCB.png,28.71
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 25.94,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,25.94
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 76.43,Euro / Yen RSI Chart,rsi_EURJPY.png,76.43
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 26.22,Microsoft RSI Chart,rsi_MSFT.png,26.22
-OVERSOLD,AMZN,Amazon with 14-day RSI: 27.73,Amazon RSI Chart,rsi_AMZN.png,27.73
-OVERSOLD,META,Meta with 14-day RSI: 21.50,Meta RSI Chart,rsi_META.png,21.50
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 17.15,MicroStrategy RSI Chart,rsi_MSTR.png,17.15
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 13.23,Cocoa RSI Chart,rsi_&CC_CCB.png,13.23
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.68,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.68
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 75.93,Euro / Yen RSI Chart,rsi_EURJPY.png,75.93
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 29.14,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,29.14
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 26.97,Microsoft RSI Chart,rsi_MSFT.png,26.97
+OVERBOUGHT,GOOG,Google with 14-day RSI: 72.83,Google RSI Chart,rsi_GOOG.png,72.83
+OVERSOLD,AMZN,Amazon with 14-day RSI: 29.24,Amazon RSI Chart,rsi_AMZN.png,29.24
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 24.51,MicroStrategy RSI Chart,rsi_MSTR.png,24.51

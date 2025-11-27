@@ -1,9 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 13.23,Cocoa RSI Chart,rsi_&CC_CCB.png,13.23
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.68,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.68
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 75.93,Euro / Yen RSI Chart,rsi_EURJPY.png,75.93
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 29.14,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,29.14
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 26.97,Microsoft RSI Chart,rsi_MSFT.png,26.97
-OVERBOUGHT,GOOG,Google with 14-day RSI: 72.83,Google RSI Chart,rsi_GOOG.png,72.83
-OVERSOLD,AMZN,Amazon with 14-day RSI: 29.24,Amazon RSI Chart,rsi_AMZN.png,29.24
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 24.51,MicroStrategy RSI Chart,rsi_MSTR.png,24.51
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 28.15,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,28.15
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 15.52,Cocoa RSI Chart,rsi_&CC_CCB.png,15.52
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 27.61,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,27.61
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 73.59,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,73.59
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 77.63,Euro / Yen RSI Chart,rsi_EURJPY.png,77.63
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 23.86,MicroStrategy RSI Chart,rsi_MSTR.png,23.86

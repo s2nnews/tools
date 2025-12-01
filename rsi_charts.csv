@@ -1,7 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 28.15,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,28.15
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 15.52,Cocoa RSI Chart,rsi_&CC_CCB.png,15.52
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 27.61,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,27.61
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 73.59,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,73.59
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 77.63,Euro / Yen RSI Chart,rsi_EURJPY.png,77.63
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 23.86,MicroStrategy RSI Chart,rsi_MSTR.png,23.86
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 27.06,Bitcoin RSI Chart,rsi_BTCUSD.png,27.06
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 29.79,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,29.79
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 75.81,Silver RSI Chart,rsi_&SI_CCB.png,75.81
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 73.96,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,73.96
+OVERBOUGHT,GOOG,Google with 14-day RSI: 73.98,Google RSI Chart,rsi_GOOG.png,73.98
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 21.74,MicroStrategy RSI Chart,rsi_MSTR.png,21.74

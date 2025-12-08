@@ -1,5 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 72.78,Silver RSI Chart,rsi_&SI_CCB.png,72.78
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 73.33,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,73.33
-OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 21.24,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,21.24
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 29.10,MicroStrategy RSI Chart,rsi_MSTR.png,29.10
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 78.99,Silver RSI Chart,rsi_&SI_CCB.png,78.99
+OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 74.58,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,74.58
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 74.56,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,74.56
+OVERSOLD,%IRX,3-Month T-Bill Yield with 14-day RSI: 10.97,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,10.97
+OVERBOUGHT,GOOG,Google with 14-day RSI: 80.52,Google RSI Chart,rsi_GOOG.png,80.52
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 77.04,Tesla RSI Chart,rsi_TSLA.png,77.04
+OVERBOUGHT,META,Meta with 14-day RSI: 73.01,Meta RSI Chart,rsi_META.png,73.01

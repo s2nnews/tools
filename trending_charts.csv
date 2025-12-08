@@ -26,19 +26,19 @@ BELOW 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC
 ABOVE 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png
 ABOVE 200-DAY MA,EURUSD,Euro / US Dollar with 200-day MA,Euro / US Dollar Trending Chart,trending_EURUSD.png
 BELOW 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png
-BELOW 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound / US Dollar Trending Chart,trending_GBPUSD.png
+ABOVE 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound / US Dollar Trending Chart,trending_GBPUSD.png
 ABOVE 200-DAY MA,AUDUSD,Australian Dollar / US Dollar with 200-day MA,Australian Dollar / US Dollar Trending Chart,trending_AUDUSD.png
 ABOVE 200-DAY MA,CNYUSD,Chinese Yuan / US Dollar with 200-day MA,Chinese Yuan / US Dollar Trending Chart,trending_CNYUSD.png
 ABOVE 200-DAY MA,EURJPY,Euro / Yen with 200-day MA,Euro / Yen Trending Chart,trending_EURJPY.png
 ABOVE 200-DAY MA,EURGBP,Euro / Pound with 200-day MA,Euro / Pound Trending Chart,trending_EURGBP.png
 BELOW 200-DAY MA,%IRX,3-Month T-Bill Yield with 200-day MA,3-Month T-Bill Yield Trending Chart,trending_%IRX.png
 BELOW 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
-BELOW 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
+ABOVE 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
 ABOVE 200-DAY MA,AAPL,Apple with 200-day MA,Apple Trending Chart,trending_AAPL.png
 ABOVE 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png
 ABOVE 200-DAY MA,GOOG,Google with 200-day MA,Google Trending Chart,trending_GOOG.png
 ABOVE 200-DAY MA,AMZN,Amazon with 200-day MA,Amazon Trending Chart,trending_AMZN.png
 ABOVE 200-DAY MA,TSLA,Tesla with 200-day MA,Tesla Trending Chart,trending_TSLA.png
 ABOVE 200-DAY MA,NVDA,NVIDIA with 200-day MA,NVIDIA Trending Chart,trending_NVDA.png
-BELOW 200-DAY MA,META,Meta with 200-day MA,Meta Trending Chart,trending_META.png
+ABOVE 200-DAY MA,META,Meta with 200-day MA,Meta Trending Chart,trending_META.png
 BELOW 200-DAY MA,MSTR,MicroStrategy with 200-day MA,MicroStrategy Trending Chart,trending_MSTR.png

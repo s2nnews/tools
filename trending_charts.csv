@@ -35,7 +35,7 @@ BELOW 200-DAY MA,%IRX,3-Month T-Bill Yield with 200-day MA,3-Month T-Bill Yield 
 BELOW 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
 ABOVE 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
 ABOVE 200-DAY MA,AAPL,Apple with 200-day MA,Apple Trending Chart,trending_AAPL.png
-ABOVE 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png
+BELOW 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png
 ABOVE 200-DAY MA,GOOG,Google with 200-day MA,Google Trending Chart,trending_GOOG.png
 ABOVE 200-DAY MA,AMZN,Amazon with 200-day MA,Amazon Trending Chart,trending_AMZN.png
 ABOVE 200-DAY MA,TSLA,Tesla with 200-day MA,Tesla Trending Chart,trending_TSLA.png

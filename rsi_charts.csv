@@ -1,7 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 29.17,US Dollar Index RSI Chart,rsi_$USDX.png,29.17
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 85.42,Straits Times Index RSI Chart,rsi_$STI.png,85.42
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 76.16,Euro / US Dollar RSI Chart,rsi_EURUSD.png,76.16
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 74.77,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,74.77
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 95.48,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,95.48
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 28.15,MicroStrategy RSI Chart,rsi_MSTR.png,28.15
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.26,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.26
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 71.23,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,71.23
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 83.31,Straits Times Index RSI Chart,rsi_$STI.png,83.31
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 96.29,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,96.29
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 26.19,Euro / Pound RSI Chart,rsi_EURGBP.png,26.19
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 29.21,MicroStrategy RSI Chart,rsi_MSTR.png,29.21

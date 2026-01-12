@@ -1,10 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 72.27,Bitcoin RSI Chart,rsi_BTCUSD.png,72.27
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.51,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.51
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 73.00,DAX Index RSI Chart,rsi_$DAX.png,73.00
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 75.44,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,75.44
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 79.57,Straits Times Index RSI Chart,rsi_$STI.png,79.57
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 70.99,Copper RSI Chart,rsi_&HG_CCB.png,70.99
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 96.27,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,96.27
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 24.31,Euro / Pound RSI Chart,rsi_EURGBP.png,24.31
-OVERSOLD,AAPL,Apple with 14-day RSI: 25.05,Apple RSI Chart,rsi_AAPL.png,25.05
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 73.22,S&P 500 Index RSI Chart,rsi_$SPX.png,73.22
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.32,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.32
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 77.66,FTSE 100 Index RSI Chart,rsi_$FT100.png,77.66
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 82.67,DAX Index RSI Chart,rsi_$DAX.png,82.67
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 98.82,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,98.82
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 89.35,Straits Times Index RSI Chart,rsi_$STI.png,89.35
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 71.49,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,71.49
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 18.46,Euro / US Dollar RSI Chart,rsi_EURUSD.png,18.46
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 84.26,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,84.26
+OVERSOLD,AAPL,Apple with 14-day RSI: 21.94,Apple RSI Chart,rsi_AAPL.png,21.94
+OVERBOUGHT,GOOG,Google with 14-day RSI: 86.26,Google RSI Chart,rsi_GOOG.png,86.26
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 80.70,Amazon RSI Chart,rsi_AMZN.png,80.70

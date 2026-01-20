@@ -1,18 +1,11 @@
 pair_name,symbol1,symbol2,chart_title,alt_text,filename
-spx_vs_spxew,$SPX,$SPXEW,Cumulative Returns: Relative Performance of S&P 500 Market Cap vs Equal Index,Cumulative Returns: Relative Performance of S&P 500 Market Cap vs Equal Index,cumulative_spx_spxew_ratio.png
-vix_vs_move,$VIX,$MOVE,Cumulative Returns: Relative Performance of VIX vs MOVE (bond) Volatility Index,Cumulative Returns: Relative Performance of VIX vs MOVE (bond) Volatility Index,cumulative_vix_move_ratio.png
 gold_vs_silver,XAUUSD,XAGUSD,Cumulative Returns: Relative Performance of Gold vs Silver,Cumulative Returns: Relative Performance of Gold vs Silver,cumulative_gold_silver_ratio.png
-gold_vs_miners,GLD,GDX,Cumulative Returns: Relative Performance of Gold (GLD) vs Gold Miners (GDX),Cumulative Returns: Relative Performance of Gold (GLD) vs Gold Miners (GDX),cumulative_gold_miners_ratio.png
-2yrbond_vs_junk,%2YTCM,%COBAA,Cumulative Returns: Relative Performance of 2-Yr Treasury vs BAA Corp Bonds,Cumulative Returns: Relative Performance of 2-Yr Treasury vs BAA Corp Bonds,cumulative_2yr_baa_ratio.png
 us_vs_china,$SPX,$SSEC,Cumulative Returns: Relative Performance of US vs China,Cumulative Returns: Relative Performance of US vs China,cumulative_us_china_ratio.png
 us_vs_hongkong,$SPX,$HS,Cumulative Returns: Relative Performance of US vs China (Hang Seng),Cumulative Returns: Relative Performance of US vs China (Hang Seng),cumulative_us_hk_ratio.png
 us_vs_hk,$SPX,$HS,Cumulative Returns: Relative Performance of US vs China (Hang Seng),Cumulative Returns: Relative Performance of US vs China (Hang Seng),cumulative_us_hk_ratio.png
 us_vs_int,$SPX,$W2DOW,Cumulative Returns: Relative Performance of US vs Rest of World,Cumulative Returns: Relative Performance of US vs Rest of World,cumulative_us_int_ratio.png
 spx_vs_russ,$SPX,$RUT,Cumulative Returns: Relative Performance of S&P 500 vs Russell 2000,Cumulative Returns: Relative Performance of S&P 500 vs Russell 2000,cumulative_spx_rut_ratio.png
 spx_vs_nasd,$SPX,$COMP,Cumulative Returns: Relative Performance of S&P 500 vs Nasdaq Composite,Cumulative Returns: Relative Performance of S&P 500 vs Nasdaq Composite,cumulative_spx_nas_ratio.png
-value_vs_growth,$SPIV,$SGX,Cumulative Returns: Relative Performance of Value vs Growth,Cumulative Returns: Relative Performance of Value vs Growth,cumulative_value_growth_ratio.png
 copper_vs_spx,&HG,&ES,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,Cumulative Returns: Relative Performance of Copper vs S&P 500 Futures,cumulative_copper_spx_ratio.png
 copper_vs_gold,&HG,&GC,Cumulative Returns: Relative Performance of Copper vs Gold Futures,Cumulative Returns: Relative Performance of Copper vs Gold Futures,cumulative_copper_gold_ratio.png
 Nasdaq_vs_Bitcoin,$NDX,BTCUSD,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,Cumulative Returns: Relative Performance of Nasdaq 100 vs Bitcoin,cumulative_ndx_btc_ratio.png
-MicroStrategy_vs_Bitcoin,BTCUSD,MSTR,Cumulative Returns: Relative Performance of Bitcoin vs MicroStrategy,Cumulative Returns: Relative Performance of Bitcoin vs MicroStrategy,cumulative_mstr_btc_ratio.png
-spx_vs_health,SPY,XLV,Cumulative Returns: Relative Performance of S&P 500 vs Health Care Index,Cumulative Returns: Relative Performance of S&P 500 vs Health Care Index,cumulative_spy_health_ratio.png

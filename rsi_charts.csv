@@ -1,10 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 71.16,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,71.16
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 78.75,US Dollar Index RSI Chart,rsi_$USDX.png,78.75
-OVERBOUGHT,$VIX,VIX Index with 14-day RSI: 77.24,VIX Index RSI Chart,rsi_$VIX.png,77.24
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 76.33,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,76.33
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 83.09,Straits Times Index RSI Chart,rsi_$STI.png,83.09
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 29.17,Natural Gas RSI Chart,rsi_&NG_CCB.png,29.17
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 28.33,Corn RSI Chart,rsi_&ZC_CCB.png,28.33
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 72.92,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,72.92
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 73.15,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,73.15
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 89.04,Gold RSI Chart,rsi_&GC_CCB.png,89.04
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 72.94,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,72.94
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 84.49,Straits Times Index RSI Chart,rsi_$STI.png,84.49
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 78.22,Silver RSI Chart,rsi_&SI_CCB.png,78.22
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 75.11,Platinum RSI Chart,rsi_&PL_CCB.png,75.11
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 73.32,Natural Gas RSI Chart,rsi_&NG_CCB.png,73.32
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 20.84,Cocoa RSI Chart,rsi_&CC_CCB.png,20.84
+OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 73.68,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,73.68
+OVERSOLD,AAPL,Apple with 14-day RSI: 12.08,Apple RSI Chart,rsi_AAPL.png,12.08

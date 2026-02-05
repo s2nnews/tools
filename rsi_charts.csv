@@ -1,7 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 20.95,Bitcoin RSI Chart,rsi_BTCUSD.png,20.95
-OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 24.68,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,24.68
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 74.60,Natural Gas RSI Chart,rsi_&NG_CCB.png,74.60
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 20.68,Cocoa RSI Chart,rsi_&CC_CCB.png,20.68
-OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 76.65,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,76.65
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 71.99,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,71.99
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 5.95,Bitcoin RSI Chart,rsi_BTCUSD.png,5.95
+OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 79.29,Natural Gas RSI Chart,rsi_&NG_CCB.png,79.29
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 25.56,Cocoa RSI Chart,rsi_&CC_CCB.png,25.56
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 25.09,Coffee RSI Chart,rsi_&KC_CCB.png,25.09
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 70.64,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,70.64
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 29.06,Microsoft RSI Chart,rsi_MSFT.png,29.06
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 16.70,MicroStrategy RSI Chart,rsi_MSTR.png,16.70

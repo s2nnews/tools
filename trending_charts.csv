@@ -15,7 +15,7 @@ ABOVE 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Ch
 ABOVE 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png
 ABOVE 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
 ABOVE 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending Chart,trending_&ES_CCB.png
-BELOW 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
+ABOVE 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
 ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png
 ABOVE 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
 ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
@@ -33,7 +33,7 @@ ABOVE 200-DAY MA,EURJPY,Euro / Yen with 200-day MA,Euro / Yen Trending Chart,tre
 ABOVE 200-DAY MA,EURGBP,Euro / Pound with 200-day MA,Euro / Pound Trending Chart,trending_EURGBP.png
 BELOW 200-DAY MA,%IRX,3-Month T-Bill Yield with 200-day MA,3-Month T-Bill Yield Trending Chart,trending_%IRX.png
 BELOW 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
-ABOVE 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
+BELOW 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png
 ABOVE 200-DAY MA,AAPL,Apple with 200-day MA,Apple Trending Chart,trending_AAPL.png
 BELOW 200-DAY MA,MSFT,Microsoft with 200-day MA,Microsoft Trending Chart,trending_MSFT.png
 ABOVE 200-DAY MA,GOOG,Google with 200-day MA,Google Trending Chart,trending_GOOG.png

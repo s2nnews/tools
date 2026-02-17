@@ -1,8 +1,14 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 5.95,Bitcoin RSI Chart,rsi_BTCUSD.png,5.95
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 79.29,Natural Gas RSI Chart,rsi_&NG_CCB.png,79.29
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 25.56,Cocoa RSI Chart,rsi_&CC_CCB.png,25.56
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 25.09,Coffee RSI Chart,rsi_&KC_CCB.png,25.09
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 70.64,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,70.64
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 29.06,Microsoft RSI Chart,rsi_MSFT.png,29.06
-OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 16.70,MicroStrategy RSI Chart,rsi_MSTR.png,16.70
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 29.40,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,29.40
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 25.70,Bitcoin RSI Chart,rsi_BTCUSD.png,25.70
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 72.14,Nikkei 225 Index RSI Chart,rsi_$N225.png,72.14
+OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 74.43,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,74.43
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 29.58,Silver RSI Chart,rsi_&SI_CCB.png,29.58
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 23.08,Platinum RSI Chart,rsi_&PL_CCB.png,23.08
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 24.55,Cocoa RSI Chart,rsi_&CC_CCB.png,24.55
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 21.47,Coffee RSI Chart,rsi_&KC_CCB.png,21.47
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 77.78,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,77.78
+OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 26.20,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,26.20
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 24.92,Microsoft RSI Chart,rsi_MSFT.png,24.92
+OVERSOLD,GOOG,Google with 14-day RSI: 24.02,Google RSI Chart,rsi_GOOG.png,24.02
+OVERSOLD,AMZN,Amazon with 14-day RSI: 16.68,Amazon RSI Chart,rsi_AMZN.png,16.68

@@ -1,13 +1,15 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 27.20,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,27.20
-OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 24.39,Bitcoin RSI Chart,rsi_BTCUSD.png,24.39
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.74,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.74
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 74.01,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,74.01
-OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 28.48,Platinum RSI Chart,rsi_&PL_CCB.png,28.48
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 17.60,Cocoa RSI Chart,rsi_&CC_CCB.png,17.60
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 9.86,Coffee RSI Chart,rsi_&KC_CCB.png,9.86
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 75.35,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,75.35
-OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 28.41,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,28.41
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 18.20,Microsoft RSI Chart,rsi_MSFT.png,18.20
-OVERSOLD,GOOG,Google with 14-day RSI: 20.66,Google RSI Chart,rsi_GOOG.png,20.66
-OVERSOLD,AMZN,Amazon with 14-day RSI: 10.83,Amazon RSI Chart,rsi_AMZN.png,10.83
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 16.84,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,16.84
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 70.50,Gold RSI Chart,rsi_&GC_CCB.png,70.50
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 70.96,FTSE 100 Index RSI Chart,rsi_$FT100.png,70.96
+OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 82.02,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,82.02
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 20.27,Cocoa RSI Chart,rsi_&CC_CCB.png,20.27
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 18.78,Coffee RSI Chart,rsi_&KC_CCB.png,18.78
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 75.96,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,75.96
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 72.53,Euro / Pound RSI Chart,rsi_EURGBP.png,72.53
+OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 20.64,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,20.64
+OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 20.84,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,20.84
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 28.72,Microsoft RSI Chart,rsi_MSFT.png,28.72
+OVERSOLD,GOOG,Google with 14-day RSI: 22.66,Google RSI Chart,rsi_GOOG.png,22.66
+OVERSOLD,AMZN,Amazon with 14-day RSI: 18.76,Amazon RSI Chart,rsi_AMZN.png,18.76
+OVERSOLD,META,Meta with 14-day RSI: 24.55,Meta RSI Chart,rsi_META.png,24.55

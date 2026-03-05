@@ -1,9 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 78.68,US Dollar Index RSI Chart,rsi_$USDX.png,78.68
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 73.09,Crude Oil RSI Chart,rsi_&CL_CCB.png,73.09
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 72.26,FTSE 100 Index RSI Chart,rsi_$FT100.png,72.26
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.51,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.51
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 74.17,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,74.17
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 7.44,Cocoa RSI Chart,rsi_&CC_CCB.png,7.44
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 20.00,Euro / US Dollar RSI Chart,rsi_EURUSD.png,20.00
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 25.97,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,25.97
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 75.71,US Dollar Index RSI Chart,rsi_$USDX.png,75.71
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 79.08,Crude Oil RSI Chart,rsi_&CL_CCB.png,79.08
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 18.29,Cocoa RSI Chart,rsi_&CC_CCB.png,18.29
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 21.50,Euro / US Dollar RSI Chart,rsi_EURUSD.png,21.50
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 21.71,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,21.71
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 26.95,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,26.95

@@ -30,7 +30,7 @@ BELOW 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound 
 ABOVE 200-DAY MA,AUDUSD,Australian Dollar / US Dollar with 200-day MA,Australian Dollar / US Dollar Trending Chart,trending_AUDUSD.png
 ABOVE 200-DAY MA,CNYUSD,Chinese Yuan / US Dollar with 200-day MA,Chinese Yuan / US Dollar Trending Chart,trending_CNYUSD.png
 ABOVE 200-DAY MA,EURJPY,Euro / Yen with 200-day MA,Euro / Yen Trending Chart,trending_EURJPY.png
-ABOVE 200-DAY MA,EURGBP,Euro / Pound with 200-day MA,Euro / Pound Trending Chart,trending_EURGBP.png
+BELOW 200-DAY MA,EURGBP,Euro / Pound with 200-day MA,Euro / Pound Trending Chart,trending_EURGBP.png
 BELOW 200-DAY MA,%IRX,3-Month T-Bill Yield with 200-day MA,3-Month T-Bill Yield Trending Chart,trending_%IRX.png
 BELOW 200-DAY MA,%FVX,5-Year Treasury Yield with 200-day MA,5-Year Treasury Yield Trending Chart,trending_%FVX.png
 BELOW 200-DAY MA,%TYX,30-Year Treasury Yield with 200-day MA,30-Year Treasury Yield Trending Chart,trending_%TYX.png

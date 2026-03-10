@@ -1,7 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 73.28,US Dollar Index RSI Chart,rsi_$USDX.png,73.28
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 94.23,Crude Oil RSI Chart,rsi_&CL_CCB.png,94.23
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 71.51,Corn RSI Chart,rsi_&ZC_CCB.png,71.51
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 96.37,Crude Oil RSI Chart,rsi_&CL_CCB.png,96.37
+OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 29.46,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,29.46
 OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 74.69,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,74.69
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 25.73,Euro / US Dollar RSI Chart,rsi_EURUSD.png,25.73
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 20.56,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,20.56
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 28.61,Euro / US Dollar RSI Chart,rsi_EURUSD.png,28.61
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 24.46,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,24.46

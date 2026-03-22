@@ -1,6 +1,17 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 73.95,Crude Oil RSI Chart,rsi_&CL_CCB.png,73.95
-OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 21.37,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,21.37
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 28.99,Euro / US Dollar RSI Chart,rsi_EURUSD.png,28.99
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 29.03,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,29.03
-OVERSOLD,AAPL,Apple with 14-day RSI: 22.25,Apple RSI Chart,rsi_AAPL.png,22.25
+OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 25.34,S&P 500 Index RSI Chart,rsi_$SPX.png,25.34
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 82.06,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,82.06
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 19.49,Gold RSI Chart,rsi_&GC_CCB.png,19.49
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 72.61,Crude Oil RSI Chart,rsi_&CL_CCB.png,72.61
+OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 17.71,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,17.71
+OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 23.71,FTSE 100 Index RSI Chart,rsi_$FT100.png,23.71
+OVERSOLD,$DAX,DAX Index with 14-day RSI: 26.35,DAX Index RSI Chart,rsi_$DAX.png,26.35
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 22.41,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,22.41
+OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 25.28,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,25.28
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 19.33,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,19.33
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 21.79,Silver RSI Chart,rsi_&SI_CCB.png,21.79
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 25.71,Copper RSI Chart,rsi_&HG_CCB.png,25.71
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 78.54,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,78.54
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 78.35,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,78.35
+OVERSOLD,AAPL,Apple with 14-day RSI: 23.60,Apple RSI Chart,rsi_AAPL.png,23.60
+OVERSOLD,META,Meta with 14-day RSI: 28.21,Meta RSI Chart,rsi_META.png,28.21

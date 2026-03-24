@@ -1,11 +1,16 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 73.80,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,73.80
-OVERSOLD,&GC_CCB,Gold with 14-day RSI: 19.83,Gold RSI Chart,rsi_&GC_CCB.png,19.83
-OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 28.69,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,28.69
-OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 28.43,FTSE 100 Index RSI Chart,rsi_$FT100.png,28.43
-OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 18.60,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,18.60
-OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 27.05,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,27.05
-OVERSOLD,&SI_CCB,Silver with 14-day RSI: 25.61,Silver RSI Chart,rsi_&SI_CCB.png,25.61
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 71.64,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,71.64
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 70.75,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,70.75
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 27.44,Microsoft RSI Chart,rsi_MSFT.png,27.44
+OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 28.90,S&P 500 Index RSI Chart,rsi_$SPX.png,28.90
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 75.24,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,75.24
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 18.99,Gold RSI Chart,rsi_&GC_CCB.png,18.99
+OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 24.97,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,24.97
+OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 27.77,FTSE 100 Index RSI Chart,rsi_$FT100.png,27.77
+OVERSOLD,$DAX,DAX Index with 14-day RSI: 29.37,DAX Index RSI Chart,rsi_$DAX.png,29.37
+OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 28.85,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,28.85
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 25.40,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,25.40
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 26.42,Silver RSI Chart,rsi_&SI_CCB.png,26.42
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 29.29,Copper RSI Chart,rsi_&HG_CCB.png,29.29
+OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 71.56,Coffee RSI Chart,rsi_&KC_CCB.png,71.56
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 73.21,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,73.21
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 71.59,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,71.59
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 20.69,Microsoft RSI Chart,rsi_MSFT.png,20.69
+OVERSOLD,META,Meta with 14-day RSI: 24.14,Meta RSI Chart,rsi_META.png,24.14

@@ -1,13 +1,14 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 23.80,S&P 500 Index RSI Chart,rsi_$SPX.png,23.80
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 71.35,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,71.35
-OVERSOLD,&GC_CCB,Gold with 14-day RSI: 28.67,Gold RSI Chart,rsi_&GC_CCB.png,28.67
-OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 25.79,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,25.79
-OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 24.18,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,24.18
-OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 23.59,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,23.59
-OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 29.45,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,29.45
-OVERSOLD,&SI_CCB,Silver with 14-day RSI: 29.06,Silver RSI Chart,rsi_&SI_CCB.png,29.06
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 70.30,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,70.30
-OVERSOLD,MSFT,Microsoft with 14-day RSI: 8.68,Microsoft RSI Chart,rsi_MSFT.png,8.68
-OVERSOLD,GOOG,Google with 14-day RSI: 20.25,Google RSI Chart,rsi_GOOG.png,20.25
-OVERSOLD,META,Meta with 14-day RSI: 18.01,Meta RSI Chart,rsi_META.png,18.01
+OVERSOLD,$SPX,S&P 500 Index with 14-day RSI: 23.49,S&P 500 Index RSI Chart,rsi_$SPX.png,23.49
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 23.04,Gold RSI Chart,rsi_&GC_CCB.png,23.04
+OVERSOLD,$DJI,Dow Jones Industrial Index with 14-day RSI: 26.65,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,26.65
+OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 23.09,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,23.09
+OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 23.30,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,23.30
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 19.18,Silver RSI Chart,rsi_&SI_CCB.png,19.18
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 28.44,Platinum RSI Chart,rsi_&PL_CCB.png,28.44
+OVERSOLD,&HG_CCB,Copper with 14-day RSI: 28.71,Copper RSI Chart,rsi_&HG_CCB.png,28.71
+OVERSOLD,AAPL,Apple with 14-day RSI: 27.96,Apple RSI Chart,rsi_AAPL.png,27.96
+OVERSOLD,MSFT,Microsoft with 14-day RSI: 12.40,Microsoft RSI Chart,rsi_MSFT.png,12.40
+OVERSOLD,GOOG,Google with 14-day RSI: 18.66,Google RSI Chart,rsi_GOOG.png,18.66
+OVERSOLD,NVDA,NVIDIA with 14-day RSI: 26.06,NVIDIA RSI Chart,rsi_NVDA.png,26.06
+OVERSOLD,META,Meta with 14-day RSI: 19.70,Meta RSI Chart,rsi_META.png,19.70

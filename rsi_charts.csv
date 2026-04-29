@@ -1,14 +1,14 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.27,S&P 500 Index RSI Chart,rsi_$SPX.png,72.27
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.90,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.90
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 71.60,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,71.60
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 79.28,FTSE 100 Index RSI Chart,rsi_$FT100.png,79.28
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 71.28,Straits Times Index RSI Chart,rsi_$STI.png,71.28
-OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 77.32,Copper RSI Chart,rsi_&HG_CCB.png,77.32
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 27.22,Corn RSI Chart,rsi_&ZC_CCB.png,27.22
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.83,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.83
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 79.63,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,79.63
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 70.41,Euro / Yen RSI Chart,rsi_EURJPY.png,70.41
-OVERBOUGHT,GOOG,Google with 14-day RSI: 77.06,Google RSI Chart,rsi_GOOG.png,77.06
-OVERBOUGHT,AMZN,Amazon with 14-day RSI: 80.67,Amazon RSI Chart,rsi_AMZN.png,80.67
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 72.05,NVIDIA RSI Chart,rsi_NVDA.png,72.05
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 76.57,S&P 500 Index RSI Chart,rsi_$SPX.png,76.57
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 81.38,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,81.38
+OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 21.38,FTSE 100 Index RSI Chart,rsi_$FT100.png,21.38
+OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 82.46,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,82.46
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 25.65,Straits Times Index RSI Chart,rsi_$STI.png,25.65
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 78.38,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,78.38
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 29.30,Natural Gas RSI Chart,rsi_&NG_CCB.png,29.30
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 73.38,Corn RSI Chart,rsi_&ZC_CCB.png,73.38
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 83.06,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,83.06
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.54,Microsoft RSI Chart,rsi_MSFT.png,73.54
+OVERBOUGHT,GOOG,Google with 14-day RSI: 77.66,Google RSI Chart,rsi_GOOG.png,77.66
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 83.30,Amazon RSI Chart,rsi_AMZN.png,83.30
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 74.76,NVIDIA RSI Chart,rsi_NVDA.png,74.76

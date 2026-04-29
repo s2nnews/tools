@@ -1,7 +1,7 @@
 trend_group,symbol,chart_title,alt_text,filename
 ABOVE 200-DAY MA,$SPX,S&P 500 Index with 200-day MA,S&P 500 Index Trending Chart,trending_$SPX.png
 ABOVE 200-DAY MA,%TNX,10-Year Treasury Yield with 200-day MA,10-Year Treasury Yield Trending Chart,trending_%TNX.png
-BELOW 200-DAY MA,$USDX,US Dollar Index with 200-day MA,US Dollar Index Trending Chart,trending_$USDX.png
+ABOVE 200-DAY MA,$USDX,US Dollar Index with 200-day MA,US Dollar Index Trending Chart,trending_$USDX.png
 ABOVE 200-DAY MA,&GC_CCB,Gold with 200-day MA,Gold Trending Chart,trending_&GC_CCB.png
 BELOW 200-DAY MA,BTCUSD,Bitcoin with 200-day MA,Bitcoin Trending Chart,trending_BTCUSD.png
 ABOVE 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
@@ -20,7 +20,7 @@ ABOVE 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&
 ABOVE 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
 ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
 ABOVE 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
-BELOW 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
+ABOVE 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
 ABOVE 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png
 BELOW 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
 BELOW 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png

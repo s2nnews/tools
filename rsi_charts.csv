@@ -1,8 +1,4 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 70.58,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,70.58
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 71.17,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,71.17
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 78.48,Straits Times Index RSI Chart,rsi_$STI.png,78.48
-OVERBOUGHT,&NG_CCB,Natural Gas with 14-day RSI: 75.97,Natural Gas RSI Chart,rsi_&NG_CCB.png,75.97
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 71.54,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,71.54
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 84.06,Apple RSI Chart,rsi_AAPL.png,84.06
-OVERSOLD,META,Meta with 14-day RSI: 24.94,Meta RSI Chart,rsi_META.png,24.94
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 72.69,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,72.69
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 78.31,Straits Times Index RSI Chart,rsi_$STI.png,78.31
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 84.81,Apple RSI Chart,rsi_AAPL.png,84.81

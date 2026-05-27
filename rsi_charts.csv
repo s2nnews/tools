@@ -1,6 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
 OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 71.05,S&P 500 Index RSI Chart,rsi_$SPX.png,71.05
 OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 73.25,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,73.25
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 75.00,Straits Times Index RSI Chart,rsi_$STI.png,75.00
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 71.53,Nikkei 225 Index RSI Chart,rsi_$N225.png,71.53
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 77.65,Straits Times Index RSI Chart,rsi_$STI.png,77.65
 OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.72,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.72
 OVERBOUGHT,AAPL,Apple with 14-day RSI: 91.10,Apple RSI Chart,rsi_AAPL.png,91.10

@@ -1,7 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.47,S&P 500 Index RSI Chart,rsi_$SPX.png,70.47
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.27,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.27
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 70.20,Nikkei 225 Index RSI Chart,rsi_$N225.png,70.20
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.20,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.20
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 16.12,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,16.12
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 87.71,Apple RSI Chart,rsi_AAPL.png,87.71
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.76,S&P 500 Index RSI Chart,rsi_$SPX.png,70.76
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 26.78,Gold RSI Chart,rsi_&GC_CCB.png,26.78
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 72.13,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,72.13
+OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 16.43,Hang Seng Index RSI Chart,rsi_$HS.png,16.43
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.47,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.47
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 17.60,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,17.60
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 88.21,Apple RSI Chart,rsi_AAPL.png,88.21

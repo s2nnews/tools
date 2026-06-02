@@ -1,8 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 70.76,S&P 500 Index RSI Chart,rsi_$SPX.png,70.76
-OVERSOLD,&GC_CCB,Gold with 14-day RSI: 26.78,Gold RSI Chart,rsi_&GC_CCB.png,26.78
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 72.13,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,72.13
-OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 16.43,Hang Seng Index RSI Chart,rsi_$HS.png,16.43
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 70.47,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,70.47
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 17.60,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,17.60
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 88.21,Apple RSI Chart,rsi_AAPL.png,88.21
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 28.02,Gold RSI Chart,rsi_&GC_CCB.png,28.02
+OVERSOLD,BTCUSD,Bitcoin with 14-day RSI: 22.90,Bitcoin RSI Chart,rsi_BTCUSD.png,22.90
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 27.94,Silver RSI Chart,rsi_&SI_CCB.png,27.94
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 26.56,Platinum RSI Chart,rsi_&PL_CCB.png,26.56
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 28.00,Cocoa RSI Chart,rsi_&CC_CCB.png,28.00
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 20.47,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,20.47
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 70.58,Apple RSI Chart,rsi_AAPL.png,70.58
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 76.85,Microsoft RSI Chart,rsi_MSFT.png,76.85
+OVERSOLD,MSTR,MicroStrategy with 14-day RSI: 21.64,MicroStrategy RSI Chart,rsi_MSTR.png,21.64

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Overbought/Oversold Analysis - 14-Day RSI</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 15px;
+    }
+    h2 {
+      margin-top: 40px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .overbought-section h2 {
+      background-color: #f8d7da;
+      color: #721c24;
+      border-left: 5px solid #dc3545;
+    }
+    .oversold-section h2 {
+      background-color: #d4edda;
+      color: #155724;
+      border-left: 5px solid #28a745;
+    }
+    .chart-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .chart-item {
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      background-color: white;
+    }
+    .chart-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .chart-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .chart-item h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+      color: #333;
+    }
+    .chart-item p {
+      margin: 5px 0 10px;
+      font-size: 14px;
+    }
+    .rsi-status {
+      font-weight: bold;
+    }
+    .overbought {
+      color: #dc3545;
+    }
+    .oversold {
+      color: #28a745;
+    }
+    @media (max-width: 992px) {
+      .chart-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 576px) {
+      .chart-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    .section-info {
+      margin-bottom: 15px;
+      font-style: italic;
+      color: #666;
+    }
+    .last-updated {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #666;
+    }
+    .rsi-explanation {
+      background-color: #e9ecef;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+<h1>Overbought/Oversold Analysis - 14-Day RSI</h1>
+
+<div class="rsi-explanation">
+  <p>The Relative Strength Index (RSI) is a momentum oscillator that measures the speed and change of price movements. 
+  RSI oscillates between 0 and 100. Traditionally:</p>
+  <ul>
+    <li><strong>RSI > 70</strong>: The asset is considered <span class="overbought">overbought</span> and may be primed for a pullback.</li>
+    <li><strong>RSI < 30</strong>: The asset is considered <span class="oversold">oversold</span> and may be due for a bounce.</li>
+  </ul>
+  <p>This page shows assets that have reached these extreme conditions based on the 14-day RSI calculation.</p>
+</div>
+
+<div class="overbought-section">
+<h2>OVERBOUGHT - RSI > 70 (4 symbols)</h2>
+<p class="section-info">Assets with RSI above 70 may be overextended and potentially due for a correction.</p>
+<div class="chart-grid">
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$STI.png" class="lightbox" title="Straits Times Index with 14-day RSI: 75.21">
+      <img src="./assets/images/chart_gallery/rsi/rsi_$STI.png" alt="Straits Times Index RSI Chart">
+    </a>
+    <h3>Straits Times Index (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
+    <p>RSI: 75.21</p>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&CC_CCB.png" class="lightbox" title="Cocoa with 14-day RSI: 79.40">
+      <img src="./assets/images/chart_gallery/rsi/rsi_&CC_CCB.png" alt="Cocoa RSI Chart">
+    </a>
+    <h3>Cocoa (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
+    <p>RSI: 79.40</p>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&KC_CCB.png" class="lightbox" title="Coffee with 14-day RSI: 89.86">
+      <img src="./assets/images/chart_gallery/rsi/rsi_&KC_CCB.png" alt="Coffee RSI Chart">
+    </a>
+    <h3>Coffee (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
+    <p>RSI: 89.86</p>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_%25IRX.png" class="lightbox" title="3-Month T-Bill Yield with 14-day RSI: 76.22">
+      <img src="./assets/images/chart_gallery/rsi/rsi_%25IRX.png" alt="3-Month T-Bill Yield RSI Chart">
+    </a>
+    <h3>3-Month T-Bill Yield (<span class="rsi-status overbought">OVERBOUGHT</span>)</h3>
+    <p>RSI: 76.22</p>
+  </div>
+
+</div>
+</div>
+<div class="oversold-section">
+<h2>OVERSOLD - RSI < 30 (3 symbols)</h2>
+<p class="section-info">Assets with RSI below 30 may be undervalued and potentially due for a rebound.</p>
+<div class="chart-grid">
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_&CL_CCB.png" class="lightbox" title="Crude Oil with 14-day RSI: 19.36">
+      <img src="./assets/images/chart_gallery/rsi/rsi_&CL_CCB.png" alt="Crude Oil RSI Chart">
+    </a>
+    <h3>Crude Oil (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
+    <p>RSI: 19.36</p>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_$HS.png" class="lightbox" title="Hang Seng Index with 14-day RSI: 27.43">
+      <img src="./assets/images/chart_gallery/rsi/rsi_$HS.png" alt="Hang Seng Index RSI Chart">
+    </a>
+    <h3>Hang Seng Index (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
+    <p>RSI: 27.43</p>
+  </div>
+
+
+  <div class="chart-item">
+    <a href="./assets/images/chart_gallery/rsi/rsi_JPYUSD.png" class="lightbox" title="Japanese Yen / US Dollar with 14-day RSI: 21.51">
+      <img src="./assets/images/chart_gallery/rsi/rsi_JPYUSD.png" alt="Japanese Yen / US Dollar RSI Chart">
+    </a>
+    <h3>Japanese Yen / US Dollar (<span class="rsi-status oversold">OVERSOLD</span>)</h3>
+    <p>RSI: 21.51</p>
+  </div>
+
+</div>
+</div>
+<p class="last-updated">Last updated: 2026-07-01 21:08</p>
+</body>
+</html>

@@ -1,8 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 19.36,Crude Oil RSI Chart,rsi_&CL_CCB.png,19.36
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 77.98,US Dollar Index RSI Chart,rsi_$USDX.png,77.98
+OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 13.53,Crude Oil RSI Chart,rsi_&CL_CCB.png,13.53
+OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 83.06,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,83.06
 OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 27.43,Hang Seng Index RSI Chart,rsi_$HS.png,27.43
 OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 75.21,Straits Times Index RSI Chart,rsi_$STI.png,75.21
-OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 79.40,Cocoa RSI Chart,rsi_&CC_CCB.png,79.40
-OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 89.86,Coffee RSI Chart,rsi_&KC_CCB.png,89.86
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 21.51,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,21.51
-OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 76.22,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,76.22
+OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 82.65,Cocoa RSI Chart,rsi_&CC_CCB.png,82.65
+OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 91.00,Coffee RSI Chart,rsi_&KC_CCB.png,91.00
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 26.68,Euro / US Dollar RSI Chart,rsi_EURUSD.png,26.68
+OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 4.81,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,4.81
+OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 23.57,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,23.57

@@ -1,6 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
 OVERSOLD,&CL_CCB,Crude Oil with 14-day RSI: 15.09,Crude Oil RSI Chart,rsi_&CL_CCB.png,15.09
 OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 81.33,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,81.33
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 76.43,Straits Times Index RSI Chart,rsi_$STI.png,76.43
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 74.73,Straits Times Index RSI Chart,rsi_$STI.png,74.73
 OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 82.26,Cocoa RSI Chart,rsi_&CC_CCB.png,82.26
 OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 81.33,Coffee RSI Chart,rsi_&KC_CCB.png,81.33
+OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 29.07,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,29.07
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 26.54,Euro / Pound RSI Chart,rsi_EURGBP.png,26.54

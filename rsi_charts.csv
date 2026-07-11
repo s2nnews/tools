@@ -1,7 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 81.82,Straits Times Index RSI Chart,rsi_$STI.png,81.82
-OVERSOLD,&SI_CCB,Silver with 14-day RSI: 28.67,Silver RSI Chart,rsi_&SI_CCB.png,28.67
-OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 88.32,Cocoa RSI Chart,rsi_&CC_CCB.png,88.32
-OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 70.34,Coffee RSI Chart,rsi_&KC_CCB.png,70.34
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 70.94,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,70.94
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 5.03,Euro / Pound RSI Chart,rsi_EURGBP.png,5.03
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 82.91,Straits Times Index RSI Chart,rsi_$STI.png,82.91
+OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 77.83,Cocoa RSI Chart,rsi_&CC_CCB.png,77.83
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 6.30,Euro / Pound RSI Chart,rsi_EURGBP.png,6.30
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 72.14,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,72.14

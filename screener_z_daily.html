@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Z-Score Screener</title>
+    <style>
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .chart-item {
+            text-align: center;
+            border: 1px solid #eee;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .chart-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .chart-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+        .chart-item h3 {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #333;
+        }
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+        .section-header {
+            text-align: center;
+            padding: 10px;
+            margin: 20px 0 10px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        .top-header {
+            background-color: #4CAF50;
+        }
+        .bottom-header {
+            background-color: #f44336;
+        }
+        @media (max-width: 1200px) {
+            .chart-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="section-header top-header">Top 10 Z-Scores</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/META_top_zscore.png" class="lightbox" title="META Z-Score">
+            <img src="./assets/images/screeners/META_top_zscore.png" alt="META Z-Score">
+        </a>
+        <h3>META</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&KE_CCB_top_zscore.png" class="lightbox" title="&KE_CCB Z-Score">
+            <img src="./assets/images/screeners/&KE_CCB_top_zscore.png" alt="&KE_CCB Z-Score">
+        </a>
+        <h3>&KE_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$BVSP_top_zscore.png" class="lightbox" title="$BVSP Z-Score">
+            <img src="./assets/images/screeners/$BVSP_top_zscore.png" alt="$BVSP Z-Score">
+        </a>
+        <h3>$BVSP</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/JPYCHF_top_zscore.png" class="lightbox" title="JPYCHF Z-Score">
+            <img src="./assets/images/screeners/JPYCHF_top_zscore.png" alt="JPYCHF Z-Score">
+        </a>
+        <h3>JPYCHF</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/NVDA_top_zscore.png" class="lightbox" title="NVDA Z-Score">
+            <img src="./assets/images/screeners/NVDA_top_zscore.png" alt="NVDA Z-Score">
+        </a>
+        <h3>NVDA</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/USDHKD_top_zscore.png" class="lightbox" title="USDHKD Z-Score">
+            <img src="./assets/images/screeners/USDHKD_top_zscore.png" alt="USDHKD Z-Score">
+        </a>
+        <h3>USDHKD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/JPYEUR_top_zscore.png" class="lightbox" title="JPYEUR Z-Score">
+            <img src="./assets/images/screeners/JPYEUR_top_zscore.png" alt="JPYEUR Z-Score">
+        </a>
+        <h3>JPYEUR</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/JPYSGD_top_zscore.png" class="lightbox" title="JPYSGD Z-Score">
+            <img src="./assets/images/screeners/JPYSGD_top_zscore.png" alt="JPYSGD Z-Score">
+        </a>
+        <h3>JPYSGD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&ZC_CCB_top_zscore.png" class="lightbox" title="&ZC_CCB Z-Score">
+            <img src="./assets/images/screeners/&ZC_CCB_top_zscore.png" alt="&ZC_CCB Z-Score">
+        </a>
+        <h3>&ZC_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$SEN_top_zscore.png" class="lightbox" title="$SEN Z-Score">
+            <img src="./assets/images/screeners/$SEN_top_zscore.png" alt="$SEN Z-Score">
+        </a>
+        <h3>$SEN</h3>
+    </div>
+
+</div>
+
+<div class="section-header bottom-header">Bottom 10 Z-Scores</div>
+<div class='chart-grid'>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/SGDJPY_bottom_zscore.png" class="lightbox" title="SGDJPY Z-Score">
+            <img src="./assets/images/screeners/SGDJPY_bottom_zscore.png" alt="SGDJPY Z-Score">
+        </a>
+        <h3>SGDJPY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/&KC_CCB_bottom_zscore.png" class="lightbox" title="&KC_CCB Z-Score">
+            <img src="./assets/images/screeners/&KC_CCB_bottom_zscore.png" alt="&KC_CCB Z-Score">
+        </a>
+        <h3>&KC_CCB</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/USDCNY_bottom_zscore.png" class="lightbox" title="USDCNY Z-Score">
+            <img src="./assets/images/screeners/USDCNY_bottom_zscore.png" alt="USDCNY Z-Score">
+        </a>
+        <h3>USDCNY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/HKDUSD_bottom_zscore.png" class="lightbox" title="HKDUSD Z-Score">
+            <img src="./assets/images/screeners/HKDUSD_bottom_zscore.png" alt="HKDUSD Z-Score">
+        </a>
+        <h3>HKDUSD</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/EURJPY_bottom_zscore.png" class="lightbox" title="EURJPY Z-Score">
+            <img src="./assets/images/screeners/EURJPY_bottom_zscore.png" alt="EURJPY Z-Score">
+        </a>
+        <h3>EURJPY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/CHFJPY_bottom_zscore.png" class="lightbox" title="CHFJPY Z-Score">
+            <img src="./assets/images/screeners/CHFJPY_bottom_zscore.png" alt="CHFJPY Z-Score">
+        </a>
+        <h3>CHFJPY</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$RTS_bottom_zscore.png" class="lightbox" title="$RTS Z-Score">
+            <img src="./assets/images/screeners/$RTS_bottom_zscore.png" alt="$RTS Z-Score">
+        </a>
+        <h3>$RTS</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$N225_bottom_zscore.png" class="lightbox" title="$N225 Z-Score">
+            <img src="./assets/images/screeners/$N225_bottom_zscore.png" alt="$N225 Z-Score">
+        </a>
+        <h3>$N225</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$SSEC_bottom_zscore.png" class="lightbox" title="$SSEC Z-Score">
+            <img src="./assets/images/screeners/$SSEC_bottom_zscore.png" alt="$SSEC Z-Score">
+        </a>
+        <h3>$SSEC</h3>
+    </div>
+
+    <div class="chart-item">
+        <a href="./assets/images/screeners/$KO_bottom_zscore.png" class="lightbox" title="$KO Z-Score">
+            <img src="./assets/images/screeners/$KO_bottom_zscore.png" alt="$KO Z-Score">
+        </a>
+        <h3>$KO</h3>
+    </div>
+
+</div>
+
+</body>
+</html>

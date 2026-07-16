@@ -1,5 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 83.42,Straits Times Index RSI Chart,rsi_$STI.png,83.42
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 76.79,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,76.79
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 14.71,Euro / Pound RSI Chart,rsi_EURGBP.png,14.71
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 71.27,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,71.27
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.11,S&P 500 Index RSI Chart,rsi_$SPX.png,72.11
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 85.62,Straits Times Index RSI Chart,rsi_$STI.png,85.62
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 76.83,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,76.83
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 82.10,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,82.10
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 10.42,Euro / Pound RSI Chart,rsi_EURGBP.png,10.42
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 89.27,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,89.27
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 70.23,Apple RSI Chart,rsi_AAPL.png,70.23
+OVERBOUGHT,AMZN,Amazon with 14-day RSI: 72.04,Amazon RSI Chart,rsi_AMZN.png,72.04
+OVERBOUGHT,META,Meta with 14-day RSI: 73.49,Meta RSI Chart,rsi_META.png,73.49

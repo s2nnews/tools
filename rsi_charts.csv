@@ -1,13 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 73.33,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,73.33
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 72.07,Bitcoin RSI Chart,rsi_BTCUSD.png,72.07
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 77.59,Crude Oil RSI Chart,rsi_&CL_CCB.png,77.59
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 77.29,Hang Seng Index RSI Chart,rsi_$HS.png,77.29
-OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 27.62,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,27.62
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 85.06,Straits Times Index RSI Chart,rsi_$STI.png,85.06
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 74.30,Corn RSI Chart,rsi_&ZC_CCB.png,74.30
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 82.44,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,82.44
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 23.85,Euro / Pound RSI Chart,rsi_EURGBP.png,23.85
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 83.95,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,83.95
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 82.10,Apple RSI Chart,rsi_AAPL.png,82.10
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 71.37,Microsoft RSI Chart,rsi_MSFT.png,71.37
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 72.53,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,72.53
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 71.38,Bitcoin RSI Chart,rsi_BTCUSD.png,71.38
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 83.56,Crude Oil RSI Chart,rsi_&CL_CCB.png,83.56
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 80.07,Hang Seng Index RSI Chart,rsi_$HS.png,80.07
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 87.52,Straits Times Index RSI Chart,rsi_$STI.png,87.52
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 21.45,Natural Gas RSI Chart,rsi_&NG_CCB.png,21.45
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 73.23,Corn RSI Chart,rsi_&ZC_CCB.png,73.23
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 82.31,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,82.31
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 82.57,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,82.57
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 80.28,Apple RSI Chart,rsi_AAPL.png,80.28

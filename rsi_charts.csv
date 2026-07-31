@@ -1,10 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 21.84,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,21.84
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 78.32,FTSE 100 Index RSI Chart,rsi_$FT100.png,78.32
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 74.24,Hang Seng Index RSI Chart,rsi_$HS.png,74.24
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 82.00,Straits Times Index RSI Chart,rsi_$STI.png,82.00
-OVERSOLD,&ES_CCB,S&P 500 E-mini with 14-day RSI: 29.07,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,29.07
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 25.11,Natural Gas RSI Chart,rsi_&NG_CCB.png,25.11
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 22.29,Cocoa RSI Chart,rsi_&CC_CCB.png,22.29
-OVERSOLD,AMZN,Amazon with 14-day RSI: 27.42,Amazon RSI Chart,rsi_AMZN.png,27.42
-OVERSOLD,TSLA,Tesla with 14-day RSI: 9.07,Tesla RSI Chart,rsi_TSLA.png,9.07
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 76.45,FTSE 100 Index RSI Chart,rsi_$FT100.png,76.45
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 73.57,Hang Seng Index RSI Chart,rsi_$HS.png,73.57
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 73.18,Straits Times Index RSI Chart,rsi_$STI.png,73.18
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 25.87,Cocoa RSI Chart,rsi_&CC_CCB.png,25.87
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.62,Microsoft RSI Chart,rsi_MSFT.png,73.62
+OVERSOLD,TSLA,Tesla with 14-day RSI: 15.06,Tesla RSI Chart,rsi_TSLA.png,15.06
+OVERSOLD,META,Meta with 14-day RSI: 13.71,Meta RSI Chart,rsi_META.png,13.71

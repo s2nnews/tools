@@ -1,8 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 76.45,FTSE 100 Index RSI Chart,rsi_$FT100.png,76.45
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 73.57,Hang Seng Index RSI Chart,rsi_$HS.png,73.57
-OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 73.18,Straits Times Index RSI Chart,rsi_$STI.png,73.18
-OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 25.87,Cocoa RSI Chart,rsi_&CC_CCB.png,25.87
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.62,Microsoft RSI Chart,rsi_MSFT.png,73.62
-OVERSOLD,TSLA,Tesla with 14-day RSI: 15.06,Tesla RSI Chart,rsi_TSLA.png,15.06
-OVERSOLD,META,Meta with 14-day RSI: 13.71,Meta RSI Chart,rsi_META.png,13.71
+OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 28.69,US Dollar Index RSI Chart,rsi_$USDX.png,28.69
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.57,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.57
+OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 73.47,Hang Seng Index RSI Chart,rsi_$HS.png,73.47
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.05,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.05
+OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 79.31,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,79.31
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 70.82,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,70.82
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 75.00,Microsoft RSI Chart,rsi_MSFT.png,75.00
+OVERSOLD,TSLA,Tesla with 14-day RSI: 18.08,Tesla RSI Chart,rsi_TSLA.png,18.08
+OVERSOLD,META,Meta with 14-day RSI: 22.90,Meta RSI Chart,rsi_META.png,22.90

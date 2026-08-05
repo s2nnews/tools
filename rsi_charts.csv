@@ -1,7 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.50,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.50
-OVERBOUGHT,$HS,Hang Seng Index with 14-day RSI: 73.45,Hang Seng Index RSI Chart,rsi_$HS.png,73.45
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 79.89,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,79.89
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 27.93,Euro / Yen RSI Chart,rsi_EURJPY.png,27.93
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 81.26,Microsoft RSI Chart,rsi_MSFT.png,81.26
-OVERSOLD,TSLA,Tesla with 14-day RSI: 23.60,Tesla RSI Chart,rsi_TSLA.png,23.60
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 73.55,FTSE 100 Index RSI Chart,rsi_$FT100.png,73.55
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 75.79,DAX Index RSI Chart,rsi_$DAX.png,75.79
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 29.90,Natural Gas RSI Chart,rsi_&NG_CCB.png,29.90
+OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 74.67,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,74.67
+OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 77.84,Euro / Pound RSI Chart,rsi_EURGBP.png,77.84
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 80.60,Microsoft RSI Chart,rsi_MSFT.png,80.60
+OVERSOLD,TSLA,Tesla with 14-day RSI: 26.68,Tesla RSI Chart,rsi_TSLA.png,26.68
+OVERSOLD,META,Meta with 14-day RSI: 26.16,Meta RSI Chart,rsi_META.png,26.16

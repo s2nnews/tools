@@ -1,8 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.82,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.82
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 76.05,DAX Index RSI Chart,rsi_$DAX.png,76.05
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 76.13,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,76.13
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 75.88,Euro / Pound RSI Chart,rsi_EURGBP.png,75.88
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 77.22,Microsoft RSI Chart,rsi_MSFT.png,77.22
-OVERSOLD,TSLA,Tesla with 14-day RSI: 26.24,Tesla RSI Chart,rsi_TSLA.png,26.24
-OVERSOLD,META,Meta with 14-day RSI: 28.94,Meta RSI Chart,rsi_META.png,28.94
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 79.05,DAX Index RSI Chart,rsi_$DAX.png,79.05
+OVERBOUGHT,&HG_CCB,Copper with 14-day RSI: 71.10,Copper RSI Chart,rsi_&HG_CCB.png,71.10
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 25.55,Natural Gas RSI Chart,rsi_&NG_CCB.png,25.55
+OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 70.67,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,70.67
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 72.78,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,72.78
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 82.37,Microsoft RSI Chart,rsi_MSFT.png,82.37
+OVERSOLD,TSLA,Tesla with 14-day RSI: 27.80,Tesla RSI Chart,rsi_TSLA.png,27.80

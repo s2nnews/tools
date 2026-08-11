@@ -1,9 +1,5 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 29.85,US Dollar Index RSI Chart,rsi_$USDX.png,29.85
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 71.28,Gold RSI Chart,rsi_&GC_CCB.png,71.28
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 77.91,FTSE 100 Index RSI Chart,rsi_$FT100.png,77.91
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 80.47,DAX Index RSI Chart,rsi_$DAX.png,80.47
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.11,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.11
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 73.25,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,73.25
-OVERBOUGHT,EURGBP,Euro / Pound with 14-day RSI: 70.73,Euro / Pound RSI Chart,rsi_EURGBP.png,70.73
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 81.43,Microsoft RSI Chart,rsi_MSFT.png,81.43
+OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.22,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.22
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 79.09,DAX Index RSI Chart,rsi_$DAX.png,79.09
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.31,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.31
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 84.50,Microsoft RSI Chart,rsi_MSFT.png,84.50

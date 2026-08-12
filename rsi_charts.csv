@@ -1,5 +1,6 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$FT100,FTSE 100 Index with 14-day RSI: 71.22,FTSE 100 Index RSI Chart,rsi_$FT100.png,71.22
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 79.09,DAX Index RSI Chart,rsi_$DAX.png,79.09
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 70.31,Euro / US Dollar RSI Chart,rsi_EURUSD.png,70.31
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 84.50,Microsoft RSI Chart,rsi_MSFT.png,84.50
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 78.35,DAX Index RSI Chart,rsi_$DAX.png,78.35
+OVERBOUGHT,$STI,Straits Times Index with 14-day RSI: 71.59,Straits Times Index RSI Chart,rsi_$STI.png,71.59
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 26.34,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,26.34
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 79.80,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,79.80
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 87.37,Microsoft RSI Chart,rsi_MSFT.png,87.37

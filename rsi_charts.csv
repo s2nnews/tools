@@ -1,14 +1,16 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 76.72,S&P 500 Index RSI Chart,rsi_$SPX.png,76.72
-OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 29.27,US Dollar Index RSI Chart,rsi_$USDX.png,29.27
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 80.26,Gold RSI Chart,rsi_&GC_CCB.png,80.26
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 88.90,DAX Index RSI Chart,rsi_$DAX.png,88.90
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 73.95,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,73.95
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 75.66,Silver RSI Chart,rsi_&SI_CCB.png,75.66
-OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 73.21,Platinum RSI Chart,rsi_&PL_CCB.png,73.21
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 72.56,Euro / US Dollar RSI Chart,rsi_EURUSD.png,72.56
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 70.79,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,70.79
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 72.32,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,72.32
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 79.50,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,79.50
-OVERSOLD,AAPL,Apple with 14-day RSI: 29.62,Apple RSI Chart,rsi_AAPL.png,29.62
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 86.27,Microsoft RSI Chart,rsi_MSFT.png,86.27
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 75.30,S&P 500 Index RSI Chart,rsi_$SPX.png,75.30
+OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 25.60,US Dollar Index RSI Chart,rsi_$USDX.png,25.60
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 73.92,Gold RSI Chart,rsi_&GC_CCB.png,73.92
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 70.52,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,70.52
+OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 87.95,DAX Index RSI Chart,rsi_$DAX.png,87.95
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 73.92,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,73.92
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 71.79,Silver RSI Chart,rsi_&SI_CCB.png,71.79
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 77.75,Euro / US Dollar RSI Chart,rsi_EURUSD.png,77.75
+OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 70.54,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,70.54
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 79.28,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,79.28
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 80.99,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,80.99
+OVERSOLD,AAPL,Apple with 14-day RSI: 26.09,Apple RSI Chart,rsi_AAPL.png,26.09
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 84.77,Microsoft RSI Chart,rsi_MSFT.png,84.77
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 70.38,Tesla RSI Chart,rsi_TSLA.png,70.38
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 75.44,NVIDIA RSI Chart,rsi_NVDA.png,75.44

@@ -1,17 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 76.75,S&P 500 Index RSI Chart,rsi_$SPX.png,76.75
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 73.96,Gold RSI Chart,rsi_&GC_CCB.png,73.96
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 70.81,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,70.81
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 74.99,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,74.99
-OVERSOLD,$VIX,VIX Index with 14-day RSI: 27.18,VIX Index RSI Chart,rsi_$VIX.png,27.18
-OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 22.12,FTSE 100 Index RSI Chart,rsi_$FT100.png,22.12
-OVERBOUGHT,$DAX,DAX Index with 14-day RSI: 70.52,DAX Index RSI Chart,rsi_$DAX.png,70.52
-OVERBOUGHT,$SSEC,Shanghai Composite Index with 14-day RSI: 72.54,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,72.54
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 75.70,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,75.70
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 72.47,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,72.47
-OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 70.89,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,70.89
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 85.13,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,85.13
-OVERSOLD,AAPL,Apple with 14-day RSI: 28.20,Apple RSI Chart,rsi_AAPL.png,28.20
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 78.10,Microsoft RSI Chart,rsi_MSFT.png,78.10
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 75.50,Tesla RSI Chart,rsi_TSLA.png,75.50
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.41,NVIDIA RSI Chart,rsi_NVDA.png,77.41
+OVERBOUGHT,$SPX,S&P 500 Index with 14-day RSI: 72.65,S&P 500 Index RSI Chart,rsi_$SPX.png,72.65
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 76.12,Gold RSI Chart,rsi_&GC_CCB.png,76.12
+OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 26.51,FTSE 100 Index RSI Chart,rsi_$FT100.png,26.51
+OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 71.39,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,71.39
+OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 72.30,Cocoa RSI Chart,rsi_&CC_CCB.png,72.30
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 73.29,Euro / US Dollar RSI Chart,rsi_EURUSD.png,73.29
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 70.75,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,70.75
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 86.01,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,86.01
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 76.65,Tesla RSI Chart,rsi_TSLA.png,76.65
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 71.92,NVIDIA RSI Chart,rsi_NVDA.png,71.92

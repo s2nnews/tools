@@ -1,10 +1,17 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 82.75,Gold RSI Chart,rsi_&GC_CCB.png,82.75
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 83.10,Bitcoin RSI Chart,rsi_BTCUSD.png,83.10
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 78.41,Silver RSI Chart,rsi_&SI_CCB.png,78.41
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 71.35,Corn RSI Chart,rsi_&ZC_CCB.png,71.35
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 73.37,Euro / US Dollar RSI Chart,rsi_EURUSD.png,73.37
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.59,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.59
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 87.09,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,87.09
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 81.47,Euro / Yen RSI Chart,rsi_EURJPY.png,81.47
-OVERBOUGHT,TSLA,Tesla with 14-day RSI: 70.45,Tesla RSI Chart,rsi_TSLA.png,70.45
+OVERSOLD,$USDX,US Dollar Index with 14-day RSI: 29.46,US Dollar Index RSI Chart,rsi_$USDX.png,29.46
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 86.80,Gold RSI Chart,rsi_&GC_CCB.png,86.80
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 86.69,Bitcoin RSI Chart,rsi_BTCUSD.png,86.69
+OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 79.91,Silver RSI Chart,rsi_&SI_CCB.png,79.91
+OVERBOUGHT,&PL_CCB,Platinum with 14-day RSI: 76.83,Platinum RSI Chart,rsi_&PL_CCB.png,76.83
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 70.18,Corn RSI Chart,rsi_&ZC_CCB.png,70.18
+OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 70.91,Coffee RSI Chart,rsi_&KC_CCB.png,70.91
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 78.29,Euro / US Dollar RSI Chart,rsi_EURUSD.png,78.29
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 84.51,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,84.51
+OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 76.31,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,76.31
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 90.67,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,90.67
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 90.63,Euro / Yen RSI Chart,rsi_EURJPY.png,90.63
+OVERSOLD,GOOG,Google with 14-day RSI: 20.63,Google RSI Chart,rsi_GOOG.png,20.63
+OVERSOLD,AMZN,Amazon with 14-day RSI: 24.52,Amazon RSI Chart,rsi_AMZN.png,24.52
+OVERBOUGHT,TSLA,Tesla with 14-day RSI: 72.71,Tesla RSI Chart,rsi_TSLA.png,72.71
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.69,MicroStrategy RSI Chart,rsi_MSTR.png,71.69

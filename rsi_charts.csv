@@ -1,13 +1,10 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 86.02,Gold RSI Chart,rsi_&GC_CCB.png,86.02
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 87.29,Bitcoin RSI Chart,rsi_BTCUSD.png,87.29
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 76.81,Crude Oil RSI Chart,rsi_&CL_CCB.png,76.81
-OVERBOUGHT,&SI_CCB,Silver with 14-day RSI: 73.11,Silver RSI Chart,rsi_&SI_CCB.png,73.11
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 78.55,Corn RSI Chart,rsi_&ZC_CCB.png,78.55
-OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 74.94,Coffee RSI Chart,rsi_&KC_CCB.png,74.94
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 72.24,Euro / US Dollar RSI Chart,rsi_EURUSD.png,72.24
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 82.50,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,82.50
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 90.67,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,90.67
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 87.10,Euro / Yen RSI Chart,rsi_EURJPY.png,87.10
-OVERSOLD,GOOG,Google with 14-day RSI: 20.57,Google RSI Chart,rsi_GOOG.png,20.57
-OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.98,MicroStrategy RSI Chart,rsi_MSTR.png,71.98
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 82.04,Gold RSI Chart,rsi_&GC_CCB.png,82.04
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 83.84,Bitcoin RSI Chart,rsi_BTCUSD.png,83.84
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 85.52,Corn RSI Chart,rsi_&ZC_CCB.png,85.52
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 71.28,Euro / US Dollar RSI Chart,rsi_EURUSD.png,71.28
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 82.56,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,82.56
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 90.20,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,90.20
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 86.75,Euro / Yen RSI Chart,rsi_EURJPY.png,86.75
+OVERSOLD,GOOG,Google with 14-day RSI: 28.08,Google RSI Chart,rsi_GOOG.png,28.08
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 73.60,MicroStrategy RSI Chart,rsi_MSTR.png,73.60

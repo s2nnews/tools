@@ -1,10 +1,12 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 82.04,Gold RSI Chart,rsi_&GC_CCB.png,82.04
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 83.84,Bitcoin RSI Chart,rsi_BTCUSD.png,83.84
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 85.52,Corn RSI Chart,rsi_&ZC_CCB.png,85.52
-OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 71.28,Euro / US Dollar RSI Chart,rsi_EURUSD.png,71.28
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 82.56,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,82.56
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 90.20,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,90.20
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 86.75,Euro / Yen RSI Chart,rsi_EURJPY.png,86.75
-OVERSOLD,GOOG,Google with 14-day RSI: 28.08,Google RSI Chart,rsi_GOOG.png,28.08
-OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 73.60,MicroStrategy RSI Chart,rsi_MSTR.png,73.60
+OVERBOUGHT,&GC_CCB,Gold with 14-day RSI: 77.50,Gold RSI Chart,rsi_&GC_CCB.png,77.50
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 85.74,Bitcoin RSI Chart,rsi_BTCUSD.png,85.74
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 87.13,Corn RSI Chart,rsi_&ZC_CCB.png,87.13
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 76.24,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,76.24
+OVERBOUGHT,EURUSD,Euro / US Dollar with 14-day RSI: 71.78,Euro / US Dollar RSI Chart,rsi_EURUSD.png,71.78
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 71.61,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,71.61
+OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 74.73,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,74.73
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 84.69,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,84.69
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 81.91,Euro / Yen RSI Chart,rsi_EURJPY.png,81.91
+OVERSOLD,GOOG,Google with 14-day RSI: 27.55,Google RSI Chart,rsi_GOOG.png,27.55
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.10,MicroStrategy RSI Chart,rsi_MSTR.png,71.10

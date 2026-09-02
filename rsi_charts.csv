@@ -1,8 +1,7 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 82.05,Bitcoin RSI Chart,rsi_BTCUSD.png,82.05
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 86.26,Corn RSI Chart,rsi_&ZC_CCB.png,86.26
-OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 82.38,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,82.38
-OVERBOUGHT,&CC_CCB,Cocoa with 14-day RSI: 75.66,Cocoa RSI Chart,rsi_&CC_CCB.png,75.66
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 75.64,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,75.64
-OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 74.44,Euro / Yen RSI Chart,rsi_EURJPY.png,74.44
-OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.61,MicroStrategy RSI Chart,rsi_MSTR.png,71.61
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 77.85,Bitcoin RSI Chart,rsi_BTCUSD.png,77.85
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 84.49,Corn RSI Chart,rsi_&ZC_CCB.png,84.49
+OVERBOUGHT,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 80.95,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,80.95
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 74.01,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,74.01
+OVERBOUGHT,EURJPY,Euro / Yen with 14-day RSI: 77.44,Euro / Yen RSI Chart,rsi_EURJPY.png,77.44
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 75.37,Apple RSI Chart,rsi_AAPL.png,75.37

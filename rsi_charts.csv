@@ -1,9 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 82.85,Bitcoin RSI Chart,rsi_BTCUSD.png,82.85
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 75.52,Crude Oil RSI Chart,rsi_&CL_CCB.png,75.52
-OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 25.83,Nikkei 225 Index RSI Chart,rsi_$N225.png,25.83
-OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 86.35,Corn RSI Chart,rsi_&ZC_CCB.png,86.35
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 74.01,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,74.01
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 28.89,Euro / Yen RSI Chart,rsi_EURJPY.png,28.89
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 74.84,Apple RSI Chart,rsi_AAPL.png,74.84
-OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 73.74,MicroStrategy RSI Chart,rsi_MSTR.png,73.74
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 76.89,Bitcoin RSI Chart,rsi_BTCUSD.png,76.89
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 72.96,Crude Oil RSI Chart,rsi_&CL_CCB.png,72.96
+OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 28.15,Nikkei 225 Index RSI Chart,rsi_$N225.png,28.15
+OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 80.78,Corn RSI Chart,rsi_&ZC_CCB.png,80.78
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 76.92,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,76.92
+OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 29.27,Euro / Yen RSI Chart,rsi_EURJPY.png,29.27
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.20,MicroStrategy RSI Chart,rsi_MSTR.png,71.20

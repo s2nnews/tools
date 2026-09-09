@@ -1,9 +1,9 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 75.43,Bitcoin RSI Chart,rsi_BTCUSD.png,75.43
 OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 72.96,Crude Oil RSI Chart,rsi_&CL_CCB.png,72.96
 OVERBOUGHT,&ZC_CCB,Corn with 14-day RSI: 80.78,Corn RSI Chart,rsi_&ZC_CCB.png,80.78
-OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 74.11,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,74.11
-OVERBOUGHT,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 71.01,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,71.01
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 80.92,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,80.92
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 21.88,Euro / Yen RSI Chart,rsi_EURJPY.png,21.88
-OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 71.20,MicroStrategy RSI Chart,rsi_MSTR.png,71.20
+OVERBOUGHT,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 71.45,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,71.45
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 74.62,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,74.62
+OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 21.09,Euro / Yen RSI Chart,rsi_EURJPY.png,21.09
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 71.64,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,71.64
+OVERBOUGHT,META,Meta with 14-day RSI: 85.53,Meta RSI Chart,rsi_META.png,85.53
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 70.45,MicroStrategy RSI Chart,rsi_MSTR.png,70.45

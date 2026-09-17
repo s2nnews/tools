@@ -1,13 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 89.40,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,89.40
-OVERSOLD,&GC_CCB,Gold with 14-day RSI: 24.77,Gold RSI Chart,rsi_&GC_CCB.png,24.77
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 90.68,Crude Oil RSI Chart,rsi_&CL_CCB.png,90.68
-OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 26.78,Hang Seng Index RSI Chart,rsi_$HS.png,26.78
-OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 10.19,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,10.19
-OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 12.88,Coffee RSI Chart,rsi_&KC_CCB.png,12.88
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 28.98,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,28.98
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 21.09,Euro / Yen RSI Chart,rsi_EURJPY.png,21.09
-OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 84.18,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,84.18
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 91.45,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,91.45
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 81.25,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,81.25
-OVERBOUGHT,META,Meta with 14-day RSI: 84.12,Meta RSI Chart,rsi_META.png,84.12
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 89.04,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,89.04
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 81.44,Crude Oil RSI Chart,rsi_&CL_CCB.png,81.44
+OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 29.54,Hang Seng Index RSI Chart,rsi_$HS.png,29.54
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 10.38,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,10.38
+OVERSOLD,&KC_CCB,Coffee with 14-day RSI: 15.36,Coffee RSI Chart,rsi_&KC_CCB.png,15.36
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 24.24,Euro / US Dollar RSI Chart,rsi_EURUSD.png,24.24
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 21.87,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,21.87
+OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 21.02,Euro / Yen RSI Chart,rsi_EURJPY.png,21.02
+OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 88.04,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,88.04
+OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 91.49,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,91.49
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 76.55,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,76.55
+OVERBOUGHT,META,Meta with 14-day RSI: 83.78,Meta RSI Chart,rsi_META.png,83.78

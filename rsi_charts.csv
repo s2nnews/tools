@@ -9,5 +9,6 @@ OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 26.50,Euro / US Dollar RSI Cha
 OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 29.08,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,29.08
 OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 80.70,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,80.70
 OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 28.00,Euro / Yen RSI Chart,rsi_EURJPY.png,28.00
+OVERBOUGHT,%IRX,3-Month T-Bill Yield with 14-day RSI: 88.51,3-Month T-Bill Yield RSI Chart,rsi_%IRX.png,88.51
 OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 81.83,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,81.83
 OVERBOUGHT,META,Meta with 14-day RSI: 77.87,Meta RSI Chart,rsi_META.png,77.87

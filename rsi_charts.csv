@@ -1,14 +1,16 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 75.65,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,75.65
+OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 75.61,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,75.61
 OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 86.55,US Dollar Index RSI Chart,rsi_$USDX.png,86.55
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 75.89,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,75.89
+OVERBOUGHT,BTCUSD,Bitcoin with 14-day RSI: 78.40,Bitcoin RSI Chart,rsi_BTCUSD.png,78.40
+OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 82.15,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,82.15
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 70.67,Nikkei 225 Index RSI Chart,rsi_$N225.png,70.67
 OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 26.80,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,26.80
 OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 26.64,Corn RSI Chart,rsi_&ZC_CCB.png,26.64
 OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 21.87,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,21.87
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 11.32,Euro / US Dollar RSI Chart,rsi_EURUSD.png,11.32
-OVERSOLD,JPYUSD,Japanese Yen / US Dollar with 14-day RSI: 27.59,Japanese Yen / US Dollar RSI Chart,rsi_JPYUSD.png,27.59
-OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 27.32,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,27.32
-OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 21.25,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,21.25
-OVERBOUGHT,%FVX,5-Year Treasury Yield with 14-day RSI: 70.74,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,70.74
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 10.54,Euro / US Dollar RSI Chart,rsi_EURUSD.png,10.54
+OVERSOLD,GBPUSD,British Pound / US Dollar with 14-day RSI: 27.27,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,27.27
+OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 25.61,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,25.61
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 29.53,Euro / Pound RSI Chart,rsi_EURGBP.png,29.53
 OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 76.08,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,76.08
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 82.97,NVIDIA RSI Chart,rsi_NVDA.png,82.97
+OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 84.62,NVIDIA RSI Chart,rsi_NVDA.png,84.62
+OVERBOUGHT,MSTR,MicroStrategy with 14-day RSI: 73.70,MicroStrategy RSI Chart,rsi_MSTR.png,73.70

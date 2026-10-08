@@ -1,15 +1,15 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 77.68,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,77.68
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 80.50,US Dollar Index RSI Chart,rsi_$USDX.png,80.50
-OVERSOLD,&GC_CCB,Gold with 14-day RSI: 27.73,Gold RSI Chart,rsi_&GC_CCB.png,27.73
-OVERBOUGHT,$NDX,Nasdaq 100 Index with 14-day RSI: 78.28,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,78.28
-OVERSOLD,$FT100,FTSE 100 Index with 14-day RSI: 26.92,FTSE 100 Index RSI Chart,rsi_$FT100.png,26.92
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 79.96,Nikkei 225 Index RSI Chart,rsi_$N225.png,79.96
-OVERBOUGHT,&ES_CCB,S&P 500 E-mini with 14-day RSI: 72.35,S&P 500 E-mini RSI Chart,rsi_&ES_CCB.png,72.35
-OVERBOUGHT,&KC_CCB,Coffee with 14-day RSI: 70.67,Coffee RSI Chart,rsi_&KC_CCB.png,70.67
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 16.71,Euro / US Dollar RSI Chart,rsi_EURUSD.png,16.71
-OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 24.92,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,24.92
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 18.13,Euro / Pound RSI Chart,rsi_EURGBP.png,18.13
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 83.00,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,83.00
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 73.85,Microsoft RSI Chart,rsi_MSFT.png,73.85
-OVERBOUGHT,NVDA,NVIDIA with 14-day RSI: 77.02,NVIDIA RSI Chart,rsi_NVDA.png,77.02
+OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 77.00,US Dollar Index RSI Chart,rsi_$USDX.png,77.00
+OVERSOLD,&GC_CCB,Gold with 14-day RSI: 23.25,Gold RSI Chart,rsi_&GC_CCB.png,23.25
+OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 73.35,Nikkei 225 Index RSI Chart,rsi_$N225.png,73.35
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 29.97,Straits Times Index RSI Chart,rsi_$STI.png,29.97
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 26.52,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,26.52
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 28.20,Silver RSI Chart,rsi_&SI_CCB.png,28.20
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 28.62,Platinum RSI Chart,rsi_&PL_CCB.png,28.62
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 28.21,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,28.21
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 17.69,Euro / US Dollar RSI Chart,rsi_EURUSD.png,17.69
+OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 22.45,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,22.45
+OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 25.23,Euro / Yen RSI Chart,rsi_EURJPY.png,25.23
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 20.00,Euro / Pound RSI Chart,rsi_EURGBP.png,20.00
+OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 74.00,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,74.00
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 70.51,Microsoft RSI Chart,rsi_MSFT.png,70.51

@@ -1,14 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,%TNX,10-Year Treasury Yield with 14-day RSI: 73.94,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,73.94
-OVERBOUGHT,$USDX,US Dollar Index with 14-day RSI: 78.26,US Dollar Index RSI Chart,rsi_$USDX.png,78.26
-OVERBOUGHT,$N225,Nikkei 225 Index with 14-day RSI: 72.26,Nikkei 225 Index RSI Chart,rsi_$N225.png,72.26
-OVERSOLD,$STI,Straits Times Index with 14-day RSI: 22.21,Straits Times Index RSI Chart,rsi_$STI.png,22.21
-OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 28.57,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,28.57
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 14.57,Corn RSI Chart,rsi_&ZC_CCB.png,14.57
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 20.20,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,20.20
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 16.89,Euro / US Dollar RSI Chart,rsi_EURUSD.png,16.89
-OVERSOLD,AUDUSD,Australian Dollar / US Dollar with 14-day RSI: 27.43,Australian Dollar / US Dollar RSI Chart,rsi_AUDUSD.png,27.43
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 26.18,Euro / Yen RSI Chart,rsi_EURJPY.png,26.18
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 15.38,Euro / Pound RSI Chart,rsi_EURGBP.png,15.38
-OVERBOUGHT,%TYX,30-Year Treasury Yield with 14-day RSI: 77.37,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,77.37
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 77.88,Microsoft RSI Chart,rsi_MSFT.png,77.88
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 24.70,Straits Times Index RSI Chart,rsi_$STI.png,24.70
+OVERSOLD,&ZN_CCB,10-Year T-Note with 14-day RSI: 28.70,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,28.70
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 29.15,Silver RSI Chart,rsi_&SI_CCB.png,29.15
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 18.84,Corn RSI Chart,rsi_&ZC_CCB.png,18.84
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 21.79,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,21.79
+OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 28.44,Euro / US Dollar RSI Chart,rsi_EURUSD.png,28.44
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 81.99,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,81.99
+OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 29.83,Euro / Yen RSI Chart,rsi_EURJPY.png,29.83
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 10.81,Euro / Pound RSI Chart,rsi_EURGBP.png,10.81
+OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 77.80,Microsoft RSI Chart,rsi_MSFT.png,77.80

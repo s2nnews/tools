@@ -1,9 +1,8 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$STI,Straits Times Index with 14-day RSI: 25.07,Straits Times Index RSI Chart,rsi_$STI.png,25.07
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 20.63,Corn RSI Chart,rsi_&ZC_CCB.png,20.63
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 23.08,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,23.08
-OVERSOLD,EURUSD,Euro / US Dollar with 14-day RSI: 25.92,Euro / US Dollar RSI Chart,rsi_EURUSD.png,25.92
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 88.01,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,88.01
-OVERSOLD,EURJPY,Euro / Yen with 14-day RSI: 21.31,Euro / Yen RSI Chart,rsi_EURJPY.png,21.31
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 7.82,Euro / Pound RSI Chart,rsi_EURGBP.png,7.82
-OVERBOUGHT,MSFT,Microsoft with 14-day RSI: 71.24,Microsoft RSI Chart,rsi_MSFT.png,71.24
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 27.24,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,27.24
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 20.33,Straits Times Index RSI Chart,rsi_$STI.png,20.33
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 25.43,Silver RSI Chart,rsi_&SI_CCB.png,25.43
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 20.50,Corn RSI Chart,rsi_&ZC_CCB.png,20.50
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 26.04,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,26.04
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 88.73,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,88.73
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 8.09,Euro / Pound RSI Chart,rsi_EURGBP.png,8.09

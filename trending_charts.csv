@@ -7,7 +7,7 @@ ABOVE 200-DAY MA,BTCUSD,Bitcoin with 200-day MA,Bitcoin Trending Chart,trending_
 ABOVE 200-DAY MA,&CL_CCB,Crude Oil with 200-day MA,Crude Oil Trending Chart,trending_&CL_CCB.png
 ABOVE 200-DAY MA,$DJI,Dow Jones Industrial Index with 200-day MA,Dow Jones Industrial Index Trending Chart,trending_$DJI.png
 ABOVE 200-DAY MA,$NDX,Nasdaq 100 Index with 200-day MA,Nasdaq 100 Index Trending Chart,trending_$NDX.png
-BELOW 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png
+ABOVE 200-DAY MA,$VIX,VIX Index with 200-day MA,VIX Index Trending Chart,trending_$VIX.png
 ABOVE 200-DAY MA,$FT100,FTSE 100 Index with 200-day MA,FTSE 100 Index Trending Chart,trending_$FT100.png
 ABOVE 200-DAY MA,$DAX,DAX Index with 200-day MA,DAX Index Trending Chart,trending_$DAX.png
 ABOVE 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trending Chart,trending_$N225.png
@@ -21,7 +21,7 @@ BELOW 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trendi
 ABOVE 200-DAY MA,&HG_CCB,Copper with 200-day MA,Copper Trending Chart,trending_&HG_CCB.png
 BELOW 200-DAY MA,&NG_CCB,Natural Gas with 200-day MA,Natural Gas Trending Chart,trending_&NG_CCB.png
 BELOW 200-DAY MA,&ZC_CCB,Corn with 200-day MA,Corn Trending Chart,trending_&ZC_CCB.png
-ABOVE 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png
+BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red) Trending Chart,trending_&KE_CCB.png
 ABOVE 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
 ABOVE 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png
 BELOW 200-DAY MA,EURUSD,Euro / US Dollar with 200-day MA,Euro / US Dollar Trending Chart,trending_EURUSD.png

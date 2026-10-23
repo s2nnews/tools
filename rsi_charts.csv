@@ -1,17 +1,18 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 22.35,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,22.35
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 71.98,Crude Oil RSI Chart,rsi_&CL_CCB.png,71.98
-OVERBOUGHT,$DJI,Dow Jones Industrial Index with 14-day RSI: 75.97,Dow Jones Industrial Index RSI Chart,rsi_$DJI.png,75.97
-OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 28.72,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,28.72
-OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 27.90,Nikkei 225 Index RSI Chart,rsi_$N225.png,27.90
-OVERSOLD,$HS,Hang Seng Index with 14-day RSI: 27.08,Hang Seng Index RSI Chart,rsi_$HS.png,27.08
-OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 15.55,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,15.55
-OVERSOLD,$STI,Straits Times Index with 14-day RSI: 27.33,Straits Times Index RSI Chart,rsi_$STI.png,27.33
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 21.94,Corn RSI Chart,rsi_&ZC_CCB.png,21.94
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 21.21,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,21.21
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 94.91,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,94.91
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 8.86,Euro / Pound RSI Chart,rsi_EURGBP.png,8.86
-OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 22.14,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,22.14
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 19.75,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,19.75
-OVERBOUGHT,AAPL,Apple with 14-day RSI: 71.67,Apple RSI Chart,rsi_AAPL.png,71.67
-OVERSOLD,NVDA,NVIDIA with 14-day RSI: 29.74,NVIDIA RSI Chart,rsi_NVDA.png,29.74
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 22.49,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,22.49
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 80.72,Crude Oil RSI Chart,rsi_&CL_CCB.png,80.72
+OVERSOLD,$NDX,Nasdaq 100 Index with 14-day RSI: 24.02,Nasdaq 100 Index RSI Chart,rsi_$NDX.png,24.02
+OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 28.81,Nikkei 225 Index RSI Chart,rsi_$N225.png,28.81
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 27.96,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,27.96
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 24.55,Straits Times Index RSI Chart,rsi_$STI.png,24.55
+OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 78.11,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,78.11
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 22.51,Corn RSI Chart,rsi_&ZC_CCB.png,22.51
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 20.30,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,20.30
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 95.49,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,95.49
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 14.47,Euro / Pound RSI Chart,rsi_EURGBP.png,14.47
+OVERSOLD,%FVX,5-Year Treasury Yield with 14-day RSI: 25.88,5-Year Treasury Yield RSI Chart,rsi_%FVX.png,25.88
+OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 18.75,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,18.75
+OVERBOUGHT,AAPL,Apple with 14-day RSI: 72.33,Apple RSI Chart,rsi_AAPL.png,72.33
+OVERSOLD,GOOG,Google with 14-day RSI: 24.46,Google RSI Chart,rsi_GOOG.png,24.46
+OVERSOLD,NVDA,NVIDIA with 14-day RSI: 22.03,NVIDIA RSI Chart,rsi_NVDA.png,22.03
+OVERSOLD,META,Meta with 14-day RSI: 24.34,Meta RSI Chart,rsi_META.png,24.34

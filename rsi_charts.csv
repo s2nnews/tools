@@ -1,12 +1,11 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 81.87,Crude Oil RSI Chart,rsi_&CL_CCB.png,81.87
-OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 25.67,Nikkei 225 Index RSI Chart,rsi_$N225.png,25.67
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 71.93,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,71.93
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 27.41,Natural Gas RSI Chart,rsi_&NG_CCB.png,27.41
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 7.23,Corn RSI Chart,rsi_&ZC_CCB.png,7.23
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 2.94,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,2.94
-OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 95.70,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,95.70
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 18.67,Euro / Pound RSI Chart,rsi_EURGBP.png,18.67
-OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 27.10,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,27.10
-OVERSOLD,GOOG,Google with 14-day RSI: 29.75,Google RSI Chart,rsi_GOOG.png,29.75
-OVERSOLD,META,Meta with 14-day RSI: 23.25,Meta RSI Chart,rsi_META.png,23.25
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 28.57,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,28.57
+OVERBOUGHT,&CL_CCB,Crude Oil with 14-day RSI: 81.64,Crude Oil RSI Chart,rsi_&CL_CCB.png,81.64
+OVERSOLD,$SSEC,Shanghai Composite Index with 14-day RSI: 28.10,Shanghai Composite Index RSI Chart,rsi_$SSEC.png,28.10
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 11.81,Corn RSI Chart,rsi_&ZC_CCB.png,11.81
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 2.78,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,2.78
+OVERBOUGHT,CNYUSD,Chinese Yuan / US Dollar with 14-day RSI: 95.08,Chinese Yuan / US Dollar RSI Chart,rsi_CNYUSD.png,95.08
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 18.34,Euro / Pound RSI Chart,rsi_EURGBP.png,18.34
+OVERSOLD,%TYX,30-Year Treasury Yield with 14-day RSI: 25.85,30-Year Treasury Yield RSI Chart,rsi_%TYX.png,25.85
+OVERSOLD,GOOG,Google with 14-day RSI: 14.87,Google RSI Chart,rsi_GOOG.png,14.87
+OVERSOLD,META,Meta with 14-day RSI: 27.84,Meta RSI Chart,rsi_META.png,27.84

@@ -1,12 +1,12 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$STI,Straits Times Index with 14-day RSI: 23.64,Straits Times Index RSI Chart,rsi_$STI.png,23.64
-OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 74.64,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,74.64
-OVERSOLD,&SI_CCB,Silver with 14-day RSI: 25.04,Silver RSI Chart,rsi_&SI_CCB.png,25.04
-OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 18.36,Platinum RSI Chart,rsi_&PL_CCB.png,18.36
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 15.64,Natural Gas RSI Chart,rsi_&NG_CCB.png,15.64
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 10.80,Corn RSI Chart,rsi_&ZC_CCB.png,10.80
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 8.46,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,8.46
-OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 73.71,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,73.71
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 17.06,Euro / Pound RSI Chart,rsi_EURGBP.png,17.06
-OVERSOLD,GOOG,Google with 14-day RSI: 13.78,Google RSI Chart,rsi_GOOG.png,13.78
-OVERSOLD,META,Meta with 14-day RSI: 16.85,Meta RSI Chart,rsi_META.png,16.85
+OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 29.24,Nikkei 225 Index RSI Chart,rsi_$N225.png,29.24
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 26.32,Straits Times Index RSI Chart,rsi_$STI.png,26.32
+OVERSOLD,&SI_CCB,Silver with 14-day RSI: 29.29,Silver RSI Chart,rsi_&SI_CCB.png,29.29
+OVERSOLD,&PL_CCB,Platinum with 14-day RSI: 20.26,Platinum RSI Chart,rsi_&PL_CCB.png,20.26
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 20.16,Natural Gas RSI Chart,rsi_&NG_CCB.png,20.16
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 9.95,Corn RSI Chart,rsi_&ZC_CCB.png,9.95
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 4.61,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,4.61
+OVERBOUGHT,GBPUSD,British Pound / US Dollar with 14-day RSI: 72.40,British Pound / US Dollar RSI Chart,rsi_GBPUSD.png,72.40
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 16.76,Euro / Pound RSI Chart,rsi_EURGBP.png,16.76
+OVERSOLD,GOOG,Google with 14-day RSI: 20.62,Google RSI Chart,rsi_GOOG.png,20.62
+OVERSOLD,META,Meta with 14-day RSI: 20.98,Meta RSI Chart,rsi_META.png,20.98

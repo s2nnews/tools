@@ -1,9 +1,13 @@
 rsi_status,symbol,chart_title,alt_text,filename,rsi_value
-OVERSOLD,$STI,Straits Times Index with 14-day RSI: 27.28,Straits Times Index RSI Chart,rsi_$STI.png,27.28
-OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 22.14,Natural Gas RSI Chart,rsi_&NG_CCB.png,22.14
-OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 13.90,Corn RSI Chart,rsi_&ZC_CCB.png,13.90
-OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 4.53,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,4.53
-OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 21.25,Euro / Pound RSI Chart,rsi_EURGBP.png,21.25
-OVERSOLD,GOOG,Google with 14-day RSI: 21.14,Google RSI Chart,rsi_GOOG.png,21.14
-OVERSOLD,NVDA,NVIDIA with 14-day RSI: 27.62,NVIDIA RSI Chart,rsi_NVDA.png,27.62
-OVERSOLD,META,Meta with 14-day RSI: 21.26,Meta RSI Chart,rsi_META.png,21.26
+OVERSOLD,%TNX,10-Year Treasury Yield with 14-day RSI: 29.72,10-Year Treasury Yield RSI Chart,rsi_%TNX.png,29.72
+OVERSOLD,$N225,Nikkei 225 Index with 14-day RSI: 21.66,Nikkei 225 Index RSI Chart,rsi_$N225.png,21.66
+OVERSOLD,$STI,Straits Times Index with 14-day RSI: 19.45,Straits Times Index RSI Chart,rsi_$STI.png,19.45
+OVERBOUGHT,&ZN_CCB,10-Year T-Note with 14-day RSI: 70.27,10-Year T-Note RSI Chart,rsi_&ZN_CCB.png,70.27
+OVERSOLD,&NG_CCB,Natural Gas with 14-day RSI: 24.68,Natural Gas RSI Chart,rsi_&NG_CCB.png,24.68
+OVERSOLD,&ZC_CCB,Corn with 14-day RSI: 13.76,Corn RSI Chart,rsi_&ZC_CCB.png,13.76
+OVERSOLD,&KE_CCB,Wheat (KC Hard Red) with 14-day RSI: 8.51,Wheat (KC Hard Red) RSI Chart,rsi_&KE_CCB.png,8.51
+OVERSOLD,&CC_CCB,Cocoa with 14-day RSI: 29.61,Cocoa RSI Chart,rsi_&CC_CCB.png,29.61
+OVERSOLD,EURGBP,Euro / Pound with 14-day RSI: 25.62,Euro / Pound RSI Chart,rsi_EURGBP.png,25.62
+OVERSOLD,GOOG,Google with 14-day RSI: 20.26,Google RSI Chart,rsi_GOOG.png,20.26
+OVERSOLD,NVDA,NVIDIA with 14-day RSI: 29.63,NVIDIA RSI Chart,rsi_NVDA.png,29.63
+OVERSOLD,META,Meta with 14-day RSI: 23.90,Meta RSI Chart,rsi_META.png,23.90

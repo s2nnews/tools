@@ -13,8 +13,8 @@ ABOVE 200-DAY MA,$DAX,DAX Index with 200-day MA,DAX Index Trending Chart,trendin
 BELOW 200-DAY MA,$N225,Nikkei 225 Index with 200-day MA,Nikkei 225 Index Trending Chart,trending_$N225.png
 BELOW 200-DAY MA,$HS,Hang Seng Index with 200-day MA,Hang Seng Index Trending Chart,trending_$HS.png
 BELOW 200-DAY MA,$SSEC,Shanghai Composite Index with 200-day MA,Shanghai Composite Index Trending Chart,trending_$SSEC.png
-BELOW 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
-BELOW 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending Chart,trending_&ES_CCB.png
+ABOVE 200-DAY MA,$STI,Straits Times Index with 200-day MA,Straits Times Index Trending Chart,trending_$STI.png
+ABOVE 200-DAY MA,&ES_CCB,S&P 500 E-mini with 200-day MA,S&P 500 E-mini Trending Chart,trending_&ES_CCB.png
 BELOW 200-DAY MA,&ZN_CCB,10-Year T-Note with 200-day MA,10-Year T-Note Trending Chart,trending_&ZN_CCB.png
 BELOW 200-DAY MA,&SI_CCB,Silver with 200-day MA,Silver Trending Chart,trending_&SI_CCB.png
 BELOW 200-DAY MA,&PL_CCB,Platinum with 200-day MA,Platinum Trending Chart,trending_&PL_CCB.png
@@ -25,8 +25,8 @@ BELOW 200-DAY MA,&KE_CCB,Wheat (KC Hard Red) with 200-day MA,Wheat (KC Hard Red)
 ABOVE 200-DAY MA,&CC_CCB,Cocoa with 200-day MA,Cocoa Trending Chart,trending_&CC_CCB.png
 ABOVE 200-DAY MA,&KC_CCB,Coffee with 200-day MA,Coffee Trending Chart,trending_&KC_CCB.png
 BELOW 200-DAY MA,EURUSD,Euro / US Dollar with 200-day MA,Euro / US Dollar Trending Chart,trending_EURUSD.png
-ABOVE 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png
-ABOVE 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound / US Dollar Trending Chart,trending_GBPUSD.png
+BELOW 200-DAY MA,JPYUSD,Japanese Yen / US Dollar with 200-day MA,Japanese Yen / US Dollar Trending Chart,trending_JPYUSD.png
+BELOW 200-DAY MA,GBPUSD,British Pound / US Dollar with 200-day MA,British Pound / US Dollar Trending Chart,trending_GBPUSD.png
 BELOW 200-DAY MA,AUDUSD,Australian Dollar / US Dollar with 200-day MA,Australian Dollar / US Dollar Trending Chart,trending_AUDUSD.png
 ABOVE 200-DAY MA,CNYUSD,Chinese Yuan / US Dollar with 200-day MA,Chinese Yuan / US Dollar Trending Chart,trending_CNYUSD.png
 BELOW 200-DAY MA,EURJPY,Euro / Yen with 200-day MA,Euro / Yen Trending Chart,trending_EURJPY.png
